@@ -1,0 +1,958 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>PH Bio Labs Shop</title><link rel="stylesheet" href="/shop.css"><style>
+
+		/* ================================================================
+		 * EXIT HOVER
+		 * ================================================================ */
+
+		a.rgate-exit:hover {
+			color: #fff;
+		}
+
+
+		/* ================================================================
+		 * BUTTON HOVER
+		 * ================================================================ */
+
+		button.rgate-btn:hover {
+			background: #1e1c19;
+		}
+
+
+		/* ================================================================
+		 * OVERLAY
+		 * ================================================================ */
+
+		.rgate-overlay {
+			position: fixed;
+			inset: 0;
+			z-index: 999999;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			padding: 20px;
+
+			background: rgba(20, 14, 8, .72);
+
+			overflow-y: auto;
+		}
+
+
+		/* ================================================================
+		 * BOX
+		 * ================================================================ */
+
+		.rgate-box {
+			width: 100%;
+			max-width: 480px;
+		}
+
+
+		/* ================================================================
+		 * DIALOG
+		 * ================================================================ */
+
+		.rgate-dialog {
+			background: #fff;
+			color: #241a12;
+
+			border-radius: 16px;
+
+			padding: 34px 30px;
+
+			box-shadow:
+				0 20px 60px rgba(0, 0, 0, .35);
+
+			text-align: left;
+
+			font-family: inherit;
+		}
+
+
+		/* ================================================================
+		 * TITLE
+		 * ================================================================ */
+
+		.rgate-dialog h1 {
+			margin: 0 0 12px;
+
+			font-size: 26px;
+			line-height: 1.15;
+
+			font-weight: 800;
+		}
+
+
+		/* ================================================================
+		 * DESCRIPTION
+		 * ================================================================ */
+
+		#rgate-desc {
+			margin: 0 0 22px;
+
+			font-size: 15px;
+			line-height: 1.55;
+
+			color: #4a3d31;
+		}
+
+
+		/* ================================================================
+		 * CHECKBOX ROW
+		 * ================================================================ */
+
+		.rgate-check {
+			display: flex;
+
+			gap: 12px;
+
+			align-items: flex-start;
+
+			border: 1px solid #e3dcd3;
+
+			border-radius: 11px;
+
+			padding: 15px 16px;
+
+			margin: 0 0 14px;
+
+			cursor: pointer;
+
+			font-size: 14px;
+			line-height: 1.5;
+
+			color: #3a2f24;
+
+			transition:
+				border-color .15s;
+		}
+
+
+		/* ================================================================
+		 * CHECKED STATE
+		 * ================================================================ */
+
+		.rgate-check:has(input:checked) {
+			border-color: #8e5426;
+		}
+
+
+		/* ================================================================
+		 * CHECKBOX
+		 * ================================================================ */
+
+		.rgate-check input {
+			margin: 2px 0 0;
+
+			width: 18px;
+			height: 18px;
+
+			flex: 0 0 auto;
+
+			accent-color: #8e5426;
+
+			cursor: pointer;
+		}
+
+
+		/* ================================================================
+		 * ENTER BUTTON
+		 * ================================================================ */
+
+		.rgate-btn {
+			display: block;
+
+			width: 100%;
+
+			border: 0;
+
+			border-radius: 11px;
+
+			padding: 16px 18px;
+
+			margin-top: 4px;
+
+			background: #8e5426;
+
+			color: #fff;
+
+			font-size: 15px;
+
+			font-weight: 700;
+
+			cursor: pointer;
+
+			line-height: 1.3;
+
+			transition:
+				background .15s,
+				filter .15s;
+		}
+
+
+		/* ================================================================
+		 * BUTTON HOVER
+		 * ================================================================ */
+
+		.rgate-btn:hover:not(:disabled) {
+			filter: brightness(.94);
+		}
+
+
+		/* ================================================================
+		 * DISABLED BUTTON
+		 * ================================================================ */
+
+		.rgate-btn:disabled {
+			background: #cfc4b6;
+
+			cursor: not-allowed;
+		}
+
+
+		/* ================================================================
+		 * FINE PRINT
+		 * ================================================================ */
+
+		.rgate-fine {
+			margin: 18px 0 0;
+
+			font-size: 12px;
+
+			line-height: 1.5;
+
+			color: #9a8b7b;
+		}
+
+
+		.rgate-fine a {
+			color: #9a8b7b;
+		}
+
+
+		/* ================================================================
+		 * EXIT
+		 * ================================================================ */
+
+		.rgate-exit-wrap {
+			text-align: center;
+
+			margin: 16px 0 0;
+
+			font-size: 13px;
+
+			color: #e7ddd2;
+		}
+
+
+		.rgate-exit {
+			color: #fff;
+
+			font-weight: 600;
+
+			text-decoration: underline;
+		}
+
+
+		/* ================================================================
+		 * WELCOME POPUP — OVERLAY
+		 * ================================================================ */
+
+		.rgate-welcome {
+			position: fixed;
+			inset: 0;
+			z-index: 999999;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			padding: 20px;
+
+			background: rgba(20, 14, 8, .6);
+
+			overflow-y: auto;
+
+			animation: rgateFade .2s ease;
+		}
+
+
+		.rgate-welcome[hidden] {
+			display: none !important;
+		}
+
+
+		/* ================================================================
+		 * WELCOME POPUP — BOX
+		 * ================================================================ */
+
+		.rgate-wbox {
+			position: relative;
+
+			width: 100%;
+			max-width: 420px;
+
+			background: #fff;
+			color: #241a12;
+
+			border-radius: 16px;
+
+			padding: 38px 30px 26px;
+
+			box-shadow:
+				0 20px 60px rgba(0, 0, 0, .35);
+
+			text-align: center;
+
+			font-family: inherit;
+
+			animation: rgatePop .25s ease;
+		}
+
+
+		/* ================================================================
+		 * WELCOME POPUP — CLOSE (X)
+		 * ================================================================ */
+
+		.rgate-wclose {
+			position: absolute;
+			top: 10px;
+			right: 12px;
+
+			width: 36px;
+			height: 36px;
+
+			border: 0;
+			border-radius: 50%;
+
+			background: transparent;
+			color: #9a8b7b;
+
+			font-size: 26px;
+			line-height: 1;
+
+			cursor: pointer;
+		}
+
+
+		.rgate-wclose:hover {
+			background: #f4efe9;
+			color: #241a12;
+		}
+
+
+		/* ================================================================
+		 * WELCOME POPUP — TEXT
+		 * ================================================================ */
+
+		.rgate-weyebrow {
+			margin: 0 0 8px;
+
+			font-size: 12px;
+			font-weight: 700;
+
+			letter-spacing: .12em;
+			text-transform: uppercase;
+
+			color: #8e5426;
+		}
+
+
+		.rgate-wbox h2 {
+			margin: 0 0 12px;
+
+			font-size: 28px;
+			line-height: 1.15;
+			font-weight: 800;
+
+			color: #241a12;
+		}
+
+
+		.rgate-wbox h2 span {
+			color: #8e5426;
+		}
+
+
+		#rgate-wdesc {
+			margin: 0 0 20px;
+
+			font-size: 15px;
+			line-height: 1.55;
+
+			color: #4a3d31;
+		}
+
+
+		/* ================================================================
+		 * WELCOME POPUP — NOTE / BUTTON / FINE PRINT
+		 * ================================================================ */
+
+		.rgate-wnote {
+			margin: 0 0 18px;
+
+			font-size: 14px;
+			line-height: 1.5;
+
+			color: #4a3d31;
+		}
+
+
+		a.rgate-wgo {
+			box-sizing: border-box;
+
+			text-align: center;
+			text-decoration: none;
+		}
+
+
+		a.rgate-wgo:hover {
+			color: #fff;
+		}
+
+
+		.rgate-wfine {
+			margin: 14px 0 0;
+
+			font-size: 12px;
+
+			color: #9a8b7b;
+		}
+
+
+		/* ================================================================
+		 * WELCOME POPUP — ANIMATION
+		 * ================================================================ */
+
+		@keyframes rgateFade {
+			from { opacity: 0; }
+			to   { opacity: 1; }
+		}
+
+		@keyframes rgatePop {
+			from { opacity: 0; transform: translateY(10px) scale(.97); }
+			to   { opacity: 1; transform: none; }
+		}
+
+
+		/* ================================================================
+		 * MOBILE
+		 * ================================================================ */
+
+		@media (max-width: 480px) {
+
+			.rgate-dialog {
+				padding: 26px 20px;
+			}
+
+			.rgate-dialog h1 {
+				font-size: 22px;
+			}
+
+			.rgate-wbox {
+				padding: 34px 20px 22px;
+			}
+
+			.rgate-wbox h2 {
+				font-size: 24px;
+			}
+
+		}
+
+	</style><script>if(document.cookie.includes('rgate_ack=1'))document.documentElement.classList.add('rgate-ok');</script><style>html.rgate-ok .rgate-overlay{display:none!important}html:not(.rgate-ok) body{overflow:hidden}.rgate-welcome[hidden]{display:none}</style><script defer src="/shop.js"></script></head><body data-shop="cart"><main class="shop-page"><header><a href="/">PH BIO LABS</a><nav><a href="/shop-all-peptides/">Products</a> · <a href="/cart/">Cart</a> · <a href="/my-account/">Account</a></nav></header><section id="shop-content" aria-live="polite">Loading…</section></main><div class="rgate-overlay">
+
+		<div class="rgate-box">
+
+			<div
+				class="rgate-dialog"
+				role="dialog"
+				aria-modal="true"
+				aria-labelledby="rgate-title"
+				aria-describedby="rgate-desc"
+			>
+
+				<h1 id="rgate-title">
+					Researcher verification
+				</h1>
+
+
+				<p id="rgate-desc">
+					PH Bio Labs sells research peptides exclusively to
+					qualified researchers and laboratories for in&nbsp;vitro and
+					laboratory use. Please confirm before continuing.
+				</p>
+
+
+				<form
+					class="rgate-form"
+					method="post"
+				 action="#"
+				>
+
+					<input
+						type="hidden"
+						name="rgate_return"
+						value="https://phbiolabs.com/"
+					>
+
+
+					<!-- AGE CONFIRMATION -->
+
+					<label class="rgate-check">
+
+						<input
+							type="checkbox"
+							name="rgate_age"
+							value="1"
+							required
+						>
+
+						<span>
+							I am at least
+							<strong>21 years of age</strong>.
+						</span>
+
+					</label>
+
+
+					<!-- RESEARCHER CONFIRMATION -->
+
+					<label class="rgate-check">
+
+						<input
+							type="checkbox"
+							name="rgate_researcher"
+							value="1"
+							required
+						>
+
+						<span>
+							I confirm I am a
+							<strong>qualified researcher</strong>
+							purchasing for
+							<strong>in&nbsp;vitro / laboratory research</strong>
+							only &mdash; not for human or veterinary use.
+						</span>
+
+					</label>
+
+
+					<!-- ENTER BUTTON -->
+
+					<button
+						type="submit"
+						name="rgate_confirm"
+						value="1"
+						class="rgate-btn"
+					>
+						Enter PH Bio Labs &rarr;
+					</button>
+
+				</form>
+
+
+				<p class="rgate-fine">
+
+					By proceeding you affirm the statements above are true.
+					Products are not for human or veterinary use, not for use
+					in diagnostic procedures, and have not been evaluated by
+					the U.S. Food and Drug Administration.
+
+					<a href="/ruo-policy/">
+						Full disclaimer
+					</a>.
+
+				</p>
+
+			</div>
+
+
+			<p class="rgate-exit-wrap">
+
+				Not a researcher?
+
+				<a
+					class="rgate-exit"
+					href="https://www.google.com/"
+				>
+					Exit
+				</a>
+
+			</p>
+
+		</div>
+
+	</div>
+
+
+	
+	<!-- ====================================================================
+	     WELCOME POPUP (shown after Enter)
+	     ==================================================================== -->
+
+	<script>
+	(function(){
+
+		var overlay =
+			document.querySelector('.rgate-overlay');
+
+		if (!overlay) {
+			return;
+		}
+
+
+		var dialog =
+			overlay.querySelector('.rgate-dialog');
+
+		var form =
+			overlay.querySelector('.rgate-form');
+
+		var btn =
+			form.querySelector('.rgate-btn');
+
+		var boxes =
+			form.querySelectorAll(
+				'input[type=checkbox]'
+			);
+
+
+		/* ================================================================
+		 * BUTTON STATE
+		 *
+		 * Enter remains disabled until BOTH boxes are checked.
+		 * ================================================================ */
+
+		function sync() {
+
+			var ok = true;
+
+			boxes.forEach(function(b){
+
+				if (!b.checked) {
+					ok = false;
+				}
+
+			});
+
+			btn.disabled = !ok;
+		}
+
+
+		boxes.forEach(function(b){
+
+			b.addEventListener(
+				'change',
+				sync
+			);
+
+		});
+
+
+		/* Initial state */
+
+		sync();
+
+
+		/* ================================================================
+		 * WELCOME POPUP
+		 * ================================================================ */
+
+		var welcome =
+			document.querySelector('.rgate-welcome');
+
+
+		function escClose(e) {
+
+			if (e.key === 'Escape') {
+				closeWelcome();
+			}
+
+		}
+
+
+		function closeWelcome() {
+
+			if (!welcome) {
+				return;
+			}
+
+			welcome.hidden = true;
+
+			document.body.style.overflow = '';
+
+			document.removeEventListener(
+				'keydown',
+				escClose
+			);
+		}
+
+
+		function showWelcome() {
+
+			/*
+			 * Popup disabled -> just restore scrolling.
+			 */
+			if (!welcome) {
+				document.body.style.overflow = '';
+				return;
+			}
+
+			welcome.hidden = false;
+
+			document.body.style.overflow = 'hidden';
+
+			document.addEventListener(
+				'keydown',
+				escClose
+			);
+
+			var x =
+				welcome.querySelector('.rgate-wclose');
+
+			if (x) {
+				x.focus();
+			}
+		}
+
+
+		if (welcome) {
+
+			var wbox =
+				welcome.querySelector('.rgate-wbox');
+
+
+			/*
+			 * Close (X).
+			 */
+			welcome
+				.querySelector('.rgate-wclose')
+				.addEventListener('click', closeWelcome);
+
+
+			/*
+			 * Click outside the box closes it.
+			 */
+			welcome.addEventListener(
+				'click',
+				function(e){
+
+					if (e.target === welcome) {
+						closeWelcome();
+					}
+
+				}
+			);
+
+
+			/*
+			 * "Start shopping" button (when no shop URL is set).
+			 */
+			var go =
+				welcome.querySelector('button.rgate-wgo');
+
+			if (go) {
+				go.addEventListener('click', closeWelcome);
+			}
+
+
+			/*
+			 * Keep keyboard focus inside the welcome popup.
+			 */
+			welcome.addEventListener(
+				'keydown',
+				function(e){
+
+					if (e.key !== 'Tab') {
+						return;
+					}
+
+					var wf =
+						wbox.querySelectorAll(
+							'a[href],button'
+						);
+
+					if (!wf.length) {
+						return;
+					}
+
+					var wFirst = wf[0];
+					var wLast  = wf[wf.length - 1];
+
+					if (
+						e.shiftKey &&
+						document.activeElement === wFirst
+					) {
+
+						e.preventDefault();
+
+						wLast.focus();
+
+					}
+
+					else if (
+						!e.shiftKey &&
+						document.activeElement === wLast
+					) {
+
+						e.preventDefault();
+
+						wFirst.focus();
+
+					}
+
+				}
+			);
+
+		}
+
+
+		/* ================================================================
+		 * FORM SUBMIT
+		 * ================================================================ */
+
+		form.addEventListener(
+			'submit',
+			function(e){
+
+				e.preventDefault();
+
+
+				if (btn.disabled) {
+					return;
+				}
+
+
+				/*
+				 * Calculate cookie expiration.
+				 */
+
+				var d = new Date();
+
+				d.setTime(
+					d.getTime() +
+					30 * 864e5
+				);
+
+
+				/*
+				 * Secure cookie on HTTPS.
+				 */
+
+				var secure =
+					location.protocol === 'https:'
+						? '; Secure'
+						: '';
+
+
+				/*
+				 * Set acknowledgment cookie.
+				 */
+
+				document.cookie =
+					'rgate_ack=1;' +
+					' Expires=' +
+					d.toUTCString() +
+					'; Path=/' +
+					'; SameSite=Lax' +
+					secure;
+
+
+				/*
+				 * Mark page as approved.
+				 */
+
+				document.documentElement.className +=
+					' rgate-ok';
+
+
+				/*
+				 * Remove overlay.
+				 */
+
+				if (overlay.parentNode) {
+
+					overlay.parentNode.removeChild(
+						overlay
+					);
+
+				}
+
+
+				/*
+				 * Show welcome popup
+				 * (restores scrolling when closed,
+				 * or immediately if popup is off).
+				 */
+
+				showWelcome();
+
+			}
+		);
+
+
+		/* ================================================================
+		 * KEYBOARD FOCUS TRAP
+		 * ================================================================ */
+
+		var f =
+			dialog.querySelectorAll(
+				'a[href],button,input'
+			);
+
+		var first =
+			f[0];
+
+		var last =
+			f[f.length - 1];
+
+
+		/*
+		 * Focus first element.
+		 */
+
+		if (first) {
+			first.focus();
+		}
+
+
+		/*
+		 * Keep keyboard focus inside dialog.
+		 */
+
+		overlay.addEventListener(
+			'keydown',
+			function(e){
+
+				if (e.key !== 'Tab') {
+					return;
+				}
+
+
+				if (
+					e.shiftKey &&
+					document.activeElement === first
+				) {
+
+					e.preventDefault();
+
+					last.focus();
+
+				}
+
+				else if (
+					!e.shiftKey &&
+					document.activeElement === last
+				) {
+
+					e.preventDefault();
+
+					first.focus();
+
+				}
+
+			}
+		);
+
+	})();
+	</script></body></html>

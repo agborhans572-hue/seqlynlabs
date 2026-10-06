@@ -1,0 +1,7 @@
+import {sql} from 'drizzle-orm';
+import {sqliteTable,text,integer,uniqueIndex,index} from 'drizzle-orm/sqlite-core';
+export const productSettings=sqliteTable('product_settings',{id:text('id').primaryKey(),price:integer('price').notNull(),stock:integer('stock'),active:integer('active').notNull().default(1)});
+export const carts=sqliteTable('carts',{id:text('id').primaryKey(),items:text('items').notNull().default('[]'),updatedAt:text('updated_at').notNull().default(sql`CURRENT_TIMESTAMP`)});
+export const orders=sqliteTable('orders',{id:text('id').primaryKey(),cartId:text('cart_id').notNull(),idempotencyKey:text('idempotency_key').notNull(),customerId:text('customer_id'),email:text('email').notNull(),shipping:text('shipping').notNull(),items:text('items').notNull(),total:integer('total').notNull(),status:text('status').notNull().default('test'),tokenHash:text('token_hash').notNull(),createdAt:text('created_at').notNull().default(sql`CURRENT_TIMESTAMP`)},t=>[uniqueIndex('orders_cart_idempotency').on(t.cartId,t.idempotencyKey),index('idx_orders_customer').on(t.customerId,t.createdAt)]);
+export const submissions=sqliteTable('submissions',{id:text('id').primaryKey(),kind:text('kind').notNull(),data:text('data').notNull(),createdAt:text('created_at').notNull().default(sql`CURRENT_TIMESTAMP`)});
+export const requestLimits=sqliteTable('request_limits',{id:text('id').primaryKey(),window:integer('window').notNull(),hits:integer('hits').notNull().default(0)});

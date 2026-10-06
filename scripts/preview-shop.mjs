@@ -1,0 +1,12 @@
+import http from 'node:http';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {DatabaseSync} from 'node:sqlite';
+import worker from '../src/worker.js';
+await fs.mkdir('.sites-runtime',{recursive:true});
+const sqlite=new DatabaseSync('.sites-runtime/preview.sqlite');if(!sqlite.prepare("SELECT name FROM sqlite_master WHERE name='carts'").get())sqlite.exec(await fs.readFile('drizzle/0000_shop.sql','utf8'));
+if(!sqlite.prepare("SELECT name FROM sqlite_master WHERE name='request_limits'").get())sqlite.exec(await fs.readFile('drizzle/0001_request_limits.sql','utf8'));
+const DB={prepare(sql){return {args:[],bind(...args){this.args=args;return this;},async first(){return sqlite.prepare(sql).get(...this.args)||null;},async all(){return {results:sqlite.prepare(sql).all(...this.args)};},async run(){return sqlite.prepare(sql).run(...this.args);}};},async batch(stmts){sqlite.exec('BEGIN');try{const out=[];for(const s of stmts)out.push(await s.run());sqlite.exec('COMMIT');return out;}catch(e){sqlite.exec('ROLLBACK');throw e;}}};
+const root=path.resolve('dist/client'),types={'.html':'text/html','.css':'text/css','.js':'application/javascript','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp','.svg':'image/svg+xml','.woff2':'font/woff2','.pdf':'application/pdf'};
+const ASSETS={async fetch(req){try{const u=new URL(req.url);let p=path.join(root,decodeURIComponent(u.pathname));if(p!==root&&!p.startsWith(root+path.sep))return new Response('Not found',{status:404});if((await fs.stat(p)).isDirectory())p=path.join(p,'index.html');return new Response(await fs.readFile(p),{headers:{'Content-Type':types[path.extname(p)]||'application/octet-stream'}});}catch{return new Response('Not found',{status:404});}}};
+http.createServer(async(req,res)=>{try{const chunks=[];for await(const chunk of req)chunks.push(chunk);const request=new Request('http://localhost:4173'+req.url,{method:req.method,headers:req.headers,body:['GET','HEAD'].includes(req.method)?undefined:Buffer.concat(chunks)}),response=await worker.fetch(request,{DB,ASSETS,COMMERCE_MODE:'test',SHOP_ADMIN_EMAIL:'local-admin@example.test'});res.statusCode=response.status;response.headers.forEach((v,k)=>res.setHeader(k,k==='set-cookie'?v.replace('; Secure',''):v));res.end(Buffer.from(await response.arrayBuffer()));}catch{res.statusCode=500;res.end('Preview error');}}).listen(4173,'127.0.0.1',()=>console.log('Standalone preview http://localhost:4173'));
