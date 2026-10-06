@@ -1,19 +1,43 @@
-# PH Bio Labs Shop — independent test store
+﻿# PH Bio Labs Shop — independent ecommerce test app
 
-Public page snapshot of https://phbiolabs.com/ captured October 6, 2026.
+This storefront runs independently of WooCommerce. The home and information pages preserve the PH Bio Labs snapshot from October 6, 2026; purchasing uses the app's own catalog, cart, customer records and order backend.
 
-Run `node scripts/preview-shop.mjs`, then open http://localhost:4173. Run `npm test` for the commerce integration checks and `npm run build` for Worker output.
+## Run and verify
 
-The original HTML, CSS, fonts, branding, and product imagery are retained. Larger assets load from their original public URLs to fit the computer's available disk space. Category filters and progressive product loading run locally.
+Run `node scripts/preview-shop.mjs` and open http://localhost:4173. Run `node --test tests/*.test.mjs` (or `npm.cmd test` on PowerShell) for integration checks. Run `node scripts/build-shop.mjs` to regenerate the storefront pages, browser assets and Worker output. No runtime npm dependencies are required.
 
-The shop operates independently of WooCommerce. D1 stores carts, test orders, product settings, and customer requests. Prices are calculated on the server. Signed-in customer accounts use Sites' Sign in with ChatGPT; guests receive private order tracking links. Administration is restricted to the server-verified owner email set in SHOP_ADMIN_EMAIL. Never expose this dashboard by using client-only authorization.
+The ignored local SQLite database is `.sites-runtime/preview.sqlite`. All production data lives in Sites D1. Migrations are appended in `drizzle/`; never edit an applied migration. `db/schema.ts` documents the declarative schema.
 
-Researcher confirmation is restored, with both checkboxes required. It records self-attestation, not independently verified identity or researcher qualification. Confirmations expire after 30 days; checkout requires fresh checkbox confirmation as well.
+## Shopping and customer features
 
-COMMERCE_MODE must remain `test`: no payment is collected, no shipment is scheduled, and no inventory is deducted. Setting any other mode disables checkout because no live payment adapter exists. Test shipping and tax are explicitly zero; they are not real shipping/tax rates. Unknown product variants remain blocked. Inventory starts unknown until entered by the administrator.
+- Catalog with 81 imported parent products, 66 imported size variants, existing product summaries, search, category filters, sorting and pagination.
+- Product pages, selectable sizes, related products, inventory validation and server-calculated pricing.
+- Persistent carts, editable quantities, removals, discount codes, shipping/tax breakdowns and item count.
+- Researcher popup with both confirmations required; checkout also requires fresh confirmations. These are self-attestations, not independently verified credentials.
+- Guest and signed-in test checkout, idempotent order creation, stored receipts, private guest tracking links, print receipts, pending-order cancellation and reordering.
+- Sign in with ChatGPT through Sites dispatch. Signed-in customers have scoped order history, a saved shipping address and a persistent wishlist.
+- Contact, newsletter-interest, wholesale and white-label request collection for administrator review.
 
-Launch requirements: approved live payment provider and verified webhooks, actual inventory and variants, shipping/tax rules, production customer authentication choice, email/newsletter provider, independent asset storage, final business policies, security/mobile testing, and public access authorization. The site remains private. The newsletter records interest only; email campaigns are not sent. Contact/wholesale/white-label requests are stored for administrator review without emailing the original company's addresses.
+## Administration
 
-Do not rerun the old mirror/finalize scripts on the standalone shop: they are archival tools and do not produce its runtime. Existing source images still include references to the original public image server. Production orders must never be marked paid or fulfilled from a browser redirect or client request.
+The owner account configured in `SHOP_ADMIN_EMAIL` has server-enforced access at `/admin/`. The dashboard includes order statistics, order search and pagination, test fulfillment transitions, carrier/tracking references, internal notes and an audit history. Customer receipts never expose internal notes or audit records.
 
-`mirror-report.json` lists the snapshot's missing assets. `drizzle/0000_shop.sql` is the initial schema migration; applied migrations must stay immutable. The local preview database lives in ignored `.sites-runtime/preview.sqlite`.
+Administrators can edit prices, stock and availability for all imported products and variants, and create/edit additional fixed-price products with HTTPS image URLs. New products have `/product/?id=...` detail pages with matching metadata. Products are unpublished rather than deleted, preserving historical receipts.
+
+Discount codes support fixed/percentage amounts, minimum spend, expiry, usage limits and enable/disable controls. Existing terms are immutable through the UI. Checkout counts each successful code use once, including retries, and validates availability in the same transactional batch that creates the order. Cart snapshots prevent two different checkout keys from consuming the same cart twice.
+
+Test shipping supports a flat fee and optional free-shipping minimum. Test tax uses a configurable percentage applied to the discounted subtotal plus shipping. Defaults are zero. These are testing rules, not live carrier or jurisdiction-specific tax calculations.
+
+## Current operating mode and launch dependencies
+
+`COMMERCE_MODE=test`: no money is collected, no shipment is scheduled and inventory is not deducted. Every order and receipt is marked as a test. Setting a different mode fails checkout closed because a live payment provider has not been selected. No browser redirect can mark an order as paid.
+
+Live selling still needs an approved payment provider and verified webhook integration, real stock, actual shipping/tax rules, email delivery, confirmed business policies, asset storage under the store's control and public access configuration. Customer authentication currently uses ChatGPT sign-in. The hosted site remains private to its existing audience. Product images and legacy information-page assets still load from the original public image server; `mirror-report.json` records missing legacy assets. The storefront is not a replacement for final launch configuration.
+
+Newsletter interest and other requests are saved in the dashboard; they do not send emails or create subscriptions on an external service. Fulfillment changes simulate the workflow only.
+
+## Local UI fixtures
+
+For isolated browser QA, set `PREVIEW_UI_FIXTURE=1` before running `scripts/preview-shop.mjs`. This local-only mode renders the UI without the popup and supplies synthetic test identity/verification headers to the local Worker. It is not part of the deployed Worker. Normal preview and production retain the popup and authorization. Never use the fixture to assess production access controls; use the integration tests and hosted dispatch configuration.
+
+Do not rerun the archived mirror/finalize scripts on the standalone shop.

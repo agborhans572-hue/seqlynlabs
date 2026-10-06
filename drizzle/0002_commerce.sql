@@ -1,0 +1,18 @@
+ALTER TABLE carts ADD COLUMN coupon TEXT NOT NULL DEFAULT '';
+ALTER TABLE orders ADD COLUMN subtotal INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE orders ADD COLUMN discount INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE orders ADD COLUMN shipping_total INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE orders ADD COLUMN tax INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE orders ADD COLUMN coupon TEXT NOT NULL DEFAULT '';
+ALTER TABLE orders ADD COLUMN fulfillment TEXT NOT NULL DEFAULT 'pending';
+ALTER TABLE orders ADD COLUMN carrier TEXT NOT NULL DEFAULT '';
+ALTER TABLE orders ADD COLUMN tracking TEXT NOT NULL DEFAULT '';
+ALTER TABLE orders ADD COLUMN notes TEXT NOT NULL DEFAULT '';
+CREATE INDEX idx_orders_fulfillment_created ON orders(fulfillment,created_at);
+CREATE TABLE customer_profiles (customer_id TEXT PRIMARY KEY, shipping TEXT NOT NULL DEFAULT '{}');
+CREATE TABLE wishlist (customer_id TEXT NOT NULL, product_id TEXT NOT NULL, PRIMARY KEY(customer_id,product_id));
+CREATE TABLE coupons (code TEXT PRIMARY KEY, kind TEXT NOT NULL CHECK(kind IN ('percent','fixed')), amount INTEGER NOT NULL CHECK(amount > 0), minimum INTEGER NOT NULL DEFAULT 0 CHECK(minimum >= 0), active INTEGER NOT NULL DEFAULT 1 CHECK(active IN (0,1)), expires TEXT NOT NULL DEFAULT '', max_uses INTEGER NOT NULL DEFAULT 0 CHECK(max_uses >= 0), uses INTEGER NOT NULL DEFAULT 0);
+CREATE TABLE store_settings (id TEXT PRIMARY KEY, data TEXT NOT NULL);
+CREATE TABLE order_events (id TEXT PRIMARY KEY, order_id TEXT NOT NULL, actor TEXT NOT NULL, action TEXT NOT NULL, data TEXT NOT NULL, created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
+CREATE INDEX idx_order_events_order ON order_events(order_id,created_at);
+PRAGMA optimize;

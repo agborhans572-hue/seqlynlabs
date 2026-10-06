@@ -25,7 +25,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "5-Amino-1MQ Capsules (Formula 649, 50mg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only."
   },
   {
     "id": "adipotide-10mg",
@@ -40,7 +41,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1097"
+    "sourceId": "1097",
+    "description": "Adipotide 10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "aod-9604",
@@ -81,7 +83,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "AOD-9604 research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "ara-290-nasal-spray",
@@ -95,7 +98,8 @@ export default [
       "sprays"
     ],
     "variable": false,
-    "sourceId": "4429"
+    "sourceId": "4429",
+    "description": "Ara-290 Nasal Spray research compound from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "b12-10ml",
@@ -110,7 +114,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1124"
+    "sourceId": "1124",
+    "description": "B12 10mL research compound from PH Bio Labs, with independent testing documentation. For laboratory research use only."
   },
   {
     "id": "bpc-157-10mg",
@@ -124,7 +129,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1078"
+    "sourceId": "1078",
+    "description": "BPC-157 10mg research peptide from PH Bio Labs, with HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "bpc-157-tb-500-pro-sublingual-oral-spray",
@@ -139,7 +145,8 @@ export default [
       "sprays"
     ],
     "variable": false,
-    "sourceId": "4614"
+    "sourceId": "4614",
+    "description": "BPC-157 / TB-500 PRO Sublingual Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only."
   },
   {
     "id": "bpc-157-capsules",
@@ -167,7 +174,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "BPC-157 Capsules (Formula 57, BPC-157 500mcg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only."
   },
   {
     "id": "cartalax-10-sublingual-oral-spray-2",
@@ -182,7 +190,8 @@ export default [
       "sprays"
     ],
     "variable": false,
-    "sourceId": "4725"
+    "sourceId": "4725",
+    "description": "CARTALAX 10 Sublingual Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only."
   },
   {
     "id": "centered-x-capsules",
@@ -210,7 +219,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Centered X Capsules (Formula 158: Dihexa, Selank, Semax, NAD+) from PH Bio Labs. Independent testing. For laboratory research use only."
   },
   {
     "id": "ceralux-serum-30ml",
@@ -224,7 +234,8 @@ export default [
       "serums"
     ],
     "variable": false,
-    "sourceId": "1125"
+    "sourceId": "1125",
+    "description": "Ceralux Serum combines Arbutin, Hyaluronic Acid, Vitamin C, and Ceramide for research on skin tone, hydration, and barrier function in studies."
   },
   {
     "id": "cjc-1295-no-dac",
@@ -265,7 +276,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "CJC-1295 no DAC research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "cjc-1295-ipamorelin",
@@ -279,7 +291,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1085"
+    "sourceId": "1085",
+    "description": "CJC-1295 no DAC and Ipamorelin 10/10mg research blend from PH Bio Labs, with HPLC testing and a COA. For laboratory research use only."
   },
   {
     "id": "dihexa-capsules",
@@ -307,7 +320,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Dihexa Capsules (Formula 46, Dihexa 5mg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only."
   },
   {
     "id": "dsip",
@@ -348,7 +362,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "DSIP research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "epithalon-epitalon-50mg",
@@ -362,7 +377,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1079"
+    "sourceId": "1079",
+    "description": "Epithalon (Epitalon) 50mg research peptide from PH Bio Labs, with HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "epithalon-capsules",
@@ -390,7 +406,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Epithalon Capsules (Formula 108, Epithalon 1mg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only."
   },
   {
     "id": "follicle-x-capsules",
@@ -418,7 +435,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Follicle X Capsules (tocotrienols, saw palmetto, spermidine, collagen, biotin, zinc, copper) from PH Bio Labs. For laboratory research use only."
   },
   {
     "id": "ghk-cu",
@@ -458,7 +476,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "GHK-Cu copper peptide from PH Bio Labs, supplied with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "ghk-cu-peptide-serum",
@@ -472,7 +491,8 @@ export default [
       "serums"
     ],
     "variable": false,
-    "sourceId": "1115"
+    "sourceId": "1115",
+    "description": "GHK-Cu Peptide Serum from PH Bio Labs, with independent testing documentation. For laboratory research use only. Not for topical use."
   },
   {
     "id": "ghk-cu-sublingual-oral-spray",
@@ -488,7 +508,8 @@ export default [
       "uncategorized"
     ],
     "variable": false,
-    "sourceId": "4769"
+    "sourceId": "4769",
+    "description": "GHK-Cu Sublingual Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only."
   },
   {
     "id": "glow-blend-peptides",
@@ -528,7 +549,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Glow Blend research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "glow-blend-capsules",
@@ -556,7 +578,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Glow Blend Capsules (Formula 500: GHK-Cu, BPC-157, TB-500, HA) from PH Bio Labs. Independent testing. For laboratory research use only."
   },
   {
     "id": "glp-1-rt-60mg",
@@ -633,7 +656,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Explore GLP-1 (RT) 60 mg, a synthetic peptide for laboratory research involving GLP-1, GIP, glucagon receptors, and metabolic signaling pathways."
   },
   {
     "id": "glp-1-sm-bpc-157-vial",
@@ -647,7 +671,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1135"
+    "sourceId": "1135",
+    "description": "GLP-1 (SM) / BPC-157 Vial 30/3.5mg research blend from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "glp-1sm",
@@ -699,7 +724,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "GLP-1 (SM) 30 mg, a synthetic peptide for laboratory research involving GLP-1 receptor interactions, stability, and cellular signaling."
   },
   {
     "id": "glp-2-tr-pro-oral-spray",
@@ -714,7 +740,8 @@ export default [
       "sprays"
     ],
     "variable": false,
-    "sourceId": "4636"
+    "sourceId": "4636",
+    "description": "GLP-2 (TR) PRO Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only."
   },
   {
     "id": "glp-2tr",
@@ -791,7 +818,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "GLP-2(TR) is a synthetic research peptide used to investigate incretin-associated receptors, metabolic signaling, and interconnected endocrine pathways."
   },
   {
     "id": "glp-3-rt-pro-oral-spray",
@@ -806,7 +834,8 @@ export default [
       "sprays"
     ],
     "variable": false,
-    "sourceId": "4635"
+    "sourceId": "4635",
+    "description": "GLP-3 (RT) PRO Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only."
   },
   {
     "id": "glp2-tr-bpc-157",
@@ -821,7 +850,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1136"
+    "sourceId": "1136",
+    "description": "GLP2-(TR) / BPC-15730/1.3mg research blend from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "gut-guard-capsules",
@@ -849,7 +879,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Gut Guard Capsules (BPC-157, TB-500, KPV, Larazotide) from PH Bio Labs. Independent testing. For laboratory research use only."
   },
   {
     "id": "hcg",
@@ -888,7 +919,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "HCG research compound from PH Bio Labs, with independent testing documentation. For laboratory research use only. Not for human use."
   },
   {
     "id": "igf-lr3-1mg",
@@ -902,7 +934,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1161"
+    "sourceId": "1161",
+    "description": "IGF-LR3 1mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "ignite-x-capsules",
@@ -930,7 +963,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Ignite X capsules containing glp1s, BPC-157, and 5-Amino-1MQ for controlled laboratory and analytical research."
   },
   {
     "id": "ipamorelin",
@@ -971,7 +1005,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Ipamorelin research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "ipamorelin-cjc-1295-nasal-spray",
@@ -987,7 +1022,8 @@ export default [
       "uncategorized"
     ],
     "variable": false,
-    "sourceId": "4766"
+    "sourceId": "4766",
+    "description": "IPAMORELIN / CJC-1295 Nasal Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only."
   },
   {
     "id": "kisspeptin-10mg",
@@ -1001,7 +1037,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1162"
+    "sourceId": "1162",
+    "description": "Kisspeptin-10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "klow-blend-50-10-10-10mg",
@@ -1015,7 +1052,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1122"
+    "sourceId": "1122",
+    "description": "KLOW Blend 50/10/10/10mg GHK-Cu, BPC-157, TB-500, and KPV research blend from PH Bio Labs. HPLC tested. For laboratory research use only."
   },
   {
     "id": "klow-blend-capsules",
@@ -1043,7 +1081,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Klow Blend Capsules (Formula 137: GHK-Cu, BPC-157, TB-500, KPV, HA) from PH Bio Labs. For laboratory research use only."
   },
   {
     "id": "kpv-10mg",
@@ -1057,7 +1096,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1163"
+    "sourceId": "1163",
+    "description": "KPV 10mg tripeptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "kpv-capsules",
@@ -1085,7 +1125,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "KPV Capsules (Formula 45, KPV 500mcg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only."
   },
   {
     "id": "l-glutathione-600mg",
@@ -1099,7 +1140,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1094"
+    "sourceId": "1094",
+    "description": "L-Glutathione 600mg research compound from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "libido-drive-x-capsules",
@@ -1128,7 +1170,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Libido Drive X Capsules (Formula 103: PT-141, oxytocin, NALT, kisspeptin, VIP) from PH Bio Labs. For laboratory research use only."
   },
   {
     "id": "ll-37",
@@ -1169,7 +1212,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "LL-37 research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "melanotan-2-10mg",
@@ -1183,7 +1227,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1095"
+    "sourceId": "1095",
+    "description": "Melanotan 2 10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "meta-drive-capsules",
@@ -1211,7 +1256,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Meta Drive capsules, SLU-PP-332/5-Amino-1MQ capsules for laboratory research involving ERR activity, NNMT inhibition, and cellular metabolic pathways."
   },
   {
     "id": "methylene-blue-capsules",
@@ -1239,7 +1285,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Methylene Blue Capsules (Formula 30, methylene blue 25mg) from PH Bio Labs. Independent testing. For laboratory research use only."
   },
   {
     "id": "mito-blu-capsules",
@@ -1267,7 +1314,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Mito Blu Capsules (Formula 467, 9-ME-BC 10mg and methylene blue 5mg) from PH Bio Labs. For laboratory research use only."
   },
   {
     "id": "mk-777-capsules",
@@ -1295,7 +1343,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "MK-777 Capsules (Formula 777, MK-777 20mg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only."
   },
   {
     "id": "mots-c",
@@ -1335,7 +1384,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "MOTS-c mitochondrial research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "mots-c-ss-31-pro-sublingual-oral-spray",
@@ -1350,7 +1400,8 @@ export default [
       "sprays"
     ],
     "variable": false,
-    "sourceId": "4617"
+    "sourceId": "4617",
+    "description": "MOTS-c / SS-31 PRO Sublingual Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only."
   },
   {
     "id": "nad",
@@ -1390,7 +1441,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "NAD+ research coenzyme from PH Bio Labs, with independent testing and a published COA. For laboratory research use only."
   },
   {
     "id": "nad-nasal-spray",
@@ -1404,7 +1456,8 @@ export default [
       "sprays"
     ],
     "variable": false,
-    "sourceId": "4418"
+    "sourceId": "4418",
+    "description": "NAD+ Nasal Spray research compound from PH Bio Labs, with testing documentation. For laboratory research use only. Not for human use."
   },
   {
     "id": "nad-pro-nasal-spray",
@@ -1418,7 +1471,8 @@ export default [
       "sprays"
     ],
     "variable": false,
-    "sourceId": "4618"
+    "sourceId": "4618",
+    "description": "NAD+ PRO Nasal Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only."
   },
   {
     "id": "neuro-blu-capsules",
@@ -1446,7 +1500,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Neuro Blu Capsules (Formula 720: Dihexa, tesofensine, methylene blue) from PH Bio Labs. For laboratory research use only."
   },
   {
     "id": "neurogenesis-x-capsules",
@@ -1474,7 +1529,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Neurogenesis X Capsules (Formula 91: Dihexa, P21, citicoline, urolithin A, PQQ) from PH Bio Labs. For laboratory research use only."
   },
   {
     "id": "noctura-serum",
@@ -1488,7 +1544,8 @@ export default [
       "serums"
     ],
     "variable": false,
-    "sourceId": "1127"
+    "sourceId": "1127",
+    "description": "Noctura Serum combines Melatonin, Apigenin, and GABA in a topical formula for nighttime relaxation pathways."
   },
   {
     "id": "orfo-drive-capsules",
@@ -1516,7 +1573,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Orfo Drive Capsules (Formula 194, orforglipron 6mg and SLU-PP-332 0.25mg) from PH Bio Labs. For laboratory research use only."
   },
   {
     "id": "oxytocin-10mg",
@@ -1530,7 +1588,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1092"
+    "sourceId": "1092",
+    "description": "Oxytocin 10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "pt-141-oxytocin-pro-nasal-spray",
@@ -1544,7 +1603,8 @@ export default [
       "sprays"
     ],
     "variable": false,
-    "sourceId": "4619"
+    "sourceId": "4619",
+    "description": "PT-141 / Oxytocin PRO Nasal Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only."
   },
   {
     "id": "pt-141-10mg",
@@ -1558,7 +1618,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1084"
+    "sourceId": "1084",
+    "description": "PT-141 (bremelanotide analog) 10mg research peptide from PH Bio Labs, with HPLC testing and a COA. For laboratory research use only."
   },
   {
     "id": "selank-10mg",
@@ -1572,7 +1633,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1091"
+    "sourceId": "1091",
+    "description": "Selank 10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "selank-nasal-spray",
@@ -1586,7 +1648,8 @@ export default [
       "sprays"
     ],
     "variable": false,
-    "sourceId": "4427"
+    "sourceId": "4427",
+    "description": "Selank Nasal Spray research compound from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "selank-semax-nasal-spray",
@@ -1600,7 +1663,8 @@ export default [
       "sprays"
     ],
     "variable": false,
-    "sourceId": "4420"
+    "sourceId": "4420",
+    "description": "Selank + Semax nasal spray from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "selank-semax-pro-nasal-spray",
@@ -1640,7 +1704,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Selank/Semax PRO Nasal Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only."
   },
   {
     "id": "selank-semax-pinealon-nasal-spray",
@@ -1654,7 +1719,8 @@ export default [
       "all-peptides"
     ],
     "variable": false,
-    "sourceId": "4433"
+    "sourceId": "4433",
+    "description": "Selank + Semax + Pinealon nasal spray from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "semax-10mg",
@@ -1668,7 +1734,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1090"
+    "sourceId": "1090",
+    "description": "Semax 10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "semax-selank-10mg-10mg",
@@ -1682,7 +1749,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1167"
+    "sourceId": "1167",
+    "description": "Semax/Selank 10/10mg research blend from PH Bio Labs, with HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "semax-nasal-spray",
@@ -1696,7 +1764,8 @@ export default [
       "sprays"
     ],
     "variable": false,
-    "sourceId": "4424"
+    "sourceId": "4424",
+    "description": "Semax Nasal Spray research compound from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "sermorelin",
@@ -1737,7 +1806,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Sermorelin research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "sermorelin-capsules",
@@ -1765,7 +1835,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Sermorelin Capsules (Formula 251, sermorelin 1mg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only."
   },
   {
     "id": "slu-pp-332-capsules",
@@ -1793,7 +1864,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "SLU-PP-332 Capsules (Formula 71, SLU-PP-332 250mcg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only."
   },
   {
     "id": "tb-500",
@@ -1834,7 +1906,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "TB-500 research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "tb-500-capsules",
@@ -1862,7 +1935,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "TB-500 Capsules (Formula 213, TB-500 500mcg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only."
   },
   {
     "id": "tesamorelin",
@@ -1903,7 +1977,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Tesamorelin research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "tesamorelin-ipamorelin-blend",
@@ -1931,7 +2006,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Tesamorelin and Ipamorelin research blend from PH Bio Labs, with HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "tesofensine-capsules",
@@ -1959,7 +2035,8 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Tesofensine Capsules (Formula 50, tesofensine 500mcg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only."
   },
   {
     "id": "thymosin-alpha-1",
@@ -1973,7 +2050,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1087"
+    "sourceId": "1087",
+    "description": "Thymosin Alpha-1 10mg research peptide from PH Bio Labs, with independent HPLC testing and a COA. For laboratory research use only."
   },
   {
     "id": "vip-nasal-spray",
@@ -1987,7 +2065,8 @@ export default [
       "sprays"
     ],
     "variable": false,
-    "sourceId": "4431"
+    "sourceId": "4431",
+    "description": "VIP Nasal Spray research compound from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only."
   },
   {
     "id": "wolverine-blend-bpc-157-tb-500-10-10mg",
@@ -2001,7 +2080,8 @@ export default [
       "vials"
     ],
     "variable": false,
-    "sourceId": "1168"
+    "sourceId": "1168",
+    "description": "Wolverine blend 10/10mg BPC-157 and TB-500 research blend from PH Bio Labs, with HPLC testing and a COA. For laboratory research use only."
   },
   {
     "id": "bpc-157-tb-500-capsules",
@@ -2029,6 +2109,7 @@ export default [
         "stock": null,
         "active": 1
       }
-    ]
+    ],
+    "description": "Wolverine Blend Capsules (Formula 402, BPC-157 500mcg and TB-500 500mcg) from PH Bio Labs. For laboratory research use only."
   }
 ];
