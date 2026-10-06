@@ -8,9 +8,10 @@ const admin = (req,env) => Boolean(env.SHOP_ADMIN_EMAIL && user(req).id && user(
 const knownProducts = new Set(catalog.flatMap(p => [p.id,...(p.variants||[]).map(v=>v.id)]));
 const requireUser = req => {const u=user(req);if(!u.id) fail('Sign in to use this feature',401);return u;};
 const cents = n => Number.isInteger(n) && n >= 0 && n <= 10000000;
-const shippingValid = s => s && ['name','address','city','postal','country'].every(k=>typeof s[k]==='string' && s[k].trim() && s[k].length<=200) && s.country==='US';
-const cleanShipping = s => Object.fromEntries(['name','address','city','postal','country'].map(k=>[k,s[k].trim()]));
-const defaults = {shipping:0,freeShipping:0,taxBasisPoints:0};
+const states=new Set('AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY'.split(' '));
+const shippingValid = s => s && ['name','address','city','postal','country'].every(k=>typeof s[k]==='string' && s[k].trim() && s[k].length<=200) && s.country==='US' && (s.state===undefined || typeof s.state==='string' && states.has(s.state.trim().toUpperCase()));
+const cleanShipping = s => ({...Object.fromEntries(['name','address','city','postal','country'].map(k=>[k,s[k].trim()])),...(s.state?{state:s.state.trim().toUpperCase()}: {})});
+const defaults = {shipping:0,freeShipping:15000,taxBasisPoints:0};
 const tokenFor = (cartId,id) => hash('order:'+cartId+':'+id);
 async function body(req) {
   if(Number(req.headers.get('content-length')||0)>20000) fail('Request too large',413);
@@ -37,7 +38,7 @@ async function session(req,db) {
 function expanded(items,ps) {
   return items.map(i=>{const p=ps.find(p=>p.id===i.id);if(!p||!p.active)fail('A product in your cart is no longer available. Remove it before checkout.',409);return {id:p.id,name:p.name,path:p.path,image:p.image,price:p.price,quantity:i.quantity,stock:p.stock??null,variable:p.variable};});
 }
-async function quote(db,items,code,strict=false) {
+async function quote(db,items,code,strict=false,state='') {
   const config=await settings(db),subtotal=items.reduce((t,i)=>t+i.price*i.quantity,0);
   let discount=0,coupon='',couponError='',offer=null;
   if(code){
@@ -47,7 +48,7 @@ async function quote(db,items,code,strict=false) {
     else {discount=Math.min(subtotal,offer.kind==='percent'?Math.floor(subtotal*offer.amount/100):offer.amount);coupon=code;}
     if(couponError && strict)fail(couponError,409);
   }
-  const shipping=items.length && !(config.freeShipping>0 && subtotal>=config.freeShipping)?config.shipping:0;
+  const shipping=items.length && !(config.freeShipping>0 && subtotal>=config.freeShipping && !['AK','HI'].includes(state.toUpperCase()))?config.shipping:0;
   const tax=Math.round((subtotal-discount+shipping)*config.taxBasisPoints/10000);
   return {subtotal,discount,shipping,tax,total:subtotal-discount+shipping+tax,coupon,couponError,mode:'test'};
 }
@@ -180,7 +181,7 @@ async function api(req,env) {
   if(route==='/api/cart' && req.method==='GET'){
     // Keep removed/unpublished items visible so the customer can remove them.
     const items=s.items.map(i=>{const p=ps.find(p=>p.id===i.id);return {id:i.id,name:p?.name||'Unavailable product',path:p?.path||'/shop-all-peptides/',image:p?.image||'',price:p?.price||0,quantity:i.quantity,stock:p?.stock??null,unavailable:!p?.active};});
-    return json({items,appliedCoupon:s.coupon,...await quote(db,items,s.coupon)},200,s.headers);
+    return json({items,appliedCoupon:s.coupon,...await quote(db,items,s.coupon,false,url.searchParams.get('state')||'')},200,s.headers);
   }
   if(req.method!=='POST')fail('Method not allowed',405);
   const b=await body(req);
@@ -206,7 +207,7 @@ async function api(req,env) {
   const existing=await db.prepare('SELECT * FROM orders WHERE cart_id=? AND idempotency_key=?').bind(s.id,b.key).first();
   if(existing)return json({...orderData(existing),token:await tokenFor(s.id,existing.id),repeated:true},200,s.headers);
   const items=expanded(s.items,ps);if(!items.length)fail('Your cart is empty');if(items.some(i=>i.variable||i.stock!==null&&i.quantity>i.stock))fail('Some items are unavailable',409);
-  const totals=await quote(db,items,s.coupon,true),id=crypto.randomUUID(),token=await tokenFor(s.id,id);
+  const totals=await quote(db,items,s.coupon,true,b.shipping.state||''),id=crypto.randomUUID(),token=await tokenFor(s.id,id);
   const insert=db.prepare(`INSERT INTO orders(id,cart_id,idempotency_key,customer_id,email,shipping,items,total,token_hash,subtotal,discount,shipping_total,tax,coupon)
     SELECT ?,?,?,?,?,?,?,?,?,?,?,?,?,? WHERE (?='' OR EXISTS(SELECT 1 FROM coupons WHERE code=? AND active=1 AND (max_uses=0 OR uses<max_uses) AND (expires='' OR expires>?))) AND EXISTS(SELECT 1 FROM carts WHERE id=? AND items=? AND coupon=?)`).bind(id,s.id,b.key,user(req).id,b.email.trim(),JSON.stringify(cleanShipping(b.shipping)),JSON.stringify(items),totals.total,await hash(token),totals.subtotal,totals.discount,totals.shipping,totals.tax,totals.coupon,totals.coupon,totals.coupon,new Date().toISOString(),s.id,JSON.stringify(s.items),s.coupon);
   try {

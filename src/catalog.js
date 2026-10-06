@@ -104,7 +104,7 @@ export default [
   {
     "id": "b12-10ml",
     "slug": "b12-10ml",
-    "name": "B12 - 10ml",
+    "name": "B12 – 10ml",
     "path": "/buy/b12-10ml/",
     "image": "/assets/feb50b7d36b28d19ad1d.png",
     "price": 6000,
@@ -120,7 +120,7 @@ export default [
   {
     "id": "bpc-157-10mg",
     "slug": "bpc-157-10mg",
-    "name": "BPC-157 - 10mg",
+    "name": "BPC-157 – 10mg",
     "path": "/buy/bpc-157-10mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/BPC-157-Vial-2-Template-600x800.png",
     "price": 5000,
@@ -225,7 +225,7 @@ export default [
   {
     "id": "ceralux-serum-30ml",
     "slug": "ceralux-serum-30ml",
-    "name": "Ceralux Serum - 30mL",
+    "name": "Ceralux Serum – 30mL",
     "path": "/buy/ceralux-serum-30ml/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/4-in-1-serum-4-600x900.png",
     "price": 4999,
@@ -282,7 +282,7 @@ export default [
   {
     "id": "cjc-1295-ipamorelin",
     "slug": "cjc-1295-ipamorelin",
-    "name": "CJC-1295 / Ipamorelin - 10mg / 10mg",
+    "name": "CJC-1295 / Ipamorelin – 10mg / 10mg",
     "path": "/buy/cjc-1295-ipamorelin/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/CJC-1295-No-DAC-_-Ipamorelin-Vial-2-Template-600x800.png",
     "price": 11700,
@@ -368,7 +368,7 @@ export default [
   {
     "id": "epithalon-epitalon-50mg",
     "slug": "epithalon-epitalon-50mg",
-    "name": "Epithalon (Epitalon) - 50mg",
+    "name": "Epithalon (Epitalon) – 50mg",
     "path": "/buy/epithalon-epitalon-50mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Epithalon-Vial-2-Template-600x800.png",
     "price": 10000,
@@ -840,7 +840,7 @@ export default [
   {
     "id": "glp2-tr-bpc-157",
     "slug": "glp2-tr-bpc-157",
-    "name": "GLP2-(TR) / BPC-157 - 30/1.3mg",
+    "name": "GLP2-(TR) / BPC-157 – 30/1.3mg",
     "path": "/buy/glp2-tr-bpc-157/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-4.55.08-PM-600x815.png",
     "price": 20000,
@@ -925,7 +925,7 @@ export default [
   {
     "id": "igf-lr3-1mg",
     "slug": "igf-lr3-1mg",
-    "name": "IGF-LR3 - 1mg",
+    "name": "IGF-LR3 – 1mg",
     "path": "/buy/igf-lr3-1mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/igf-lr3-Vial-2-Template-600x800.png",
     "price": 9900,
@@ -1043,7 +1043,7 @@ export default [
   {
     "id": "klow-blend-50-10-10-10mg",
     "slug": "klow-blend-50-10-10-10mg",
-    "name": "Klow Blend - 50/10/10/10mg",
+    "name": "Klow Blend – 50/10/10/10mg",
     "path": "/buy/klow-blend-50-10-10-10mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/KLOW-GHK-Cu-_-BPC-157-_-TB-500-_-KPV-50_10-Vial-2-Template-600x800.png",
     "price": 11000,
@@ -1087,7 +1087,7 @@ export default [
   {
     "id": "kpv-10mg",
     "slug": "kpv-10mg",
-    "name": "KPV - 10mg",
+    "name": "KPV – 10mg",
     "path": "/buy/kpv-10mg/",
     "image": "/assets/74c571d1a3d82ad62589.png",
     "price": 5000,
@@ -1131,7 +1131,7 @@ export default [
   {
     "id": "l-glutathione-600mg",
     "slug": "l-glutathione-600mg",
-    "name": "L-Glutathione - 600mg",
+    "name": "L-Glutathione – 600mg",
     "path": "/buy/l-glutathione-600mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/L-Glutathione-Vial-2-Template-600x800.png",
     "price": 7500,
@@ -1218,7 +1218,7 @@ export default [
   {
     "id": "melanotan-2-10mg",
     "slug": "melanotan-2-10mg",
-    "name": "Melanotan 2 - 10mg",
+    "name": "Melanotan 2 – 10mg",
     "path": "/buy/melanotan-2-10mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Melanotan-2-Vial-2-Template-600x800.png",
     "price": 3500,
@@ -1535,7 +1535,7 @@ export default [
   {
     "id": "noctura-serum",
     "slug": "noctura-serum",
-    "name": "Noctura Serum - 30mL",
+    "name": "Noctura Serum – 30mL",
     "path": "/buy/noctura-serum/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/night-time-serum-3-600x901.png",
     "price": 4999,
@@ -1579,7 +1579,7 @@ export default [
   {
     "id": "oxytocin-10mg",
     "slug": "oxytocin-10mg",
-    "name": "Oxytocin - 10mg",
+    "name": "Oxytocin – 10mg",
     "path": "/buy/oxytocin-10mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Oxytocin-Vial-2-Template-600x800.png",
     "price": 5000,
@@ -1725,7 +1725,7 @@ export default [
   {
     "id": "semax-10mg",
     "slug": "semax-10mg",
-    "name": "Semax - 10mg",
+    "name": "Semax – 10mg",
     "path": "/buy/semax-10mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Semax-Vial-2-Template-600x800.png",
     "price": 4500,
@@ -2071,7 +2071,7 @@ export default [
   {
     "id": "wolverine-blend-bpc-157-tb-500-10-10mg",
     "slug": "wolverine-blend-bpc-157-tb-500-10-10mg",
-    "name": "Wolverine (BPC-157/ TB-500) - 10/10mg",
+    "name": "Wolverine (BPC-157/ TB-500) – 10/10mg",
     "path": "/buy/wolverine-blend-bpc-157-tb-500-10-10mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Wolverine-BPC-157_-TB-500-Vial-2-Template-600x800.png",
     "price": 9900,

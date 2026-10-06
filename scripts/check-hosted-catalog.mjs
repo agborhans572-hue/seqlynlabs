@@ -1,0 +1,15 @@
+import fs from 'node:fs/promises';
+import catalog from '../src/catalog.js';
+if(process.stdin.isTTY)process.stdin.setRawMode(true);
+process.stdout.write('Ready for private site access on stdin (input is hidden).\n');
+let input='';
+const options=await new Promise((resolve,reject)=>{process.stdin.on('data',chunk=>{input+=chunk.toString();if(input.includes('\n')||input.includes('\r')){process.stdin.pause();try{resolve(JSON.parse(input.trim()));}catch{reject(Error('Invalid input'));}}});});
+const headers={'OAI-Sites-Authorization':'Bearer '+options.token};
+const response=await fetch(options.origin+'/api/products',{headers,signal:AbortSignal.timeout(30000)});
+if(!response.ok)throw Error('Hosted catalog returned '+response.status);
+const {products}=await response.json(),expected=catalog.flatMap(p=>[p,...(p.variants||[])]),actual=products.flatMap(p=>[p,...(p.variants||[])]);
+const mismatches=expected.flatMap(p=>{const live=actual.find(v=>v.id===p.id);return !live?[{id:p.id,error:'Not publicly available in the shop'}]:live.price!==p.price?[{id:p.id,expected:p.price,actual:live.price}]:[];});
+const storeResponse=await fetch(options.origin+'/api/store',{headers,signal:AbortSignal.timeout(30000)}),store=await storeResponse.json();
+const result={checkedAt:new Date().toISOString(),origin:options.origin,products:products.length,variants:products.reduce((n,p)=>n+(p.variants?.length||0),0),mismatches,store};
+await fs.writeFile('reports/hosted-catalog-audit.json',JSON.stringify(result,null,2)+'\n');
+console.log(JSON.stringify(result));

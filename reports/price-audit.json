@@ -1,0 +1,1655 @@
+{
+  "source": "https://phbiolabs.com",
+  "currency": "USD",
+  "startedAt": "2026-10-06T14:13:53.240Z",
+  "products": [
+    {
+      "id": "5-amino-1mq-capsules",
+      "name": "5-Amino-1MQ Capsules",
+      "publicName": "5-Amino-1MQ Capsules",
+      "publicDescription": "5-Amino-1MQ Capsules (Formula 649, 50mg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/5-amino-1mq-capsules/",
+      "checkedAt": "2026-10-06T14:13:54.261Z",
+      "htmlSha256": "ec07b55597f9833b9ec3f8d483c9a685768cd3ef8fb584c871130d72fb746caa",
+      "price": 7999,
+      "variants": [
+        {
+          "sourceId": "1157",
+          "price": 7999,
+          "regularPrice": 7999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "adipotide-10mg",
+      "name": "Adipotide-10mg",
+      "publicName": "Adipotide-10mg",
+      "publicDescription": "Adipotide 10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/adipotide-10mg/",
+      "checkedAt": "2026-10-06T14:13:54.288Z",
+      "htmlSha256": "e95c0872d08ed26a3af24ff4af7c238628ec86642bbfc84c005487063f4b7e2b",
+      "price": 8000,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "aod-9604",
+      "name": "AOD-9604",
+      "publicName": "AOD-9604",
+      "publicDescription": "AOD-9604 research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/aod-9604/",
+      "checkedAt": "2026-10-06T14:13:54.239Z",
+      "htmlSha256": "92d62dec0376d3646d038bc4433aa870c2f5610c20028513dcd459132272af4b",
+      "price": 4500,
+      "variants": [
+        {
+          "sourceId": "1218",
+          "price": 4500,
+          "regularPrice": 4500,
+          "attributes": {
+            "attribute_mg": "5mg"
+          }
+        },
+        {
+          "sourceId": "1219",
+          "price": 8100,
+          "regularPrice": 8100,
+          "attributes": {
+            "attribute_mg": "10mg"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "ara-290-nasal-spray",
+      "name": "Ara-290 Nasal Spray",
+      "publicName": "Ara-290 Nasal Spray",
+      "publicDescription": "Ara-290 Nasal Spray research compound from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/ara-290-nasal-spray/",
+      "checkedAt": "2026-10-06T14:13:54.275Z",
+      "htmlSha256": "70a66d8b89e133bce23292662df1331a121432c03922030b585e332ece29677c",
+      "price": 9000,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "b12-10ml",
+      "name": "B12 – 10ml",
+      "publicName": "B12 – 10ml",
+      "publicDescription": "B12 10mL research compound from PH Bio Labs, with independent testing documentation. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/b12-10ml/",
+      "checkedAt": "2026-10-06T14:13:54.517Z",
+      "htmlSha256": "bf66bb0c34a5028153b6cc648643092030fb9926e0b7a8373c31a924d67f5993",
+      "price": 6000,
+      "variants": [],
+      "changes": [],
+      "previousName": "B12 - 10ml"
+    },
+    {
+      "id": "bpc-157-10mg",
+      "name": "BPC-157 – 10mg",
+      "publicName": "BPC-157 – 10mg",
+      "publicDescription": "BPC-157 10mg research peptide from PH Bio Labs, with HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/bpc-157-10mg/",
+      "checkedAt": "2026-10-06T14:13:54.541Z",
+      "htmlSha256": "fd22ac4cbe2d91e2f9181b843735552f299af383f84b0e5b5d7378f42ca7fccf",
+      "price": 5000,
+      "variants": [],
+      "changes": [],
+      "previousName": "BPC-157 - 10mg"
+    },
+    {
+      "id": "bpc-157-capsules",
+      "name": "BPC-157 Capsules",
+      "publicName": "BPC-157 Capsules",
+      "publicDescription": "BPC-157 Capsules (Formula 57, BPC-157 500mcg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/bpc-157-capsules/",
+      "checkedAt": "2026-10-06T14:13:54.575Z",
+      "htmlSha256": "4a13295e4bade25973fb56c224343dd590760d7d6285f4c2eb6f04170250a099",
+      "price": 7999,
+      "variants": [
+        {
+          "sourceId": "1156",
+          "price": 7999,
+          "regularPrice": 7999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "bpc-157-tb-500-capsules",
+      "name": "Wolverine Blend Capsules",
+      "publicName": "Wolverine Blend Capsules",
+      "publicDescription": "Wolverine Blend Capsules (Formula 402, BPC-157 500mcg and TB-500 500mcg) from PH Bio Labs. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/bpc-157-tb-500-capsules/",
+      "checkedAt": "2026-10-06T14:13:59.368Z",
+      "htmlSha256": "d47247bef3b48e0b417e9a4a97be7be0617f1d8d5098e2888a5d063270461c50",
+      "price": 9999,
+      "variants": [
+        {
+          "sourceId": "1155",
+          "price": 9999,
+          "regularPrice": 9999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "bpc-157-tb-500-pro-sublingual-oral-spray",
+      "name": "BPC-157 / TB-500 PRO Sublingual Oral Spray",
+      "publicName": "BPC-157 / TB-500 PRO Sublingual Oral Spray",
+      "publicDescription": "BPC-157 / TB-500 PRO Sublingual Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/bpc-157-tb-500-pro-sublingual-oral-spray/",
+      "checkedAt": "2026-10-06T14:13:54.561Z",
+      "htmlSha256": "d36a1cbd82aaae498c9d5563ebceaa909bf4fcbb0a3041cbf26a8d076ada0be5",
+      "price": 9600,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "cartalax-10-sublingual-oral-spray-2",
+      "name": "CARTALAX 10 Sublingual Oral Spray",
+      "publicName": "CARTALAX 10 Sublingual Oral Spray",
+      "publicDescription": "CARTALAX 10 Sublingual Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/cartalax-10-sublingual-oral-spray-2/",
+      "checkedAt": "2026-10-06T14:13:54.774Z",
+      "htmlSha256": "a97862b434002f8588b18c6789c7d43fc9494a579c11278687e06f3bb68e161b",
+      "price": 10600,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "centered-x-capsules",
+      "name": "Centered X Capsules",
+      "publicName": "Centered X Capsules",
+      "publicDescription": "Centered X Capsules (Formula 158: Dihexa, Selank, Semax, NAD+) from PH Bio Labs. Independent testing. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/centered-x-capsules/",
+      "checkedAt": "2026-10-06T14:13:54.791Z",
+      "htmlSha256": "75c49a47ce724997633655f6efb0b23df3d6e9bd6f4188d8c39cf8c0681a8109",
+      "price": 12999,
+      "variants": [
+        {
+          "sourceId": "1142",
+          "price": 12999,
+          "regularPrice": 12999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "ceralux-serum-30ml",
+      "name": "Ceralux Serum – 30mL",
+      "publicName": "Ceralux Serum – 30mL",
+      "publicDescription": "Ceralux Serum combines Arbutin, Hyaluronic Acid, Vitamin C, and Ceramide for research on skin tone, hydration, and barrier function in studies.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/ceralux-serum-30ml/",
+      "checkedAt": "2026-10-06T14:13:54.807Z",
+      "htmlSha256": "d8e0df384bb2d3662709e66ba1304adf443ed06f1c991c447c68cf54397868ea",
+      "price": 4999,
+      "variants": [],
+      "changes": [],
+      "previousName": "Ceralux Serum - 30mL"
+    },
+    {
+      "id": "cjc-1295-ipamorelin",
+      "name": "CJC-1295 / Ipamorelin – 10mg / 10mg",
+      "publicName": "CJC-1295 / Ipamorelin – 10mg / 10mg",
+      "publicDescription": "CJC-1295 no DAC and Ipamorelin 10/10mg research blend from PH Bio Labs, with HPLC testing and a COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/cjc-1295-ipamorelin/",
+      "checkedAt": "2026-10-06T14:13:55.046Z",
+      "htmlSha256": "55796b6883fac3d7f6442f2d410f861254160e1fd160ef31601f5c9d9aadaf2a",
+      "price": 11700,
+      "variants": [],
+      "changes": [],
+      "previousName": "CJC-1295 / Ipamorelin - 10mg / 10mg"
+    },
+    {
+      "id": "cjc-1295-no-dac",
+      "name": "CJC-1295 (NO DAC)",
+      "publicName": "CJC-1295 (NO DAC)",
+      "publicDescription": "CJC-1295 no DAC research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/cjc-1295-no-dac/",
+      "checkedAt": "2026-10-06T14:13:54.858Z",
+      "htmlSha256": "532d623dc0476167c100fb12c4ce6ec5a8264a4f3e512c29613717a6b2c9aa9e",
+      "price": 3500,
+      "variants": [
+        {
+          "sourceId": "1183",
+          "price": 3500,
+          "regularPrice": 3500,
+          "attributes": {
+            "attribute_mg": "5mg"
+          }
+        },
+        {
+          "sourceId": "1184",
+          "price": 6300,
+          "regularPrice": 6300,
+          "attributes": {
+            "attribute_mg": "10mg"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "dihexa-capsules",
+      "name": "Dihexa Capsules",
+      "publicName": "Dihexa Capsules",
+      "publicDescription": "Dihexa Capsules (Formula 46, Dihexa 5mg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/dihexa-capsules/",
+      "checkedAt": "2026-10-06T14:13:55.061Z",
+      "htmlSha256": "0ddc669db34678b45c4dedbb595b03c1eba49bd9bfe9516b3b03fbd84cf7fa93",
+      "price": 14999,
+      "variants": [
+        {
+          "sourceId": "1139",
+          "price": 14999,
+          "regularPrice": 14999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "dsip",
+      "name": "DSIP",
+      "publicName": "DSIP",
+      "publicDescription": "DSIP research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/dsip/",
+      "checkedAt": "2026-10-06T14:13:55.073Z",
+      "htmlSha256": "df34e8d9bf551a552bda3340cb2ad17ce505d52bb6ce43ad0e7ea908a85f1d07",
+      "price": 3000,
+      "variants": [
+        {
+          "sourceId": "1187",
+          "price": 3000,
+          "regularPrice": 3000,
+          "attributes": {
+            "attribute_mg": "5mg"
+          }
+        },
+        {
+          "sourceId": "1188",
+          "price": 5400,
+          "regularPrice": 5400,
+          "attributes": {
+            "attribute_mg": "10mg"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "epithalon-capsules",
+      "name": "Epithalon Capsules",
+      "publicName": "Epithalon Capsules",
+      "publicDescription": "Epithalon Capsules (Formula 108, Epithalon 1mg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/epithalon-capsules/",
+      "checkedAt": "2026-10-06T14:13:55.303Z",
+      "htmlSha256": "64b81ab35f16c0522bd4537b246919e841027dbe01e32f640e2d781f9696728c",
+      "price": 9999,
+      "variants": [
+        {
+          "sourceId": "1154",
+          "price": 9999,
+          "regularPrice": 9999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "epithalon-epitalon-50mg",
+      "name": "Epithalon (Epitalon) – 50mg",
+      "publicName": "Epithalon (Epitalon) – 50mg",
+      "publicDescription": "Epithalon (Epitalon) 50mg research peptide from PH Bio Labs, with HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/epithalon-epitalon-50mg/",
+      "checkedAt": "2026-10-06T14:13:55.140Z",
+      "htmlSha256": "8d2bd710af5fc5b0d6bc1cdc992322f88c5b0a0b59fb64859c7856d9e8172fb3",
+      "price": 10000,
+      "variants": [],
+      "changes": [],
+      "previousName": "Epithalon (Epitalon) - 50mg"
+    },
+    {
+      "id": "follicle-x-capsules",
+      "name": "Follicle X Capsules",
+      "publicName": "Follicle X Capsules",
+      "publicDescription": "Follicle X Capsules (tocotrienols, saw palmetto, spermidine, collagen, biotin, zinc, copper) from PH Bio Labs. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/follicle-x-capsules/",
+      "checkedAt": "2026-10-06T14:13:55.319Z",
+      "htmlSha256": "2db9805df4fc8d9b9888dfd5758bbe60ea3ed6d4ec7147eaf4577b74b29a869f",
+      "price": 4999,
+      "variants": [
+        {
+          "sourceId": "1172",
+          "price": 4999,
+          "regularPrice": 4999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "ghk-cu",
+      "name": "GHK-Cu",
+      "publicName": "GHK-Cu",
+      "publicDescription": "GHK-Cu copper peptide from PH Bio Labs, supplied with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/ghk-cu/",
+      "checkedAt": "2026-10-06T14:13:55.334Z",
+      "htmlSha256": "8aa8bbdc39be8568ad40f5adced2417c9ea023f87b9d7f3010626f9092f60796",
+      "price": 4500,
+      "variants": [
+        {
+          "sourceId": "1181",
+          "price": 4500,
+          "regularPrice": 4500,
+          "attributes": {
+            "attribute_mg": "50mg"
+          }
+        },
+        {
+          "sourceId": "1182",
+          "price": 8100,
+          "regularPrice": 8100,
+          "attributes": {
+            "attribute_mg": "100mg"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "ghk-cu-peptide-serum",
+      "name": "GHK-Cu Peptide Serum",
+      "publicName": "GHK-Cu Peptide Serum",
+      "publicDescription": "GHK-Cu Peptide Serum from PH Bio Labs, with independent testing documentation. For laboratory research use only. Not for topical use.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/ghk-cu-peptide-serum/",
+      "checkedAt": "2026-10-06T14:13:55.399Z",
+      "htmlSha256": "1717ccb5468e7b9aceb7d37a0c64aa391b03fd914fdb18219b5866d1a63575c5",
+      "price": 4999,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "ghk-cu-sublingual-oral-spray",
+      "name": "GHK-Cu Sublingual Oral Spray",
+      "publicName": "GHK-Cu Sublingual Oral Spray",
+      "publicDescription": "GHK-Cu Sublingual Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/ghk-cu-sublingual-oral-spray/",
+      "checkedAt": "2026-10-06T14:13:55.564Z",
+      "htmlSha256": "7ce10ebfc521f31ff3c1ad5a7412976a0b273a29a0f1b3dd9e42e10a7bc6799a",
+      "price": 7100,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "glow-blend-capsules",
+      "name": "Glow Blend Capsules",
+      "publicName": "Glow Blend Capsules",
+      "publicDescription": "Glow Blend Capsules (Formula 500: GHK-Cu, BPC-157, TB-500, HA) from PH Bio Labs. Independent testing. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/glow-blend-capsules/",
+      "checkedAt": "2026-10-06T14:13:55.594Z",
+      "htmlSha256": "ad292208deaa7ed59c82f777403a189f79e337dd3ac0d6b4e0b54ca4acd0a07b",
+      "price": 12999,
+      "variants": [
+        {
+          "sourceId": "1144",
+          "price": 12999,
+          "regularPrice": 12999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "glow-blend-peptides",
+      "name": "Glow Blend",
+      "publicName": "Glow Blend",
+      "publicDescription": "Glow Blend research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/glow-blend-peptides/",
+      "checkedAt": "2026-10-06T14:13:55.579Z",
+      "htmlSha256": "9a22ed04725540ed8c83c0d7d4ff87a2f18c064a2632dad417250e3a303a9ce8",
+      "price": 8900,
+      "variants": [
+        {
+          "sourceId": "1177",
+          "price": 16020,
+          "regularPrice": 16020,
+          "attributes": {
+            "attribute_mg": "27/5/10mg"
+          }
+        },
+        {
+          "sourceId": "1178",
+          "price": 8900,
+          "regularPrice": 8900,
+          "attributes": {
+            "attribute_mg": "50/10/10mg"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "glp-1-rt-60mg",
+      "name": "GLP-1 (RT) Research Peptide – 60 mg",
+      "publicName": "GLP-1 (RT) Research Peptide – 60 mg",
+      "publicDescription": "Explore GLP-1 (RT) 60 mg, a synthetic peptide for laboratory research involving GLP-1, GIP, glucagon receptors, and metabolic signaling pathways.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/glp-1-rt-60mg/",
+      "checkedAt": "2026-10-06T14:13:55.687Z",
+      "htmlSha256": "605d2112481cbc88d8609a84bbac6bc1fd83336f60d524a0d162405393f7d084",
+      "price": 5000,
+      "variants": [
+        {
+          "sourceId": "1195",
+          "price": 5000,
+          "regularPrice": 5000,
+          "attributes": {
+            "attribute_mg": "5mg"
+          }
+        },
+        {
+          "sourceId": "1196",
+          "price": 12500,
+          "regularPrice": 12500,
+          "attributes": {
+            "attribute_mg": "12mg"
+          }
+        },
+        {
+          "sourceId": "1197",
+          "price": 22000,
+          "regularPrice": 22000,
+          "attributes": {
+            "attribute_mg": "24mg"
+          }
+        },
+        {
+          "sourceId": "1198",
+          "price": 25000,
+          "regularPrice": 25000,
+          "attributes": {
+            "attribute_mg": "30mg"
+          }
+        },
+        {
+          "sourceId": "1199",
+          "price": 37500,
+          "regularPrice": 37500,
+          "attributes": {
+            "attribute_mg": "60mg"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "glp-1-sm-bpc-157-vial",
+      "name": "GLP-1 (SM) / BPC-157 Vial",
+      "publicName": "GLP-1 (SM) / BPC-157 Vial",
+      "publicDescription": "GLP-1 (SM) / BPC-157 Vial 30/3.5mg research blend from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/glp-1-sm-bpc-157-vial/",
+      "checkedAt": "2026-10-06T14:13:55.827Z",
+      "htmlSha256": "e66d66556657b098566cc692e8ad6200f79ec1bb088db1c9b4ed43336c3e6edf",
+      "price": 22000,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "glp-1sm",
+      "name": "GLP-1(SM)",
+      "publicName": "GLP-1(SM)",
+      "publicDescription": "GLP-1 (SM) 30 mg, a synthetic peptide for laboratory research involving GLP-1 receptor interactions, stability, and cellular signaling.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/glp-1sm/",
+      "checkedAt": "2026-10-06T14:13:55.842Z",
+      "htmlSha256": "ffd3af348e0a4e772af6a6205e29d865a7a7c9309ccc5e4e2171e115faec09ec",
+      "price": 3500,
+      "variants": [
+        {
+          "sourceId": "1200",
+          "price": 3500,
+          "regularPrice": 3500,
+          "attributes": {
+            "attribute_mg": "5mg"
+          }
+        },
+        {
+          "sourceId": "1201",
+          "price": 7000,
+          "regularPrice": 7000,
+          "attributes": {
+            "attribute_mg": "10mg"
+          }
+        },
+        {
+          "sourceId": "1202",
+          "price": 17500,
+          "regularPrice": 17500,
+          "attributes": {
+            "attribute_mg": "30mg"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "glp-2-tr-pro-oral-spray",
+      "name": "GLP-2 (TR) PRO Oral Spray",
+      "publicName": "GLP-2 (TR) PRO Oral Spray",
+      "publicDescription": "GLP-2 (TR) PRO Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/glp-2-tr-pro-oral-spray/",
+      "checkedAt": "2026-10-06T14:13:55.854Z",
+      "htmlSha256": "02c9a0ed14497f4469e11b344ec2c6aceb8474054d487e4ab5e337624812385c",
+      "price": 12300,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "glp-2tr",
+      "name": "GLP-2(TR)",
+      "publicName": "GLP-2(TR)",
+      "publicDescription": "GLP-2(TR) is a synthetic research peptide used to investigate incretin-associated receptors, metabolic signaling, and interconnected endocrine pathways.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/glp-2tr/",
+      "checkedAt": "2026-10-06T14:13:55.938Z",
+      "htmlSha256": "c5601ab1e3c2ec523d8eaddcd70221f1ce03edf7827c1eccd36446dc63a339c7",
+      "price": 5000,
+      "variants": [
+        {
+          "sourceId": "1205",
+          "price": 5000,
+          "regularPrice": 5000,
+          "attributes": {
+            "attribute_mg": "5mg"
+          }
+        },
+        {
+          "sourceId": "1206",
+          "price": 7500,
+          "regularPrice": 7500,
+          "attributes": {
+            "attribute_mg": "10mg"
+          }
+        },
+        {
+          "sourceId": "1207",
+          "price": 17500,
+          "regularPrice": 17500,
+          "attributes": {
+            "attribute_mg": "30mg"
+          }
+        },
+        {
+          "sourceId": "1208",
+          "price": 27500,
+          "regularPrice": 27500,
+          "attributes": {
+            "attribute_mg": "60mg"
+          }
+        },
+        {
+          "sourceId": "1209",
+          "price": 45000,
+          "regularPrice": 45000,
+          "attributes": {
+            "attribute_mg": "120mg"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "glp-3-rt-pro-oral-spray",
+      "name": "GLP-3 (RT) PRO Oral Spray",
+      "publicName": "GLP-3 (RT) PRO Oral Spray",
+      "publicDescription": "GLP-3 (RT) PRO Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/glp-3-rt-pro-oral-spray/",
+      "checkedAt": "2026-10-06T14:13:56.078Z",
+      "htmlSha256": "a730df177863de572766664fbb4d20147db7caa521056ae8177ee157176e52df",
+      "price": 13500,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "glp2-tr-bpc-157",
+      "name": "GLP2-(TR) / BPC-157 – 30/1.3mg",
+      "publicName": "GLP2-(TR) / BPC-157 – 30/1.3mg",
+      "publicDescription": "GLP2-(TR) / BPC-15730/1.3mg research blend from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/glp2-tr-bpc-157/",
+      "checkedAt": "2026-10-06T14:13:56.106Z",
+      "htmlSha256": "b06f11976844167bab06506022f909cf65a8386c9b7041503b6737b726d65f13",
+      "price": 20000,
+      "variants": [],
+      "changes": [],
+      "previousName": "GLP2-(TR) / BPC-157 - 30/1.3mg"
+    },
+    {
+      "id": "gut-guard-capsules",
+      "name": "Gut Guard Capsules",
+      "publicName": "Gut Guard Capsules",
+      "publicDescription": "Gut Guard Capsules (BPC-157, TB-500, KPV, Larazotide) from PH Bio Labs. Independent testing. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/gut-guard-capsules/",
+      "checkedAt": "2026-10-06T14:13:56.118Z",
+      "htmlSha256": "3d82e99e6743df4b453a6b008343bcab2ed8a728db93458f51df418468864046",
+      "price": 14999,
+      "variants": [
+        {
+          "sourceId": "1149",
+          "price": 14999,
+          "regularPrice": 14999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "hcg",
+      "name": "HCG",
+      "publicName": "HCG",
+      "publicDescription": "HCG research compound from PH Bio Labs, with independent testing documentation. For laboratory research use only. Not for human use.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/hcg/",
+      "checkedAt": "2026-10-06T14:13:56.224Z",
+      "htmlSha256": "ed7d3e8775d8e0a9245e0399bcc10b16fd091e22ec2052aaae6b1f28fd8b4397",
+      "price": 6000,
+      "variants": [
+        {
+          "sourceId": "1189",
+          "price": 6000,
+          "regularPrice": 6000,
+          "attributes": {
+            "attribute_mg": "5000 iu"
+          }
+        },
+        {
+          "sourceId": "1190",
+          "price": 10800,
+          "regularPrice": 10800,
+          "attributes": {
+            "attribute_mg": "10000 iu"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "igf-lr3-1mg",
+      "name": "IGF-LR3 – 1mg",
+      "publicName": "IGF-LR3 – 1mg",
+      "publicDescription": "IGF-LR3 1mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/igf-lr3-1mg/",
+      "checkedAt": "2026-10-06T14:13:56.324Z",
+      "htmlSha256": "325f79935b45b47531b2aaae502f523602f4999684a7dd96051feb9c0beaf564",
+      "price": 9900,
+      "variants": [],
+      "changes": [],
+      "previousName": "IGF-LR3 - 1mg"
+    },
+    {
+      "id": "ignite-x-capsules",
+      "name": "Ignite X Capsules",
+      "publicName": "Ignite X Capsules",
+      "publicDescription": "Ignite X capsules containing glp1s, BPC-157, and 5-Amino-1MQ for controlled laboratory and analytical research.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/ignite-x-capsules/",
+      "checkedAt": "2026-10-06T14:13:56.376Z",
+      "htmlSha256": "e7f0cc177d190d33f2de0839de00172b2837ca4c497235e2891415997696c9ba",
+      "price": 9999,
+      "variants": [
+        {
+          "sourceId": "1158",
+          "price": 9999,
+          "regularPrice": 9999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "ipamorelin",
+      "name": "Ipamorelin",
+      "publicName": "Ipamorelin",
+      "publicDescription": "Ipamorelin research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/ipamorelin/",
+      "checkedAt": "2026-10-06T14:13:56.386Z",
+      "htmlSha256": "17d3d04042c562606d53c0a9529e92e0e0cfa75c757af8a8600a0de77c4e83bd",
+      "price": 4000,
+      "variants": [
+        {
+          "sourceId": "1191",
+          "price": 4000,
+          "regularPrice": 4000,
+          "attributes": {
+            "attribute_mg": "5mg"
+          }
+        },
+        {
+          "sourceId": "1192",
+          "price": 7200,
+          "regularPrice": 7200,
+          "attributes": {
+            "attribute_mg": "10mg"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "ipamorelin-cjc-1295-nasal-spray",
+      "name": "IPAMORELIN / CJC-1295 Nasal Spray",
+      "publicName": "IPAMORELIN / CJC-1295 Nasal Spray",
+      "publicDescription": "IPAMORELIN / CJC-1295 Nasal Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/ipamorelin-cjc-1295-nasal-spray/",
+      "checkedAt": "2026-10-06T14:13:56.475Z",
+      "htmlSha256": "4422e0633a95d5cab4c8a50b72432829ef11e7e5ee3bbdc773da6d6714bede8a",
+      "price": 8000,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "kisspeptin-10mg",
+      "name": "Kisspeptin-10mg",
+      "publicName": "Kisspeptin-10mg",
+      "publicDescription": "Kisspeptin-10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/kisspeptin-10mg/",
+      "checkedAt": "2026-10-06T14:13:56.572Z",
+      "htmlSha256": "22416cb26624edaf539905ad69167a89b47cbae2ab4328b5a6e9267d5f1f27cf",
+      "price": 5000,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "klow-blend-50-10-10-10mg",
+      "name": "Klow Blend – 50/10/10/10mg",
+      "publicName": "Klow Blend – 50/10/10/10mg",
+      "publicDescription": "KLOW Blend 50/10/10/10mg GHK-Cu, BPC-157, TB-500, and KPV research blend from PH Bio Labs. HPLC tested. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/klow-blend-50-10-10-10mg/",
+      "checkedAt": "2026-10-06T14:13:56.647Z",
+      "htmlSha256": "d7892bac7bbd1981ccd236cff4c0a9e9e8bd2588b65521e26ea5ac42ae2cf3e3",
+      "price": 11000,
+      "variants": [],
+      "changes": [],
+      "previousName": "Klow Blend - 50/10/10/10mg"
+    },
+    {
+      "id": "klow-blend-capsules",
+      "name": "Klow Blend Capsules",
+      "publicName": "Klow Blend Capsules",
+      "publicDescription": "Klow Blend Capsules (Formula 137: GHK-Cu, BPC-157, TB-500, KPV, HA) from PH Bio Labs. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/klow-blend-capsules/",
+      "checkedAt": "2026-10-06T14:13:56.637Z",
+      "htmlSha256": "1d3e5e6be2954b2cde116278bacc4965b551ba7a42e05f21d7bb353ff874233e",
+      "price": 12999,
+      "variants": [
+        {
+          "sourceId": "1143",
+          "price": 12999,
+          "regularPrice": 12999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "kpv-10mg",
+      "name": "KPV – 10mg",
+      "publicName": "KPV – 10mg",
+      "publicDescription": "KPV 10mg tripeptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/kpv-10mg/",
+      "checkedAt": "2026-10-06T14:13:56.729Z",
+      "htmlSha256": "e1bdbb8bbfc22a4d918e60d0c55c29d06ce33a5b9b8021782aa49813f23ad1db",
+      "price": 5000,
+      "variants": [],
+      "changes": [],
+      "previousName": "KPV - 10mg"
+    },
+    {
+      "id": "kpv-capsules",
+      "name": "KPV Capsules",
+      "publicName": "KPV Capsules",
+      "publicDescription": "KPV Capsules (Formula 45, KPV 500mcg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/kpv-capsules/",
+      "checkedAt": "2026-10-06T14:13:56.857Z",
+      "htmlSha256": "297edfc569bce1d31793e43e33719f516cfe233db4f90dab286465fc3bf8c71d",
+      "price": 7999,
+      "variants": [
+        {
+          "sourceId": "1174",
+          "price": 7999,
+          "regularPrice": 7999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "l-glutathione-600mg",
+      "name": "L-Glutathione – 600mg",
+      "publicName": "L-Glutathione – 600mg",
+      "publicDescription": "L-Glutathione 600mg research compound from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/l-glutathione-600mg/",
+      "checkedAt": "2026-10-06T14:13:56.881Z",
+      "htmlSha256": "2fc16032ed9463c0fb9d2357c7e84482c0f5c9f9138799a7b0f6b490de4783db",
+      "price": 7500,
+      "variants": [],
+      "changes": [],
+      "previousName": "L-Glutathione - 600mg"
+    },
+    {
+      "id": "libido-drive-x-capsules",
+      "name": "Libido Drive X Capsules",
+      "publicName": "Libido Drive X Capsules",
+      "publicDescription": "Libido Drive X Capsules (Formula 103: PT-141, oxytocin, NALT, kisspeptin, VIP) from PH Bio Labs. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/libido-drive-x-capsules/",
+      "checkedAt": "2026-10-06T14:13:56.926Z",
+      "htmlSha256": "21ee01865350d5ab6544c75c9168d3423f171e8a149b7a38aeb02a7614e9848e",
+      "price": 12999,
+      "variants": [
+        {
+          "sourceId": "1141",
+          "price": 12999,
+          "regularPrice": 12999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "ll-37",
+      "name": "LL-37",
+      "publicName": "LL-37",
+      "publicDescription": "LL-37 research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/ll-37/",
+      "checkedAt": "2026-10-06T14:13:56.994Z",
+      "htmlSha256": "3d34ea0c38ba6023c6a284c42a5f6b93dcd32e660cfedce100e9be8da3834bee",
+      "price": 7000,
+      "variants": [
+        {
+          "sourceId": "1193",
+          "price": 7000,
+          "regularPrice": 7000,
+          "attributes": {
+            "attribute_mg": "5mg"
+          }
+        },
+        {
+          "sourceId": "1194",
+          "price": 9900,
+          "regularPrice": 9900,
+          "attributes": {
+            "attribute_mg": "10mg"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "melanotan-2-10mg",
+      "name": "Melanotan 2 – 10mg",
+      "publicName": "Melanotan 2 – 10mg",
+      "publicDescription": "Melanotan 2 10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/melanotan-2-10mg/",
+      "checkedAt": "2026-10-06T14:13:57.111Z",
+      "htmlSha256": "3a9ca9d835d5429e7abfcbf25b75a4eadce761ef8decec3cd49ed8dd3e7c368d",
+      "price": 3500,
+      "variants": [],
+      "changes": [],
+      "previousName": "Melanotan 2 - 10mg"
+    },
+    {
+      "id": "meta-drive-capsules",
+      "name": "Meta Drive Capsules",
+      "publicName": "Meta Drive Capsules",
+      "publicDescription": "Meta Drive capsules, SLU-PP-332/5-Amino-1MQ capsules for laboratory research involving ERR activity, NNMT inhibition, and cellular metabolic pathways.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/meta-drive-capsules/",
+      "checkedAt": "2026-10-06T14:13:57.143Z",
+      "htmlSha256": "3584502e54a60e7f70c576e64558e1a5b5f22587700b9e8ae4ea83bfdb30b6d0",
+      "price": 12999,
+      "variants": [
+        {
+          "sourceId": "1148",
+          "price": 12999,
+          "regularPrice": 12999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "methylene-blue-capsules",
+      "name": "Methylene Blue Capsules",
+      "publicName": "Methylene Blue Capsules",
+      "publicDescription": "Methylene Blue Capsules (Formula 30, methylene blue 25mg) from PH Bio Labs. Independent testing. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/methylene-blue-capsules/",
+      "checkedAt": "2026-10-06T14:13:57.175Z",
+      "htmlSha256": "53d2b529e030bc6596e8ccb20cc176af252acaf579592f2ce0f84cf3a56de927",
+      "price": 7999,
+      "variants": [
+        {
+          "sourceId": "1140",
+          "price": 7999,
+          "regularPrice": 7999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "mito-blu-capsules",
+      "name": "Mito Blu Capsules",
+      "publicName": "Mito Blu Capsules",
+      "publicDescription": "Mito Blu Capsules (Formula 467, 9-ME-BC 10mg and methylene blue 5mg) from PH Bio Labs. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/mito-blu-capsules/",
+      "checkedAt": "2026-10-06T14:13:57.252Z",
+      "htmlSha256": "9f87b50890319f15e424d76f5e9beeea2b02c2a501ca6c696d2ecb34e378b509",
+      "price": 9999,
+      "variants": [
+        {
+          "sourceId": "1147",
+          "price": 9999,
+          "regularPrice": 9999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "mk-777-capsules",
+      "name": "MK-777 Capsules",
+      "publicName": "MK-777 Capsules",
+      "publicDescription": "MK-777 Capsules (Formula 777, MK-777 20mg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/mk-777-capsules/",
+      "checkedAt": "2026-10-06T14:13:57.360Z",
+      "htmlSha256": "7faf5b9d72aa98f1c9319e9c9e8299e225604cdd13b30a39093015fb31a44046",
+      "price": 12999,
+      "variants": [
+        {
+          "sourceId": "1150",
+          "price": 12999,
+          "regularPrice": 12999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "mots-c",
+      "name": "MOTS-c",
+      "publicName": "MOTS-c",
+      "publicDescription": "MOTS-c mitochondrial research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/mots-c/",
+      "checkedAt": "2026-10-06T14:13:57.400Z",
+      "htmlSha256": "2b2766db39946b09592bebe9cfb8cd97b175d033cf4210925c8efd7c0092a6a0",
+      "price": 4000,
+      "variants": [
+        {
+          "sourceId": "1175",
+          "price": 4000,
+          "regularPrice": 4000,
+          "attributes": {
+            "attribute_mg": "10mg"
+          }
+        },
+        {
+          "sourceId": "1176",
+          "price": 7200,
+          "regularPrice": 7200,
+          "attributes": {
+            "attribute_mg": "40mg"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "mots-c-ss-31-pro-sublingual-oral-spray",
+      "name": "MOTS-c / SS-31 PRO Sublingual Oral Spray",
+      "publicName": "MOTS-c / SS-31 PRO Sublingual Oral Spray",
+      "publicDescription": "MOTS-c / SS-31 PRO Sublingual Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/mots-c-ss-31-pro-sublingual-oral-spray/",
+      "checkedAt": "2026-10-06T14:13:57.424Z",
+      "htmlSha256": "851b9b1b72fdbea5d87ca284d7442ab54c8abebe8efe9d60a3a1b73934e6cb9a",
+      "price": 14500,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "nad",
+      "name": "NAD+",
+      "publicName": "NAD+",
+      "publicDescription": "NAD+ research coenzyme from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/nad/",
+      "checkedAt": "2026-10-06T14:13:57.516Z",
+      "htmlSha256": "fcc17d1319710c4ee133719a7d7c0485472db3474d6dd128ca31f23e6cbf7329",
+      "price": 5000,
+      "variants": [
+        {
+          "sourceId": "1179",
+          "price": 5000,
+          "regularPrice": 5000,
+          "attributes": {
+            "attribute_mg": "500mg"
+          }
+        },
+        {
+          "sourceId": "1180",
+          "price": 10000,
+          "regularPrice": 10000,
+          "attributes": {
+            "attribute_mg": "1000mg"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "nad-nasal-spray",
+      "name": "NAD+ Nasal Spray",
+      "publicName": "NAD+ Nasal Spray",
+      "publicDescription": "NAD+ Nasal Spray research compound from PH Bio Labs, with testing documentation. For laboratory research use only. Not for human use.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/nad-nasal-spray/",
+      "checkedAt": "2026-10-06T14:13:57.598Z",
+      "htmlSha256": "9b4bd29e198755f118728b6df47b59dc0cff6b8dc19b2c0988f699052f33f2d6",
+      "price": 9000,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "nad-pro-nasal-spray",
+      "name": "NAD+ PRO Nasal Spray",
+      "publicName": "NAD+ PRO Nasal Spray",
+      "publicDescription": "NAD+ PRO Nasal Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/nad-pro-nasal-spray/",
+      "checkedAt": "2026-10-06T14:13:57.638Z",
+      "htmlSha256": "fac99da103abd20205412731b7e139da8296eab75db19bb2fd8c4aa4b8612455",
+      "price": 6900,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "neuro-blu-capsules",
+      "name": "Neuro Blu Capsules",
+      "publicName": "Neuro Blu Capsules",
+      "publicDescription": "Neuro Blu Capsules (Formula 720: Dihexa, tesofensine, methylene blue) from PH Bio Labs. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/neuro-blu-capsules/",
+      "checkedAt": "2026-10-06T14:13:57.676Z",
+      "htmlSha256": "7d280b744de9809ea427ce52cc935dbc41106ff8cb75b0cfba775a81375dd22d",
+      "price": 15999,
+      "variants": [
+        {
+          "sourceId": "1146",
+          "price": 15999,
+          "regularPrice": 15999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "neurogenesis-x-capsules",
+      "name": "Neurogenesis X Capsules",
+      "publicName": "Neurogenesis X Capsules",
+      "publicDescription": "Neurogenesis X Capsules (Formula 91: Dihexa, P21, citicoline, urolithin A, PQQ) from PH Bio Labs. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/neurogenesis-x-capsules/",
+      "checkedAt": "2026-10-06T14:13:57.771Z",
+      "htmlSha256": "d02f55a2931ef24f800f13e92a7bb9623d705c94810293cf47e0882335b6ac92",
+      "price": 14999,
+      "variants": [
+        {
+          "sourceId": "1171",
+          "price": 14999,
+          "regularPrice": 14999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "noctura-serum",
+      "name": "Noctura Serum – 30mL",
+      "publicName": "Noctura Serum – 30mL",
+      "publicDescription": "Noctura Serum combines Melatonin, Apigenin, and GABA in a topical formula for nighttime relaxation pathways.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/noctura-serum/",
+      "checkedAt": "2026-10-06T14:13:57.851Z",
+      "htmlSha256": "18bfed933eac2e961d0939070f80f1b6d13764be2d844dfa76ffc5a6ac7afd5b",
+      "price": 4999,
+      "variants": [],
+      "changes": [],
+      "previousName": "Noctura Serum - 30mL"
+    },
+    {
+      "id": "orfo-drive-capsules",
+      "name": "Orfo Drive Capsules",
+      "publicName": "Orfo Drive Capsules",
+      "publicDescription": "Orfo Drive Capsules (Formula 194, orforglipron 6mg and SLU-PP-332 0.25mg) from PH Bio Labs. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/orfo-drive-capsules/",
+      "checkedAt": "2026-10-06T14:13:57.887Z",
+      "htmlSha256": "f6a407f298a0d0feb317ee6c708b3b3edf1b36bebb6f82d216ff0a6b551b46c8",
+      "price": 12999,
+      "variants": [
+        {
+          "sourceId": "1159",
+          "price": 12999,
+          "regularPrice": 12999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "oxytocin-10mg",
+      "name": "Oxytocin – 10mg",
+      "publicName": "Oxytocin – 10mg",
+      "publicDescription": "Oxytocin 10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/oxytocin-10mg/",
+      "checkedAt": "2026-10-06T14:13:57.914Z",
+      "htmlSha256": "6c7ed31293c1777fcdfa252b0a941007079d93134b91430eefa8eb7b31b1b644",
+      "price": 5000,
+      "variants": [],
+      "changes": [],
+      "previousName": "Oxytocin - 10mg"
+    },
+    {
+      "id": "pt-141-10mg",
+      "name": "PT-141-10mg",
+      "publicName": "PT-141-10mg",
+      "publicDescription": "PT-141 (bremelanotide analog) 10mg research peptide from PH Bio Labs, with HPLC testing and a COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/pt-141-10mg/",
+      "checkedAt": "2026-10-06T14:13:58.105Z",
+      "htmlSha256": "aa105e16bd9f728ea23e8e7f7573af91ad2a6909b58b57673ab0500d8c82b853",
+      "price": 5000,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "pt-141-oxytocin-pro-nasal-spray",
+      "name": "PT-141 / Oxytocin PRO Nasal Spray",
+      "publicName": "PT-141 / Oxytocin PRO Nasal Spray",
+      "publicDescription": "PT-141 / Oxytocin PRO Nasal Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/pt-141-oxytocin-pro-nasal-spray/",
+      "checkedAt": "2026-10-06T14:13:58.009Z",
+      "htmlSha256": "291e7f154eab9fb12ef639ec50d083cf29c95afbe68574ead30a999de3c52dc6",
+      "price": 11300,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "selank-10mg",
+      "name": "Selank – 10mg",
+      "publicName": "Selank – 10mg",
+      "publicDescription": "Selank 10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/selank-10mg/",
+      "checkedAt": "2026-10-06T14:13:58.144Z",
+      "htmlSha256": "4b7542c9e9b5ed4d17a48ee5a3646fddee938eeff71730d4c01f8f790f6e3185",
+      "price": 4500,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "selank-nasal-spray",
+      "name": "Selank Nasal Spray",
+      "publicName": "Selank Nasal Spray",
+      "publicDescription": "Selank Nasal Spray research compound from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/selank-nasal-spray/",
+      "checkedAt": "2026-10-06T14:13:58.171Z",
+      "htmlSha256": "fe2a873a45663610a0902081ae46d4c105d02c42846c04b5c07d6f87e900525d",
+      "price": 8500,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "selank-semax-nasal-spray",
+      "name": "Selank/Semax Nasal Spray",
+      "publicName": "Selank/Semax Nasal Spray",
+      "publicDescription": "Selank + Semax nasal spray from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/selank-semax-nasal-spray/",
+      "checkedAt": "2026-10-06T14:13:58.275Z",
+      "htmlSha256": "11c84fe360910f568dcb953b8d1600ce88a1b5014bfaf9987a9810e778aa4803",
+      "price": 11500,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "selank-semax-pinealon-nasal-spray",
+      "name": "Selank/Semax/Pinealon Nasal Spray",
+      "publicName": "Selank/Semax/Pinealon Nasal Spray",
+      "publicDescription": "Selank + Semax + Pinealon nasal spray from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/selank-semax-pinealon-nasal-spray/",
+      "checkedAt": "2026-10-06T14:13:58.370Z",
+      "htmlSha256": "b747fe3b59cce01dd4e76bda2ab56f9e6a57ecd08bf4b4b391d35a21082a2140",
+      "price": 12500,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "selank-semax-pro-nasal-spray",
+      "name": "Selank/Semax PRO Nasal Spray",
+      "publicName": "Selank/Semax PRO Nasal Spray",
+      "publicDescription": "Selank/Semax PRO Nasal Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/selank-semax-pro-nasal-spray/",
+      "checkedAt": "2026-10-06T14:13:58.344Z",
+      "htmlSha256": "383e439825509bb5660be974e8e581c5e74cfcd1b33351e02d505b7b1af59a4f",
+      "price": 7900,
+      "variants": [
+        {
+          "sourceId": "4873",
+          "price": 7900,
+          "regularPrice": 7900,
+          "attributes": {
+            "attribute_mg": "10/10mg"
+          }
+        },
+        {
+          "sourceId": "4874",
+          "price": 9800,
+          "regularPrice": 9800,
+          "attributes": {
+            "attribute_mg": "20/20mg"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "semax-10mg",
+      "name": "Semax – 10mg",
+      "publicName": "Semax – 10mg",
+      "publicDescription": "Semax 10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/semax-10mg/",
+      "checkedAt": "2026-10-06T14:13:58.426Z",
+      "htmlSha256": "279cf8f51c86ec93b1e7f0194aacba026190a8fa851dd6027cc1931dab6daf55",
+      "price": 4500,
+      "variants": [],
+      "changes": [],
+      "previousName": "Semax - 10mg"
+    },
+    {
+      "id": "semax-nasal-spray",
+      "name": "Semax Nasal Spray",
+      "publicName": "Semax Nasal Spray",
+      "publicDescription": "Semax Nasal Spray research compound from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/semax-nasal-spray/",
+      "checkedAt": "2026-10-06T14:13:58.589Z",
+      "htmlSha256": "a60a6bcbb0b5bf9252a73b931846c69db11af51c92bf39ce9e8a3ebd80188f8d",
+      "price": 8500,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "semax-selank-10mg-10mg",
+      "name": "Semax / Selank 10/10 mg",
+      "publicName": "Semax / Selank 10/10 mg",
+      "publicDescription": "Semax/Selank 10/10mg research blend from PH Bio Labs, with HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/semax-selank-10mg-10mg/",
+      "checkedAt": "2026-10-06T14:13:58.523Z",
+      "htmlSha256": "5f554fdebf92eff0e05333728c2bf440aed2a2d3d2690a275eb5d9ef5d39d6e0",
+      "price": 9900,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "sermorelin",
+      "name": "Sermorelin",
+      "publicName": "Sermorelin",
+      "publicDescription": "Sermorelin research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/sermorelin/",
+      "checkedAt": "2026-10-06T14:13:58.605Z",
+      "htmlSha256": "b1d4eac5b26651da4a9102933897730c3c81893a3fc8240d947cfe610edfd58c",
+      "price": 3500,
+      "variants": [
+        {
+          "sourceId": "1203",
+          "price": 3500,
+          "regularPrice": 3500,
+          "attributes": {
+            "attribute_mg": "5mg"
+          }
+        },
+        {
+          "sourceId": "1204",
+          "price": 5000,
+          "regularPrice": 5000,
+          "attributes": {
+            "attribute_mg": "10mg"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "sermorelin-capsules",
+      "name": "Sermorelin Capsules",
+      "publicName": "Sermorelin Capsules",
+      "publicDescription": "Sermorelin Capsules (Formula 251, sermorelin 1mg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/sermorelin-capsules/",
+      "checkedAt": "2026-10-06T14:13:58.719Z",
+      "htmlSha256": "a97f648686ee11d598c61157782c6d76293d9ae399cf38ef0c22068ec094b5ea",
+      "price": 9999,
+      "variants": [
+        {
+          "sourceId": "1145",
+          "price": 9999,
+          "regularPrice": 9999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "slu-pp-332-capsules",
+      "name": "SLU-PP-332 Capsules",
+      "publicName": "SLU-PP-332 Capsules",
+      "publicDescription": "SLU-PP-332 Capsules (Formula 71, SLU-PP-332 250mcg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/slu-pp-332-capsules/",
+      "checkedAt": "2026-10-06T14:13:58.802Z",
+      "htmlSha256": "72ccff11807405a7d741ccbd0b4ba06e300b56c18135c5772fb87f0d6c1bbf70",
+      "price": 9999,
+      "variants": [
+        {
+          "sourceId": "1151",
+          "price": 9999,
+          "regularPrice": 9999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "tb-500",
+      "name": "TB-500",
+      "publicName": "TB-500",
+      "publicDescription": "TB-500 research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/tb-500/",
+      "checkedAt": "2026-10-06T14:13:58.845Z",
+      "htmlSha256": "d12a23d054692ce5d4185d2e34b8b860a2b785b3e4840ea78e3588d9774e09be",
+      "price": 4000,
+      "variants": [
+        {
+          "sourceId": "1210",
+          "price": 4000,
+          "regularPrice": 4000,
+          "attributes": {
+            "attribute_mg": "5mg"
+          }
+        },
+        {
+          "sourceId": "1211",
+          "price": 6500,
+          "regularPrice": 6500,
+          "attributes": {
+            "attribute_mg": "10mg"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "tb-500-capsules",
+      "name": "TB-500 Capsules",
+      "publicName": "TB-500 Capsules",
+      "publicDescription": "TB-500 Capsules (Formula 213, TB-500 500mcg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/tb-500-capsules/",
+      "checkedAt": "2026-10-06T14:13:58.855Z",
+      "htmlSha256": "686491632b5ad33498a83ee286257e72afe9d80c29c2d17fcea0f2ed6b117c3a",
+      "price": 9999,
+      "variants": [
+        {
+          "sourceId": "1153",
+          "price": 9999,
+          "regularPrice": 9999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "tesamorelin",
+      "name": "Tesamorelin",
+      "publicName": "Tesamorelin",
+      "publicDescription": "Tesamorelin research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/tesamorelin/",
+      "checkedAt": "2026-10-06T14:13:58.980Z",
+      "htmlSha256": "999cd3668e72dcd59d05332dc41063e6d0ce7ade5a84457963d8fa82b69caf61",
+      "price": 5000,
+      "variants": [
+        {
+          "sourceId": "1212",
+          "price": 5000,
+          "regularPrice": 5000,
+          "attributes": {
+            "attribute_mg": "5mg"
+          }
+        },
+        {
+          "sourceId": "1213",
+          "price": 7500,
+          "regularPrice": 7500,
+          "attributes": {
+            "attribute_mg": "10mg"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "tesamorelin-ipamorelin-blend",
+      "name": "Tesamorelin / Ipamorelin Blend",
+      "publicName": "Tesamorelin / Ipamorelin Blend",
+      "publicDescription": "Tesamorelin and Ipamorelin research blend from PH Bio Labs, with HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/tesamorelin-ipamorelin-blend/",
+      "checkedAt": "2026-10-06T14:13:59.079Z",
+      "htmlSha256": "2f44cf978a95785d15517b3a162085f545071ea652c022b8f6e81b5e45a940fc",
+      "price": 15300,
+      "variants": [
+        {
+          "sourceId": "1214",
+          "price": 15300,
+          "regularPrice": 15300,
+          "attributes": {
+            "attribute_mg": "10mg / 5mg"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "tesofensine-capsules",
+      "name": "Tesofensine Capsules",
+      "publicName": "Tesofensine Capsules",
+      "publicDescription": "Tesofensine Capsules (Formula 50, tesofensine 500mcg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/tesofensine-capsules/",
+      "checkedAt": "2026-10-06T14:13:59.093Z",
+      "htmlSha256": "e7c8ac32b305e1e2a8cd1bb53f70e810774b3f557eaaacb41017ab48186e60e4",
+      "price": 9999,
+      "variants": [
+        {
+          "sourceId": "1152",
+          "price": 9999,
+          "regularPrice": 9999,
+          "attributes": {
+            "attribute_capsule-count": "60 Capsules"
+          }
+        }
+      ],
+      "changes": []
+    },
+    {
+      "id": "thymosin-alpha-1",
+      "name": "Thymosin Alpha-1 10mg",
+      "publicName": "Thymosin Alpha-1 10mg",
+      "publicDescription": "Thymosin Alpha-1 10mg research peptide from PH Bio Labs, with independent HPLC testing and a COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/thymosin-alpha-1/",
+      "checkedAt": "2026-10-06T14:13:59.109Z",
+      "htmlSha256": "1e7c4c2de4084ea8c6338826cf2dc5e3996d46c02f0788470b434df93a8275d8",
+      "price": 9900,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "vip-nasal-spray",
+      "name": "VIP Nasal Spray",
+      "publicName": "VIP Nasal Spray",
+      "publicDescription": "VIP Nasal Spray research compound from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/vip-nasal-spray/",
+      "checkedAt": "2026-10-06T14:13:59.251Z",
+      "htmlSha256": "4851f7eaf3a983ec69359a69af33bf4ffcb5485c7194b02ba2f74cde1a8ae6e5",
+      "price": 9900,
+      "variants": [],
+      "changes": []
+    },
+    {
+      "id": "wolverine-blend-bpc-157-tb-500-10-10mg",
+      "name": "Wolverine (BPC-157/ TB-500) – 10/10mg",
+      "publicName": "Wolverine (BPC-157/ TB-500) – 10/10mg",
+      "publicDescription": "Wolverine blend 10/10mg BPC-157 and TB-500 research blend from PH Bio Labs, with HPLC testing and a COA. For laboratory research use only.",
+      "contentDifferences": [],
+      "url": "https://phbiolabs.com/buy/wolverine-blend-bpc-157-tb-500-10-10mg/",
+      "checkedAt": "2026-10-06T14:13:59.349Z",
+      "htmlSha256": "791add790044e2d93ddcf70b052d27c2afbf1c6c9cd191ec65e138e13b06c765",
+      "price": 9900,
+      "variants": [],
+      "changes": [],
+      "previousName": "Wolverine (BPC-157/ TB-500) - 10/10mg"
+    }
+  ],
+  "errors": [],
+  "completedAt": "2026-10-06T14:13:59.476Z",
+  "summary": {
+    "products": 81,
+    "variants": 66,
+    "changedPrices": 0,
+    "contentDifferences": 0,
+    "unconfirmed": 0
+  },
+  "catalogAlignedAt": "2026-10-06T14:14:55.866Z"
+}

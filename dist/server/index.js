@@ -104,7 +104,7 @@
   {
     "id": "b12-10ml",
     "slug": "b12-10ml",
-    "name": "B12 - 10ml",
+    "name": "B12 – 10ml",
     "path": "/buy/b12-10ml/",
     "image": "/assets/feb50b7d36b28d19ad1d.png",
     "price": 6000,
@@ -120,7 +120,7 @@
   {
     "id": "bpc-157-10mg",
     "slug": "bpc-157-10mg",
-    "name": "BPC-157 - 10mg",
+    "name": "BPC-157 – 10mg",
     "path": "/buy/bpc-157-10mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/BPC-157-Vial-2-Template-600x800.png",
     "price": 5000,
@@ -225,7 +225,7 @@
   {
     "id": "ceralux-serum-30ml",
     "slug": "ceralux-serum-30ml",
-    "name": "Ceralux Serum - 30mL",
+    "name": "Ceralux Serum – 30mL",
     "path": "/buy/ceralux-serum-30ml/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/4-in-1-serum-4-600x900.png",
     "price": 4999,
@@ -282,7 +282,7 @@
   {
     "id": "cjc-1295-ipamorelin",
     "slug": "cjc-1295-ipamorelin",
-    "name": "CJC-1295 / Ipamorelin - 10mg / 10mg",
+    "name": "CJC-1295 / Ipamorelin – 10mg / 10mg",
     "path": "/buy/cjc-1295-ipamorelin/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/CJC-1295-No-DAC-_-Ipamorelin-Vial-2-Template-600x800.png",
     "price": 11700,
@@ -368,7 +368,7 @@
   {
     "id": "epithalon-epitalon-50mg",
     "slug": "epithalon-epitalon-50mg",
-    "name": "Epithalon (Epitalon) - 50mg",
+    "name": "Epithalon (Epitalon) – 50mg",
     "path": "/buy/epithalon-epitalon-50mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Epithalon-Vial-2-Template-600x800.png",
     "price": 10000,
@@ -840,7 +840,7 @@
   {
     "id": "glp2-tr-bpc-157",
     "slug": "glp2-tr-bpc-157",
-    "name": "GLP2-(TR) / BPC-157 - 30/1.3mg",
+    "name": "GLP2-(TR) / BPC-157 – 30/1.3mg",
     "path": "/buy/glp2-tr-bpc-157/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-4.55.08-PM-600x815.png",
     "price": 20000,
@@ -925,7 +925,7 @@
   {
     "id": "igf-lr3-1mg",
     "slug": "igf-lr3-1mg",
-    "name": "IGF-LR3 - 1mg",
+    "name": "IGF-LR3 – 1mg",
     "path": "/buy/igf-lr3-1mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/igf-lr3-Vial-2-Template-600x800.png",
     "price": 9900,
@@ -1043,7 +1043,7 @@
   {
     "id": "klow-blend-50-10-10-10mg",
     "slug": "klow-blend-50-10-10-10mg",
-    "name": "Klow Blend - 50/10/10/10mg",
+    "name": "Klow Blend – 50/10/10/10mg",
     "path": "/buy/klow-blend-50-10-10-10mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/KLOW-GHK-Cu-_-BPC-157-_-TB-500-_-KPV-50_10-Vial-2-Template-600x800.png",
     "price": 11000,
@@ -1087,7 +1087,7 @@
   {
     "id": "kpv-10mg",
     "slug": "kpv-10mg",
-    "name": "KPV - 10mg",
+    "name": "KPV – 10mg",
     "path": "/buy/kpv-10mg/",
     "image": "/assets/74c571d1a3d82ad62589.png",
     "price": 5000,
@@ -1131,7 +1131,7 @@
   {
     "id": "l-glutathione-600mg",
     "slug": "l-glutathione-600mg",
-    "name": "L-Glutathione - 600mg",
+    "name": "L-Glutathione – 600mg",
     "path": "/buy/l-glutathione-600mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/L-Glutathione-Vial-2-Template-600x800.png",
     "price": 7500,
@@ -1218,7 +1218,7 @@
   {
     "id": "melanotan-2-10mg",
     "slug": "melanotan-2-10mg",
-    "name": "Melanotan 2 - 10mg",
+    "name": "Melanotan 2 – 10mg",
     "path": "/buy/melanotan-2-10mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Melanotan-2-Vial-2-Template-600x800.png",
     "price": 3500,
@@ -1535,7 +1535,7 @@
   {
     "id": "noctura-serum",
     "slug": "noctura-serum",
-    "name": "Noctura Serum - 30mL",
+    "name": "Noctura Serum – 30mL",
     "path": "/buy/noctura-serum/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/night-time-serum-3-600x901.png",
     "price": 4999,
@@ -1579,7 +1579,7 @@
   {
     "id": "oxytocin-10mg",
     "slug": "oxytocin-10mg",
-    "name": "Oxytocin - 10mg",
+    "name": "Oxytocin – 10mg",
     "path": "/buy/oxytocin-10mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Oxytocin-Vial-2-Template-600x800.png",
     "price": 5000,
@@ -1725,7 +1725,7 @@
   {
     "id": "semax-10mg",
     "slug": "semax-10mg",
-    "name": "Semax - 10mg",
+    "name": "Semax – 10mg",
     "path": "/buy/semax-10mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Semax-Vial-2-Template-600x800.png",
     "price": 4500,
@@ -2071,7 +2071,7 @@
   {
     "id": "wolverine-blend-bpc-157-tb-500-10-10mg",
     "slug": "wolverine-blend-bpc-157-tb-500-10-10mg",
-    "name": "Wolverine (BPC-157/ TB-500) - 10/10mg",
+    "name": "Wolverine (BPC-157/ TB-500) – 10/10mg",
     "path": "/buy/wolverine-blend-bpc-157-tb-500-10-10mg/",
     "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Wolverine-BPC-157_-TB-500-Vial-2-Template-600x800.png",
     "price": 9900,
@@ -2123,9 +2123,10 @@ const admin = (req,env) => Boolean(env.SHOP_ADMIN_EMAIL && user(req).id && user(
 const knownProducts = new Set(catalog.flatMap(p => [p.id,...(p.variants||[]).map(v=>v.id)]));
 const requireUser = req => {const u=user(req);if(!u.id) fail('Sign in to use this feature',401);return u;};
 const cents = n => Number.isInteger(n) && n >= 0 && n <= 10000000;
-const shippingValid = s => s && ['name','address','city','postal','country'].every(k=>typeof s[k]==='string' && s[k].trim() && s[k].length<=200) && s.country==='US';
-const cleanShipping = s => Object.fromEntries(['name','address','city','postal','country'].map(k=>[k,s[k].trim()]));
-const defaults = {shipping:0,freeShipping:0,taxBasisPoints:0};
+const states=new Set('AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY'.split(' '));
+const shippingValid = s => s && ['name','address','city','postal','country'].every(k=>typeof s[k]==='string' && s[k].trim() && s[k].length<=200) && s.country==='US' && (s.state===undefined || typeof s.state==='string' && states.has(s.state.trim().toUpperCase()));
+const cleanShipping = s => ({...Object.fromEntries(['name','address','city','postal','country'].map(k=>[k,s[k].trim()])),...(s.state?{state:s.state.trim().toUpperCase()}: {})});
+const defaults = {shipping:0,freeShipping:15000,taxBasisPoints:0};
 const tokenFor = (cartId,id) => hash('order:'+cartId+':'+id);
 async function body(req) {
   if(Number(req.headers.get('content-length')||0)>20000) fail('Request too large',413);
@@ -2152,7 +2153,7 @@ async function session(req,db) {
 function expanded(items,ps) {
   return items.map(i=>{const p=ps.find(p=>p.id===i.id);if(!p||!p.active)fail('A product in your cart is no longer available. Remove it before checkout.',409);return {id:p.id,name:p.name,path:p.path,image:p.image,price:p.price,quantity:i.quantity,stock:p.stock??null,variable:p.variable};});
 }
-async function quote(db,items,code,strict=false) {
+async function quote(db,items,code,strict=false,state='') {
   const config=await settings(db),subtotal=items.reduce((t,i)=>t+i.price*i.quantity,0);
   let discount=0,coupon='',couponError='',offer=null;
   if(code){
@@ -2162,7 +2163,7 @@ async function quote(db,items,code,strict=false) {
     else {discount=Math.min(subtotal,offer.kind==='percent'?Math.floor(subtotal*offer.amount/100):offer.amount);coupon=code;}
     if(couponError && strict)fail(couponError,409);
   }
-  const shipping=items.length && !(config.freeShipping>0 && subtotal>=config.freeShipping)?config.shipping:0;
+  const shipping=items.length && !(config.freeShipping>0 && subtotal>=config.freeShipping && !['AK','HI'].includes(state.toUpperCase()))?config.shipping:0;
   const tax=Math.round((subtotal-discount+shipping)*config.taxBasisPoints/10000);
   return {subtotal,discount,shipping,tax,total:subtotal-discount+shipping+tax,coupon,couponError,mode:'test'};
 }
@@ -2295,7 +2296,7 @@ async function api(req,env) {
   if(route==='/api/cart' && req.method==='GET'){
     // Keep removed/unpublished items visible so the customer can remove them.
     const items=s.items.map(i=>{const p=ps.find(p=>p.id===i.id);return {id:i.id,name:p?.name||'Unavailable product',path:p?.path||'/shop-all-peptides/',image:p?.image||'',price:p?.price||0,quantity:i.quantity,stock:p?.stock??null,unavailable:!p?.active};});
-    return json({items,appliedCoupon:s.coupon,...await quote(db,items,s.coupon)},200,s.headers);
+    return json({items,appliedCoupon:s.coupon,...await quote(db,items,s.coupon,false,url.searchParams.get('state')||'')},200,s.headers);
   }
   if(req.method!=='POST')fail('Method not allowed',405);
   const b=await body(req);
@@ -2321,7 +2322,7 @@ async function api(req,env) {
   const existing=await db.prepare('SELECT * FROM orders WHERE cart_id=? AND idempotency_key=?').bind(s.id,b.key).first();
   if(existing)return json({...orderData(existing),token:await tokenFor(s.id,existing.id),repeated:true},200,s.headers);
   const items=expanded(s.items,ps);if(!items.length)fail('Your cart is empty');if(items.some(i=>i.variable||i.stock!==null&&i.quantity>i.stock))fail('Some items are unavailable',409);
-  const totals=await quote(db,items,s.coupon,true),id=crypto.randomUUID(),token=await tokenFor(s.id,id);
+  const totals=await quote(db,items,s.coupon,true,b.shipping.state||''),id=crypto.randomUUID(),token=await tokenFor(s.id,id);
   const insert=db.prepare(`INSERT INTO orders(id,cart_id,idempotency_key,customer_id,email,shipping,items,total,token_hash,subtotal,discount,shipping_total,tax,coupon)
     SELECT ?,?,?,?,?,?,?,?,?,?,?,?,?,? WHERE (?='' OR EXISTS(SELECT 1 FROM coupons WHERE code=? AND active=1 AND (max_uses=0 OR uses<max_uses) AND (expires='' OR expires>?))) AND EXISTS(SELECT 1 FROM carts WHERE id=? AND items=? AND coupon=?)`).bind(id,s.id,b.key,user(req).id,b.email.trim(),JSON.stringify(cleanShipping(b.shipping)),JSON.stringify(items),totals.total,await hash(token),totals.subtotal,totals.discount,totals.shipping,totals.tax,totals.coupon,totals.coupon,totals.coupon,new Date().toISOString(),s.id,JSON.stringify(s.items),s.coupon);
   try {
