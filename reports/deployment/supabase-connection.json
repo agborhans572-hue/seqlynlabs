@@ -1,0 +1,26 @@
+{
+  "project": "uiixqemqtalhyabemsrm",
+  "vercelProject": "software333/seqlynlabs",
+  "origin": "https://www.seqlynlabs.com",
+  "schema": {
+    "name": "seqlyn",
+    "tables": 12,
+    "rowLevelSecurity": true,
+    "verifiedInDashboard": true
+  },
+  "productionConfigSaved": [
+    "COMMERCE_MODE",
+    "PUBLIC_SITE_URL",
+    "AUTH_PROVIDER",
+    "SUPABASE_GOOGLE_ENABLED",
+    "SUPABASE_URL",
+    "SUPABASE_PUBLISHABLE_KEY"
+  ],
+  "databaseCredentialConnection": "awaiting scoped integration approval",
+  "googleProvider": "disabled pending account setup",
+  "administrator": "unassigned",
+  "tests": {
+    "passed": 45,
+    "failed": 0
+  }
+}

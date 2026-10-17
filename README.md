@@ -10,6 +10,8 @@ The ignored local SQLite database is `.sites-runtime/preview.sqlite`. The existi
 
 ## Vercel deployment
 
+The connected Supabase deployment is documented in [Supabase setup](docs/supabase-connection.md). It supports PostgreSQL with a private commerce schema and Supabase-managed Google authentication; owner access stays disabled until an administrator email is configured.
+
 See [the Vercel setup and remaining launch checklist](docs/vercel-deployment.md). `npm run build:vercel` prepares CDN assets and a Node.js function; `npm run verify:vercel` checks the actual bundle. Google sign-in replaces hosting-specific authentication in the Vercel target. Database and OAuth credentials must be supplied before hosted accounts, administration, and carts can work. `npm run preview:vercel` serves the prepared storefront at http://localhost:4175 with separate local data. Checkout remains in test mode.
 
 ## Shopping and customer features

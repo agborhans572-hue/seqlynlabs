@@ -130,7 +130,7 @@ async function api(req,env) {
   if(!['GET','POST'].includes(req.method))fail('Method not allowed',405);
   if(req.method==='POST'){
     const window=Math.floor(Date.now()/600000),actor=req.headers.get('cf-connecting-ip')||user(req).id||cookie(req,'shop_cart')||'anonymous',key=await hash(route+':'+actor);
-    const rate=await db.prepare('INSERT INTO request_limits(id,window,hits) VALUES (?,?,1) ON CONFLICT(id) DO UPDATE SET hits=CASE WHEN window=excluded.window THEN hits+1 ELSE 1 END,window=excluded.window RETURNING hits').bind(key,window).first();
+    const rate=await db.prepare('INSERT INTO request_limits(id,window,hits) VALUES (?,?,1) ON CONFLICT(id) DO UPDATE SET hits=CASE WHEN request_limits.window=excluded.window THEN request_limits.hits+1 ELSE 1 END,window=excluded.window RETURNING hits').bind(key,window).first();
     if(rate.hits>(route.startsWith('/api/admin/')?300:40))fail('Too many requests. Try again in a few minutes.',429);
   }
   if(route.startsWith('/api/admin/'))return administration(req,env,url);

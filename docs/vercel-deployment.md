@@ -1,5 +1,7 @@
 # Deploy Seqlyn Labs to Vercel
 
+For the selected Supabase project and existing production domain, follow [Supabase connection](supabase-connection.md). The Turso/Auth.js instructions below remain an alternative deployment option.
+
 The app now builds a Vercel deployment with CDN-served pages/assets and one Node.js 24 function for commerce, Google sign-in, health checks, administrator access, and custom product metadata. The existing Cloudflare/Sites build remains available. The Vercel target uses Turso/libSQL with the existing SQL schema and atomic checkout transactions.
 
 This is a **test storefront**. No payments are collected, inventory is not deducted, and fulfillment changes do not schedule shipments. Do not change `COMMERCE_MODE` to enable sales; a live payment integration is still required.

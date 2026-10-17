@@ -1,8 +1,9 @@
 import {Auth} from '@auth/core';
 import Google from '@auth/core/providers/google';
 import {getToken} from '@auth/core/jwt';
+import {supabaseAuthConfigured} from './supabase-auth.js';
 
-export const authConfigured=env=>Boolean(env.AUTH_SECRET?.length>=32 && env.AUTH_GOOGLE_ID && env.AUTH_GOOGLE_SECRET);
+export const authConfigured=env=>env.AUTH_PROVIDER==='supabase'?supabaseAuthConfigured(env):Boolean(env.AUTH_SECRET?.length>=32 && env.AUTH_GOOGLE_ID && env.AUTH_GOOGLE_SECRET);
 
 export function authConfig(env) {
   return {
@@ -33,6 +34,7 @@ export function authConfig(env) {
 }
 
 export async function authenticatedUser(req,env) {
+  if(env.AUTH_PROVIDER==='supabase')return null;
   if(!authConfigured(env)) return null;
   // Accept our encrypted session cookie only; never a caller-supplied identity header.
   const headers=new Headers({cookie:req.headers.get('cookie')||''});

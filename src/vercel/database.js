@@ -1,4 +1,5 @@
 import {createClient} from '@libsql/client/web';
+import {supabaseDatabase} from './postgres.js';
 
 // Preserve the Worker's D1 interface and, critically, its atomic checkout batches.
 export function databaseAdapter(client) {
@@ -20,6 +21,7 @@ export function databaseAdapter(client) {
 
 let cached;
 export function deploymentDatabase(env) {
+  if(env.SUPABASE_DB_URL || env.POSTGRES_URL || env.AUTH_PROVIDER==='supabase')return supabaseDatabase(env);
   if(!env.TURSO_DATABASE_URL || !env.TURSO_AUTH_TOKEN) return undefined;
   const url=new URL(env.TURSO_DATABASE_URL);
   if(!['libsql:','https:'].includes(url.protocol) || url.searchParams.get('tls')==='0') throw Error('A remote encrypted database URL is required');

@@ -3,6 +3,7 @@ import {Readable} from 'node:stream';
 import worker from '../worker.js';
 import {deploymentDatabase} from './database.js';
 import {authentication,authenticatedUser,authConfigured} from './auth.js';
+import {createSupabaseAuth} from './supabase-auth.js';
 
 function safeReturn(value,origin) {
   try { const url=new URL(value||'/my-account/',origin);if(url.origin===origin)return url.href; } catch {}
@@ -11,6 +12,7 @@ function safeReturn(value,origin) {
 
 export async function handleRequest(req,env=process.env,dependencies={}) {
   const url=new URL(req.url);
+  const supabase=env.AUTH_PROVIDER==='supabase'?createSupabaseAuth(req,env,dependencies.authFactory):null;
   let response;
   if(/^\/(admin|product)(?:\/index\.html)?$/.test(url.pathname) || /^\/(admin|product)\/index\.html$/.test(url.pathname)) {
     url.pathname='/'+url.pathname.split('/')[1]+'/';
@@ -22,13 +24,13 @@ export async function handleRequest(req,env=process.env,dependencies={}) {
     target.searchParams.set('callbackUrl',safeReturn(url.searchParams.get('return_to'),url.origin));
     response=Response.redirect(target.href,302);
   } else if(url.pathname.startsWith('/api/auth/')) {
-    response=await authentication(req,env);
+    response=supabase?await supabase.handle():await authentication(req,env);
   } else {
     const headers=new Headers(req.headers);
     for(const name of [...headers.keys()]) if(name.startsWith('oai-') || name==='cf-connecting-ip') headers.delete(name);
     // Vercel overwrites X-Forwarded-For at the edge. Local preview never trusts it.
     if(env.VERCEL==='1' && req.headers.get('x-forwarded-for')) headers.set('cf-connecting-ip',req.headers.get('x-forwarded-for').split(',')[0].trim());
-    const identity=await authenticatedUser(req,env);
+    const identity=supabase?await supabase.user():await authenticatedUser(req,env);
     if(identity) {
       headers.set('oai-authenticated-user-id',identity.id);
       headers.set('oai-authenticated-user-email',identity.email);
@@ -49,6 +51,7 @@ export async function handleRequest(req,env=process.env,dependencies={}) {
       response=await worker.fetch(new Request(req,{headers}),{DB:db,ASSETS,COMMERCE_MODE:env.COMMERCE_MODE,SHOP_ADMIN_EMAIL:env.SHOP_ADMIN_EMAIL,AUTH_SIGNIN_PATH:'/auth/signin'});
     }
   }
+  if(supabase)response=supabase.finish(response);
   const headers=new Headers(response.headers);
   headers.set('Cache-Control','private, no-store');
   headers.set('X-Content-Type-Options','nosniff');
