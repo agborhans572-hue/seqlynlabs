@@ -1,4 +1,5 @@
-﻿import catalog from './catalog.js';
+import catalog from './catalog.js';
+import {brand,presentProduct} from './brand.js';
 const json = (data, status = 200, headers = {}) => Response.json(data, {status, headers: {'Cache-Control':'no-store', 'X-Content-Type-Options':'nosniff', ...headers}});
 const fail = (message, status = 400) => {throw Object.assign(new Error(message), {status});};
 const hash = async s => [...new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)))].map(x => x.toString(16).padStart(2,'0')).join('');
@@ -57,7 +58,7 @@ async function orderAccess(req,db,id,url) {
   if(!row || !(user(req).id && row.customer_id===user(req).id) && await hash(url.searchParams.get('token')||'')!==row.token_hash)fail('Order not found',404);
   return row;
 }
-const orderData = row => ({id:row.id,status:row.status,fulfillment:row.fulfillment,carrier:row.carrier,tracking:row.tracking,email:row.email,shippingAddress:JSON.parse(row.shipping),items:JSON.parse(row.items),subtotal:row.subtotal||JSON.parse(row.items).reduce((n,i)=>n+i.price*i.quantity,0),discount:row.discount,shipping:row.shipping_total,tax:row.tax,coupon:row.coupon,total:row.total,createdAt:row.created_at,mode:'test'});
+const orderData = row => ({id:row.id,status:row.status,fulfillment:row.fulfillment,carrier:row.carrier,tracking:row.tracking,email:row.email,shippingAddress:JSON.parse(row.shipping),items:JSON.parse(row.items).map(presentProduct),subtotal:row.subtotal||JSON.parse(row.items).reduce((n,i)=>n+i.price*i.quantity,0),discount:row.discount,shipping:row.shipping_total,tax:row.tax,coupon:row.coupon,total:row.total,createdAt:row.created_at,mode:'test'});
 const event = (db,id,actor,action,data) => db.prepare('INSERT INTO order_events(id,order_id,actor,action,data) VALUES (?,?,?,?,?)').bind(crypto.randomUUID(),id,actor,action,JSON.stringify(data));
 async function administration(req,env,url) {
   if(!admin(req,env))fail('Administrator sign-in required',403);
@@ -227,12 +228,12 @@ export default {async fetch(req,env){try{
   const url=new URL(req.url);
   if(url.pathname.startsWith('/api/'))return await api(req,env);
   if(url.pathname==='/health')return json({ok:true,mode:env.COMMERCE_MODE||'disabled'});
-  if(url.pathname==='/admin/'&&!user(req).id)return Response.redirect(url.origin+'/signin-with-chatgpt?return_to=%2Fadmin%2F',302);
+  if(url.pathname==='/admin/'&&!user(req).id)return Response.redirect(url.origin+(env.AUTH_SIGNIN_PATH||'/signin-with-chatgpt')+'?return_to=%2Fadmin%2F',302);
   const assetRequest=new Request(req);if(url.pathname==='/product/'){assetRequest.headers.delete('If-None-Match');assetRequest.headers.delete('If-Modified-Since');}
   const response=await env.ASSETS.fetch(assetRequest),headers=new Headers(response.headers);
   if(url.pathname==='/product/'&&req.method==='GET'&&env.DB){
     const row=await env.DB.prepare('SELECT data FROM custom_products WHERE id=?').bind(url.searchParams.get('id')||'').first();
-    if(row){const p=JSON.parse(row.data),escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));let html=await response.text();html=html.replace(/<title>[\s\S]*?<\/title>/,()=>'<title>'+escape(p.name)+' | PH Bio Labs Shop</title>').replace(/(<meta (?:name="description"|property="og:description") content=")[^"]*/g,(_,prefix)=>prefix+escape(p.description)).replace(/(<meta property="og:title" content=")[^"]*/g,(_,prefix)=>prefix+escape(p.name+' | PH Bio Labs Shop')).replace('</head>',()=>'<meta property="og:image" content="'+escape(p.image)+'"></head>');headers.delete('Content-Length');headers.delete('ETag');headers.set('Cache-Control','no-cache');headers.set('Referrer-Policy','same-origin');return new Response(html,{status:response.status,headers});}
+    if(row){const p=JSON.parse(row.data),escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));let html=await response.text();html=html.replace(/<title>[\s\S]*?<\/title>/,()=>'<title>'+escape(p.name)+' | '+escape(brand.name)+' Shop</title>').replace(/(<meta (?:name="description"|property="og:description") content=")[^"]*/g,(_,prefix)=>prefix+escape(p.description)).replace(/(<meta property="og:title" content=")[^"]*/g,(_,prefix)=>prefix+escape(p.name+' | '+brand.name+' Shop')).replace('</head>',()=>'<meta property="og:image" content="'+escape(p.image)+'"></head>');headers.delete('Content-Length');headers.delete('ETag');headers.set('Cache-Control','no-cache');headers.set('Referrer-Policy','same-origin');return new Response(html,{status:response.status,headers});}
   }
   headers.set('X-Content-Type-Options','nosniff');headers.set('Referrer-Policy','same-origin');
   if(url.pathname.endsWith('.js')||url.pathname.endsWith('.css')||headers.get('Content-Type')?.includes('text/html'))headers.set('Cache-Control','no-cache');

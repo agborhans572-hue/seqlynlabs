@@ -1,3 +1,7 @@
+# Historical domain setup
+
+This document records the earlier PH Bio Labs hostname setup for provenance. Seqlyn Labs currently has no configured public canonical origin. No DNS or hosting changes are included in the rebrand; supply a new domain before reusing any domain-setup instructions below.
+
 # phbiolabsshop.com
 
 The hostname is attached to the existing hosted store. DNS ownership validation and HTTPS issuance are pending. Add the following records at the provider managing **phbiolabsshop.com**. The domain must be registered and its nameservers must point to that DNS provider.

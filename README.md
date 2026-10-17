@@ -1,16 +1,20 @@
-﻿# PH Bio Labs Shop — independent ecommerce test app
+﻿# Seqlyn Labs Shop — independent ecommerce test app
 
-This storefront runs independently of WooCommerce. The home and information pages preserve the PH Bio Labs snapshot from October 6, 2026; purchasing uses the app's own catalog, cart, customer records and order backend.
+This storefront runs independently of WooCommerce. The home and information pages preserve the PH Bio Labs snapshot from October 6, 2026. All 81 product pages were refreshed from their original pages on October 17, 2026, preserving each product's own layout, image, short description, full Overview, options and linked certificates. Purchasing uses the app's own catalog, cart, customer records and order backend.
 
 ## Run and verify
 
-Run `node scripts/preview-shop.mjs` and open http://localhost:4173. Run `node --test tests/*.test.mjs` (or `npm.cmd test` on PowerShell) for integration checks. Run `node scripts/build-shop.mjs` to regenerate the storefront pages, browser assets and Worker output. No runtime npm dependencies are required.
+Run `node scripts/preview-shop.mjs` and open http://localhost:4173. Run `node --test tests/*.test.mjs` (or `npm.cmd test` on PowerShell) for integration checks. Run `node scripts/build-shop.mjs` to regenerate the storefront pages, browser assets and Worker output. Use Node.js 24 and install dependencies with `npm ci`.
 
-The ignored local SQLite database is `.sites-runtime/preview.sqlite`. All production data lives in Sites D1. Migrations are appended in `drizzle/`; never edit an applied migration. `db/schema.ts` documents the declarative schema.
+The ignored local SQLite database is `.sites-runtime/preview.sqlite`. The existing Sites deployment uses D1. The prepared Vercel target uses hosted Turso/libSQL. Migrations are appended in `drizzle/`; never edit an applied migration. `db/schema.ts` documents the declarative schema.
+
+## Vercel deployment
+
+See [the Vercel setup and remaining launch checklist](docs/vercel-deployment.md). `npm run build:vercel` prepares CDN assets and a Node.js function; `npm run verify:vercel` checks the actual bundle. Google sign-in replaces hosting-specific authentication in the Vercel target. Database and OAuth credentials must be supplied before hosted accounts, administration, and carts can work. `npm run preview:vercel` serves the prepared storefront at http://localhost:4175 with separate local data. Checkout remains in test mode.
 
 ## Shopping and customer features
 
-- Catalog with 81 imported parent products, 66 imported size variants, existing product summaries, search, category filters, sorting and pagination.
+- Catalog with 81 imported parent products, 66 imported size variants, original product descriptions, search, category filters, sorting and pagination.
 - Product pages, selectable sizes, related products, inventory validation and server-calculated pricing.
 - Persistent carts, editable quantities, removals, discount codes, shipping/tax breakdowns and item count.
 - Researcher popup with both confirmations required; checkout also requires fresh confirmations. These are self-attestations, not independently verified credentials.
@@ -32,7 +36,7 @@ Test shipping supports a flat fee and optional free-shipping minimum. Test tax u
 
 `COMMERCE_MODE=test`: no money is collected, no shipment is scheduled and inventory is not deducted. Every order and receipt is marked as a test. Setting a different mode fails checkout closed because a live payment provider has not been selected. No browser redirect can mark an order as paid.
 
-Live selling still needs an approved payment provider and verified webhook integration, real stock, actual shipping/tax rules, email delivery, confirmed business policies, asset storage under the store's control and public access configuration. Customer authentication currently uses ChatGPT sign-in. The hosted site remains private to its existing audience. Product images and legacy information-page assets still load from the original public image server; `mirror-report.json` records missing legacy assets. The storefront is not a replacement for final launch configuration.
+Live selling still needs an approved payment provider and verified webhook integration, real stock, actual shipping/tax rules, email delivery, confirmed business policies and public access configuration. The existing Sites target uses ChatGPT sign-in and its existing audience; Vercel uses the new Google adapter and separate access settings. Rebranded product images are local. `mirror-report.json` records missing legacy assets; the Vercel audit identifies remaining inherited resource defects. The storefront is not a replacement for final launch configuration.
 
 Newsletter interest and other requests are saved in the dashboard; they do not send emails or create subscriptions on an external service. Fulfillment changes simulate the workflow only.
 
@@ -41,3 +45,17 @@ Newsletter interest and other requests are saved in the dashboard; they do not s
 For isolated browser QA, set `PREVIEW_UI_FIXTURE=1` before running `scripts/preview-shop.mjs`. This local-only mode renders the UI without the popup and supplies synthetic test identity/verification headers to the local Worker. It is not part of the deployed Worker. Normal preview and production retain the popup and authorization. Never use the fixture to assess production access controls; use the integration tests and hosted dispatch configuration.
 
 Do not rerun the archived mirror/finalize scripts on the standalone shop.
+
+## Certificate library assets
+
+The COA library serves 29 product groups and 38 original PDF certificates from `dist/client/certificates/`, with a full-page image rendered from every original PDF. Certificates are labeled by strength and product-page previews follow the selected size. The original source has no exact PDF for 12 offered strengths; those sizes explicitly show that no certificate is published rather than borrowing another strength's report. The RT 60 mg library preview uses its 60 mg report. `src/certificates.json` records the original source URLs and `reports/certificate-product-audit.json` records the audited strength mappings. To explicitly refresh the original assets, run `node scripts/sync-certificates.mjs` followed by the build; ordinary builds preserve them and require no certificate downloads. `tests/certificates.test.mjs` checks every library reference, strength association and asset signature.
+
+The product snapshots are tracked in `src/product-pages/` and copied into the build without fetching the original site. `reports/product-fidelity-audit.json` records every source description, image, variant and certificate association. To intentionally refresh product pages and catalog data, install development dependencies and run `node scripts/sync-product-pages.mjs`. The importer removes original scripts and uses the local cart instead. `tests/product-fidelity.test.mjs` verifies all 81 rendered routes against that audit.
+
+## Seqlyn Labs branding
+
+Seqlyn Labs uses the existing storefront design and black/copper visual identity. `src/brand.js` defines the display identity and intentionally leaves the public origin unset until a new domain is supplied. `src/brand-assets.json` maps legacy image references to local replacements under `dist/client/assets/seqlyn/`. The ordinary build applies these mappings to every generated page and CSS asset. Legacy contact details are replaced with links to the contact form. No deployment, DNS, authentication, database, pricing, or checkout changes are part of the rebrand.
+
+Original third-party certificate PDFs and matching previews remain unmodified; the baseline hashes are recorded in `reports/rebrand/certificate-hashes.json`. Historical import/audit reports retain source-site references for provenance. Rebranding uses the built-in image editor; the edit instructions and output mapping are recorded in `reports/rebrand/`.
+
+For browser verification with disposable data, use `PREVIEW_UI_FIXTURE=1`, `PREVIEW_PORT=4174`, and `PREVIEW_DATABASE=:memory:` and browse `http://127.0.0.1:4174`. This keeps fixture data and browser cookies separate from the normal `http://localhost:4173` preview. Stop that process after QA.

@@ -6,7 +6,7 @@ import worker from '../src/worker.js';
 const source = fs.readFileSync('src/verification.js', 'utf8');
 function fixture(fetch) {
   const checks = [{checked:false,focus(){}},{checked:false,focus(){}}];
-  const button = {disabled:true,textContent:'Enter PH Bio Labs →',addEventListener(_,fn){this.click=fn;}};
+  const button = {disabled:true,textContent:'Enter Seqlyn Labs →',addEventListener(_,fn){this.click=fn;}};
   const overlay = {style:{display:'flex'}};
   let message;
   const form = {querySelector:()=>button,querySelectorAll:()=>checks,append:p=>message=p,addEventListener(){}};

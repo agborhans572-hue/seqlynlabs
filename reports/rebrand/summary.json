@@ -1,0 +1,32 @@
+{
+  "brand": "Seqlyn Labs",
+  "completedAt": "2026-10-17T21:30:20.886Z",
+  "pages": 112,
+  "products": 81,
+  "variants": 66,
+  "editedProductImages": 108,
+  "heroArtwork": 1,
+  "brandAssets": "dist/client/assets/seqlyn/",
+  "imageEditor": "built-in image_gen",
+  "prompts": "reports/rebrand/prompts.md",
+  "originalCertificatePdfsPreserved": 38,
+  "originalCertificatePreviewsPreserved": 38,
+  "tests": {
+    "passed": 34,
+    "failed": 0
+  },
+  "repeatedBuild": {
+    "artifactCount": 249,
+    "identical": true,
+    "changed": []
+  },
+  "normalPreview": {
+    "url": "http://localhost:4173",
+    "health": 200,
+    "productImageSlots": 147,
+    "allProductImagesRebranded": true,
+    "oldSiteImageUrlsInHome": 0
+  },
+  "deploymentChanged": false,
+  "databaseMigrationsChanged": false
+}

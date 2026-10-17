@@ -1,0 +1,54 @@
+{
+  "device": "390 ? 844",
+  "horizontalOverflow": false,
+  "productFormats": [
+    "vials",
+    "capsules",
+    "serums",
+    "sprays"
+  ],
+  "utilityPages": [
+    "cart",
+    "checkout",
+    "contact",
+    "my-account",
+    "coa-library",
+    "buy-peptide-vials"
+  ],
+  "desktopPages": [
+    "home",
+    "vial-product",
+    "capsule-product",
+    "serum-product",
+    "spray-product",
+    "buy-peptide-vials",
+    "coa-library",
+    "my-account",
+    "contact",
+    "cart",
+    "checkout",
+    "admin"
+  ],
+  "variantCheck": {
+    "product": "aod-9604",
+    "options": [
+      {
+        "label": "5mg",
+        "image": "/assets/seqlyn/product-003.png",
+        "certificateAvailable": false
+      },
+      {
+        "label": "10mg",
+        "image": "/assets/seqlyn/product-002.png",
+        "certificateAvailable": true
+      }
+    ]
+  },
+  "dataIsolation": "Browser QA used 127.0.0.1:4174 with an in-memory SQLite database and synthetic test identity; localhost:4173 cart and orders were not used.",
+  "legacyHiddenBanner": {
+    "url": "https://phbiolabs.com/wp-content/uploads/2026/08/PH-Bio-Hero-banner-1.png",
+    "status": 404,
+    "layout": "Hidden on desktop, tablet and mobile; measured rectangle 0 ? 0",
+    "replacement": "Reuse the rebranded visible hero asset without changing the hidden wrapper or layout."
+  }
+}

@@ -1,0 +1,121 @@
+﻿[
+    {
+        "index":  4,
+        "source":  "/assets/source-c5a2c3724bef5bb74dcd.png",
+        "alpha":  0,
+        "width":  1500,
+        "height":  1500
+    },
+    {
+        "index":  7,
+        "source":  "/assets/source-086ea41248a656f6d109.png",
+        "alpha":  255,
+        "width":  1500,
+        "height":  2000
+    },
+    {
+        "index":  9,
+        "source":  "/assets/source-4da4f3262e63d8271f17.png",
+        "alpha":  255,
+        "width":  1500,
+        "height":  2000
+    },
+    {
+        "index":  25,
+        "source":  "/assets/source-e14e2acf081670432fe1.png",
+        "alpha":  255,
+        "width":  1500,
+        "height":  2000
+    },
+    {
+        "index":  40,
+        "source":  "/assets/source-dfc624ac1cbb56e2fa9f.png",
+        "alpha":  255,
+        "width":  1500,
+        "height":  2000
+    },
+    {
+        "index":  47,
+        "source":  "/assets/source-e45d83a23a700eb79af1.png",
+        "alpha":  255,
+        "width":  1500,
+        "height":  2000
+    },
+    {
+        "index":  56,
+        "source":  "/assets/source-45f07c60dc0f9869840c.png",
+        "alpha":  255,
+        "width":  1500,
+        "height":  2000
+    },
+    {
+        "index":  73,
+        "source":  "/assets/source-6805e5e42e9d592dd4cd.png",
+        "alpha":  255,
+        "width":  1500,
+        "height":  2000
+    },
+    {
+        "index":  76,
+        "source":  "/assets/source-51a3a72c8e1a723efa55.png",
+        "alpha":  0,
+        "width":  1500,
+        "height":  1500
+    },
+    {
+        "index":  77,
+        "source":  "/assets/source-3ea003f70e039acc782a.png",
+        "alpha":  255,
+        "width":  1500,
+        "height":  2000
+    },
+    {
+        "index":  83,
+        "source":  "/assets/source-1594a964fca26f77bfb7.png",
+        "alpha":  255,
+        "width":  1500,
+        "height":  2000
+    },
+    {
+        "index":  86,
+        "source":  "/assets/source-63de6070a225592a1de9.png",
+        "alpha":  0,
+        "width":  1500,
+        "height":  1500
+    },
+    {
+        "index":  87,
+        "source":  "/assets/source-33efe4aa519ec2b59177.png",
+        "alpha":  0,
+        "width":  1500,
+        "height":  1500
+    },
+    {
+        "index":  88,
+        "source":  "/assets/source-2c2968adfbee93465571.png",
+        "alpha":  255,
+        "width":  1500,
+        "height":  2000
+    },
+    {
+        "index":  89,
+        "source":  "/assets/source-344f7e1fc8b353f72d2b.png",
+        "alpha":  0,
+        "width":  1500,
+        "height":  1500
+    },
+    {
+        "index":  92,
+        "source":  "/assets/source-a504c1613f1ec76b40d8.png",
+        "alpha":  0,
+        "width":  1500,
+        "height":  1500
+    },
+    {
+        "index":  105,
+        "source":  "/assets/source-b8202bff643e857b8945.png",
+        "alpha":  0,
+        "width":  1500,
+        "height":  1500
+    }
+]

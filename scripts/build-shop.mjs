@@ -1,8 +1,14 @@
 import './finish-shop.mjs';
+await import('./prepare-product-pages.mjs');
+const {rebrandDirectory}=await import('./rebrand-shop.mjs');
+await rebrandDirectory('dist/client');
 await import('./prepare-domain.mjs');
 import fs from 'node:fs/promises';
 await fs.mkdir('dist/server',{recursive:true});
 let worker=await fs.readFile('src/worker.js','utf8');const catalog=await fs.readFile('src/catalog.js','utf8');worker=worker.replace("import catalog from './catalog.js';",()=>catalog.replace('export default','const catalog ='));
+const brandModule=(await fs.readFile('src/brand.js','utf8')).replace(/^import[^\n]+\n/,'').replace(/\bexport /g,'');
+const assetManifest=JSON.parse(await fs.readFile('src/brand-assets.json','utf8'));
+worker=worker.replace("import {brand,presentProduct} from './brand.js';",()=>"const assetManifest="+JSON.stringify(assetManifest)+";\n"+brandModule);
 await fs.writeFile('dist/server/index.js',worker);
 await fs.mkdir('dist/.openai',{recursive:true});await fs.copyFile('.openai/hosting.json','dist/.openai/hosting.json');
 await fs.cp('drizzle','dist/.openai/drizzle',{recursive:true});

@@ -1,0 +1,982 @@
+[
+  {
+    "file": "about/index.html",
+    "url": "/assets/77564e3cfafb53780306.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "about/index.html",
+    "url": "/assets/a48b3f468749d2950418.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "about/index.html",
+    "url": "/assets/a32eb69aff0bc87a7b4c.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "about/index.html",
+    "url": "https://maps.googleapis.com/maps/api/js?key=&amp;libraries=places&amp;ver=7.1.2",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "about/index.html",
+    "url": "/assets/b78ac8d1f63ceffb7dbb.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "about/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "about/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "about/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "about/index.html",
+    "url": "/assets/0868b99246cc396d64e5.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "about/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "about/index.html",
+    "url": "/assets/76d30a68a643dc0a8751.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "about/index.html",
+    "url": "/assets/e88e70cd0e53f9688135.js",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "about/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "about/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "about/index.html",
+    "url": "/assets/1aecfb2c27bfb666c41c.png",
+    "action": "Use approved Seqlyn hero for missing About image"
+  },
+  {
+    "file": "about/index.html",
+    "url": "/assets/919fb4b09931c097843c.bin",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/2a6217857957e6fc5aa0.css",
+    "url": "/assets/dd498cb6e1bd5d606e7e.woff2",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/2a6217857957e6fc5aa0.css",
+    "url": "/assets/bad37e93fe2044dd8752.woff2",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/2a6217857957e6fc5aa0.css",
+    "url": "/assets/14c723ffb4d4f8e80ce2.woff2",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/2a6217857957e6fc5aa0.css",
+    "url": "/assets/78fc6d86283dadeb5ac5.woff2",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/2a6217857957e6fc5aa0.css",
+    "url": "/assets/efccefc984fb2042a12e.woff2",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/2a6217857957e6fc5aa0.css",
+    "url": "/assets/e4e6c786971411164172.woff2",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/2a6217857957e6fc5aa0.css",
+    "url": "/assets/01cb9ebc29865afc7ad8.woff2",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/2a6217857957e6fc5aa0.css",
+    "url": "/assets/76af95380a0b343fee2b.woff2",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/2a6217857957e6fc5aa0.css",
+    "url": "/assets/c767af244c52850ba59b.woff2",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/2a6217857957e6fc5aa0.css",
+    "url": "/assets/7e90bef385ef8327c274.woff2",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/2a6217857957e6fc5aa0.css",
+    "url": "/assets/45d7adcd2b84e1a776a3.woff2",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/2a6217857957e6fc5aa0.css",
+    "url": "/assets/6d4fa62b4c0c3d373e81.woff2",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/6cc3881b8c66035bcfa3.css",
+    "url": "/assets/b59ee6888c971125c337.woff2",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/6cc3881b8c66035bcfa3.css",
+    "url": "/assets/cd5767ff58a2b1af8822.woff",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/6cc3881b8c66035bcfa3.css",
+    "url": "/assets/cec117844e7905779ff1.ttf",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/6cc3881b8c66035bcfa3.css",
+    "url": "/assets/b59ee6888c971125c337.woff2",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/6cc3881b8c66035bcfa3.css",
+    "url": "/assets/cd5767ff58a2b1af8822.woff",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/6cc3881b8c66035bcfa3.css",
+    "url": "/assets/cec117844e7905779ff1.ttf",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/6cc3881b8c66035bcfa3.css",
+    "url": "/assets/869c5a2133f520a25e99.svg",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/6cc3881b8c66035bcfa3.css",
+    "url": "/assets/869c5a2133f520a25e99.svg",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/6cc3881b8c66035bcfa3.css",
+    "url": "/assets/5e27be868c18b182ff16.svg",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/6cc3881b8c66035bcfa3.css",
+    "url": "/assets/f992b62d6c73ceeecbb6.svg",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/6cc3881b8c66035bcfa3.css",
+    "url": "/assets/612bccb8a4d555b5ed8b.svg",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/6cc3881b8c66035bcfa3.css",
+    "url": "/assets/ac430fcf376fe54daf43.svg",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/6cc3881b8c66035bcfa3.css",
+    "url": "/assets/13dd4354186475953d67.svg",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/6cc3881b8c66035bcfa3.css",
+    "url": "/assets/fb3cd35af1fa6a3ab7f7.svg",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/6cc3881b8c66035bcfa3.css",
+    "url": "/assets/01a89535b6a8655ceb23.svg",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/6cc3881b8c66035bcfa3.css",
+    "url": "/assets/45d585a91f4fdbd65337.svg",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/ac5867cd3dfac878aa06.css",
+    "url": "/assets/3f42f0a028bb580352f1.png",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/ac5867cd3dfac878aa06.css",
+    "url": "/assets/43af6d9178f89247a1ce.svg",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/ac5867cd3dfac878aa06.css",
+    "url": "/assets/87da6b2283a172b7dc66.gif",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/bffccb1a99715f1293ce.css",
+    "url": "/assets/b91554dc720fd7ee9cbb.png",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/bffccb1a99715f1293ce.css",
+    "url": "/assets/24708e43614bed3e3d15.png",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/d37275feef133c6cc30d.css",
+    "url": "/assets/f51067ddf3ba5859e34f.png",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/d37275feef133c6cc30d.css",
+    "url": "/assets/cf681b8c85d199df91b2.png",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/d37275feef133c6cc30d.css",
+    "url": "/assets/235003b874433c755db8.png",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "assets/e8824b26de6505d7e822.css",
+    "url": "/assets/3f42f0a028bb580352f1.png",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "buy-peptide-capsules/index.html",
+    "url": "/assets/4de3f970b0f1866bcfa8.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "buy-peptide-capsules/index.html",
+    "url": "/assets/25146b79291b0f6371fc.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "buy-peptide-capsules/index.html",
+    "url": "https://maps.googleapis.com/maps/api/js?key=&amp;libraries=places&amp;ver=7.1.2",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "buy-peptide-capsules/index.html",
+    "url": "/assets/b78ac8d1f63ceffb7dbb.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-capsules/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-capsules/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-capsules/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-capsules/index.html",
+    "url": "/assets/0868b99246cc396d64e5.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-capsules/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-capsules/index.html",
+    "url": "/assets/76d30a68a643dc0a8751.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-capsules/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "buy-peptide-capsules/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "buy-peptide-serums/index.html",
+    "url": "/assets/d94f102320041819eaa7.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "buy-peptide-serums/index.html",
+    "url": "/assets/76960ae923c1c8b5da89.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "buy-peptide-serums/index.html",
+    "url": "https://maps.googleapis.com/maps/api/js?key=&amp;libraries=places&amp;ver=7.1.2",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "buy-peptide-serums/index.html",
+    "url": "/assets/b78ac8d1f63ceffb7dbb.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-serums/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-serums/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-serums/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-serums/index.html",
+    "url": "/assets/0868b99246cc396d64e5.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-serums/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-serums/index.html",
+    "url": "/assets/76d30a68a643dc0a8751.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-serums/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "buy-peptide-serums/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "buy-peptide-vials/index.html",
+    "url": "/assets/a6d4e37ce7dc1a0ac1e0.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "buy-peptide-vials/index.html",
+    "url": "/assets/cdb89c7f7ca25fcbd1c4.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "buy-peptide-vials/index.html",
+    "url": "https://maps.googleapis.com/maps/api/js?key=&amp;libraries=places&amp;ver=7.1.2",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "buy-peptide-vials/index.html",
+    "url": "/assets/b78ac8d1f63ceffb7dbb.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-vials/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-vials/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-vials/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-vials/index.html",
+    "url": "/assets/0868b99246cc396d64e5.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-vials/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-vials/index.html",
+    "url": "/assets/76d30a68a643dc0a8751.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "buy-peptide-vials/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "buy-peptide-vials/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "coa-library/index.html",
+    "url": "/assets/ae0b6b4a4d5ac3d1e922.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "coa-library/index.html",
+    "url": "/assets/c24947f9394d6a2fd650.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "coa-library/index.html",
+    "url": "https://maps.googleapis.com/maps/api/js?key=&amp;libraries=places&amp;ver=7.1.2",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "coa-library/index.html",
+    "url": "/assets/b78ac8d1f63ceffb7dbb.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "coa-library/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "coa-library/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "coa-library/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "coa-library/index.html",
+    "url": "/assets/0868b99246cc396d64e5.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "coa-library/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "coa-library/index.html",
+    "url": "/assets/76d30a68a643dc0a8751.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "coa-library/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "coa-library/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "coa-library/index.html",
+    "url": "/assets/a53de38f20e706ba0bd1.png",
+    "action": "Remove failed optional font/background URL"
+  },
+  {
+    "file": "index.html",
+    "url": "https://maps.googleapis.com/maps/api/js?key=&amp;libraries=places&amp;ver=7.1.2",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "index.html",
+    "url": "/assets/b78ac8d1f63ceffb7dbb.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "index.html",
+    "url": "/assets/0868b99246cc396d64e5.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "index.html",
+    "url": "/assets/76d30a68a643dc0a8751.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "privacy-policy/index.html",
+    "url": "/assets/6165074fbd991c116e4f.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "privacy-policy/index.html",
+    "url": "/assets/c2a9ed05f958fffa616f.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "privacy-policy/index.html",
+    "url": "https://maps.googleapis.com/maps/api/js?key=&amp;libraries=places&amp;ver=7.1.2",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "privacy-policy/index.html",
+    "url": "/assets/b78ac8d1f63ceffb7dbb.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "privacy-policy/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "privacy-policy/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "privacy-policy/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "privacy-policy/index.html",
+    "url": "/assets/0868b99246cc396d64e5.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "privacy-policy/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "privacy-policy/index.html",
+    "url": "/assets/76d30a68a643dc0a8751.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "privacy-policy/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "privacy-policy/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "refund_returns/index.html",
+    "url": "/assets/c2b88af58bd260fcb287.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "refund_returns/index.html",
+    "url": "/assets/9745e7db69ff12e41868.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "refund_returns/index.html",
+    "url": "https://maps.googleapis.com/maps/api/js?key=&amp;libraries=places&amp;ver=7.1.2",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "refund_returns/index.html",
+    "url": "/assets/b78ac8d1f63ceffb7dbb.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "refund_returns/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "refund_returns/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "refund_returns/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "refund_returns/index.html",
+    "url": "/assets/0868b99246cc396d64e5.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "refund_returns/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "refund_returns/index.html",
+    "url": "/assets/76d30a68a643dc0a8751.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "refund_returns/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "refund_returns/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "ruo-policy/index.html",
+    "url": "/assets/8edb62440e257de6a6b2.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "ruo-policy/index.html",
+    "url": "/assets/90866f8081e630598b76.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "ruo-policy/index.html",
+    "url": "https://maps.googleapis.com/maps/api/js?key=&amp;libraries=places&amp;ver=7.1.2",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "ruo-policy/index.html",
+    "url": "/assets/b78ac8d1f63ceffb7dbb.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "ruo-policy/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "ruo-policy/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "ruo-policy/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "ruo-policy/index.html",
+    "url": "/assets/0868b99246cc396d64e5.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "ruo-policy/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "ruo-policy/index.html",
+    "url": "/assets/76d30a68a643dc0a8751.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "ruo-policy/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "ruo-policy/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "shipping-policy/index.html",
+    "url": "/assets/a553338ee9f43fbf9c47.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "shipping-policy/index.html",
+    "url": "/assets/19da3c12ea5fa1a2e00d.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "shipping-policy/index.html",
+    "url": "https://maps.googleapis.com/maps/api/js?key=&amp;libraries=places&amp;ver=7.1.2",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "shipping-policy/index.html",
+    "url": "/assets/b78ac8d1f63ceffb7dbb.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "shipping-policy/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "shipping-policy/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "shipping-policy/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "shipping-policy/index.html",
+    "url": "/assets/0868b99246cc396d64e5.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "shipping-policy/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "shipping-policy/index.html",
+    "url": "/assets/76d30a68a643dc0a8751.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "shipping-policy/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "shipping-policy/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "specials/index.html",
+    "url": "/assets/694a30b85edf1755243b.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "specials/index.html",
+    "url": "/assets/066da6a770b2365c8e0e.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "specials/index.html",
+    "url": "https://maps.googleapis.com/maps/api/js?key=&amp;libraries=places&amp;ver=7.1.2",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "specials/index.html",
+    "url": "/assets/b78ac8d1f63ceffb7dbb.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "specials/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "specials/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "specials/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "specials/index.html",
+    "url": "/assets/0868b99246cc396d64e5.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "specials/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "specials/index.html",
+    "url": "/assets/76d30a68a643dc0a8751.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "specials/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "specials/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "sprays/index.html",
+    "url": "/assets/cde68652072b69779cfd.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "sprays/index.html",
+    "url": "/assets/3519b34d7afbdc916847.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "sprays/index.html",
+    "url": "https://maps.googleapis.com/maps/api/js?key=&amp;libraries=places&amp;ver=7.1.2",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "sprays/index.html",
+    "url": "/assets/b78ac8d1f63ceffb7dbb.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "sprays/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "sprays/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "sprays/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "sprays/index.html",
+    "url": "/assets/0868b99246cc396d64e5.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "sprays/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "sprays/index.html",
+    "url": "/assets/76d30a68a643dc0a8751.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "sprays/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "sprays/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "terms-and-conditions/index.html",
+    "url": "/assets/a6c31c8f91d47d2c332f.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "terms-and-conditions/index.html",
+    "url": "/assets/70b5ee8de538bdfae996.css",
+    "action": "Remove failed stylesheet/preload"
+  },
+  {
+    "file": "terms-and-conditions/index.html",
+    "url": "https://maps.googleapis.com/maps/api/js?key=&amp;libraries=places&amp;ver=7.1.2",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "terms-and-conditions/index.html",
+    "url": "/assets/b78ac8d1f63ceffb7dbb.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "terms-and-conditions/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "terms-and-conditions/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "terms-and-conditions/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "terms-and-conditions/index.html",
+    "url": "/assets/0868b99246cc396d64e5.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "terms-and-conditions/index.html",
+    "url": "Legacy tracker configuration",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "terms-and-conditions/index.html",
+    "url": "/assets/76d30a68a643dc0a8751.js",
+    "action": "Remove obsolete tracking/payment SDK"
+  },
+  {
+    "file": "terms-and-conditions/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  },
+  {
+    "file": "terms-and-conditions/index.html",
+    "url": "WordPress emoji loader",
+    "action": "Remove failed/obsolete script"
+  }
+]

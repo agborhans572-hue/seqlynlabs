@@ -1,0 +1,40 @@
+{
+  "status": "prepared-for-configured-test-deployment",
+  "deployed": false,
+  "tests": {
+    "passed": 40,
+    "failed": 0
+  },
+  "build": {
+    "files": 645,
+    "staticBytes": 233085504,
+    "omittedUnusedImages": 441,
+    "functionBytes": 475597,
+    "origin": null
+  },
+  "assets": {
+    "pages": 112,
+    "missing": 0,
+    "externalFontStylesheets": 6
+  },
+  "checks": [
+    "exact bundled Node launcher",
+    "atomic libSQL batches and repeatable migrations",
+    "spoofed identity rejection",
+    "verified Google session and administrator authorization",
+    "guest test checkout and private receipt",
+    "desktop About form saved to separate local inbox",
+    "390px mobile account layout without horizontal overflow",
+    "desktop home without missing visible images",
+    "all original certificate bytes preserved"
+  ],
+  "requires": [
+    "Vercel project and suitable plan",
+    "hosted Turso credentials and migrations",
+    "Google OAuth credentials and authorized callback",
+    "AUTH_SECRET and SHOP_ADMIN_EMAIL",
+    "hosted HTTPS smoke tests"
+  ],
+  "preview": "http://localhost:4175",
+  "payments": "test only"
+}

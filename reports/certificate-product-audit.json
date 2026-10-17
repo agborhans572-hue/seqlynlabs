@@ -1,0 +1,650 @@
+{
+  "auditedDate": "2026-10-17",
+  "method": "Read-only source-product link check and visual rendering of all 38 original PDFs and all 29 source previews.",
+  "summary": {
+    "certificateCount": 38,
+    "productCount": 29,
+    "exactCertificates": 37,
+    "unavailableCertificates": 1,
+    "variantsWithoutExactCertificate": 12
+  },
+  "issues": [
+    {
+      "productId": "glp-1-rt-60mg",
+      "classification": "source-preview-strength-mismatch",
+      "note": "Source title says 60 mg, but source default preview/PDF COA5677 shows Retatrutide 12mg. Correct 60mg PDF is COA5679. Preserve all three with explicit strength labels."
+    },
+    {
+      "productId": "glp-2tr",
+      "classification": "source-archived-strength",
+      "note": "COA7354 documents Tirzepatide 100mg; source offers 5,10,30,60,120mg, so retain as a labeled original report without binding it to a current variant."
+    }
+  ],
+  "certificates": [
+    {
+      "filename": "COA6015-7-8-26.pdf",
+      "compound": "AOD-9604",
+      "strength": "10mg",
+      "productId": "aod-9604",
+      "variantIds": [
+        "aod-9604--1219"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6015-7-8-26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/aod-9604/",
+      "localPdf": "/certificates/COA6015-7-8-26.pdf",
+      "preview": "/certificates/COA6015-7-8-26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA6405-7-17-26.pdf",
+      "compound": "BPC-157",
+      "strength": "10mg",
+      "productId": "bpc-157-10mg",
+      "variantIds": [],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6405-7-17-26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/bpc-157-10mg/",
+      "localPdf": "/certificates/COA6405-7-17-26.pdf",
+      "preview": "/certificates/COA6405-7-17-26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA5691.pdf",
+      "compound": "CJC-1295 (NO DAC) / Ipamorelin",
+      "strength": "10mg / 10mg",
+      "productId": "cjc-1295-ipamorelin",
+      "variantIds": [],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA5691.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/cjc-1295-ipamorelin/",
+      "localPdf": "/certificates/COA5691.pdf",
+      "preview": "/certificates/COA5691.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA7365.pdf",
+      "compound": "Epithalon",
+      "strength": "50mg",
+      "productId": "epithalon-epitalon-50mg",
+      "variantIds": [],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA7365.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/epithalon-epitalon-50mg/",
+      "localPdf": "/certificates/COA7365.pdf",
+      "preview": "/certificates/COA7365.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA7356.pdf",
+      "compound": "GHK-Cu",
+      "strength": "50mg",
+      "productId": "ghk-cu",
+      "variantIds": [
+        "ghk-cu--1181"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA7356.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/ghk-cu/",
+      "localPdf": "/certificates/COA7356.pdf",
+      "preview": "/certificates/COA7356.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA7357.pdf",
+      "compound": "GHK-Cu",
+      "strength": "100mg",
+      "productId": "ghk-cu",
+      "variantIds": [
+        "ghk-cu--1182"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA7357.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/ghk-cu/",
+      "localPdf": "/certificates/COA7357.pdf",
+      "preview": "/certificates/COA7357.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA7358.pdf",
+      "compound": "GHK-Cu / BPC-157 / TB-500",
+      "strength": "50/10/10mg",
+      "productId": "glow-blend-peptides",
+      "variantIds": [
+        "glow-blend-peptides--1178"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA7358.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/glow-blend-peptides/",
+      "localPdf": "/certificates/COA7358.pdf",
+      "preview": "/certificates/COA7358.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA5677-6_24_26.pdf",
+      "compound": "Retatrutide",
+      "strength": "12mg",
+      "productId": "glp-1-rt-60mg",
+      "variantIds": [
+        "glp-1-rt-60mg--1196"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA5677-6_24_26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/glp-1-rt-60mg/",
+      "localPdf": "/certificates/COA5677-6_24_26.pdf",
+      "preview": "/certificates/COA5677-6_24_26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA5678-6_24_26.pdf",
+      "compound": "Retatrutide",
+      "strength": "24mg",
+      "productId": "glp-1-rt-60mg",
+      "variantIds": [
+        "glp-1-rt-60mg--1197"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA5678-6_24_26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/glp-1-rt-60mg/",
+      "localPdf": "/certificates/COA5678-6_24_26.pdf",
+      "preview": "/certificates/COA5678-6_24_26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA5679-6_24_26.pdf",
+      "compound": "Retatrutide",
+      "strength": "60mg",
+      "productId": "glp-1-rt-60mg",
+      "variantIds": [
+        "glp-1-rt-60mg--1199"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA5679-6_24_26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/glp-1-rt-60mg/",
+      "localPdf": "/certificates/COA5679-6_24_26.pdf",
+      "preview": "/certificates/COA5679-6_24_26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA6094-7-7-26.pdf",
+      "compound": "Semaglutide / BPC-157",
+      "strength": "30mg / 3.5mg",
+      "productId": "glp-1-sm-bpc-157-vial",
+      "variantIds": [],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6094-7-7-26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/glp-1-sm-bpc-157-vial/",
+      "localPdf": "/certificates/COA6094-7-7-26.pdf",
+      "preview": "/certificates/COA6094-7-7-26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA7362.pdf",
+      "compound": "Semaglutide",
+      "strength": "10mg",
+      "productId": "glp-1sm",
+      "variantIds": [
+        "glp-1sm--1201"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA7362.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/glp-1sm/",
+      "localPdf": "/certificates/COA7362.pdf",
+      "preview": "/certificates/COA7362.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA7363.pdf",
+      "compound": "Semaglutide",
+      "strength": "5mg",
+      "productId": "glp-1sm",
+      "variantIds": [
+        "glp-1sm--1200"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA7363.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/glp-1sm/",
+      "localPdf": "/certificates/COA7363.pdf",
+      "preview": "/certificates/COA7363.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA7355.pdf",
+      "compound": "Tirzepatide",
+      "strength": "10mg",
+      "productId": "glp-2tr",
+      "variantIds": [
+        "glp-2tr--1206"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA7355.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/glp-2tr/",
+      "localPdf": "/certificates/COA7355.pdf",
+      "preview": "/certificates/COA7355.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA5686-6_25_26.pdf",
+      "compound": "Tirzepatide",
+      "strength": "60mg",
+      "productId": "glp-2tr",
+      "variantIds": [
+        "glp-2tr--1208"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA5686-6_25_26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/glp-2tr/",
+      "localPdf": "/certificates/COA5686-6_25_26.pdf",
+      "preview": "/certificates/COA5686-6_25_26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA7354.pdf",
+      "compound": "Tirzepatide",
+      "strength": "100mg",
+      "productId": "glp-2tr",
+      "variantIds": [],
+      "classification": "unavailable",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA7354.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/glp-2tr/",
+      "localPdf": "/certificates/COA7354.pdf",
+      "preview": "/certificates/COA7354.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link.",
+      "note": "Original source PDF retained; this strength has no current product variant."
+    },
+    {
+      "filename": "COA7353.pdf",
+      "compound": "Tirzepatide",
+      "strength": "120mg",
+      "productId": "glp-2tr",
+      "variantIds": [
+        "glp-2tr--1209"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA7353.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/glp-2tr/",
+      "localPdf": "/certificates/COA7353.pdf",
+      "preview": "/certificates/COA7353.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA7361.pdf",
+      "compound": "HCG",
+      "strength": "10000 iu",
+      "productId": "hcg",
+      "variantIds": [
+        "hcg--1190"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA7361.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/hcg/",
+      "localPdf": "/certificates/COA7361.pdf",
+      "preview": "/certificates/COA7361.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA6016-7-8-26.pdf",
+      "compound": "IGF1-LR3",
+      "strength": "1mg",
+      "productId": "igf-lr3-1mg",
+      "variantIds": [],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6016-7-8-26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/igf-lr3-1mg/",
+      "localPdf": "/certificates/COA6016-7-8-26.pdf",
+      "preview": "/certificates/COA6016-7-8-26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA7364.pdf",
+      "compound": "Ipamorelin",
+      "strength": "10mg",
+      "productId": "ipamorelin",
+      "variantIds": [
+        "ipamorelin--1192"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA7364.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/ipamorelin/",
+      "localPdf": "/certificates/COA7364.pdf",
+      "preview": "/certificates/COA7364.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA6098-7-9-26.pdf",
+      "compound": "GHK-Cu / BPC-157 / TB-500 / KPV",
+      "strength": "50/10/10/10mg",
+      "productId": "klow-blend-50-10-10-10mg",
+      "variantIds": [],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6098-7-9-26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/klow-blend-50-10-10-10mg/",
+      "localPdf": "/certificates/COA6098-7-9-26.pdf",
+      "preview": "/certificates/COA6098-7-9-26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA6099-7-7-26.pdf",
+      "compound": "KPV",
+      "strength": "10mg",
+      "productId": "kpv-10mg",
+      "variantIds": [],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6099-7-7-26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/kpv-10mg/",
+      "localPdf": "/certificates/COA6099-7-7-26.pdf",
+      "preview": "/certificates/COA6099-7-7-26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA6101-7-7-26.pdf",
+      "compound": "Melanotan II",
+      "strength": "10mg",
+      "productId": "melanotan-2-10mg",
+      "variantIds": [],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6101-7-7-26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/melanotan-2-10mg/",
+      "localPdf": "/certificates/COA6101-7-7-26.pdf",
+      "preview": "/certificates/COA6101-7-7-26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA6406-7-17-26.pdf",
+      "compound": "MOTS-C",
+      "strength": "10mg",
+      "productId": "mots-c",
+      "variantIds": [
+        "mots-c--1175"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6406-7-17-26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/mots-c/",
+      "localPdf": "/certificates/COA6406-7-17-26.pdf",
+      "preview": "/certificates/COA6406-7-17-26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA6102-7-9-26.pdf",
+      "compound": "MOTS-C",
+      "strength": "40mg",
+      "productId": "mots-c",
+      "variantIds": [
+        "mots-c--1176"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6102-7-9-26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/mots-c/",
+      "localPdf": "/certificates/COA6102-7-9-26.pdf",
+      "preview": "/certificates/COA6102-7-9-26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA7359.pdf",
+      "compound": "NAD+",
+      "strength": "1000mg",
+      "productId": "nad",
+      "variantIds": [
+        "nad--1180"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA7359.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/nad/",
+      "localPdf": "/certificates/COA7359.pdf",
+      "preview": "/certificates/COA7359.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA7360.pdf",
+      "compound": "NAD+",
+      "strength": "500mg",
+      "productId": "nad",
+      "variantIds": [
+        "nad--1179"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA7360.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/nad/",
+      "localPdf": "/certificates/COA7360.pdf",
+      "preview": "/certificates/COA7360.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA6009-7-8-26.pdf",
+      "compound": "Oxytocin",
+      "strength": "10mg",
+      "productId": "oxytocin-10mg",
+      "variantIds": [],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6009-7-8-26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/oxytocin-10mg/",
+      "localPdf": "/certificates/COA6009-7-8-26.pdf",
+      "preview": "/certificates/COA6009-7-8-26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA6103-7_7_26.pdf",
+      "compound": "PT-141",
+      "strength": "10mg",
+      "productId": "pt-141-10mg",
+      "variantIds": [],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6103-7_7_26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/pt-141-10mg/",
+      "localPdf": "/certificates/COA6103-7_7_26.pdf",
+      "preview": "/certificates/COA6103-7_7_26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA6104-7_7_26.pdf",
+      "compound": "Selank",
+      "strength": "10mg",
+      "productId": "selank-10mg",
+      "variantIds": [],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6104-7_7_26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/selank-10mg/",
+      "localPdf": "/certificates/COA6104-7_7_26.pdf",
+      "preview": "/certificates/COA6104-7_7_26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA6107-7_7_26.pdf",
+      "compound": "Semax",
+      "strength": "10mg",
+      "productId": "semax-10mg",
+      "variantIds": [],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6107-7_7_26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/semax-10mg/",
+      "localPdf": "/certificates/COA6107-7_7_26.pdf",
+      "preview": "/certificates/COA6107-7_7_26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA6105-7_7_26.pdf",
+      "compound": "Semax / Selank",
+      "strength": "10mg / 10mg",
+      "productId": "semax-selank-10mg-10mg",
+      "variantIds": [],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6105-7_7_26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/semax-selank-10mg-10mg/",
+      "localPdf": "/certificates/COA6105-7_7_26.pdf",
+      "preview": "/certificates/COA6105-7_7_26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA6108-7_7_26.pdf",
+      "compound": "Sermorelin",
+      "strength": "10mg",
+      "productId": "sermorelin",
+      "variantIds": [
+        "sermorelin--1204"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6108-7_7_26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/sermorelin/",
+      "localPdf": "/certificates/COA6108-7_7_26.pdf",
+      "preview": "/certificates/COA6108-7_7_26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA6109-7_7_26.pdf",
+      "compound": "TB-500",
+      "strength": "10mg",
+      "productId": "tb-500",
+      "variantIds": [
+        "tb-500--1211"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6109-7_7_26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/tb-500/",
+      "localPdf": "/certificates/COA6109-7_7_26.pdf",
+      "preview": "/certificates/COA6109-7_7_26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA7394-1.pdf",
+      "compound": "Tesamorelin",
+      "strength": "10mg",
+      "productId": "tesamorelin",
+      "variantIds": [
+        "tesamorelin--1213"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA7394-1.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/tesamorelin/",
+      "localPdf": "/certificates/COA7394-1.pdf",
+      "preview": "/certificates/COA7394-1.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA6401-7_17_26.pdf",
+      "compound": "Tesamorelin / Ipamorelin",
+      "strength": "10mg / 5mg",
+      "productId": "tesamorelin-ipamorelin-blend",
+      "variantIds": [
+        "tesamorelin-ipamorelin-blend--1214"
+      ],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6401-7_17_26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/tesamorelin-ipamorelin-blend/",
+      "localPdf": "/certificates/COA6401-7_17_26.pdf",
+      "preview": "/certificates/COA6401-7_17_26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA6014-7_8_26.pdf",
+      "compound": "Thymosin Alpha-1",
+      "strength": "10mg",
+      "productId": "thymosin-alpha-1",
+      "variantIds": [],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA6014-7_8_26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/thymosin-alpha-1/",
+      "localPdf": "/certificates/COA6014-7_8_26.pdf",
+      "preview": "/certificates/COA6014-7_8_26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    },
+    {
+      "filename": "COA5675-6-24-26.pdf",
+      "compound": "BPC-157 / TB-500",
+      "strength": "10mg / 10mg",
+      "productId": "wolverine-blend-bpc-157-tb-500-10-10mg",
+      "variantIds": [],
+      "classification": "exact",
+      "sourceUrl": "https://phbiolabs.com/wp-content/uploads/2026/08/COA5675-6-24-26.pdf",
+      "sourceProductUrl": "https://phbiolabs.com/buy/wolverine-blend-bpc-157-tb-500-10-10mg/",
+      "localPdf": "/certificates/COA5675-6-24-26.pdf",
+      "preview": "/certificates/COA5675-6-24-26.jpg",
+      "evidence": "Visually read original PDF sample name and test results; matched direct source product-page PDF link."
+    }
+  ],
+  "unavailableVariants": [
+    {
+      "productId": "aod-9604",
+      "variantId": "aod-9604--1218",
+      "strength": "5mg",
+      "classification": "unavailable",
+      "note": "No original PDF for this exact product strength is linked by the source product page / COA library."
+    },
+    {
+      "productId": "glow-blend-peptides",
+      "variantId": "glow-blend-peptides--1177",
+      "strength": "27/5/10mg",
+      "classification": "unavailable",
+      "note": "No original PDF for this exact product strength is linked by the source product page / COA library."
+    },
+    {
+      "productId": "glp-1-rt-60mg",
+      "variantId": "glp-1-rt-60mg--1195",
+      "strength": "5mg",
+      "classification": "unavailable",
+      "note": "No original PDF for this exact product strength is linked by the source product page / COA library."
+    },
+    {
+      "productId": "glp-1-rt-60mg",
+      "variantId": "glp-1-rt-60mg--1198",
+      "strength": "30mg",
+      "classification": "unavailable",
+      "note": "No original PDF for this exact product strength is linked by the source product page / COA library."
+    },
+    {
+      "productId": "glp-1sm",
+      "variantId": "glp-1sm--1202",
+      "strength": "30mg",
+      "classification": "unavailable",
+      "note": "No original PDF for this exact product strength is linked by the source product page / COA library."
+    },
+    {
+      "productId": "glp-2tr",
+      "variantId": "glp-2tr--1205",
+      "strength": "5mg",
+      "classification": "unavailable",
+      "note": "No original PDF for this exact product strength is linked by the source product page / COA library."
+    },
+    {
+      "productId": "glp-2tr",
+      "variantId": "glp-2tr--1207",
+      "strength": "30mg",
+      "classification": "unavailable",
+      "note": "No original PDF for this exact product strength is linked by the source product page / COA library."
+    },
+    {
+      "productId": "hcg",
+      "variantId": "hcg--1189",
+      "strength": "5000 iu",
+      "classification": "unavailable",
+      "note": "No original PDF for this exact product strength is linked by the source product page / COA library."
+    },
+    {
+      "productId": "ipamorelin",
+      "variantId": "ipamorelin--1191",
+      "strength": "5mg",
+      "classification": "unavailable",
+      "note": "No original PDF for this exact product strength is linked by the source product page / COA library."
+    },
+    {
+      "productId": "sermorelin",
+      "variantId": "sermorelin--1203",
+      "strength": "5mg",
+      "classification": "unavailable",
+      "note": "No original PDF for this exact product strength is linked by the source product page / COA library."
+    },
+    {
+      "productId": "tb-500",
+      "variantId": "tb-500--1210",
+      "strength": "5mg",
+      "classification": "unavailable",
+      "note": "No original PDF for this exact product strength is linked by the source product page / COA library."
+    },
+    {
+      "productId": "tesamorelin",
+      "variantId": "tesamorelin--1212",
+      "strength": "5mg",
+      "classification": "unavailable",
+      "note": "No original PDF for this exact product strength is linked by the source product page / COA library."
+    }
+  ]
+}

@@ -1,0 +1,2052 @@
+{
+  "source": "https://phbiolabs.com",
+  "checkedAt": "2026-10-17T19:04:36.226Z",
+  "products": [
+    {
+      "id": "5-amino-1mq-capsules",
+      "path": "/buy/5-amino-1mq-capsules/",
+      "name": "5-Amino-1MQ Capsules",
+      "sourceId": "1099",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-25-at-11.21.46-AM.png",
+      "description": "5-Amino-1 MQ is a small molecule compound that has been studied for its potential role in regulating fat metabolism and energy balance. It is known for its interaction with the enzyme NNMT (nicotinamide N-methyltransferase).",
+      "price": 7999,
+      "variants": [
+        {
+          "id": "5-amino-1mq-capsules--1157",
+          "label": "60 Capsules",
+          "price": 7999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-25-at-11.21.46-AM.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "5-Amino-1MQ Capsules is a PH Bio Labs research formula. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. 5-Amino-1MQ is a research-grade compound that scientists study to understand metabolic regulation. This small molecule is key in modulating fat metabolism and energy balance. Consequently, researchers focus on its effects on lipid accumulation and cellular energy production. Furthermore, scientists examine how 5-Amino-1 MQ interacts with enzymes such as nicotinamide N-methyltransferase (NNMT). They explore how this interaction influences metabolic pathways and alters cell signaling mechanisms. In turn, this research helps uncover new insights into complex metabolic processes. Moreover, researchers investigate the compound’s impact on muscle function and overall energy expenditure. They conduct controlled laboratory experiments to measure changes in fat deposition and energy utilization. These studies aim to reveal potential therapeutic applications for various metabolic disorders. Finally, each batch of Capsules undergoes rigorous laboratory testing to ensure high purity and consistent potency. Researchers rely on its quality to produce reproducible results in metabolic studies. Therefore, the compound remains an essential tool for advancing our understanding of metabolic regulation. For Research Use Only",
+      "previous": {
+        "name": "5-Amino-1MQ Capsules",
+        "image": "/assets/c282ece390f9c44bc1ee.png",
+        "description": "5-Amino-1MQ Capsules (Formula 649, 50mg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+        "price": 7999
+      },
+      "sha256": "05764d875f62bdb5b427"
+    },
+    {
+      "id": "adipotide-10mg",
+      "path": "/buy/adipotide-10mg/",
+      "name": "Adipotide-10mg",
+      "sourceId": "1097",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Adipotide-2-Vial-2-Template.png",
+      "description": "Adipotide 10 mg is a peptide that has been investigated for its potential effects on fat loss and metabolic regulation. It works by targeting the blood vessels that supply fat tissue, leading to the apoptosis (programmed cell death) of fat cells. Ultimately, research on Adipotide has shown promise in reducing body fat and influencing metabolic function, making it an area of interest for studies on weight management and obesity.",
+      "price": 8000,
+      "variants": [],
+      "certificates": [],
+      "overview": "Adipotide 10 mg is a synthetic peptide studied for its potential role in targeting and reducing adipose tissue. It functions by selectively binding to the blood vessels supplying fat cells. This may induce apoptosis (cell death) in adipocytes. As a result, fat mass may decrease, particularly in areas resistant to weight loss methods. Research suggests Adipotide may significantly reduce body fat in animal models. It does not seem to affect lean body mass. It appears to disrupt the blood supply to adipose tissue, decreasing fat tissue volume. These findings raise the possibility of a new approach for fat loss, especially in studies with targeted adiposity. In addition to fat reduction, early studies indicate Adipotide may influence metabolic parameters. These include insulin sensitivity and glucose metabolism. Given this potential, Adipotide has become an intriguing subject for further investigation in metabolic health. Ongoing research explores the broader effects of Adipotide, including its mechanism of action and safety profile. As studies progress, additional data may clarify its potential applications and long-term effects on metabolism. For Research Use Only",
+      "previous": {
+        "name": "Adipotide-10mg",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Adipotide-2-Vial-2-Template-600x800.png",
+        "description": "Adipotide 10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 8000
+      },
+      "sha256": "8fe8f48cac9065d50c48"
+    },
+    {
+      "id": "aod-9604",
+      "path": "/buy/aod-9604/",
+      "name": "AOD-9604",
+      "sourceId": "1083",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/AOD9604-2-Vial-2-Template.png",
+      "description": "AOD-9604 is a synthetic peptide fragment derived from human growth hormone (HGH), specifically designed to target fat loss. Therefore, it has been studied for its potential to stimulate fat breakdown, reduce fat accumulation, and promote lean muscle mass.",
+      "price": 4500,
+      "variants": [
+        {
+          "id": "aod-9604--1218",
+          "label": "5mg",
+          "price": 4500,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/AOD9604-Vial-2-Template-1.png"
+        },
+        {
+          "id": "aod-9604--1219",
+          "label": "10mg",
+          "price": 8100,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/AOD9604-2-Vial-2-Template.png"
+        }
+      ],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6015-7-8-26.pdf"
+      ],
+      "overview": "AOD-9604 is a synthetic peptide derived from a fragment of human growth hormone (HGH). It has been studied for its potential role in fat loss. AOD-9604 works by mimicking the lipolytic effects of HGH, stimulating fat breakdown and inhibiting fat storage. Therefore, it is an intriguing subject for research in weight management and metabolic regulation. Studies suggest that it may promote fat loss by increasing the breakdown of stored fat. Importantly, it does this without affecting blood sugar levels or growth, differentiating it from other HGH derivatives. This selective mechanism makes it a potential candidate for individuals seeking fat reduction without the unwanted side effects of traditional HGH therapies. Additionally, research has indicated that AOD-9604 may influence the metabolic process by increasing energy expenditure and enhancing fat oxidation. As a result, these effects could contribute to its potential in improving body composition by reducing fat mass and preserving lean tissue. As research into AOD-9604 progresses, its broader effects, including long-term safety and efficacy, are still under investigation. Consequently, future studies may provide deeper insights into its potential applications and effectiveness for metabolic health and fat loss. For Research Use Only",
+      "previous": {
+        "name": "AOD-9604",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/AOD9604-2-Vial-2-Template-600x800.png",
+        "description": "AOD-9604 research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 4500
+      },
+      "sha256": "1115ba61b1c5bde67659"
+    },
+    {
+      "id": "ara-290-nasal-spray",
+      "path": "/buy/ara-290-nasal-spray/",
+      "name": "Ara-290 Nasal Spray",
+      "sourceId": "4429",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/09/ARA-290-NASAL-SPRAY-1.png",
+      "description": "Ara-290 Nasal Spray is a research peptide formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "price": 9000,
+      "variants": [],
+      "certificates": [],
+      "overview": "Ara-290 Nasal Spray is a research peptide formulation from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Ara-290 Nasal Spray is independently tested by reverse-phase HPLC and mass spectrometry, with a lot-specific certificate of analysis. The purity shown on this listing is 99.9 percent HPLC. Researchers use this nasal-spray format to study Ara-290 under controlled laboratory conditions. PH Bio Labs finishes research peptides in the United States. Storage, handling, and any reconstitution steps belong in the laboratory SOP. Do not use this material in diagnostic procedures. Statements on this page have not been evaluated by the U.S. Food and Drug Administration.",
+      "previous": {
+        "name": "Ara-290 Nasal Spray",
+        "image": "/assets/e46e2302f8eddc987707.png",
+        "description": "Ara-290 Nasal Spray research compound from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 9000
+      },
+      "sha256": "b2d7ce00c18c59d3c63c"
+    },
+    {
+      "id": "b12-10ml",
+      "path": "/buy/b12-10ml/",
+      "name": "B12 – 10ml",
+      "sourceId": "1124",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/B12-10-Vial-2-Template.png",
+      "description": "B12 is a research-grade compound designed for studies focused on cellular metabolism, DNA synthesis, and neurological health. This essential coenzyme is commonly researched for its potential to enhance mitochondrial function, promote red blood cell development, and support myelin integrity in experimental settings.",
+      "price": 6000,
+      "variants": [],
+      "certificates": [],
+      "overview": "B12 10ml is a high-purity, research-grade compound widely studied for its potential role in cellular metabolism, red blood cell formation, and neurological function. It serves as a cofactor in DNA synthesis, methylation processes, and energy production within cells. In research settings, B12 is often used to explore its involvement in maintaining neuronal integrity, regulating homocysteine levels, and supporting mitochondrial health in research studies. Researchers utilize B12 to investigate its biochemical effects on cellular repair, myelin synthesis, and metabolic activity, particularly in models examining neurodegeneration, fatigue, and metabolic disorders. All B12 batches are produced under controlled laboratory standards to ensure exceptional purity, consistency, and reproducibility across scientific applications.",
+      "previous": {
+        "name": "B12 – 10ml",
+        "image": "/assets/feb50b7d36b28d19ad1d.png",
+        "description": "B12 10mL research compound from PH Bio Labs, with independent testing documentation. For laboratory research use only.",
+        "price": 6000
+      },
+      "sha256": "214a8432b7a498e4bbe5"
+    },
+    {
+      "id": "bpc-157-10mg",
+      "path": "/buy/bpc-157-10mg/",
+      "name": "BPC-157 – 10mg",
+      "sourceId": "1078",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/BPC-157-Vial-2-Template.png",
+      "description": "BPC-157 is a synthetic peptide known for its potential in promoting tissue healing and regeneration. It is derived from a naturally occurring protein found in the human stomach. Therefore, its research has focused on its ability to support the healing of various tissues, including muscles, tendons, ligaments, and joints.",
+      "price": 5000,
+      "variants": [],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6405-7-17-26.pdf"
+      ],
+      "overview": "BPC-157 10mg peptide is a synthetic compound derived from a protein originally identified in the stomach. Researchers study this peptide for its potential role in various biological and cellular processes related to tissue structure and function. In laboratory settings, scientists examine how this compound interacts with pathways involved in collagen formation, cellular signaling, and tissue integrity. These areas are of interest in research focused on connective tissues such as muscles, tendons, ligaments, and the gastrointestinal lining. Additionally, research explores its interaction with processes related to angiogenesis, which involves the formation of new blood vessels. This area of study focuses on how biological systems regulate nutrient and oxygen distribution at the cellular level. Researchers also investigate how this peptide may be involved in inflammatory response pathways and overall cellular balance. These studies aim to better understand how such mechanisms function under controlled experimental conditions. Ongoing research continues to evaluate its broader applications in models related to tissue response, recovery processes, and physiological regulation. Further studies are required to fully understand its mechanisms and long-term profile. For Research Use Only",
+      "previous": {
+        "name": "BPC-157 – 10mg",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/BPC-157-Vial-2-Template-600x800.png",
+        "description": "BPC-157 10mg research peptide from PH Bio Labs, with HPLC testing and a published COA. For laboratory research use only.",
+        "price": 5000
+      },
+      "sha256": "cca959908bd5db1695a8"
+    },
+    {
+      "id": "bpc-157-capsules",
+      "path": "/buy/bpc-157-capsules/",
+      "name": "BPC-157 Capsules",
+      "sourceId": "1100",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-25-at-11.32.03-AM.png",
+      "description": "BPC-157 Capsules is a synthetic peptide derived from a naturally occurring body protection compound in gastric juices. It has been widely studied for its potential role in promoting tissue repair, cellular regeneration, and inflammation modulation.",
+      "price": 7999,
+      "variants": [
+        {
+          "id": "bpc-157-capsules--1156",
+          "label": "60 Capsules",
+          "price": 7999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-25-at-11.32.03-AM.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "BPC-157 Capsules is a PH Bio Labs research formula (Formula 57: BPC-157 500mcg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. BPC-157 is a synthetic peptide derived from a protein found in the stomach. Researchers study its potential effects on tissue repair and regeneration. Specifically, BPC-157 may promote healing by enhancing collagen production, a key component of connective tissue. This may support the repair of muscles, tendons, ligaments, and even the gut lining. For Research Use Only",
+      "previous": {
+        "name": "BPC-157 Capsules",
+        "image": "/assets/26ac002b434de65b3918.png",
+        "description": "BPC-157 Capsules (Formula 57, BPC-157 500mcg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+        "price": 7999
+      },
+      "sha256": "9a7b9c53edba1305241a"
+    },
+    {
+      "id": "bpc-157-tb-500-capsules",
+      "path": "/buy/bpc-157-tb-500-capsules/",
+      "name": "Wolverine Blend Capsules",
+      "sourceId": "1101",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-25-at-12.20.55-PM.png",
+      "description": "Wolverine Blend BPC-157 and TB-500 are peptides that have been studied for their potential roles in tissue repair, inflammation modulation, and recovery. BPC-157 is known for promoting healing and regeneration, while TB-500 (Thymosin Beta-4) has been explored for its impact on cellular migration and tissue repair. When combined, these peptides are of interest in research for their synergistic effects on musculoskeletal and soft tissue recovery.",
+      "price": 9999,
+      "variants": [
+        {
+          "id": "bpc-157-tb-500-capsules--1155",
+          "label": "60 Capsules",
+          "price": 9999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-25-at-12.20.55-PM.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Wolverine Blend Capsules is a PH Bio Labs research formula (BPC-157 500mcg and TB-500 500mcg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Ongoing studies aim to uncover even more applications for the BPC-157/TB-500 blend. As researchers continue investigating their mechanisms of action, these peptides may become increasingly relevant in regenerative research and recovery science. For Research Use Only",
+      "previous": {
+        "name": "Wolverine Blend Capsules",
+        "image": "/assets/6f4949c3f51145b7965d.png",
+        "description": "Wolverine Blend Capsules (Formula 402, BPC-157 500mcg and TB-500 500mcg) from PH Bio Labs. For laboratory research use only.",
+        "price": 9999
+      },
+      "sha256": "9c0511156897cd59dbfe"
+    },
+    {
+      "id": "bpc-157-tb-500-pro-sublingual-oral-spray",
+      "path": "/buy/bpc-157-tb-500-pro-sublingual-oral-spray/",
+      "name": "BPC-157 / TB-500 PRO Sublingual Oral Spray",
+      "sourceId": "4614",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/09/BPC-157-_-TB-500-PRO.png",
+      "description": "BPC-157 / TB-500 PRO Sublingual Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "price": 9600,
+      "variants": [],
+      "certificates": [],
+      "overview": "BPC-157 / TB-500 PRO Sublingual Oral Spray is a research peptide formulation from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. BPC-157 / TB-500 PRO Sublingual Oral Spray is independently tested by reverse-phase HPLC and mass spectrometry, with a lot-specific certificate of analysis. Researchers may use this sublingual oral-spray format to study the formulation and peptide components under controlled laboratory conditions. PH Bio Labs finishes research peptides in the United States. Storage, handling, and any laboratory preparation steps belong in the laboratory SOP. Do not use this material in diagnostic procedures. Statements on this page have not been evaluated by the U.S. Food and Drug Administration.",
+      "previous": {
+        "name": "BPC-157 / TB-500 PRO Sublingual Oral Spray",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/09/BPC-157-_-TB-500-PRO-600x800.png",
+        "description": "BPC-157 / TB-500 PRO Sublingual Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+        "price": 9600
+      },
+      "sha256": "87d10694502affdd59bb"
+    },
+    {
+      "id": "cartalax-10-sublingual-oral-spray-2",
+      "path": "/buy/cartalax-10-sublingual-oral-spray-2/",
+      "name": "CARTALAX 10 Sublingual Oral Spray",
+      "sourceId": "4725",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/10/CARTALAX-10-Sublingual-Oral-Spray-1.png",
+      "description": "CARTALAX 10 Sublingual Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "price": 10600,
+      "variants": [],
+      "certificates": [],
+      "overview": "CARTALAX 10 Sublingual Oral Spray is a research formulation from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. CARTALAX 10 Sublingual Oral Spray is independently tested by reverse-phase HPLC and mass spectrometry, with a lot-specific certificate of analysis. Researchers may use this sublingual spray format to study CARTALAX 10 under controlled laboratory conditions. PH Bio Labs finishes research formulations in the United States. Storage, handling, and any laboratory preparation steps belong in the laboratory SOP. Do not use this material in diagnostic procedures. Statements on this page have not been evaluated by the U.S. Food and Drug Administration.",
+      "previous": {
+        "name": "CARTALAX 10 Sublingual Oral Spray",
+        "image": "/assets/443916298f8f34019817.png",
+        "description": "CARTALAX 10 Sublingual Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+        "price": 10600
+      },
+      "sha256": "b490afe0b97104d8bd6e"
+    },
+    {
+      "id": "centered-x-capsules",
+      "path": "/buy/centered-x-capsules/",
+      "name": "Centered X Capsules",
+      "sourceId": "1117",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-6.21.52-PM.png",
+      "description": "Capsules combine Dihexa, Selank, Semax, and NAD+ for research applications focused on neurocognitive and cellular studies. This advanced formula is designed for laboratory use in exploring pathways related to brain signaling, mitochondrial activity, and cellular communication.",
+      "price": 12999,
+      "variants": [
+        {
+          "id": "centered-x-capsules--1142",
+          "label": "60 Capsules",
+          "price": 12999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-6.21.52-PM.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Centered X Capsules is a PH Bio Labs research formula (Dihexa 2mg, Selank 0.3mg, Semax 0.3mg, and NAD+ 100mg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. This blend may support research into cognitive enhancement and neuroprotective mechanisms. Specifically, Dihexa has been studied for its potential to influence synaptic growth. Similarly, Selank and Semax have been studied for their potential roles in modulating neuropeptide signaling and stress responses. In addition, NAD+ may assist studies focused on cellular metabolism, energy production, and oxidative balance.",
+      "previous": {
+        "name": "Centered X Capsules",
+        "image": "/assets/4f14857b5689ef1a5bb8.png",
+        "description": "Centered X Capsules (Formula 158: Dihexa, Selank, Semax, NAD+) from PH Bio Labs. Independent testing. For laboratory research use only.",
+        "price": 12999
+      },
+      "sha256": "fe2f14231993af23b53b"
+    },
+    {
+      "id": "ceralux-serum-30ml",
+      "path": "/buy/ceralux-serum-30ml/",
+      "name": "Ceralux Serum – 30mL",
+      "sourceId": "1125",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/4-in-1-serum-4.png",
+      "description": "Ceralux Serum is a skincare formulation designed for studies on skin tone, hydration, and barrier repair. Featuring a synergistic blend of Arbutin, Hyaluronic Acid, Vitamin C, and Ceramide, this serum is frequently studied for its potential to support even skin tone, improve elasticity, and enhance overall skin appearance in research environments.",
+      "price": 4999,
+      "variants": [],
+      "certificates": [],
+      "overview": "Ceralux Serum is a formulated serum developed to support studies focused on skin tone balance, hydration, and barrier integrity. This advanced formulation combines Arbutin, Hyaluronic Acid, Vitamin C, and Ceramide—each carefully selected for their synergistic effects on skin brightness, moisture retention, and cellular protection. Ceralux Serum is examined for its potential to regulate melanin synthesis, enhance epidermal hydration, and strengthen the skin’s natural lipid barrier. The inclusion of Arbutin and Vitamin C supports studies on even skin tone and antioxidant defense, while Hyaluronic Acid and Ceramide are explored for their roles in maintaining elasticity and protecting against environmental stressors.",
+      "previous": {
+        "name": "Ceralux Serum – 30mL",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/4-in-1-serum-4-600x900.png",
+        "description": "Ceralux Serum combines Arbutin, Hyaluronic Acid, Vitamin C, and Ceramide for research on skin tone, hydration, and barrier function in studies.",
+        "price": 4999
+      },
+      "sha256": "1cfddf14737d248c16ab"
+    },
+    {
+      "id": "cjc-1295-ipamorelin",
+      "path": "/buy/cjc-1295-ipamorelin/",
+      "name": "CJC-1295 / Ipamorelin – 10mg / 10mg",
+      "sourceId": "1085",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/CJC-1295-No-DAC-_-Ipamorelin-Vial-2-Template.png",
+      "description": "The CJC-1295 / Ipamorelin Blend combines two powerful peptides that work synergistically to enhance the release of growth hormone. This combination is popular in research for its potential to improve lean muscle mass, support fat metabolism, and optimize recovery processes.",
+      "price": 11700,
+      "variants": [],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA5691.pdf"
+      ],
+      "overview": "CJC-1295 and Ipamorelin are synthetic peptides commonly used together to enhance growth hormone (GH) secretion. CJC-1295 mimics growth hormone-releasing hormone (GHRH) to stimulate GH release, while Ipamorelin, a selective ghrelin receptor agonist, also stimulates GH secretion with fewer side effects than other GH-releasing peptides. Together, CJC-1295 and Ipamorelin work synergistically to boost the body's natural GH production. Researchers often explore this combination for muscle growth, fat loss, recovery, and overall physical performance. Additionally, they investigate its potential in anti-aging by increasing GH levels and promoting healthier aging. Moreover, these peptides may improve fat metabolism, encourage lean muscle development, and support recovery after intense physical activity. CJC-1295 provides longer-lasting GH effects, while Ipamorelin works more controlled, with fewer side effects like hunger or excessive cortisol release. Although studies show promising health benefits, ongoing research continues to examine their long-term effects, safety, and efficacy. As more data emerges, it may provide deeper insights into how CJC-1295 and Ipamorelin enhance health and wellness. For Research Use Only",
+      "previous": {
+        "name": "CJC-1295 / Ipamorelin – 10mg / 10mg",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/CJC-1295-No-DAC-_-Ipamorelin-Vial-2-Template-600x800.png",
+        "description": "CJC-1295 no DAC and Ipamorelin 10/10mg research blend from PH Bio Labs, with HPLC testing and a COA. For laboratory research use only.",
+        "price": 11700
+      },
+      "sha256": "f4452ec06218ece3a80d"
+    },
+    {
+      "id": "cjc-1295-no-dac",
+      "path": "/buy/cjc-1295-no-dac/",
+      "name": "CJC-1295 (NO DAC)",
+      "sourceId": "1088",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/CJC-1295-NO-DAC-Vial-2-Template.png",
+      "description": "CJC-1295 (No DAC) is a synthetic peptide that stimulates the release of growth hormone by targeting the pituitary gland. It is widely studied for its ability to enhance the natural release of growth hormone and promote various benefits, including increased lean muscle mass, improved fat metabolism, and overall vitality.",
+      "price": 3500,
+      "variants": [
+        {
+          "id": "cjc-1295-no-dac--1183",
+          "label": "5mg",
+          "price": 3500,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/CJC-1295-No-DAC-2-Vial-2-Template.png"
+        },
+        {
+          "id": "cjc-1295-no-dac--1184",
+          "label": "10mg",
+          "price": 6300,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/CJC-1295-NO-DAC-Vial-2-Template.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "CJC-1295 (NO DAC) is a synthetic peptide studied for its role in stimulating growth hormone (GH) secretion. Unlike the DAC-modified version, it does not have an extended half-life and clears from the body more quickly. It functions by mimicking growth hormone-releasing hormone (GHRH), which signals the pituitary gland to release growth hormone. Researchers study this peptide for its potential to support the body’s natural GH production. In laboratory settings, it may influence processes related to muscle development, fat metabolism, and recovery. Its shorter activity window also makes it useful in studies focused on pulsatile hormone release patterns. In addition, scientists explore its potential role in research related to physical performance, recovery models, and age-associated hormonal changes. Because of its mechanism, it provides a controlled way to examine how GHRH analogs interact with endocrine pathways. While early findings show promising directions, ongoing studies continue to evaluate its long-term effects, safety profile, and overall efficacy in controlled environments. For Research Use Only",
+      "previous": {
+        "name": "CJC-1295 (NO DAC)",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/CJC-1295-NO-DAC-Vial-2-Template-600x800.png",
+        "description": "CJC-1295 no DAC research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 3500
+      },
+      "sha256": "d640a998b73d67a0d1bc"
+    },
+    {
+      "id": "dihexa-capsules",
+      "path": "/buy/dihexa-capsules/",
+      "name": "Dihexa Capsules",
+      "sourceId": "1123",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-25-at-10.20.50-AM.png",
+      "description": "Dihexa Capsules are designed for laboratory research exploring mechanisms related to neural repair, synaptic connectivity, and cognitive function. This compound is frequently studied for its potential to modulate neurotrophic pathways and support brain cell communication.",
+      "price": 14999,
+      "variants": [
+        {
+          "id": "dihexa-capsules--1139",
+          "label": "60 Capsules",
+          "price": 14999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-25-at-10.20.50-AM.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Dihexa Capsules is a PH Bio Labs research formula. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Researchers use both in vitro and in vivo models to study how Dihexa may affect neurogenesis, synaptic strength, and neuron networks. They produce each batch under strict laboratory conditions to ensure high purity, consistency, and reliable results. This approach helps labs collect accurate data. In laboratories, scientists test Dihexa alongside other peptides, proteins, or cell pathways to see possible interactions. Researchers have studied its effects on synaptic plasticity in learning and memory experiments. They also investigate how Dihexa may support neural repair by encouraging new neuron connections.",
+      "previous": {
+        "name": "Dihexa Capsules",
+        "image": "/assets/c2146f4ac9c4947031c4.png",
+        "description": "Dihexa Capsules (Formula 46, Dihexa 5mg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+        "price": 14999
+      },
+      "sha256": "25b8c3a05fe97391302b"
+    },
+    {
+      "id": "dsip",
+      "path": "/buy/dsip/",
+      "name": "DSIP",
+      "sourceId": "1093",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/DSIP-2-Vial-2-Template.png",
+      "description": "DSIP (Delta Sleep-Inducing Peptide)—5mg is a synthetic neuropeptide used by researchers to study sleep regulation, stress response, and hormonal balance. It influences sleep cycles by interacting with the central nervous system and promoting deep sleep phases. DSIP supports studies aimed at understanding sleep disorders, recovery, and overall stress management.",
+      "price": 3000,
+      "variants": [
+        {
+          "id": "dsip--1187",
+          "label": "5mg",
+          "price": 3000,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/ChatGPT-Image-Sep-3-2026-05_19_12-AM.png"
+        },
+        {
+          "id": "dsip--1188",
+          "label": "10mg",
+          "price": 5400,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/DSIP-Vial-2-Template.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "DSIP (Delta Sleep-Inducing Peptide) – 5mg is a neuropeptide that researchers use to study sleep regulation, stress response, and hormonal balance. Scientists examine its ability to influence sleep cycles by interacting with the central nervous system. DSIP plays a crucial role in promoting deep sleep phases, making it valuable for research into sleep disorders and recovery processes. Additionally, researchers analyze how DSIP affects stress hormones like cortisol and ACTH (adrenocorticotropic hormone). They assess its role in modulating the body’s response to physical and psychological stress. These studies help reveal how DSIP contributes to stress management and overall homeostasis. Moreover, scientists explore DSIP's potential to regulate other physiological processes, such as pain perception and immune function. Research indicates that DSIP may enhance the body's ability to recover from fatigue and maintain energy balance. Consequently, these findings expand its relevance in studies related to stress resilience and recovery. To ensure accuracy, labs test each 5mg batch of DSIP for high purity and potency. Researchers depend on this peptide to produce reliable and reproducible results across sleep and endocrine studies. Finally, DSIP remains a key focus in research aimed at improving sleep quality, reducing stress, and enhancing recovery. By targeting multiple biological systems, it helps researchers develop insights into new strategies for managing sleep disorders, stress responses, and overall health. For Research Use Only",
+      "previous": {
+        "name": "DSIP",
+        "image": "/assets/08f366e45d9606fb1d95.png",
+        "description": "DSIP research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 3000
+      },
+      "sha256": "e2e83d425a8de1c7ed43"
+    },
+    {
+      "id": "epithalon-capsules",
+      "path": "/buy/epithalon-capsules/",
+      "name": "Epithalon Capsules",
+      "sourceId": "1102",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Epithalon-2.png",
+      "description": "Epithalon Capsules are synthetic peptides derived from epithalamion, a naturally occurring substance produced in the pineal gland. Epithalon has been extensively studied for its potential role in supporting cellular regeneration, telomere maintenance, and longevity research. Researchers are exploring Epithalon's possible effects on aging and overall cellular health.",
+      "price": 9999,
+      "variants": [
+        {
+          "id": "epithalon-capsules--1154",
+          "label": "60 Capsules",
+          "price": 9999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Epithalon-2.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Epithalon Capsules is a PH Bio Labs research formula (Formula 108: Epithalon 1mg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Epithalon Capsules is a synthetic peptide gaining attention for its potential anti-aging and longevity benefits. Derived from the naturally occurring tetrapeptide epithalamin in the pineal gland, Epithalon may promote telomerase activity. Telomerase helps protect and lengthen telomeres, the protective caps at the ends of chromosomes. Studies suggest that Epithalon may enhance cellular longevity by increasing telomerase activity. This could delay the aging process and extend the lifespan of cells. Telomeres shorten as cells divide, and this shortening contributes to aging and cell death. By promoting telomere maintenance, Epithalon may slow cellular aging and improve overall health. Beyond its anti-aging effects, Epithalon may improve sleep patterns and regulate the circadian rhythm. It may also support immune function and help the body recover from stress. While some studies show positive effects, researchers continue to investigate Epithalon's long-term impact and safety. Ongoing studies may reveal more about its potential to extend lifespan, improve health, and slow aging. For Research Use Only",
+      "previous": {
+        "name": "Epithalon Capsules",
+        "image": "/assets/1a3eb315736f516a54e9.png",
+        "description": "Epithalon Capsules (Formula 108, Epithalon 1mg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+        "price": 9999
+      },
+      "sha256": "281b5e084a9b992ff24d"
+    },
+    {
+      "id": "epithalon-epitalon-50mg",
+      "path": "/buy/epithalon-epitalon-50mg/",
+      "name": "Epithalon (Epitalon) – 50mg",
+      "sourceId": "1079",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Epithalon-Vial-2-Template.png",
+      "description": "Epithalon, also known as Epitalon, is a synthetic peptide that has been widely studied for its potential anti-aging effects and its role in promoting cellular health. It is believed to influence the lengthening of telomeres, the protective caps at the ends of chromosomes, which may contribute to improved longevity and a slower aging process.",
+      "price": 10000,
+      "variants": [],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA7365.pdf"
+      ],
+      "overview": "Epithalon (also known as Epitalon or AAT) is a synthetic peptide gaining attention for its potential anti-aging and longevity benefits. Derived from the naturally occurring tetrapeptide epithalamin in the pineal gland, Epithalon may promote telomerase activity. Telomerase helps protect and lengthen telomeres, the protective caps at the ends of chromosomes. Studies suggest that Epithalon may enhance cellular longevity by increasing telomerase activity. This could delay the aging process and extend the lifespan of cells. Telomeres shorten as cells divide, and this shortening contributes to aging and cell death. By promoting telomere maintenance, Epithalon may slow cellular aging and improve overall health. Beyond its anti-aging effects, Epithalon may improve sleep patterns and regulate the circadian rhythm. It may also support immune function and help the body recover from stress. While some studies show positive effects, researchers continue to investigate its long-term impact and safety. Ongoing studies may reveal more about its potential to extend lifespan, improve health, and slow aging. For Research Use Only",
+      "previous": {
+        "name": "Epithalon (Epitalon) – 50mg",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Epithalon-Vial-2-Template-600x800.png",
+        "description": "Epithalon (Epitalon) 50mg research peptide from PH Bio Labs, with HPLC testing and a published COA. For laboratory research use only.",
+        "price": 10000
+      },
+      "sha256": "58e25cc0ac1ded558c69"
+    },
+    {
+      "id": "follicle-x-capsules",
+      "path": "/buy/follicle-x-capsules/",
+      "name": "Follicle X Capsules",
+      "sourceId": "1170",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-2.19.28-PM.png",
+      "description": "Follicle X are designed for laboratory research exploring mechanisms related to follicle biology, structural proteins, and antioxidant activity. This formula combines seven ingredients — Saw Palmetto, Tocotrienols, Marine Collagen, Spermidine, Biotin, Zinc, and Copper — frequently studied for their potential to modulate follicle-associated and nutrient-related pathways and support cellular activity.",
+      "price": 4999,
+      "variants": [
+        {
+          "id": "follicle-x-capsules--1172",
+          "label": "60 Capsules",
+          "price": 4999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-2.19.28-PM.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Follicle X Capsules is a PH Bio Labs research formula (tocotrienols 20mg, saw palmetto 30mg, spermidine 0.6mg, marine collagen 500mg, biotin 2mg, zinc 20mg, and copper 2mg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Scientists use in laboratories to study follicle biology, structural proteins, and antioxidant pathways. It combines seven ingredients — Saw Palmetto, Tocotrienols, Marine Collagen, Spermidine, Biotin, Zinc, and Copper — that researchers have explored in connection with follicle-related, structural, cellular, and nutrient-associated processes. In experiments, they examine how these materials may influence signaling pathways and cellular activity. Researchers have studied Saw Palmetto and Spermidine for their reported roles in follicle and cellular research. They also investigate how Tocotrienols, Marine Collagen, Biotin, Zinc, and Copper may support antioxidant defense, structural proteins, and nutrient-related pathways.",
+      "previous": {
+        "name": "Follicle X Capsules",
+        "image": "/assets/e5468372b81852d7d699.png",
+        "description": "Follicle X Capsules (tocotrienols, saw palmetto, spermidine, collagen, biotin, zinc, copper) from PH Bio Labs. For laboratory research use only.",
+        "price": 4999
+      },
+      "sha256": "8ac52239c779ca72f5b8"
+    },
+    {
+      "id": "ghk-cu",
+      "path": "/buy/ghk-cu/",
+      "name": "GHK-Cu",
+      "sourceId": "1089",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/GHK-Cu-Vial-2-Template.png",
+      "description": "GHK-Cu – 50mg is a research-grade copper peptide complex that plays a key role in tissue repair, skin regeneration, and cellular health. Researchers study its ability to enhance collagen production, promote wound healing, and reduce inflammation. Additionally, GHK-Cu is valuable in studies focused on anti-aging processes and oxidative stress reduction.",
+      "price": 4500,
+      "variants": [
+        {
+          "id": "ghk-cu--1181",
+          "label": "50mg",
+          "price": 4500,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/GHK-Cu-2-Vial-2-Template.png"
+        },
+        {
+          "id": "ghk-cu--1182",
+          "label": "100mg",
+          "price": 8100,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/GHK-Cu-Vial-2-Template.png"
+        }
+      ],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA7356.pdf",
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA7357.pdf"
+      ],
+      "overview": "GHK-Cu – 50mg is a copper-binding peptide complex known for its role in tissue repair, wound healing, and skin regeneration. Researchers study GHK-Cu to understand its ability to enhance collagen production, reduce inflammation, and promote cellular repair. Additionally, GHK-Cu supports studies on anti-aging processes by improving skin elasticity and reducing oxidative stress. Scientists explore how GHK-Cu activates regenerative pathways by increasing collagen and glycosaminoglycan synthesis. Moreover, they examine its role in signaling pathways that regulate cell growth, angiogenesis, and antioxidant defense. These studies provide valuable insights into how GHK-Cu contributes to both tissue healing and protection from environmental damage. Furthermore, researchers assess GHK-Cu's potential in reducing inflammation and promoting hair follicle health. They evaluate how the peptide modulates inflammatory cytokines and supports tissue recovery after injuries. By targeting multiple biological systems, GHK-Cu offers promising applications for research in both dermatology and regenerative medicine. Each 50mg batch of GHK-Cu undergoes stringent testing to ensure high purity and potency. Researchers depend on its consistent quality to conduct reliable studies across various fields, including skin health, tissue regeneration, and oxidative damage control. Finally, GHK-Cu remains a critical tool for advancing research on tissue repair and anti-aging therapies. Through its ability to enhance cellular regeneration and protection, it helps scientists develop new strategies for improving skin health, healing processes, and overall tissue resilience. For Research Use Only",
+      "previous": {
+        "name": "GHK-Cu",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/GHK-Cu-Vial-2-Template-600x800.png",
+        "description": "GHK-Cu copper peptide from PH Bio Labs, supplied with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 4500
+      },
+      "sha256": "cab55124296b9a61e05d"
+    },
+    {
+      "id": "ghk-cu-peptide-serum",
+      "path": "/buy/ghk-cu-peptide-serum/",
+      "name": "GHK-Cu Peptide Serum",
+      "sourceId": "1115",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/GHK-Cu-Serum-4.png",
+      "description": "GHK-Cu is a naturally occurring peptide complex that combines copper with the tripeptide GHK. It is widely studied for its potential to support skin health, wound healing, and tissue regeneration. Known for its ability to promote collagen production and enhance skin rejuvenation, GHK-Cu is often researched for its role in improving the appearance of aging skin, reducing fine lines, and promoting a more youthful complexion.",
+      "price": 4999,
+      "variants": [],
+      "certificates": [],
+      "overview": "GHK-Cu Peptide Serum is a specialized skincare treatment that uses copper-binding peptides and advanced ingredients. It supports skin rejuvenation and addresses signs of aging. At the core of this serum is GHK-Cu, a naturally occurring peptide. This peptide stimulates collagen production and improves skin elasticity. Additionally, GHK-Cu promotes hyaluronic acid production, which enhances skin hydration and density. As a result, it contributes to a firmer, more youthful appearance. Moreover, the serum contains Hyaluronic Acid (HA), a powerful humectant. HA draws moisture into the skin, keeping it hydrated and plump. It also supports cellular growth and repair. This creates an optimal environment for skin regeneration. Furthermore, Isosorbide Dimethyl Isosorbide (DMI), a transdermal agent, enhances ingredient absorption. It ensures that ingredients penetrate the upper epidermis and work at the dermal level. This occurs without entering the bloodstream. In addition, Vegetable Glycerine (VG) boosts hydration, keeping skin soft and smooth throughout the day. Meanwhile, Milli Q Water serves as the serum's base. It is ultra-pure and free from contaminants, maintaining stability. It prevents unwanted chemical reactions. Dipeptide (DBD) helps reduce the appearance of wrinkles by relaxing facial muscles. It minimizes the intensity of their contractions. This non-invasive alternative to cosmetic procedures reduces fine lines, especially around the forehead and eyes. Moreover, Palmitoyl Pentapeptide-3 (PP3) promotes collagen production. It also repairs damaged skin and reduces wrinkles, improving skin tone and texture. Additionally, Hexapeptide-9 (H9) enhances tissue repair and regeneration. It reduces acne scars and blemishes. This contributes to a clearer, more youthful complexion. It promotes skin renewal. Dimethyl-amino-ethanol (DMAE) firms the skin, especially around sagging areas. These areas include the forehead and under-eye regions. Finally, Optiphen, a paraben-free preservative, protects the formula from bacterial contamination. It preserves its integrity and effectiveness. Overall, this serum works synergistically. It improves hydration, reduces wrinkles, promotes skin repair, and enhances overall skin health. For Research Use Only",
+      "previous": {
+        "name": "GHK-Cu Peptide Serum",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/GHK-Cu-Serum-4-600x800.png",
+        "description": "GHK-Cu Peptide Serum from PH Bio Labs, with independent testing documentation. For laboratory research use only. Not for topical use.",
+        "price": 4999
+      },
+      "sha256": "e08f87d379e50d034958"
+    },
+    {
+      "id": "ghk-cu-sublingual-oral-spray",
+      "path": "/buy/ghk-cu-sublingual-oral-spray/",
+      "name": "GHK-Cu Sublingual Oral Spray",
+      "sourceId": "4769",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/10/GHK-Cu-Sublingual-Oral-Spray.png",
+      "description": "GHK-Cu Sublingual Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "price": 7100,
+      "variants": [],
+      "certificates": [],
+      "overview": "GHK-Cu Sublingual Oral Spray is a research peptide formulation from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. GHK-Cu Sublingual Oral Spray is independently tested by reverse-phase HPLC and mass spectrometry, with a lot-specific certificate of analysis. Researchers may use this sublingual oral-spray format to study GHK-Cu under controlled laboratory conditions. PH Bio Labs finishes research peptides in the United States. Storage, handling, and any laboratory preparation steps belong in the laboratory SOP. Do not use this material in diagnostic procedures. Statements on this page have not been evaluated by the U.S. Food and Drug Administration.",
+      "previous": {
+        "name": "GHK-Cu Sublingual Oral Spray",
+        "image": "/assets/dd14e76566e7ae560a0d.png",
+        "description": "GHK-Cu Sublingual Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+        "price": 7100
+      },
+      "sha256": "39c2fb75930e74d0cc5d"
+    },
+    {
+      "id": "glow-blend-capsules",
+      "path": "/buy/glow-blend-capsules/",
+      "name": "Glow Blend Capsules",
+      "sourceId": "1114",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-6.18.35-PM.png",
+      "description": "Glow Blend Capsules are a research-oriented formulation combining GHK-Cu, BPC-157, TB-500, and Hyaluronic Acid (HA).",
+      "price": 12999,
+      "variants": [
+        {
+          "id": "glow-blend-capsules--1144",
+          "label": "60 Capsules",
+          "price": 12999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-6.18.35-PM.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Glow Blend Capsules is a PH Bio Labs research formula (GHK-Cu 2mg, BPC-157 0.5mg, TB-500 0.5mg, and HA 100mg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Glow Blend Capsules is a laboratory-formulated combination of peptides designed for research on skin and tissue. Additionally, researchers use this blend to study how it may affect tissue hydration, collagen production, and structural integrity. By combining multiple peptides, scientists can explore synergistic interactions and better understand how these compounds may work together at a cellular level.s. All batches undergo strict quality control. Therefore, researchers can rely on consistent purity, composition, and stability. As a result, this helps ensure reproducible results and reliable documentation for laboratory studies.",
+      "previous": {
+        "name": "Glow Blend Capsules",
+        "image": "/assets/ee8577979373cad79d83.png",
+        "description": "Glow Blend Capsules (Formula 500: GHK-Cu, BPC-157, TB-500, HA) from PH Bio Labs. Independent testing. For laboratory research use only.",
+        "price": 12999
+      },
+      "sha256": "603f815014b5ee60e0c8"
+    },
+    {
+      "id": "glow-blend-peptides",
+      "path": "/buy/glow-blend-peptides/",
+      "name": "Glow Blend",
+      "sourceId": "1160",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Glow-Blend-Vial-2-Template.png",
+      "description": "Glow Peptide Blend is a custom peptide formulation being researched for its potential to support skin health, hydration, and anti-aging effects.",
+      "price": 8900,
+      "variants": [
+        {
+          "id": "glow-blend-peptides--1177",
+          "label": "27/5/10mg",
+          "price": 16020,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Glow-Blend-2-Vial-2-Template.png"
+        },
+        {
+          "id": "glow-blend-peptides--1178",
+          "label": "50/10/10mg",
+          "price": 8900,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Glow-Blend-Vial-2-Template.png"
+        }
+      ],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA7358.pdf"
+      ],
+      "overview": "Glow Blend Peptide is a lab-made formula used in research on skin health and aging. Scientists study how it may help with hydration, smoother skin, and healthy collagen levels. As people age, their skin often becomes dry and less firm. Because of this, many researchers are looking at how this blend may support skin repair and help it stay soft and full. It may also help the skin hold moisture longer. The blend may also help reduce lines, uneven color, and dull skin. Since the ingredients work together, they may give better results than when used alone. This allows researchers to learn more about how peptides improve the skin. Every batch goes through careful testing to make sure it meets high-quality standards. Scientists trust it for safe and steady results. This product is for lab use only and not for people.",
+      "previous": {
+        "name": "Glow Blend",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Glow-Blend-Vial-2-Template-600x800.png",
+        "description": "Glow Blend research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 8900
+      },
+      "sha256": "558c4fcffb45b5fc7ac8"
+    },
+    {
+      "id": "glp-1-rt-60mg",
+      "path": "/buy/glp-1-rt-60mg/",
+      "name": "GLP-1 (RT) Research Peptide – 60 mg",
+      "sourceId": "1128",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-12.40.46-PM.png",
+      "description": "Explore GLP-1 (RT) 60 mg, a synthetic peptide for laboratory research involving GLP-1, GIP, glucagon receptors, and metabolic signaling pathways.",
+      "price": 5000,
+      "variants": [
+        {
+          "id": "glp-1-rt-60mg--1195",
+          "label": "5mg",
+          "price": 5000,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/r5-Vial-2-Template.png"
+        },
+        {
+          "id": "glp-1-rt-60mg--1196",
+          "label": "12mg",
+          "price": 12500,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/R12-Vial-2-Template.png"
+        },
+        {
+          "id": "glp-1-rt-60mg--1197",
+          "label": "24mg",
+          "price": 22000,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/R24-Vial-2-Template.png"
+        },
+        {
+          "id": "glp-1-rt-60mg--1198",
+          "label": "30mg",
+          "price": 25000,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/r30-Vial-2-Template.png"
+        },
+        {
+          "id": "glp-1-rt-60mg--1199",
+          "label": "60mg",
+          "price": 37500,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/r60-Vial-2-Template.png"
+        }
+      ],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA5677-6_24_26.pdf",
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA5678-6_24_26.pdf",
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA5679-6_24_26.pdf"
+      ],
+      "overview": "GLP-1 (RT) 60 mg is a synthetic peptide intended exclusively for controlled laboratory research. This compound is used in experimental models examining interactions among glucagon-like peptide-1 (GLP-1), glucose-dependent insulinotropic polypeptide (GIP), and glucagon receptor pathways. Research applications may include evaluating receptor-binding characteristics, pathway selectivity, downstream cellular signaling, and the relationship between interconnected metabolic receptor systems. GLP-1 (RT) is supplied for analytical, in vitro, and other appropriately designed nonclinical research conducted by qualified professionals. Product Information Product: GLP-1 (RT) Amount: 60 mg Classification: Synthetic research peptide Research area: Metabolic and endocrine receptor signaling Intended use: Laboratory research only",
+      "previous": {
+        "name": "GLP-1 (RT) Research Peptide – 60 mg",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-12.40.46-PM-600x804.png",
+        "description": "Explore GLP-1 (RT) 60 mg, a synthetic peptide for laboratory research involving GLP-1, GIP, glucagon receptors, and metabolic signaling pathways.",
+        "price": 5000
+      },
+      "sha256": "7f752d1f3ea7e1bff6b7"
+    },
+    {
+      "id": "glp-1-sm-bpc-157-vial",
+      "path": "/buy/glp-1-sm-bpc-157-vial/",
+      "name": "GLP-1 (SM) / BPC-157 Vial",
+      "sourceId": "1135",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-4.45.13-PM.png",
+      "description": "GLP-1 (SM) / BPC-157 Vial 30/3.5mg research blend from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+      "price": 22000,
+      "variants": [],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6094-7-7-26.pdf"
+      ],
+      "overview": "GLP-1 (SM) / BPC-157 vial contain a combined synthetic peptide formulation intended exclusively for laboratory and analytical research. This formulation enables researchers to examine GLP-1-associated receptor pathways alongside BPC-157-related peptide characteristics under controlled experimental conditions. Potential research applications include evaluating compound identity, formulation stability, dissolution characteristics, peptide interactions, and associated cellular signaling pathways. Because published BPC-157 findings are predominantly preclinical, no conclusions regarding human safety, effectiveness, or therapeutic application should be inferred. Product Information Product: GLP-1 (SM) / BPC-157 Format: Research capsules Classification: Synthetic peptide formulation Research areas: Peptide stability, formulation behavior, and cellular signaling Intended use: Laboratory and analytical research only",
+      "previous": {
+        "name": "GLP-1 (SM) / BPC-157 Vial",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-4.45.13-PM-600x810.png",
+        "description": "GLP-1 (SM) / BPC-157 Vial 30/3.5mg research blend from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 22000
+      },
+      "sha256": "ff4eab5a615ab4d8e3f5"
+    },
+    {
+      "id": "glp-1sm",
+      "path": "/buy/glp-1sm/",
+      "name": "GLP-1(SM)",
+      "sourceId": "1134",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-12.55.09-PM.png",
+      "description": "GLP-1 (SM) 30 mg, a synthetic peptide for laboratory research involving GLP-1 receptor interactions, stability, and cellular signaling.",
+      "price": 3500,
+      "variants": [
+        {
+          "id": "glp-1sm--1200",
+          "label": "5mg",
+          "price": 3500,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/S5-Vial-2-Template.png"
+        },
+        {
+          "id": "glp-1sm--1201",
+          "label": "10mg",
+          "price": 7000,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/S10-Vial-2-Template.png"
+        },
+        {
+          "id": "glp-1sm--1202",
+          "label": "30mg",
+          "price": 17500,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/S30-Vial-2-Template.png"
+        }
+      ],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA7362.pdf",
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA7363.pdf"
+      ],
+      "overview": "GLP-1 (SM) 30 mg is a synthetic peptide intended exclusively for controlled laboratory research. It is used in experimental models investigating glucagon-like peptide-1 (GLP-1) receptor interactions and associated cellular signaling pathways. Potential research applications include evaluating receptor-binding characteristics, pathway activation, peptide stability, and downstream cellular responses. GLP-1 (SM) is supplied for analytical, in vitro, and other appropriately designed nonclinical research conducted by qualified professionals. Product Information Product: GLP-1 (SM) Amount: 30 mg Classification: Synthetic research peptide Research area: GLP-1 receptor and metabolic signaling research Intended use: Laboratory research only",
+      "previous": {
+        "name": "GLP-1(SM)",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-12.55.09-PM-600x813.png",
+        "description": "GLP-1 (SM) 30 mg, a synthetic peptide for laboratory research involving GLP-1 receptor interactions, stability, and cellular signaling.",
+        "price": 3500
+      },
+      "sha256": "d1bc3d39bc9dceb6f975"
+    },
+    {
+      "id": "glp-2-tr-pro-oral-spray",
+      "path": "/buy/glp-2-tr-pro-oral-spray/",
+      "name": "GLP-2 (TR) PRO Oral Spray",
+      "sourceId": "4636",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/09/GLP-2-TR-PRO.png",
+      "description": "GLP-2 (TR) PRO Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "price": 12300,
+      "variants": [],
+      "certificates": [],
+      "overview": "GLP-2 (TR) PRO Oral Spray is a research peptide formulation from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. GLP-2 (TR) PRO Oral Spray is independently tested by reverse-phase HPLC and mass spectrometry, with a lot-specific certificate of analysis. Researchers may use this oral-spray format to study GLP-2 (TR) PRO under controlled laboratory conditions. PH Bio Labs finishes research peptides in the United States. Storage, handling, and any laboratory preparation steps belong in the laboratory SOP. Do not use this material in diagnostic procedures. Statements on this page have not been evaluated by the U.S. Food and Drug Administration.",
+      "previous": {
+        "name": "GLP-2 (TR) PRO Oral Spray",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/09/GLP-2-TR-PRO-600x800.png",
+        "description": "GLP-2 (TR) PRO Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+        "price": 12300
+      },
+      "sha256": "34b6f4a4bdca5c405062"
+    },
+    {
+      "id": "glp-2tr",
+      "path": "/buy/glp-2tr/",
+      "name": "GLP-2(TR)",
+      "sourceId": "1133",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-12.17.01-PM.png",
+      "description": "GLP-2(TR) is a synthetic research peptide used to investigate incretin-associated receptors, metabolic signaling, and interconnected endocrine pathways.",
+      "price": 5000,
+      "variants": [
+        {
+          "id": "glp-2tr--1205",
+          "label": "5mg",
+          "price": 5000,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/T5-Vial-2-Template.png"
+        },
+        {
+          "id": "glp-2tr--1206",
+          "label": "10mg",
+          "price": 7500,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/T10-Vial-2-Template.png"
+        },
+        {
+          "id": "glp-2tr--1207",
+          "label": "30mg",
+          "price": 17500,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/T30-Vial-2-Template.png"
+        },
+        {
+          "id": "glp-2tr--1208",
+          "label": "60mg",
+          "price": 27500,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/T60-Vial-2-Template.png"
+        },
+        {
+          "id": "glp-2tr--1209",
+          "label": "120mg",
+          "price": 45000,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/T120-Vial-2-Template.png"
+        }
+      ],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA7355.pdf",
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA5686-6_25_26.pdf",
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA7354.pdf",
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA7353.pdf"
+      ],
+      "overview": "GLP-2(TR) is a synthetic peptide developed for laboratory research involving multiple metabolic receptor systems. It is studied for its interactions with glucagon-like peptide-1 (GLP-1), glucose-dependent insulinotropic polypeptide (GIP), and glucagon receptors. Researchers may use GLP-TZ to investigate receptor-binding dynamics, downstream signaling activity, and the relationship between interconnected endocrine pathways. Its multi-receptor research profile makes it relevant to laboratory studies examining metabolic signaling and receptor-mediated cellular responses. Product Information Product: GLP-2(TR) Classification: Synthetic research peptide Research Area: Metabolic receptor and endocrine pathway signaling Intended Use: Laboratory research only For research use only. Not for human or veterinary use. This product is not intended to diagnose, treat, cure, or prevent any disease.",
+      "previous": {
+        "name": "GLP-2(TR)",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-12.17.01-PM-600x817.png",
+        "description": "GLP-2(TR) is a synthetic research peptide used to investigate incretin-associated receptors, metabolic signaling, and interconnected endocrine pathways.",
+        "price": 5000
+      },
+      "sha256": "7134e27a21e0e18b72ad"
+    },
+    {
+      "id": "glp-3-rt-pro-oral-spray",
+      "path": "/buy/glp-3-rt-pro-oral-spray/",
+      "name": "GLP-3 (RT) PRO Oral Spray",
+      "sourceId": "4635",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/09/GLP-3-RT-PRO.png",
+      "description": "GLP-3 (RT) PRO Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "price": 13500,
+      "variants": [],
+      "certificates": [],
+      "overview": "GLP-3 (RT) PRO Oral Spray is a research peptide formulation from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. GLP-3 (RT) PRO Oral Spray is independently tested by reverse-phase HPLC and mass spectrometry, with a lot-specific certificate of analysis. Researchers may use this oral-spray format to study GLP-3 (RT) PRO under controlled laboratory conditions. PH Bio Labs finishes research peptides in the United States. Storage, handling, and any laboratory preparation steps belong in the laboratory SOP. Do not use this material in diagnostic procedures. Statements on this page have not been evaluated by the U.S. Food and Drug Administration.",
+      "previous": {
+        "name": "GLP-3 (RT) PRO Oral Spray",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/09/GLP-3-RT-PRO-600x800.png",
+        "description": "GLP-3 (RT) PRO Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+        "price": 13500
+      },
+      "sha256": "6ec4b55ce42692f316b0"
+    },
+    {
+      "id": "glp2-tr-bpc-157",
+      "path": "/buy/glp2-tr-bpc-157/",
+      "name": "GLP2-(TR) / BPC-157 – 30/1.3mg",
+      "sourceId": "1136",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-4.55.08-PM.png",
+      "description": "GLP-2 (TR) / BPC-157 is a synthetic peptide formulation intended exclusively for controlled laboratory research involving peptide characterization, formulation stability, and cellular signaling pathways.",
+      "price": 20000,
+      "variants": [],
+      "certificates": [],
+      "overview": "GLP-2 (TR) / BPC-157 is a combined synthetic peptide formulation developed exclusively for laboratory and analytical research. It allows qualified researchers to examine two distinct research compounds within controlled experimental models. Potential research applications include evaluating compound identity, purity, formulation stability, molecular interactions, and downstream cellular signaling. BPC-157 has primarily been evaluated in preclinical research, and available findings do not establish safety or effectiveness in humans. This product is supplied for analytical, in vitro, and other appropriately designed nonclinical studies. Research should be performed by qualified professionals using validated laboratory procedures. Product: GLP-2 (TR) / BPC-157 Format: Combined research formulation Classification: Synthetic research peptides Research areas: Peptide characterization, stability, and cellular signaling Intended use: Laboratory research only For research use only. Not for human or veterinary use. Not intended for consumption. This product is not intended to diagnose, treat, cure, or prevent any disease.",
+      "previous": {
+        "name": "GLP2-(TR) / BPC-157 – 30/1.3mg",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-4.55.08-PM-600x815.png",
+        "description": "GLP2-(TR) / BPC-15730/1.3mg research blend from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 20000
+      },
+      "sha256": "b2b329f2fd7658537a52"
+    },
+    {
+      "id": "gut-guard-capsules",
+      "path": "/buy/gut-guard-capsules/",
+      "name": "Gut Guard Capsules",
+      "sourceId": "1107",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-25-at-12.47.14-PM.png",
+      "description": "Gut Guard Capsules is a research-grade peptide blend that combines BPC-157, TB-500, KPV, and Larazotide. This unique formulation has been studied for its potential role in supporting gastrointestinal integrity, immune balance, and tissue-related pathways.",
+      "price": 14999,
+      "variants": [
+        {
+          "id": "gut-guard-capsules--1149",
+          "label": "60 Capsules",
+          "price": 14999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-25-at-12.47.14-PM.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Gut Guard Capsules is a PH Bio Labs research formula (BPC-157, TB-500, KPV, and Larazotide 500mcg each). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. For Research Use Only",
+      "previous": {
+        "name": "Gut Guard Capsules",
+        "image": "/assets/69c921b82063e78a62b6.png",
+        "description": "Gut Guard Capsules (BPC-157, TB-500, KPV, Larazotide) from PH Bio Labs. Independent testing. For laboratory research use only.",
+        "price": 14999
+      },
+      "sha256": "49bd483b5a92a04a9203"
+    },
+    {
+      "id": "hcg",
+      "path": "/buy/hcg/",
+      "name": "HCG",
+      "sourceId": "1096",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/HCG-10000-iu-Vial-2-Template.png",
+      "description": "Human Chorionic Gonadotropin (HCG) is a naturally occurring hormone that plays an essential role in reproductive health and hormone regulation. In research settings, HCG has been studied for its potential effects on metabolic function, hormonal balance, and fat metabolism. Scientists are also exploring its role in stimulating testosterone production and supporting reproductive health in both men and women.",
+      "price": 6000,
+      "variants": [
+        {
+          "id": "hcg--1189",
+          "label": "5000 iu",
+          "price": 6000,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/HCG-10000-iu-2-Vial-2-Template.png"
+        },
+        {
+          "id": "hcg--1190",
+          "label": "10000 iu",
+          "price": 10800,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/HCG-10000-iu-Vial-2-Template.png"
+        }
+      ],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA7361.pdf"
+      ],
+      "overview": "HCG - 5mg is a research-grade formulation of Human Chorionic Gonadotropin, a glycoprotein hormone that naturally regulates reproductive processes. Moreover, researchers use HCG to study endocrine functions and hormonal interactions. Furthermore, scientists examine HCG for its role in stimulating gonadal function and modulating hormonal activity. They focus on how HCG binds to its receptors, influencing testosterone production in men and regulating follicular development in women. Finally, each batch of HCG—5mg undergoes rigorous laboratory testing to ensure high purity, potency, and consistency. Researchers rely on this product for reproducible results and controlled experiments, and it is strictly for research purposes only. For Research Use Only",
+      "previous": {
+        "name": "HCG",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/HCG-10000-iu-Vial-2-Template-600x800.png",
+        "description": "HCG research compound from PH Bio Labs, with independent testing documentation. For laboratory research use only. Not for human use.",
+        "price": 6000
+      },
+      "sha256": "525e4bdda263340837cd"
+    },
+    {
+      "id": "igf-lr3-1mg",
+      "path": "/buy/igf-lr3-1mg/",
+      "name": "IGF-LR3 – 1mg",
+      "sourceId": "1161",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/igf-lr3-Vial-2-Template.png",
+      "description": "IGF-LR3 (Long R3 IGF-1) is a modified analogue of Insulin-like Growth Factor-1 (IGF-1), a naturally occurring peptide involved in cellular signaling and growth factor pathways. In research settings, IGF-LR3 is studied for its interaction with IGF-related receptors, cellular communication mechanisms, and molecular pathways associated with growth factor activity. Scientists are also exploring its role in understanding protein regulation, cell signaling, and biological responses in controlled laboratory environments.",
+      "price": 9900,
+      "variants": [],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6016-7-8-26.pdf"
+      ],
+      "overview": "IGF-LR3 is a research-grade formulation of Long R3 Insulin-like Growth Factor-1 (IGF-1 LR3), a modified analogue of the naturally occurring insulin-like growth factor involved in cellular signaling pathways. Researchers use IGF-LR3 to investigate growth factor activity, receptor interactions, and molecular mechanisms related to IGF signaling. Furthermore, scientists study IGF-LR3 to better understand its interaction with IGF-1 receptors and its role in cellular processes, including signal transduction, protein regulation, and pathways associated with cell growth and differentiation in controlled laboratory environments. Additionally, researchers examine IGF-LR3 in experimental models to explore growth factor biology, peptide-receptor interactions, and the effects of structural modifications on biological activity. These studies help advance understanding of IGF-related pathways and their involvement in cellular regulation. Finally, each batch of IGF-LR3 – 1mg undergoes rigorous laboratory testing to ensure purity, quality, and consistency. Researchers rely on this product for controlled experiments and reproducible results, and it is strictly intended for research purposes only. For Research Use Onl",
+      "previous": {
+        "name": "IGF-LR3 – 1mg",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/igf-lr3-Vial-2-Template-600x800.png",
+        "description": "IGF-LR3 1mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 9900
+      },
+      "sha256": "65e5eb8b0b0d2ea82f42"
+    },
+    {
+      "id": "ignite-x-capsules",
+      "path": "/buy/ignite-x-capsules/",
+      "name": "Ignite X Capsules",
+      "sourceId": "1109",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-6.11.06-PM.png",
+      "description": "Ignite-X Capsules is a research-grade peptide blend that combines GLP-1S, BPC-157, and 5-Amino-1MQ. This distinctive formulation is being studied for its potential role in supporting metabolic pathways, weight regulation models, and cellular energy balance.",
+      "price": 9999,
+      "variants": [
+        {
+          "id": "ignite-x-capsules--1158",
+          "label": "60 Capsules",
+          "price": 9999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-6.11.06-PM.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Ignite X Capsules are a multi-compound research formulation containing GLP1S, BPC-157, and 5-Amino-1MQ. This encapsulated formulation is intended exclusively for laboratory investigations involving GLP-1 receptor activity, peptide characterization, NNMT inhibition, formulation stability, and associated cellular signaling pathways. GLP1S is a modified peptide analog of glucagon-like peptide-1 and has been characterized as a GLP-1 receptor agonist. Laboratory applications may include receptor-binding analysis, peptide stability testing, molecular characterization, and investigations of downstream GLP-1-associated signaling.[1] BPC-157 is a synthetic pentadecapeptide investigated primarily through preclinical laboratory and animal models. Research involving BPC-157 has examined peptide stability, molecular interactions, and several cellular signaling processes. Human evidence remains limited, and available findings do not establish safety or effectiveness for this combined formulation.[2] 5-Amino-1MQ, also known as 5-amino-1-methylquinolinium, is a synthetic small-molecule compound studied as an inhibitor of nicotinamide N-methyltransferase, commonly abbreviated as NNMT. Published research has examined its activity in biochemical assays, cultured cells, and preclinical models involving nicotinamide-associated metabolic pathways.[3] Research involving the combined formulation should be conducted using appropriately designed laboratory protocols.",
+      "previous": {
+        "name": "Ignite X Capsules",
+        "image": "/assets/fca6896ee50cbcc53f89.png",
+        "description": "Ignite X capsules containing glp1s, BPC-157, and 5-Amino-1MQ for controlled laboratory and analytical research.",
+        "price": 9999
+      },
+      "sha256": "f271ad871d3112a0bc6c"
+    },
+    {
+      "id": "ipamorelin",
+      "path": "/buy/ipamorelin/",
+      "name": "Ipamorelin",
+      "sourceId": "1080",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Ipamorelin-Vial-2-Template.png",
+      "description": "Ipamorelin is a selective growth hormone secretagogue and ghrelin receptor agonist that has been studied for its ability to stimulate the natural release of growth hormone (GH) without significantly affecting cortisol or prolactin levels. Due to its specificity, it has been widely researched for its potential benefits in muscle growth, recovery, and metabolic function.",
+      "price": 4000,
+      "variants": [
+        {
+          "id": "ipamorelin--1191",
+          "label": "5mg",
+          "price": 4000,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Ipamorelin-2-Vial-2-Template.png"
+        },
+        {
+          "id": "ipamorelin--1192",
+          "label": "10mg",
+          "price": 7200,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Ipamorelin-Vial-2-Template.png"
+        }
+      ],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA7364.pdf"
+      ],
+      "overview": "Ipamorelin is a synthetic peptide that stimulates the release of growth hormone (GH) by mimicking ghrelin, a natural hunger hormone. It works by binding to ghrelin receptors in the pituitary gland, triggering GH secretion without significantly affecting cortisol, prolactin, or hunger levels. Researchers study Ipamorelin for its potential to promote muscle growth, fat loss, and faster recovery. By increasing GH levels, it may enhance tissue repair, improve metabolism, and support lean muscle development. Unlike other GH-releasing peptides, Ipamorelin provides controlled GH release with fewer side effects. Additionally, studies explore its role in anti-aging, improved sleep, and overall physical performance. While research shows promising results, ongoing studies continue to assess its long-term safety and effectiveness. For Research Use Only",
+      "previous": {
+        "name": "Ipamorelin",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Ipamorelin-Vial-2-Template-600x800.png",
+        "description": "Ipamorelin research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 4000
+      },
+      "sha256": "2fb85829bf4311fab80b"
+    },
+    {
+      "id": "ipamorelin-cjc-1295-nasal-spray",
+      "path": "/buy/ipamorelin-cjc-1295-nasal-spray/",
+      "name": "IPAMORELIN / CJC-1295 Nasal Spray",
+      "sourceId": "4766",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/10/Ipamorelin_CJC-1295-PRO.png",
+      "description": "IPAMORELIN / CJC-1295 Nasal Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "price": 8000,
+      "variants": [],
+      "certificates": [],
+      "overview": "IPAMORELIN / CJC-1295 Nasal Spray is a research peptide formulation from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. IPAMORELIN / CJC-1295 Nasal Spray is independently tested by reverse-phase HPLC and mass spectrometry, with a lot-specific certificate of analysis. Researchers may use this nasal-spray format to study the peptide combination under controlled laboratory conditions. PH Bio Labs finishes research peptides in the United States. Storage, handling, and any laboratory preparation steps belong in the laboratory SOP. Do not use this material in diagnostic procedures. Statements on this page have not been evaluated by the U.S. Food and Drug Administration.",
+      "previous": {
+        "name": "IPAMORELIN / CJC-1295 Nasal Spray",
+        "image": "/assets/3f01976ce4e23d01e6c9.png",
+        "description": "IPAMORELIN / CJC-1295 Nasal Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+        "price": 8000
+      },
+      "sha256": "ac2b4dc637e80a4f1dc3"
+    },
+    {
+      "id": "kisspeptin-10mg",
+      "path": "/buy/kisspeptin-10mg/",
+      "name": "Kisspeptin-10mg",
+      "sourceId": "1162",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Kisspeptin-10-Vial-2-Template.png",
+      "description": "Kisspeptin-10MG is a bioactive peptide derived from the kisspeptin family of signaling molecules involved in studying neuroendocrine and reproductive hormone pathways. In research settings, Kisspeptin-10 is examined for its interaction with the KISS1 receptor (KISS1R) and its role in understanding hormone signaling mechanisms. Scientists are also exploring its applications in peptide biology, receptor activation studies, and endocrine research models.",
+      "price": 5000,
+      "variants": [],
+      "certificates": [],
+      "overview": "Kisspeptin-10MG is a naturally occurring peptide fragment derived from the kisspeptin family, which plays an important role in studying hormone signaling pathways and reproductive biology. In research settings, Kisspeptin-10 is investigated for its interaction with the kisspeptin receptor (KISS1R) and its influence on neuroendocrine signaling mechanisms. Scientists are exploring its role in understanding hormonal regulation, peptide-receptor interactions, and reproductive system pathways in controlled laboratory environments. Furthermore, researchers study Kisspeptin-10 to examine how peptide signaling influences the release and regulation of reproductive hormones. Investigations focus on its molecular interactions, receptor activation, and the communication pathways involved in endocrine function. Additionally, scientists explore Kisspeptin-10 in experimental models to better understand hormone-related signaling networks, neuroendocrine mechanisms, and the relationship between peptide activity and reproductive biology. Finally, each batch of Kisspeptin-10 undergoes rigorous laboratory testing to ensure purity, quality, and consistency. Researchers rely on this product for controlled experiments and reproducible results, and it is strictly intended for research purposes only. For Research Use Only",
+      "previous": {
+        "name": "Kisspeptin-10mg",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Kisspeptin-10-Vial-2-Template-600x800.png",
+        "description": "Kisspeptin-10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 5000
+      },
+      "sha256": "8f885e779bb6abba0845"
+    },
+    {
+      "id": "klow-blend-50-10-10-10mg",
+      "path": "/buy/klow-blend-50-10-10-10mg/",
+      "name": "Klow Blend – 50/10/10/10mg",
+      "sourceId": "1122",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/KLOW-GHK-Cu-_-BPC-157-_-TB-500-_-KPV-50_10-Vial-2-Template.png",
+      "description": "KLOW Peptide Blend (GHK-Cu, BPC-157, TB-500, KPV) is a research-based peptide formulation developed for studies focused on skin health, cellular balance, and tissue integrity. This advanced blend combines four well-researched peptides that may work synergistically to support collagen structure, hydration, and inflammatory regulation in research settings.",
+      "price": 11000,
+      "variants": [],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6098-7-9-26.pdf"
+      ],
+      "overview": "KLOW Blend (GHK-Cu, BPC-157, TB-500, KPV) is an advanced research formulation developed for studies focused on skin health, repair processes, and cellular function. This blend combines four well-known peptides in a single research formulation. Researchers study this combination to explore how peptides may interact in pathways related to skin barrier support and inflammatory balance. Scientists also examine how peptide synergy has the potential to influence cellular signaling in skin-focused research models. Researchers have studied peptides such as GHK-Cu, BPC-157, and TB-500 for their potential roles in tissue structure and repair mechanisms. Scientists investigate how these peptides may relate to tissue integrity, smoothness, and overall cellular balance. KPV adds another area of research interest. Researchers have studied this peptide for how it may interact with inflammatory signaling pathways and support balanced skin environments in laboratory settings. The multi-peptide design allows scientists to investigate how peptide combinations may work together. These studies may help researchers better understand peptide-based mechanisms related to protection, resilience, and structural support. Researchers produce each batch of KLOW Peptide Blend under strict quality standards. They test every batch for purity, stability, and consistency to support reliable research outcomes.",
+      "previous": {
+        "name": "Klow Blend – 50/10/10/10mg",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/KLOW-GHK-Cu-_-BPC-157-_-TB-500-_-KPV-50_10-Vial-2-Template-600x800.png",
+        "description": "KLOW Blend 50/10/10/10mg GHK-Cu, BPC-157, TB-500, and KPV research blend from PH Bio Labs. HPLC tested. For laboratory research use only.",
+        "price": 11000
+      },
+      "sha256": "36c54cfee448a5562727"
+    },
+    {
+      "id": "klow-blend-capsules",
+      "path": "/buy/klow-blend-capsules/",
+      "name": "Klow Blend Capsules",
+      "sourceId": "1116",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-6.33.42-PM.png",
+      "description": "Klow Blend Capsules are a research-focused blend of GHK-Cu, BPC-157, TB-500, KPV, and Hyaluronic Acid (HA), selected for their potential complementary effects on cellular repair, inflammation control, and tissue support. This formulation is designed for use in scientific studies investigating pathways involved in tissue remodeling, immune regulation, and extracellular matrix health.",
+      "price": 12999,
+      "variants": [
+        {
+          "id": "klow-blend-capsules--1143",
+          "label": "60 Capsules",
+          "price": 12999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-6.33.42-PM.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Klow Blend Capsules is a PH Bio Labs research formula (GHK-Cu 2mg, BPC-157 0.5mg, TB-500 0.5mg, KPV 0.5mg, and HA 100mg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. All batches undergo strict quality control to ensure consistency, purity, and reproducibility. This reliability supports accurate experimental design, hypothesis testing, and data analysis. Scientists can rely on each batch performing consistently under controlled laboratory conditions. Klow Blend Capsules provide a versatile tool for studying complex biological interactions. Researchers can explore how peptides may influence tissue structure, resilience, and regenerative potential. The combined formulation has been studied to reveal effects that single peptides may not produce alone. It is a valuable resource for laboratory research in dermatology, tissue engineering, and regenerative medicine.",
+      "previous": {
+        "name": "Klow Blend Capsules",
+        "image": "/assets/a342652bcd6912af735b.png",
+        "description": "Klow Blend Capsules (Formula 137: GHK-Cu, BPC-157, TB-500, KPV, HA) from PH Bio Labs. For laboratory research use only.",
+        "price": 12999
+      },
+      "sha256": "60bb79171611e971fe94"
+    },
+    {
+      "id": "kpv-10mg",
+      "path": "/buy/kpv-10mg/",
+      "name": "KPV – 10mg",
+      "sourceId": "1163",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/KPV-Vial-2-Template.png",
+      "description": "KPV 10MG is a naturally derived tripeptide fragment associated with alpha-melanocyte-stimulating hormone (α-MSH) research. In laboratory settings, KPV is studied for its role in peptide signaling, molecular interactions, and cellular pathway research. Scientists are exploring KPV to better understand peptide activity, biochemical mechanisms, and communication processes within controlled research models.",
+      "price": 5000,
+      "variants": [],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6099-7-7-26.pdf"
+      ],
+      "overview": "KPV 10MG is a tripeptide derived from the C-terminal sequence of alpha-melanocyte-stimulating hormone (α-MSH), a naturally occurring peptide involved in studying cellular signaling pathways and biological communication mechanisms. In research settings, KPV is investigated for its interaction with molecular pathways related to peptide signaling, immune response mechanisms, and cellular regulation. Scientists are exploring KPV to better understand peptide activity, receptor interactions, and biological processes in controlled laboratory environments. Furthermore, researchers study KPV to examine peptide-based signaling mechanisms and how small peptide sequences interact with cellular pathways. Investigations focus on molecular interactions, biochemical processes, and the role of peptide fragments in laboratory research models. Additionally, scientists explore KPV in experimental studies involving cellular communication, peptide functionality, and molecular biology to better understand mechanisms associated with signaling pathways. Finally, each batch of KPV undergoes rigorous laboratory testing to ensure purity, quality, and consistency. Researchers rely on this product for controlled experiments and reproducible results, and it is strictly intended for research purposes only. For Research Use Only",
+      "previous": {
+        "name": "KPV – 10mg",
+        "image": "/assets/74c571d1a3d82ad62589.png",
+        "description": "KPV 10mg tripeptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 5000
+      },
+      "sha256": "c34103283b434470e794"
+    },
+    {
+      "id": "kpv-capsules",
+      "path": "/buy/kpv-capsules/",
+      "name": "KPV Capsules",
+      "sourceId": "1173",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-2.22.10-PM.png",
+      "description": "KPV Capsules is a synthetic tripeptide (Lysine-Proline-Valine) derived from the C-terminal sequence of alpha-melanocyte-stimulating hormone (α-MSH). It has been studied for its potential role in inflammatory signaling, immune-related pathways, and tissue-associated processes in laboratory and preclinical research.",
+      "price": 7999,
+      "variants": [
+        {
+          "id": "kpv-capsules--1174",
+          "label": "60 Capsules",
+          "price": 7999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-2.22.10-PM.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "KPV Capsules is a PH Bio Labs research formula (KPV 500mcg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Synthetic tripeptide (Lysine-Proline-Valine) derived from the C-terminal region of alpha-melanocyte-stimulating hormone (α-MSH). Researchers study its potential effects on inflammation and tissue repair. Specifically, Formula 45 may support healing by reducing inflammatory signaling within cells, a process closely tied to how the body responds to injury and irritation. This may support recovery in the gut, skin, and other tissues affected by inflammation. In conclusion, ongoing studies explore KPV broader potential in inflammation control, gut health, and tissue regeneration. As research advances, more insights may emerge regarding its mechanisms of action and safety profile. For Research Use Only",
+      "previous": {
+        "name": "KPV Capsules",
+        "image": "/assets/216afced575c813c41b7.png",
+        "description": "KPV Capsules (Formula 45, KPV 500mcg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+        "price": 7999
+      },
+      "sha256": "0e00b9e0e5d21c0c9c5d"
+    },
+    {
+      "id": "l-glutathione-600mg",
+      "path": "/buy/l-glutathione-600mg/",
+      "name": "L-Glutathione – 600mg",
+      "sourceId": "1094",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/L-Glutathione-Vial-2-Template.png",
+      "description": "L-glutathione is a potent antioxidant crucial in protecting cells from oxidative stress and supporting overall cellular health. A naturally occurring tripeptide composed of glutamine, cysteine, and glycine is essential for detoxification, immune function, and maintaining the integrity of various bodily systems.",
+      "price": 7500,
+      "variants": [],
+      "certificates": [],
+      "overview": "L-Glutathione is a small protein made of three amino acids: glutamine, cysteine, and glycine. It is one of the body’s most important antioxidants, helping to protect cells from damage. As a strong antioxidant, L-Glutathione defends cells against oxidative stress and harmful molecules called free radicals. These can speed up aging and contribute to various health problems. One of L-Glutathione’s main jobs is to control reactive oxygen species (ROS), which are waste products from cell activity. If ROS build up, they can harm proteins, fats, and DNA. L-Glutathione helps maintain balance in the cells, keeping them healthy. For Research Use Only",
+      "previous": {
+        "name": "L-Glutathione – 600mg",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/L-Glutathione-Vial-2-Template-600x800.png",
+        "description": "L-Glutathione 600mg research compound from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 7500
+      },
+      "sha256": "55b3e4d6c90e5f3851d6"
+    },
+    {
+      "id": "libido-drive-x-capsules",
+      "path": "/buy/libido-drive-x-capsules/",
+      "name": "Libido Drive X Capsules",
+      "sourceId": "1118",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-6.26.51-PM.png",
+      "description": "Libido Drive Capsules features a research-driven blend of Kisspeptin, VIP, Oxytocin, PT-141, and N-Acetyl L-Tyrosine formulated for studies on neuroendocrine and behavioral systems.",
+      "price": 12999,
+      "variants": [
+        {
+          "id": "libido-drive-x-capsules--1141",
+          "label": "60 Capsules",
+          "price": 12999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-6.26.51-PM.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Libido Drive X Capsules is a PH Bio Labs research formula (PT-141 0.5mg, oxytocin 1mg, N-acetyl L-tyrosine 100mg, kisspeptin 0.25mg, and VIP 0.25mg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Libido Drive X Capsules is a specialized research peptide blend designed for laboratory studies. Moreover, this high-purity formulation combines Kisspeptin, VIP (Vasoactive Intestinal Peptide), Oxytocin, PT-141, and N-Acetyl L-Tyrosine. Researchers can use this blend to examine complex neuroendocrine and physiological processes in controlled experimental models.",
+      "previous": {
+        "name": "Libido Drive X Capsules",
+        "image": "/assets/b1ea3af00698f181eb14.png",
+        "description": "Libido Drive X Capsules (Formula 103: PT-141, oxytocin, NALT, kisspeptin, VIP) from PH Bio Labs. For laboratory research use only.",
+        "price": 12999
+      },
+      "sha256": "46ec0d8b5db835f13014"
+    },
+    {
+      "id": "ll-37",
+      "path": "/buy/ll-37/",
+      "name": "LL-37",
+      "sourceId": "1121",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/LL-37-Vial-2-Template.png",
+      "description": "LL-37 is a synthetic antimicrobial peptide that researchers study for its potential effects on immune function, wound healing, and inflammation. It is the only human cathelicidin peptide and plays a key role in the body’s first line of defense against pathogens.",
+      "price": 7000,
+      "variants": [
+        {
+          "id": "ll-37--1193",
+          "label": "5mg",
+          "price": 7000,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/LL-37-2-Vial-2-Template.png"
+        },
+        {
+          "id": "ll-37--1194",
+          "label": "10mg",
+          "price": 9900,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/LL-37-Vial-2-Template.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "LL-37-5 MG Peptide is a synthetic antimicrobial peptide that researchers study for its potential role in immune support, infection control, and wound healing. They often explore how it may help protect the body by targeting harmful bacteria, viruses, and fungi. As the immune system reacts to threats, it can sometimes trigger inflammation. Because of this, scientists examine how LL-37 may help regulate that response while keeping the body’s defense strong. LL-37 also supports tissue repair in many cases, making it useful in wound healing research. Moreover, researchers are interested in its possible effects on chronic inflammation and skin conditions such as eczema and psoriasis. Some studies suggest it could calm inflammatory responses without weakening overall immunity. This makes LL-37 a valuable compound in both dermatology and immunology research. Each batch of LL-37 is produced under strict lab standards to ensure purity and consistency. Therefore, researchers can trust it for accurate and reliable results in scientific studies. LL-37 is for research use only and not for human use.",
+      "previous": {
+        "name": "LL-37",
+        "image": "/assets/0a06d54fc4b45e354ca4.png",
+        "description": "LL-37 research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 7000
+      },
+      "sha256": "cd5ee524956f3810ce46"
+    },
+    {
+      "id": "melanotan-2-10mg",
+      "path": "/buy/melanotan-2-10mg/",
+      "name": "Melanotan 2 – 10mg",
+      "sourceId": "1095",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Melanotan-2-Vial-2-Template.png",
+      "description": "Melanotan 2 is a synthetic peptide that mimics the effects of melanocortin, a hormone involved in skin pigmentation. It has been studied for its potential role in promoting skin tanning, pigmentation, and UV protection. Researchers are exploring Melanotan 2's effects on melanin production, which may help regulate skin color and potentially reduce UV damage in research models.",
+      "price": 3500,
+      "variants": [],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6101-7-7-26.pdf"
+      ],
+      "overview": "Melanotan 2 - 10mg is a research-grade peptide used by scientists to study skin pigmentation mechanisms. This synthetic analog of alpha-melanocyte stimulating hormone (α-MSH) helps researchers explore how melanin production is regulated. Furthermore, researchers analyze how Melanotan 2 binds to melanocortin receptors, particularly MC1R, to trigger melanin synthesis. In controlled laboratory settings, they examine receptor interactions and intracellular signaling pathways. Consequently, these studies clarify the molecular processes behind tanning. Additionally, scientists investigate the peptide’s potential impact on skin protection and repair. They assess how Melanotan 2 influences cellular responses to oxidative stress and contributes to skin resilience. As a result, this research supports further exploration into photo-protection and anti-aging strategies. Finally, each batch of Melanotan 2 - 10mg undergoes rigorous quality testing to ensure high purity, potency, and consistency. Therefore, researchers rely on this product for reproducible results in their controlled experiments, and it remains strictly for research purposes only. For Research Use Only",
+      "previous": {
+        "name": "Melanotan 2 – 10mg",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Melanotan-2-Vial-2-Template-600x800.png",
+        "description": "Melanotan 2 10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 3500
+      },
+      "sha256": "8a0b965dd702c85252e2"
+    },
+    {
+      "id": "meta-drive-capsules",
+      "path": "/buy/meta-drive-capsules/",
+      "name": "Meta Drive Capsules",
+      "sourceId": "1108",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-5.57.07-PM.png",
+      "description": "Meta Drive capsules Combining SLU-PP-332 and 5-Amino-1MQ Capsules. This specialized blend is being studied for its potential involvement in metabolic regulation, cellular energy dynamics, and lipid metabolism. Researchers utilize this combination to explore pathways related to energy balance, mitochondrial activity, and systemic metabolic processes in controlled laboratory settings.",
+      "price": 12999,
+      "variants": [
+        {
+          "id": "meta-drive-capsules--1148",
+          "label": "60 Capsules",
+          "price": 12999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-5.57.07-PM.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Meta Drive, SLU-PP-332/5-Amino-1MQ Research Capsules combine two synthetic small-molecule compounds in an encapsulated format intended exclusively for laboratory and analytical research. The formulation contains labeled amounts of 0.25 mg SLU-PP-332 and 50 mg 5-Amino-1MQ. 5-Amino-1MQ, also known as 5-amino-1-methylquinolinium, has been studied as a small-molecule inhibitor of nicotinamide N-methyltransferase (NNMT). Laboratory investigations have examined its activity in enzyme assays, cultured cells, and animal models involving nicotinamide metabolism and related cellular pathways. This combined formulation may support controlled research examining compound identity, formulation stability, dissolution characteristics, receptor activity, enzyme inhibition, and interconnected cellular signaling mechanisms. Published findings involving these compounds are preclinical and do not establish human safety, effectiveness, dosage, or therapeutic benefit.",
+      "previous": {
+        "name": "Meta Drive Capsules",
+        "image": "/assets/d751696955677eb77202.png",
+        "description": "Meta Drive capsules, SLU-PP-332/5-Amino-1MQ capsules for laboratory research involving ERR activity, NNMT inhibition, and cellular metabolic pathways.",
+        "price": 12999
+      },
+      "sha256": "838b07a218c47db73241"
+    },
+    {
+      "id": "methylene-blue-capsules",
+      "path": "/buy/methylene-blue-capsules/",
+      "name": "Methylene Blue Capsules",
+      "sourceId": "1119",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-6.36.42-PM.png",
+      "description": "Methylene Blue Capsules are formulated for laboratory research focused on cellular energy, redox balance, and mitochondrial health. This compound is frequently studied in experimental settings for its potential influence on electron transfer processes and oxidative stress management.",
+      "price": 7999,
+      "variants": [
+        {
+          "id": "methylene-blue-capsules--1140",
+          "label": "60 Capsules",
+          "price": 7999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-6.36.42-PM.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Methylene Blue Capsules is a PH Bio Labs research formula (methylene blue 25mg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Overall, Methylene Blue provides researchers with a versatile tool to investigate mitochondrial function, cellular redox balance, and neuroprotective mechanisms. Furthermore, its consistent quality and broad application in laboratory models make it a reliable resource for ongoing research in cellular and molecular biology.",
+      "previous": {
+        "name": "Methylene Blue Capsules",
+        "image": "/assets/9a55d9199d450db503d2.png",
+        "description": "Methylene Blue Capsules (Formula 30, methylene blue 25mg) from PH Bio Labs. Independent testing. For laboratory research use only.",
+        "price": 7999
+      },
+      "sha256": "dcbf547fc88c2b7c5813"
+    },
+    {
+      "id": "mito-blu-capsules",
+      "path": "/buy/mito-blu-capsules/",
+      "name": "Mito Blu Capsules",
+      "sourceId": "1110",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-25-at-12.09.17-PM.png",
+      "description": "Mito Blu Capsules is a research-grade blend combining 9-ME-BC and Methylene Blue. This distinctive formulation is being studied for its potential role in supporting mitochondrial function, cognitive pathways, and cellular energy balance.",
+      "price": 9999,
+      "variants": [
+        {
+          "id": "mito-blu-capsules--1147",
+          "label": "60 Capsules",
+          "price": 9999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-25-at-12.09.17-PM.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Mito Blu Capsules is a PH Bio Labs research formula (9-ME-BC 10mg and methylene blue 5mg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Capsules offer a research-grade blend for studies on mitochondrial function, cognitive pathways, and systemic regulation. This formulation combines 9-ME-BC and Methylene Blue, giving researchers a tool to explore cellular energy, neurochemical activity, and oxidative balance. Researchers have studied 9-ME-BC for its potential effects on dopaminergic activity, neuroplasticity, and cognitive pathways. Methylene Blue has been studied for its role in mitochondrial efficiency, redox balance, and cellular protection. For Research Use Only",
+      "previous": {
+        "name": "Mito Blu Capsules",
+        "image": "/assets/afaec5131baee3868159.png",
+        "description": "Mito Blu Capsules (Formula 467, 9-ME-BC 10mg and methylene blue 5mg) from PH Bio Labs. For laboratory research use only.",
+        "price": 9999
+      },
+      "sha256": "be656fdefb3f21836c94"
+    },
+    {
+      "id": "mk-777-capsules",
+      "path": "/buy/mk-777-capsules/",
+      "name": "MK-777 Capsules",
+      "sourceId": "1106",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/MK-777-1.png",
+      "description": "MK-777 is a non-peptide compound that has been studied for its potential role as a growth hormone secretagogue. It is known for stimulating the release of growth hormone and IGF-1 (insulin-like growth factor 1) through its interaction with the ghrelin receptor.",
+      "price": 12999,
+      "variants": [
+        {
+          "id": "mk-777-capsules--1150",
+          "label": "60 Capsules",
+          "price": 12999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/MK-777-1.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "MK-777 Capsules is a PH Bio Labs research formula (Formula 777: MK-777 20mg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Formula 777 is a research-grade compound that scientists study to understand growth hormone regulation. This non-peptide secretagogue is key in stimulating the release of growth hormone and IGF-1, making it valuable in exploring mechanisms related to growth, metabolism, and recovery. Furthermore, researchers examine how MK-777 interacts with the ghrelin receptor and influences hormonal pathways. They explore how this interaction alters endocrine signaling and contributes to shifts in energy balance, muscle preservation, and tissue support. In turn, this research helps uncover new insights into hormone regulation and metabolic processes. Moreover, scientists investigate MK-777’s impact on bone density, sleep quality, and recovery cycles. Controlled laboratory experiments measure changes in muscle mass, fat composition, and overall metabolic efficiency. These studies aim to expand knowledge about the role of growth hormone secretagogues in health and performance models. Finally, each batch of MK-777 Capsules undergoes rigorous laboratory testing to ensure high purity and consistent potency. Researchers rely on its quality to generate reproducible results in growth hormone and metabolic studies. Therefore, the compound remains an essential tool for advancing scientific understanding of endocrine and metabolic regulation. For Research Use Only",
+      "previous": {
+        "name": "MK-777 Capsules",
+        "image": "/assets/47acc26067847eecdeee.png",
+        "description": "MK-777 Capsules (Formula 777, MK-777 20mg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+        "price": 12999
+      },
+      "sha256": "3d2ff5dbd0dc8531c969"
+    },
+    {
+      "id": "mots-c",
+      "path": "/buy/mots-c/",
+      "name": "MOTS-c",
+      "sourceId": "1098",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/MOTS-C-2-Vial-2-Template.png",
+      "description": "MOTS-c is a mitochondrial-derived peptide that has been studied for its potential role in regulating metabolism, cellular energy production, and insulin sensitivity. Research suggests that MOTS-c may help support metabolic processes by influencing how the body processes glucose and fatty acids.",
+      "price": 4000,
+      "variants": [
+        {
+          "id": "mots-c--1175",
+          "label": "10mg",
+          "price": 4000,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/MOTS-C-Vial-2-Template.png"
+        },
+        {
+          "id": "mots-c--1176",
+          "label": "40mg",
+          "price": 7200,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/MOTS-C-2-Vial-2-Template.png"
+        }
+      ],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6406-7-17-26.pdf",
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6102-7-9-26.pdf"
+      ],
+      "overview": "MOTS-c - 10mg is a mitochondrial-derived peptide that scientists use to study metabolic regulation. Researchers examine its role in energy production, insulin sensitivity, and mitochondrial function. Moreover, this peptide acts as a signaling molecule that links mitochondrial activity directly to cellular metabolism. In addition, scientists actively measure MOTS-c’s effects on key metabolic pathways under controlled laboratory conditions. They monitor how the peptide influences glucose uptake and energy balance, which in turn helps clarify the connection between mitochondria and overall metabolic health. Furthermore, researchers investigate MOTS-c for its potential impact on conditions such as obesity and metabolic syndrome. They evaluate how the peptide enhances insulin sensitivity and regulates cellular energy during metabolic stress, thereby deepening our understanding of cellular adaptation and longevity. Finally, each batch of MOTS-c—10mg undergoes rigorous quality testing to confirm its high purity and consistent potency. Consequently, scientists use this research-grade peptide in experiments that yield reproducible results and rely on it to support ongoing investigations into mitochondrial function and metabolic regulation.",
+      "previous": {
+        "name": "MOTS-c",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/MOTS-C-2-Vial-2-Template-600x800.png",
+        "description": "MOTS-c mitochondrial research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 4000
+      },
+      "sha256": "e9c78de7a23da2c3adde"
+    },
+    {
+      "id": "mots-c-ss-31-pro-sublingual-oral-spray",
+      "path": "/buy/mots-c-ss-31-pro-sublingual-oral-spray/",
+      "name": "MOTS-c / SS-31 PRO Sublingual Oral Spray",
+      "sourceId": "4617",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/09/MOTS-c-_-SS-31-PRO.png",
+      "description": "MOTS-c / SS-31 PRO Sublingual Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "price": 14500,
+      "variants": [],
+      "certificates": [],
+      "overview": "MOTS-c / SS-31 PRO Sublingual Oral Spray is a research peptide formulation from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. MOTS-c / SS-31 PRO Sublingual Oral Spray is independently tested by reverse-phase HPLC and mass spectrometry, with a lot-specific certificate of analysis. Researchers may use this sublingual oral-spray format to study the peptide combination under controlled laboratory conditions. PH Bio Labs finishes research peptides in the United States. Storage, handling, and any laboratory preparation steps belong in the laboratory SOP. Do not use this material in diagnostic procedures. Statements on this page have not been evaluated by the U.S. Food and Drug Administration.",
+      "previous": {
+        "name": "MOTS-c / SS-31 PRO Sublingual Oral Spray",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/09/MOTS-c-_-SS-31-PRO-600x800.png",
+        "description": "MOTS-c / SS-31 PRO Sublingual Oral Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+        "price": 14500
+      },
+      "sha256": "6e9ca9d336f25dbbd717"
+    },
+    {
+      "id": "nad",
+      "path": "/buy/nad/",
+      "name": "NAD+",
+      "sourceId": "1164",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/NAD-Vial-2-Template.png",
+      "description": "NAD+ is a research-grade coenzyme that plays a vital role in cellular energy production and metabolic regulation. Researchers study NAD+ for its ability to support mitochondrial function, enhance ATP production, and promote DNA repair. Additionally, it is essential for studies focused on aging, oxidative stress reduction, and metabolic health.",
+      "price": 5000,
+      "variants": [
+        {
+          "id": "nad--1179",
+          "label": "500mg",
+          "price": 5000,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/NAD-2-Vial-2-Template.png"
+        },
+        {
+          "id": "nad--1180",
+          "label": "1000mg",
+          "price": 10000,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/NAD-Vial-2-Template.png"
+        }
+      ],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA7359.pdf",
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA7360.pdf"
+      ],
+      "overview": "NAD+ is a coenzyme essential for cellular energy production and metabolic regulation. Researchers study NAD+ to understand its role in supporting mitochondrial function, enhancing ATP production, and maintaining overall metabolic health. Additionally, NAD+ plays a key role in DNA repair, making it crucial for studies on aging and cell regeneration. Scientists investigate how it drives metabolic processes by activating enzymes such as sirtuins and PARPs (poly ADP-ribose polymerases). Moreover, they analyze its ability to promote mitochondrial efficiency, which helps sustain energy levels and protect cells from oxidative damage. These studies provide insights into how NAD+ influences longevity and cellular resilience. Furthermore, researchers examine NAD+'s impact on metabolic disorders, including obesity, insulin resistance, and chronic fatigue. They assess how the coenzyme enhances glucose metabolism and improves insulin sensitivity. By improving these processes, NAD+ supports ongoing research into managing metabolic imbalances and promoting energy homeostasis. Each 1000mg batch undergoes comprehensive testing to ensure high purity and consistency. Researchers depend on this coenzyme to achieve reliable outcomes in studies involving mitochondrial health and cellular metabolism. Finally, NAD+ continues to drive advancements in research on aging, metabolic health, and energy regulation. Through its critical role in activating key metabolic pathways, it helps scientists develop innovative strategies for enhancing mitochondrial function, reducing cellular stress, and improving overall health.",
+      "previous": {
+        "name": "NAD+",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/NAD-Vial-2-Template-600x800.png",
+        "description": "NAD+ research coenzyme from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+        "price": 5000
+      },
+      "sha256": "6b9de702677e8c4c8206"
+    },
+    {
+      "id": "nad-nasal-spray",
+      "path": "/buy/nad-nasal-spray/",
+      "name": "NAD+ Nasal Spray",
+      "sourceId": "4418",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/09/NAD-NASAL-SPRAY-1.png",
+      "description": "NAD+ Nasal Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "price": 9000,
+      "variants": [],
+      "certificates": [],
+      "overview": "NAD+ Nasal Spray is a research peptide formulation from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. NAD+ Nasal Spray is independently tested by reverse-phase HPLC and mass spectrometry, with a lot-specific certificate of analysis. The purity shown on this listing is 99.9 percent HPLC. Researchers use this nasal-spray format to study NAD+ under controlled laboratory conditions. PH Bio Labs finishes research peptides in the United States. Storage, handling, and any reconstitution steps belong in the laboratory SOP. Do not use this material in diagnostic procedures. Statements on this page have not been evaluated by the U.S. Food and Drug Administration.",
+      "previous": {
+        "name": "NAD+ Nasal Spray",
+        "image": "/assets/141491a334f0969ff365.png",
+        "description": "NAD+ Nasal Spray research compound from PH Bio Labs, with testing documentation. For laboratory research use only. Not for human use.",
+        "price": 9000
+      },
+      "sha256": "508449037b0c892bce0c"
+    },
+    {
+      "id": "nad-pro-nasal-spray",
+      "path": "/buy/nad-pro-nasal-spray/",
+      "name": "NAD+ PRO Nasal Spray",
+      "sourceId": "4618",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/09/NAD-PRO.png",
+      "description": "NAD+ PRO Nasal Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "price": 6900,
+      "variants": [],
+      "certificates": [],
+      "overview": "NAD+ PRO Nasal Spray is a research formulation from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. NAD+ PRO Nasal Spray is independently tested by reverse-phase HPLC and mass spectrometry, with a lot-specific certificate of analysis. Researchers may use this nasal-spray format to study NAD+ under controlled laboratory conditions. PH Bio Labs finishes research formulations in the United States. Storage, handling, and any laboratory preparation steps belong in the laboratory SOP. Do not use this material in diagnostic procedures. Statements on this page have not been evaluated by the U.S. Food and Drug Administration.",
+      "previous": {
+        "name": "NAD+ PRO Nasal Spray",
+        "image": "/assets/c154dbca69bcf221e5a1.png",
+        "description": "NAD+ PRO Nasal Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+        "price": 6900
+      },
+      "sha256": "56be188a9be0b2ec2d5e"
+    },
+    {
+      "id": "neuro-blu-capsules",
+      "path": "/buy/neuro-blu-capsules/",
+      "name": "Neuro Blu Capsules",
+      "sourceId": "1111",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-25-at-12.49.56-PM.png",
+      "description": "Neuro Blu capsules is a research-grade blend combining Dihexa, Tesofensine, and Methylene Blue. This distinctive formulation is being studied for its potential role in supporting cognitive function, metabolic regulation, and cellular energy balance.",
+      "price": 15999,
+      "variants": [
+        {
+          "id": "neuro-blu-capsules--1146",
+          "label": "60 Capsules",
+          "price": 15999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-25-at-12.49.56-PM.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Neuro Blu Capsules is a PH Bio Labs research formula (Dihexa 5mg, tesofensine 0.5mg, and methylene blue 50mg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Neuro Blu provide a research-grade blend for scientific studies on cognitive pathways, neuroprotection, and metabolic regulation. Specifically, this formulation combines Dihexa, Tesofensine, and Methylene Blue, giving researchers a reliable tool to explore brain function, neurotransmission, and cellular energy. Researchers test every batch of these capsules to confirm purity and consistency. Therefore, labs can trust the capsules for reproducible outcomes. This product is for research use only and is not intended for human consumption. Overall, integrating these compounds allows labs to advance studies on cognitive processes, metabolism, and mitochondrial function. Neuro Blu Capsules support experiments designed to explore brain function, neurotransmission, and cellular energy at a research level. For Research Use Only.",
+      "previous": {
+        "name": "Neuro Blu Capsules",
+        "image": "/assets/77bdd5e37d1d475115d2.png",
+        "description": "Neuro Blu Capsules (Formula 720: Dihexa, tesofensine, methylene blue) from PH Bio Labs. For laboratory research use only.",
+        "price": 15999
+      },
+      "sha256": "f68fc27369ddbc46e05c"
+    },
+    {
+      "id": "neurogenesis-x-capsules",
+      "path": "/buy/neurogenesis-x-capsules/",
+      "name": "Neurogenesis X Capsules",
+      "sourceId": "1169",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-2.14.34-PM.png",
+      "description": "Neurogenesis X Capsules are designed for laboratory research exploring mechanisms related to cognitive function, synaptic connectivity, and mitochondrial energy. This formula combines five materials — Dihexa, P21, Citicoline, Urolithin A, and PQQ — frequently studied for their potential to modulate neurotrophic and cellular-energy pathways and support brain cell communication.",
+      "price": 14999,
+      "variants": [
+        {
+          "id": "neurogenesis-x-capsules--1171",
+          "label": "60 Capsules",
+          "price": 14999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Screenshot-2026-09-24-at-2.14.34-PM.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Neurogenesis X Capsules is a PH Bio Labs research formula Dihexa 5mg, P21 20mg, citicoline 250mg, urolithin A 250mg, and PQQ 20mg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Neurogenesis X Capsules is a research-grade formula designed for laboratory investigation of cognitive-related pathways, mitochondrial activity, and cellular energy processes. It brings together five materials: Dihexa, P21, Citicoline, Urolithin A, and PQQ. For research use only. Not for human or veterinary use. Not intended to diagnose, treat, cure, or prevent any disease.",
+      "previous": {
+        "name": "Neurogenesis X Capsules",
+        "image": "/assets/afec6774e4ca10e98e04.png",
+        "description": "Neurogenesis X Capsules (Formula 91: Dihexa, P21, citicoline, urolithin A, PQQ) from PH Bio Labs. For laboratory research use only.",
+        "price": 14999
+      },
+      "sha256": "8cbafe78af4c9b06652e"
+    },
+    {
+      "id": "noctura-serum",
+      "path": "/buy/noctura-serum/",
+      "name": "Noctura Serum – 30mL",
+      "sourceId": "1127",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/night-time-serum-3.png",
+      "description": "Noctura Peptide Serum is a research-grade formulation designed for studies on nighttime relaxation pathways, circadian rhythm support, and restorative cellular signaling. Featuring a synergistic blend of Melatonin, Apigenin, and GABA, this topical serum is frequently examined for its potential to promote surface-level calmness, support sleep-related biological processes, and enhance overnight balance within research environments.",
+      "price": 4999,
+      "variants": [],
+      "certificates": [],
+      "overview": "Noctura Serum is a formulated nighttime peptide blend developed to support studies focused on sleep-cycle regulation, relaxation pathways, and nighttime cellular recovery. This targeted formulation combines Melatonin, Apigenin, and GABA—each selected for their complementary roles in supporting calmness, restorative signaling, and regulated circadian activity. Noctura Peptide Serum is examined for its potential to influence biological sleep rhythms, promote GABAergic relaxation pathways, and support nocturnal regenerative processes. Melatonin is widely studied for its role in circadian timing, while Apigenin is often explored for its calming and neuro-supportive properties. GABA, a key inhibitory neurotransmitter, is researched for its involvement in promoting relaxation and reducing neuronal excitability",
+      "previous": {
+        "name": "Noctura Serum – 30mL",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/night-time-serum-3-600x901.png",
+        "description": "Noctura Serum combines Melatonin, Apigenin, and GABA in a topical formula for nighttime relaxation pathways.",
+        "price": 4999
+      },
+      "sha256": "b338768799a1a1254e24"
+    },
+    {
+      "id": "orfo-drive-capsules",
+      "path": "/buy/orfo-drive-capsules/",
+      "name": "Orfo Drive Capsules",
+      "sourceId": "1112",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Orfo-Drive.png",
+      "description": "Orfo Drive Capsules is a research-grade blend that combines Orforglipron and SLU-PP-332. Additionally, this distinctive formulation is being studied for its potential role in supporting metabolic regulation, cellular energy pathways, and systemic balance.",
+      "price": 12999,
+      "variants": [
+        {
+          "id": "orfo-drive-capsules--1159",
+          "label": "60 Capsules",
+          "price": 12999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Orfo-Drive.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Orfo Drive Capsules is a PH Bio Labs research formula (Formula 194: orforglipron 6mg and SLU-PP-332 0.25mg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Orfo Drive Capsules is a research-grade blend designed for scientific studies on metabolic regulation, cellular signaling, and systemic balance. This formulation combines Orforglipron, a GLP-1 receptor agonist, with SLU-PP-332, giving researchers a versatile tool to explore weight regulation models, mitochondrial activity, and energy pathways. Moreover, researchers examine Orforglipron for its role in appetite regulation, glucose metabolism, and systemic metabolic pathways. Additionally, SLU-PP-332 is studied for its influence on PPARδ signaling, mitochondrial efficiency, and energy expenditure. Together, these compounds create opportunities to investigate how metabolic regulation, cellular energy, and systemic pathways may interact. Research often focuses on weight management, glucose sensitivity, and energy utilization models. Ultimately, each batch of Orfo Drive Capsules undergoes rigorous testing to confirm purity and consistency, ensuring reliable outcomes in ongoing scientific studies. For Research Use Only",
+      "previous": {
+        "name": "Orfo Drive Capsules",
+        "image": "/assets/3ea518ca9abc27b96b21.png",
+        "description": "Orfo Drive Capsules (Formula 194, orforglipron 6mg and SLU-PP-332 0.25mg) from PH Bio Labs. For laboratory research use only.",
+        "price": 12999
+      },
+      "sha256": "9c4d80e91cf872b88f76"
+    },
+    {
+      "id": "oxytocin-10mg",
+      "path": "/buy/oxytocin-10mg/",
+      "name": "Oxytocin – 10mg",
+      "sourceId": "1092",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Oxytocin-Vial-2-Template.png",
+      "description": "Oxytocin – 10mg is a research-grade synthetic peptide that plays a crucial role in social bonding, emotional regulation, and stress response. Researchers study this peptide to better understand its influence on brain activity, neurotransmission, and various physiological processes, including childbirth, lactation, and maternal behavior.",
+      "price": 5000,
+      "variants": [],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6009-7-8-26.pdf"
+      ],
+      "overview": "Oxytocin – 10mg is a synthetic form of the naturally occurring peptide hormone oxytocin. Researchers study this peptide for its role in various physiological processes, including social bonding, emotional regulation, and stress response. Scientists investigate how oxytocin influences brain activity by binding to oxytocin receptors in the central nervous system. Moreover, they analyze its effects on neurotransmission and how it modulates trust, empathy, and social bonding. These studies provide essential insights into its role in emotional and cognitive functioning. In addition, oxytocin research extends to its potential impact on anxiety and stress regulation. Researchers evaluate how the peptide reduces cortisol levels and promotes relaxation in response to social and environmental stressors. As a result, they aim to understand its therapeutic potential in managing anxiety, depression, and post-traumatic stress disorder (PTSD). Researchers also assess oxytocin’s effects on physical health, particularly in cardiovascular and inflammatory responses. Studies examine how oxytocin enhances vasodilation, reduces inflammation, and supports overall tissue repair. These findings contribute to a broader understanding of the peptide's systemic effects. Each batch of Oxytocin—10mg undergoes rigorous quality testing to ensure purity and consistency. Researchers depend on these high standards to produce reliable and reproducible results in various scientific studies. Ultimately, oxytocin remains a vital tool for advancing research into social behavior, emotional health, and physiological regulation.",
+      "previous": {
+        "name": "Oxytocin – 10mg",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Oxytocin-Vial-2-Template-600x800.png",
+        "description": "Oxytocin 10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 5000
+      },
+      "sha256": "02b5c68ad7bb912de1e8"
+    },
+    {
+      "id": "pt-141-10mg",
+      "path": "/buy/pt-141-10mg/",
+      "name": "PT-141-10mg",
+      "sourceId": "1084",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/PT-141-Vial-2-Template.png",
+      "description": "PT-141 – 10mg, also known as Bremelanotide, is a synthetic peptide derived from the melanocyte-stimulating hormone (MSH) family. Researchers study PT-141 to investigate its role in sexual health, arousal, and neuroendocrine regulation. In addition, it influences melanocortin receptors, supporting research on mood, stress response, and physiological balance.",
+      "price": 5000,
+      "variants": [],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6103-7_7_26.pdf"
+      ],
+      "overview": "PT-141 – 10mg, also known as Bremelanotide, is a synthetic peptide derived from the alpha-MSH (melanocyte-stimulating hormone) family. Researchers study PT-141 to understand its role in modulating sexual function and arousal through its activation of melanocortin receptors. Scientists explore how PT-141 interacts with the melanocortin-4 (MC4) receptor, which plays a key role in sexual arousal and energy balance. Furthermore, they analyze its effects on increasing blood flow and improving sexual responsiveness, making it a valuable focus in studies on sexual dysfunction. Moreover, researchers investigate PT-141's potential beyond sexual health, including its impact on energy regulation, appetite, and inflammation control. They assess how the peptide influences central nervous system pathways that affect both physical and emotional well-being. By targeting these complex systems, PT-141 aids research into broader neuroendocrine regulation. Every batch of PT-141 – 10mg undergoes thorough testing to ensure high purity and potency. As a result, researchers trust the consistency of the peptide for reliable, reproducible outcomes in their studies. Finally, PT-141 continues to advance research related to sexual health, energy regulation, and neuroendocrine function. Through its effects on key melanocortin pathways, it helps scientists explore new approaches to addressing sexual dysfunction, mood regulation, and stress-related conditions.",
+      "previous": {
+        "name": "PT-141-10mg",
+        "image": "/assets/bbe841137c54bc8b1cd4.png",
+        "description": "PT-141 (bremelanotide analog) 10mg research peptide from PH Bio Labs, with HPLC testing and a COA. For laboratory research use only.",
+        "price": 5000
+      },
+      "sha256": "27d0e9ff28748a6e5fe1"
+    },
+    {
+      "id": "pt-141-oxytocin-pro-nasal-spray",
+      "path": "/buy/pt-141-oxytocin-pro-nasal-spray/",
+      "name": "PT-141 / Oxytocin PRO Nasal Spray",
+      "sourceId": "4619",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/09/PT-141_Oxytocin-PRO.png",
+      "description": "PT-141 / Oxytocin PRO Nasal Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "price": 11300,
+      "variants": [],
+      "certificates": [],
+      "overview": "PT-141 / Oxytocin PRO Nasal Spray is a research peptide formulation from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. PT-141 / Oxytocin PRO Nasal Spray is independently tested by reverse-phase HPLC and mass spectrometry, with a lot-specific certificate of analysis. Researchers may use this nasal-spray format to study the peptide combination under controlled laboratory conditions. PH Bio Labs finishes research peptides in the United States. Storage, handling, and any laboratory preparation steps belong in the laboratory SOP. Do not use this material in diagnostic procedures. Statements on this page have not been evaluated by the U.S. Food and Drug Administration.",
+      "previous": {
+        "name": "PT-141 / Oxytocin PRO Nasal Spray",
+        "image": "/assets/d8b005d48304a58893b0.png",
+        "description": "PT-141 / Oxytocin PRO Nasal Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+        "price": 11300
+      },
+      "sha256": "0890468cf16b4ddbdeb1"
+    },
+    {
+      "id": "selank-10mg",
+      "path": "/buy/selank-10mg/",
+      "name": "Selank – 10mg",
+      "sourceId": "1091",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Selank-Vial-2-Template.png",
+      "description": "Selank – 10mg is a synthetic peptide derived from tuftsin, designed for research into cognitive function, anxiety modulation, and neurotransmitter balance. Researchers explore its effects on learning, memory, emotional stability, and stress regulation. Selank influences serotonin and dopamine pathways, making it valuable in studies focused on brain health.",
+      "price": 4500,
+      "variants": [],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6104-7_7_26.pdf"
+      ],
+      "overview": "Selank – 10mg is a synthetic peptide derived from the natural peptide tuftsin. Specifically, researchers study it to understand how it modulates neurotransmitter activity, enhances cognitive function, and reduces anxiety. In addition, Selank shows potential for improving memory and focus, making it valuable for research on cognitive health. Moreover, scientists examine how Selank influences the balance of key neurotransmitters, including serotonin and dopamine. They assess its ability to reduce anxiety by regulating the stress response and promoting emotional stability. As a result, these studies offer important insights into stress resilience and mood regulation. Additionally, researchers evaluate Selank's impact on cognitive performance. They measure how the peptide enhances learning, focus, and memory retention. By targeting critical pathways in the central nervous system, Selank supports research related to both cognitive disorders and performance optimization. Each 10mg batch of Selank undergoes thorough testing to ensure purity and potency. Therefore, researchers trust the consistency of these results to carry out reliable studies across neurobiology and mental health fields. Finally, Selank continues to drive advancements in anxiety and cognitive research. Through its modulation of neurotransmitter systems, it helps scientists develop strategies to enhance mental clarity, manage stress, and improve overall brain function. This peptide remains essential for ongoing studies in brain health and emotional regulation.",
+      "previous": {
+        "name": "Selank – 10mg",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Selank-Vial-2-Template-600x800.png",
+        "description": "Selank 10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 4500
+      },
+      "sha256": "bed7fa9e1470f8728217"
+    },
+    {
+      "id": "selank-nasal-spray",
+      "path": "/buy/selank-nasal-spray/",
+      "name": "Selank Nasal Spray",
+      "sourceId": "4427",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/09/SELANK-NASAL-SPRAY-2.png",
+      "description": "Selank Nasal Spray is a research peptide formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "price": 8500,
+      "variants": [],
+      "certificates": [],
+      "overview": "Selank Nasal Spray is a research peptide formulation from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Selank Nasal Spray is independently tested by reverse-phase HPLC and mass spectrometry, with a lot-specific certificate of analysis. The purity shown on this listing is 99.9 percent HPLC. Researchers use this nasal-spray format to study Selank under controlled laboratory conditions. PH Bio Labs finishes research peptides in the United States. Storage, handling, and any reconstitution steps belong in the laboratory SOP. Do not use this material in diagnostic procedures. Statements on this page have not been evaluated by the U.S. Food and Drug Administration. The lyophilized Selank 10mg vial is a separate SKU.",
+      "previous": {
+        "name": "Selank Nasal Spray",
+        "image": "/assets/3815292e808e5aa3d36a.png",
+        "description": "Selank Nasal Spray research compound from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 8500
+      },
+      "sha256": "b3df043da3458de74a3b"
+    },
+    {
+      "id": "selank-semax-nasal-spray",
+      "path": "/buy/selank-semax-nasal-spray/",
+      "name": "Selank/Semax Nasal Spray",
+      "sourceId": "4420",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/09/SELANK_SEMAX-NASAL-SPRAY-1.png",
+      "description": "Selank Semax Nasal Spray is a two-compound research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "price": 11500,
+      "variants": [],
+      "certificates": [],
+      "overview": "Selank Semax Nasal Spray is a research peptide formulation from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Selank Semax Nasal Spray is independently tested by reverse-phase HPLC and mass spectrometry, with a lot-specific certificate of analysis. The purity shown on this listing is 99.9 percent HPLC. Researchers use this nasal-spray format to study Selank and Semax under controlled laboratory conditions. PH Bio Labs finishes research peptides in the United States. Storage, handling, and any reconstitution steps belong in the laboratory SOP. Do not use this material in diagnostic procedures. Statements on this page have not been evaluated by the U.S. Food and Drug Administration.",
+      "previous": {
+        "name": "Selank/Semax Nasal Spray",
+        "image": "/assets/9324d5cdf704f97fe625.png",
+        "description": "Selank + Semax nasal spray from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 11500
+      },
+      "sha256": "83a997ad6c09edec2a58"
+    },
+    {
+      "id": "selank-semax-pinealon-nasal-spray",
+      "path": "/buy/selank-semax-pinealon-nasal-spray/",
+      "name": "Selank/Semax/Pinealon Nasal Spray",
+      "sourceId": "4433",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/09/SELANK_SEMAX_PINEALON-NASAL-SPRAY-1.png",
+      "description": "Selank + Semax + Pinealon Nasal Spray is a three-compound research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "price": 12500,
+      "variants": [],
+      "certificates": [],
+      "overview": "Selank + Semax + Pinealon Nasal Spray is a three-compound research formulation from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. This listing covers a research nasal-spray format that combines Selank, Semax, and Pinealon so investigators can study the three peptides in one prepared material. Each lot is independently tested by reverse-phase HPLC and mass spectrometry. A lot-specific certificate of analysis is published with the batch. The purity shown on this page is 99.9 percent HPLC. Selank + Semax + Pinealon Nasal Spray is intended for qualified researchers and laboratories. Storage, handling, and any reconstitution steps belong in the laboratory SOP. Do not use this material in diagnostic procedures. Statements on this page have not been evaluated by the U.S. Food and Drug Administration. PH Bio Labs finishes research peptides in the United States and ships with third-party testing documentation on file. Related research listings include Selank Nasal Spray, Semax Nasal Spray, and the two-compound Selank/Semax Nasal Spray. Those pages are separate SKUs.",
+      "previous": {
+        "name": "Selank/Semax/Pinealon Nasal Spray",
+        "image": "/assets/c603c372a34a56a1d4ca.png",
+        "description": "Selank + Semax + Pinealon nasal spray from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 12500
+      },
+      "sha256": "39f148f47516aa7d681c"
+    },
+    {
+      "id": "selank-semax-pro-nasal-spray",
+      "path": "/buy/selank-semax-pro-nasal-spray/",
+      "name": "Selank/Semax PRO Nasal Spray",
+      "sourceId": "4620",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/09/Selank_Semax-PRO.png",
+      "description": "Selank/Semax PRO Nasal Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "price": 7900,
+      "variants": [
+        {
+          "id": "selank-semax-pro-nasal-spray--4873",
+          "label": "10/10mg",
+          "price": 7900,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/09/Selank_Semax-PRO.png"
+        },
+        {
+          "id": "selank-semax-pro-nasal-spray--4874",
+          "label": "20/20mg",
+          "price": 9800,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/09/Selank_Semax-PRO.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Selank/Semax PRO Nasal Spray is a research peptide formulation from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Selank/Semax PRO Nasal Spray is independently tested by reverse-phase HPLC and mass spectrometry, with a lot-specific certificate of analysis. Researchers may use this nasal-spray format to study the peptide combination under controlled laboratory conditions. PH Bio Labs finishes research peptides in the United States. Storage, handling, and any laboratory preparation steps belong in the laboratory SOP. Do not use this material in diagnostic procedures. Statements on this page have not been evaluated by the U.S. Food and Drug Administration.",
+      "previous": {
+        "name": "Selank/Semax PRO Nasal Spray",
+        "image": "/assets/4c876dc75ff9872c41d9.png",
+        "description": "Selank/Semax PRO Nasal Spray is a research formulation from PH Bio Labs for laboratory and in vitro use only.",
+        "price": 7900
+      },
+      "sha256": "9146193e6d44893495a8"
+    },
+    {
+      "id": "semax-10mg",
+      "path": "/buy/semax-10mg/",
+      "name": "Semax – 10mg",
+      "sourceId": "1090",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Semax-Vial-2-Template.png",
+      "description": "Semax – 10mg is a synthetic peptide derived from adrenocorticotropic hormone (ACTH) fragments. Researchers use it to explore its role in enhancing cognitive function, supporting neuroprotection, and improving mental performance. Semax shows potential in studies focused on memory retention, learning, and emotional stability by modulating neurotrophic factors and neurotransmitters.",
+      "price": 4500,
+      "variants": [],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6107-7_7_26.pdf"
+      ],
+      "overview": "Semax – 10mg is a synthetic peptide derived from adrenocorticotropic hormone (ACTH) fragments. Researchers study Semax to understand its role in enhancing cognitive function, protecting neurons, and supporting brain health. Moreover, it shows potential in improving memory, focus, and learning, making it essential for research into cognitive disorders and performance optimization. Scientists investigate how Semax influences neurotrophic factors, including brain-derived neurotrophic factor (BDNF). Additionally, they explore its ability to promote neuroprotection by reducing oxidative stress and inflammation in the brain. These studies provide valuable insights into how Semax aids in preventing neural degeneration and improving overall brain resilience. Furthermore, researchers assess Semax’s effects on mental performance and stress response. They examine how it regulates neurotransmitters like dopamine and serotonin, which impact emotional stability and focus. By enhancing these pathways, Semax contributes to studies aimed at improving both cognitive health and mental clarity. Researchers consistently test each 10mg batch of Semax to ensure purity and potency. As a result, they obtain reliable outcomes that support various studies in neurobiology and cognitive science. Finally, Semax plays a crucial role in advancing research on cognitive function and neurological health. Through its multi-pathway approach, it helps scientists develop new strategies to protect brain health, improve memory, and manage cognitive decline. This peptide remains a vital tool for ongoing research into brain performance and mental well-being.",
+      "previous": {
+        "name": "Semax – 10mg",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Semax-Vial-2-Template-600x800.png",
+        "description": "Semax 10mg research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 4500
+      },
+      "sha256": "5ee89a9f05c349b99e76"
+    },
+    {
+      "id": "semax-nasal-spray",
+      "path": "/buy/semax-nasal-spray/",
+      "name": "Semax Nasal Spray",
+      "sourceId": "4424",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/09/SEMAX-NASAL-SPRAY-2.png",
+      "description": "Semax Nasal Spray is a research peptide formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "price": 8500,
+      "variants": [],
+      "certificates": [],
+      "overview": "Semax Nasal Spray is a research peptide formulation from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Semax Nasal Spray is independently tested by reverse-phase HPLC and mass spectrometry, with a lot-specific certificate of analysis. The purity shown on this listing is 99.9 percent HPLC. Researchers use this nasal-spray format to study Semax under controlled laboratory conditions. PH Bio Labs finishes research peptides in the United States. Storage, handling, and any reconstitution steps belong in the laboratory SOP. Do not use this material in diagnostic procedures. Statements on this page have not been evaluated by the U.S. Food and Drug Administration. The lyophilized Semax 10mg vial is a separate SKU.",
+      "previous": {
+        "name": "Semax Nasal Spray",
+        "image": "/assets/fa2eff52253f50d6609e.png",
+        "description": "Semax Nasal Spray research compound from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 8500
+      },
+      "sha256": "711685c44393375b767e"
+    },
+    {
+      "id": "semax-selank-10mg-10mg",
+      "path": "/buy/semax-selank-10mg-10mg/",
+      "name": "Semax / Selank 10/10 mg",
+      "sourceId": "1167",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Semax-_-Selank-Vial-2-Template.png",
+      "description": "Semax / Selank - 10/10mg are synthetic research peptides studied for their role in investigating neuropeptide signaling, molecular pathways, and peptide-receptor interactions. Semax is a peptide analogue derived from ACTH-related research, while Selank is based on tuftsin-related peptide sequences. In laboratory settings, researchers examine these compounds to better understand neurological signaling mechanisms and cellular communication pathways.",
+      "price": 9900,
+      "variants": [],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6105-7_7_26.pdf"
+      ],
+      "overview": "Semax/Selank 10/10mg are synthetic peptide compounds studied in research settings for their interactions with neurological signaling pathways and molecular mechanisms related to peptide activity. Semax is a modified peptide analogue derived from research involving adrenocorticotropic hormone (ACTH) fragments, while Selank is a synthetic peptide based on tuftsin-related sequences. Scientists investigate these compounds to better understand neuropeptide signaling, receptor interactions, and cellular communication pathways in controlled laboratory environments. Furthermore, researchers study Semax and Selank to examine peptide-mediated signaling mechanisms, molecular interactions, and pathways involved in neurological research models. Investigations focus on understanding how synthetic peptide structures interact with biological systems and contribute to broader studies of peptide functionality. Additionally, scientists explore these peptides in experimental research involving neurobiology, molecular signaling, and peptide-receptor interactions to advance understanding of complex cellular communication processes. Finally, each batch of Semax / Selank undergoes rigorous laboratory testing to ensure purity, quality, and consistency. Researchers rely on these compounds for controlled experiments and reproducible results, and they are strictly intended for research purposes only. For Research Use Only",
+      "previous": {
+        "name": "Semax / Selank 10/10 mg",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Semax-_-Selank-Vial-2-Template-600x800.png",
+        "description": "Semax/Selank 10/10mg research blend from PH Bio Labs, with HPLC testing and a published COA. For laboratory research use only.",
+        "price": 9900
+      },
+      "sha256": "babbb7888b5f77e47209"
+    },
+    {
+      "id": "sermorelin",
+      "path": "/buy/sermorelin/",
+      "name": "Sermorelin",
+      "sourceId": "1120",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Sermorelin-Vial-2-Template.png",
+      "description": "Sermorelin is a synthetic peptide analog of growth hormone-releasing hormone (GHRH). It has been studied for its potential to stimulate the natural production and release of growth hormone (GH) from the pituitary gland. Ultimately, researchers are exploring its role in metabolic regulation, tissue repair, cellular health, and aging-related hormonal studies.",
+      "price": 3500,
+      "variants": [
+        {
+          "id": "sermorelin--1203",
+          "label": "5mg",
+          "price": 3500,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Sermorelin-2-Vial-2-Template.png"
+        },
+        {
+          "id": "sermorelin--1204",
+          "label": "10mg",
+          "price": 5000,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Sermorelin-Vial-2-Template.png"
+        }
+      ],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6108-7_7_26.pdf"
+      ],
+      "overview": "Sermorelin is a synthetic peptide studied for its ability to stimulate the release of growth hormone (GH) from the pituitary gland. It mimics growth hormone-releasing hormone (GHRH), a naturally occurring hormone that signals the body to produce growth hormone. Because of this mechanism, researchers investigate Sermorelin for its potential role in supporting natural GH signaling pathways. Furthermore, scientists study Sermorelin in both research and clinical environments to better understand how increased GH signaling may influence metabolic processes, cellular repair pathways, and physiological regulation. Researchers also examine its potential connection to muscle maintenance, body composition changes, and recovery mechanisms. In addition to these areas, researchers explore Sermorelin for its possible relationship with age-related changes in growth hormone levels. Some studies investigate whether increased GH signaling may influence factors such as skin structure, energy regulation, bone health, immune system function, and sleep-related hormonal activity. Although Sermorelin continues to attract scientific interest, additional research is necessary to better understand its long-term effects, safety profile, and optimal research applications. Ongoing studies may provide further insights into how this peptide interacts with growth hormone regulatory pathways.",
+      "previous": {
+        "name": "Sermorelin",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Sermorelin-Vial-2-Template-600x800.png",
+        "description": "Sermorelin research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 3500
+      },
+      "sha256": "37b10e603ba41158f7b7"
+    },
+    {
+      "id": "sermorelin-capsules",
+      "path": "/buy/sermorelin-capsules/",
+      "name": "Sermorelin Capsules",
+      "sourceId": "1113",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Sermorelin.png",
+      "description": "Sermorelin Capsules are a research-grade peptide and synthetic analog of GHRH (growth hormone–releasing hormone). Moreover, this formulation is being studied for its potential role in supporting growth hormone pathways, endocrine function, and systemic balance.",
+      "price": 9999,
+      "variants": [
+        {
+          "id": "sermorelin-capsules--1145",
+          "label": "60 Capsules",
+          "price": 9999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Sermorelin.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Sermorelin Capsules is a PH Bio Labs research formula (Formula 251: sermorelin 1mg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Sermorelin Capsules deliver a research-grade peptide designed for scientific studies on growth hormone regulation, endocrine pathways, and systemic balance. As a synthetic analog of growth hormone–releasing hormone (GHRH), Sermorelin provides researchers with a valuable tool to explore pituitary signaling, metabolic activity, and recovery-related models. Researchers examine Sermorelin for its role in stimulating growth hormone pathways, influencing metabolic regulation, and supporting tissue-related studies. Scientific models often focus on hormone secretion, endocrine feedback loops, and cellular signaling mechanisms. By targeting growth hormone release, Sermorelin offers opportunities to investigate how endocrine pathways affect metabolism, tissue recovery, and systemic regulation. Research frequently explores age-related models, metabolic activity, and recovery responses. Each batch of Sermorelin Capsules undergoes rigorous testing to confirm purity and consistency, ensuring reliable outcomes in scientific research. For Research Use Only",
+      "previous": {
+        "name": "Sermorelin Capsules",
+        "image": "/assets/551c0a976d724925040f.png",
+        "description": "Sermorelin Capsules (Formula 251, sermorelin 1mg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+        "price": 9999
+      },
+      "sha256": "29023dde669da7044d4e"
+    },
+    {
+      "id": "slu-pp-332-capsules",
+      "path": "/buy/slu-pp-332-capsules/",
+      "name": "SLU-PP-332 Capsules",
+      "sourceId": "1105",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/SLU-PP-332.png",
+      "description": "SLU-PP-332 Capsules are a synthetic research peptide gaining attention for its potential role in cellular health and longevity studies. Moreover, it is being explored for its effects on mitochondrial function, oxidative stress regulation, and overall cellular resilience.",
+      "price": 9999,
+      "variants": [
+        {
+          "id": "slu-pp-332-capsules--1151",
+          "label": "60 Capsules",
+          "price": 9999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/SLU-PP-332.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "SLU-PP-332 Capsules is a PH Bio Labs research formula (Formula 71: SLU-PP-332 250mcg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. SLU-PP-332 is a synthetic peptide attracting attention for its potential role in cellular health and longevity research. Scientists are investigating how it influences key biological pathways related to aging, cellular repair, and overall physiological balance. Preliminary studies suggest that SLU-PP-332 may support mitochondrial function and cellular energy production. Mitochondria play a crucial role in maintaining cellular health, and their decline contributes to aging and metabolic inefficiencies. By promoting mitochondrial resilience, SLU-PP-332 could help improve cellular function and longevity. Research also indicates that SLU-PP-332 may influence oxidative stress regulation. Oxidative stress occurs when free radicals outnumber antioxidants, driving cellular aging and tissue damage. SLU-PP-332 may help modulate oxidative stress pathways, potentially supporting long-term cellular health. While researchers find these early results promising, they continue to explore SLU-PP-332’s mechanisms of action, long-term effects, and potential applications in longevity and cellular health studies. For Research Use Only",
+      "previous": {
+        "name": "SLU-PP-332 Capsules",
+        "image": "/assets/dbfbf106da35eba53917.png",
+        "description": "SLU-PP-332 Capsules (Formula 71, SLU-PP-332 250mcg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+        "price": 9999
+      },
+      "sha256": "c832357ce4553ed9af12"
+    },
+    {
+      "id": "tb-500",
+      "path": "/buy/tb-500/",
+      "name": "TB-500",
+      "sourceId": "1086",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/TB-500-Vial-2-Template.png",
+      "description": "TB500 – 5mg is a synthetic peptide derived from thymosin beta-4, designed for research on tissue repair, wound healing, and muscle recovery. Researchers study TB500 to investigate its role in promoting cellular regeneration, reducing inflammation, and enhancing recovery from physical injury. Additionally, TB500 supports studies on improved flexibility and tissue health.",
+      "price": 4000,
+      "variants": [
+        {
+          "id": "tb-500--1210",
+          "label": "5mg",
+          "price": 4000,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/TB-500-2-Vial-2-Template.png"
+        },
+        {
+          "id": "tb-500--1211",
+          "label": "10mg",
+          "price": 6500,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/TB-500-Vial-2-Template.png"
+        }
+      ],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6109-7_7_26.pdf"
+      ],
+      "overview": "TB500 – 5mg is a synthetic version of a peptide fragment derived from thymosin beta-4, which plays a key role in tissue repair and cellular regeneration. Researchers study TB500 to understand how it enhances wound healing, improves muscle recovery, and supports tissue regeneration. Additionally, it is a central focus in studies related to injury recovery and cellular repair processes. Scientists analyze how TB500 promotes the production of actin, a vital protein involved in cellular structure and movement. Moreover, they investigate how TB500 accelerates the formation of new blood vessels (angiogenesis), which improves oxygen and nutrient delivery to damaged tissues. As a result, these studies provide valuable insights into how TB500 aids recovery and enhances cellular repair mechanisms. Furthermore, researchers explore the peptide’s role in reducing inflammation and promoting flexibility. They evaluate how TB500 modulates inflammatory cytokines and supports tissue health under conditions of stress or injury. By influencing these pathways, the peptide contributes to research on muscle regeneration, tendon recovery, and injury prevention. Each 5mg batch of TB500 undergoes rigorous testing to ensure high purity and potency. Researchers depend on its consistency to produce reliable outcomes in studies focused on tissue healing, muscle recovery, and injury treatment. Finally, TB500 remains essential in advancing research on tissue repair and recovery. Through its multiple biological effects, it helps scientists develop new strategies to promote healing, improve recovery times, and enhance overall tissue resilience. This peptide plays a crucial role in studies related to physical rehabilitation and performance optimization.",
+      "previous": {
+        "name": "TB-500",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/TB-500-Vial-2-Template-600x800.png",
+        "description": "TB-500 research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 4000
+      },
+      "sha256": "9058ef9a4f52a47e277c"
+    },
+    {
+      "id": "tb-500-capsules",
+      "path": "/buy/tb-500-capsules/",
+      "name": "TB-500 Capsules",
+      "sourceId": "1103",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/TB-500.png",
+      "description": "TB-500 is a synthetic version of Thymosin Beta-4, a naturally occurring peptide that has been extensively studied for its potential role in cellular function, tissue repair, and regenerative research. It is known for its interactions with actin, a protein involved in cell movement and structure, making it a subject of interest in various research applications.",
+      "price": 9999,
+      "variants": [
+        {
+          "id": "tb-500-capsules--1153",
+          "label": "60 Capsules",
+          "price": 9999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/TB-500.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "TB-500 Capsules is a PH Bio Labs research formula (Formula 213: TB-500 500mcg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. TB-500, a synthetic peptide, supports tissue repair, wound healing, and injury recovery. It comes from Thymosin Beta-4 (TB-4), a protein crucial for cell migration and regeneration. Consequently, researchers study TB500 for its ability to speed up healing by promoting blood vessel growth, boosting collagen production, and enhancing cellular repair. Moreover, TB500 accelerates cell migration, helping damaged tissues recover faster while reducing scar formation. In addition, it stimulates angiogenesis, increasing blood flow to injured areas for better oxygen and nutrient delivery. As a result, healing becomes more efficient. Furthermore, studies show TB500 benefits musculoskeletal injuries, including tendon, ligament, and muscle damage. By reducing inflammation and promoting tissue regeneration, it may shorten recovery time after injuries or surgeries. Therefore, researchers explore its use in treating tendonitis, muscle strains, and ligament tears. Additionally, TB500 enhances healing by regulating growth factors like fibroblast growth factor (FGF) and vascular endothelial growth factor (VEGF). Since these factors drive tissue repair and angiogenesis, they contribute to improved overall recovery. Although research highlights its potential, scientists still need further clinical studies to confirm its safety and efficacy. Nonetheless, TB500 remains a key compound in tissue repair and regeneration research. For Research Use Only",
+      "previous": {
+        "name": "TB-500 Capsules",
+        "image": "/assets/a2ee6b62c737cd43cb45.png",
+        "description": "TB-500 Capsules (Formula 213, TB-500 500mcg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+        "price": 9999
+      },
+      "sha256": "ed81a10b72b12be3bc52"
+    },
+    {
+      "id": "tesamorelin",
+      "path": "/buy/tesamorelin/",
+      "name": "Tesamorelin",
+      "sourceId": "1081",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Tesamorelin-Vial-2-Template.png",
+      "description": "Tesamorelin is a synthetic peptide that acts as a growth hormone-releasing hormone (GHRH) analogue. It stimulates the release of growth hormone from the pituitary gland, leading to increased levels of insulin-like growth factor 1 (IGF-1). Tesamorelin has been studied for its potential applications in promoting fat loss, improving metabolic health, and addressing conditions associated with reduced growth hormone levels.",
+      "price": 5000,
+      "variants": [
+        {
+          "id": "tesamorelin--1212",
+          "label": "5mg",
+          "price": 5000,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Tesamorelin-2-Vial-2-Template.png"
+        },
+        {
+          "id": "tesamorelin--1213",
+          "label": "10mg",
+          "price": 7500,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Tesamorelin-Vial-2-Template.png"
+        }
+      ],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA7394-1.pdf"
+      ],
+      "overview": "Tesamorelin, a synthetic peptide, stimulates growth hormone (GH) release from the pituitary gland. It modifies natural growth hormone-releasing hormone (GHRH) to enhance GH production. As a result, researchers study Tesamorelin for its potential to counteract GH decline and support metabolic health. Moreover, Tesamorelin binds to GHRH receptors, triggering GH release from the anterior pituitary. This process, in turn, boosts fat metabolism, muscle growth, and protein synthesis. Additionally, Tesamorelin reduces visceral fat, thereby lowering risks for diabetes, heart disease, and obesity. Furthermore, studies highlight Tesamorelin’s role in treating lipodystrophy by reducing excess visceral fat and improving insulin sensitivity. Researchers also explore its effects on body composition in individuals experiencing age-related GH decline. Unlike traditional GH therapies, Tesamorelin stimulates natural GH release without introducing synthetic hormones. Consequently, this targeted approach helps regulate GH levels more effectively. In addition, scientists investigate Tesamorelin’s effects on cognitive function, skin health, and aging. However, further research is still needed to confirm these benefits. Overall, Tesamorelin remains a key research compound for metabolic health, fat loss, and GH regulation.",
+      "previous": {
+        "name": "Tesamorelin",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Tesamorelin-Vial-2-Template-600x800.png",
+        "description": "Tesamorelin research peptide from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 5000
+      },
+      "sha256": "ad4b566b0d647c52ddf5"
+    },
+    {
+      "id": "tesamorelin-ipamorelin-blend",
+      "path": "/buy/tesamorelin-ipamorelin-blend/",
+      "name": "Tesamorelin / Ipamorelin Blend",
+      "sourceId": "1082",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Tesamorelin-_-Ipamorelin-Vial-2-Template.png",
+      "description": "The Tesamorelin/Ipamorelin Blend combines two potent peptides that stimulate the release of growth hormone (GH) from the pituitary gland. Ultimately, this blend is studied for its potential to improve body composition, reduce fat, and support muscle growth.",
+      "price": 15300,
+      "variants": [
+        {
+          "id": "tesamorelin-ipamorelin-blend--1214",
+          "label": "10mg / 5mg",
+          "price": 15300,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Tesamorelin-_-Ipamorelin-Vial-2-Template.png"
+        }
+      ],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6401-7_17_26.pdf"
+      ],
+      "overview": "Tesamorelin and Ipamorelin are synthetic peptides that increase growth hormone (GH) levels. They work differently and serve distinct purposes. Furthermore, tesamorelin mimics growth hormone-releasing hormone (GHRH) to stimulate GH release. It reduces visceral adipose tissue (VAT) around internal organs and treats HIV-associated lipodystrophy. It also improves body composition, increasing lean muscle mass and supporting metabolic health, including insulin sensitivity and blood sugar regulation. Ipamorelin is a growth hormone-releasing peptide (GHRP) that activates the ghrelin receptor, triggering the pituitary gland to release GH. Ipamorelin causes fewer side effects than other GHRPs, such as hunger or cortisol spikes. It helps with muscle building, fat loss, and recovery. When used together, Tesamorelin and Ipamorelin work synergistically. Tesamorelin reduces abdominal fat and improves metabolic health. Ipamorelin supports muscle building and recovery. This combination may enhance performance, support healthy aging, and improve body composition. Both peptides show promise, but more research is needed to understand their long-term effects, safety, and benefits in various health applications.",
+      "previous": {
+        "name": "Tesamorelin / Ipamorelin Blend",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Tesamorelin-_-Ipamorelin-Vial-2-Template-600x800.png",
+        "description": "Tesamorelin and Ipamorelin research blend from PH Bio Labs, with HPLC testing and a published COA. For laboratory research use only.",
+        "price": 15300
+      },
+      "sha256": "df983d4c5d39afc595e6"
+    },
+    {
+      "id": "tesofensine-capsules",
+      "path": "/buy/tesofensine-capsules/",
+      "name": "Tesofensine Capsules",
+      "sourceId": "1104",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Tesofensine.png",
+      "description": "Tesofensine is a research compound originally developed for its potential effects on neurotransmitter regulation. It has been studied for its impact on metabolic function, cognitive processes, and appetite regulation. As a monoamine reuptake inhibitor, Tesofensine interacts with key neurotransmitters such as dopamine, serotonin, and norepinephrine, making it a subject of interest in various scientific studies.",
+      "price": 9999,
+      "variants": [
+        {
+          "id": "tesofensine-capsules--1152",
+          "label": "60 Capsules",
+          "price": 9999,
+          "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Tesofensine.png"
+        }
+      ],
+      "certificates": [],
+      "overview": "Tesofensine Capsules is a PH Bio Labs research formula (Formula 50: tesofensine 500mcg). It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Tesofensine is a synthetic compound studied for its potential to aid weight loss and improve metabolic health. It works by inhibiting the reuptake of neurotransmitters like dopamine, serotonin, and norepinephrine, thereby increasing their levels in the brain. As a result, this mechanism helps regulate appetite, enhance mood, and boost energy expenditure. Due to its appetite-suppressing effects, researchers focus on Tesofensine as a promising compound for obesity research. In fact, studies show it may help reduce calorie intake, accelerate fat loss, and improve body composition. Unlike traditional weight-loss drugs, Tesofensine influences multiple neurotransmitters, which may enhance its overall effectiveness. Furthermore, Tesofensine increases metabolism by stimulating the central nervous system. Specifically, by raising norepinephrine levels, it promotes thermogenesis, helping the body burn more calories at rest. Because of this, it holds value in research on metabolic disorders and weight management. In addition, scientists explore Tesofensine’s impact on insulin sensitivity and glucose metabolism. Its potential role in managing obesity-related conditions, such as diabetes and cardiovascular disease, remains an active area of study. Although Tesofensine shows promise in research, further studies are necessary to confirm its long-term safety and efficacy. Nevertheless, it remains a key compound in weight-loss and metabolic health research. For Research Use Only",
+      "previous": {
+        "name": "Tesofensine Capsules",
+        "image": "/assets/1446c07cd3802faf53ca.png",
+        "description": "Tesofensine Capsules (Formula 50, tesofensine 500mcg) from PH Bio Labs, with independent testing and a published COA. For laboratory research use only.",
+        "price": 9999
+      },
+      "sha256": "9bb27274d7f4cd30a97a"
+    },
+    {
+      "id": "thymosin-alpha-1",
+      "path": "/buy/thymosin-alpha-1/",
+      "name": "Thymosin Alpha-1 10mg",
+      "sourceId": "1087",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Thymosin-Alpha-1-Vial-2-Template.png",
+      "description": "Thymosin Alpha-1 – 5mg is a synthetic peptide derived from the naturally occurring thymic peptide. Researchers use it to study immune system function, inflammation regulation, and tissue repair. It is also a key focus in research on immune resilience and improving immune defense against infections.",
+      "price": 9900,
+      "variants": [],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA6014-7_8_26.pdf"
+      ],
+      "overview": "Thymosin Alpha-1 10mg is a research peptide from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. Thymosin Alpha-1 is a synthetic peptide based on a naturally occurring thymic peptide. Researchers study it to understand its role in supporting immune function, regulating inflammation, and enhancing cellular repair. Additionally, it is crucial in research focused on improving immune responses against infections and promoting overall immune resilience. Scientists examine how Thymosin Alpha-1 boosts the activity of immune cells, particularly T-cells and natural killer (NK) cells. Moreover, they analyze how it enhances immune surveillance by modulating cytokine release and promoting the elimination of harmful pathogens. As a result, these studies provide valuable insights into the peptide's role in immune modulation. Furthermore, researchers explore the peptide’s potential to regulate inflammation and accelerate recovery from cellular damage. They assess how Thymosin Alpha-1 promotes tissue repair and helps reduce chronic inflammation. By influencing these critical pathways, the peptide supports ongoing research on autoimmune conditions, infections, and cellular stress management. Every batch of Thymosin Alpha-1 undergoes comprehensive testing to ensure purity and potency. Researchers trust this quality to achieve consistent and reliable results in their studies. Finally, it continues to advance research in immunology and cellular health. By enhancing immune function and reducing inflammation, it helps scientists develop strategies to manage immune disorders, improve recovery, and promote overall health.",
+      "previous": {
+        "name": "Thymosin Alpha-1 10mg",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Thymosin-Alpha-1-Vial-2-Template-600x800.png",
+        "description": "Thymosin Alpha-1 10mg research peptide from PH Bio Labs, with independent HPLC testing and a COA. For laboratory research use only.",
+        "price": 9900
+      },
+      "sha256": "aa6f6a87889d1bcf1bc3"
+    },
+    {
+      "id": "vip-nasal-spray",
+      "path": "/buy/vip-nasal-spray/",
+      "name": "VIP Nasal Spray",
+      "sourceId": "4431",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/09/VIP-NASAL-SPRAY.png",
+      "description": "VIP Nasal Spray is a vasoactive intestinal peptide research formulation from PH Bio Labs for laboratory and in vitro use only.",
+      "price": 9900,
+      "variants": [],
+      "certificates": [],
+      "overview": "VIP Nasal Spray is a research peptide formulation from PH Bio Labs. It is supplied for laboratory and in vitro investigation only. It is not for human or veterinary use. VIP Nasal Spray is independently tested by reverse-phase HPLC and mass spectrometry, with a lot-specific certificate of analysis. The purity shown on this listing is 99.9 percent HPLC. Researchers use this nasal-spray format to study VIP-related peptide signaling under controlled laboratory conditions. PH Bio Labs finishes research peptides in the United States. Storage, handling, and any reconstitution steps belong in the laboratory SOP. Do not use this material in diagnostic procedures. Statements on this page have not been evaluated by the U.S. Food and Drug Administration.",
+      "previous": {
+        "name": "VIP Nasal Spray",
+        "image": "/assets/5b1ea37b28fd171e91d0.png",
+        "description": "VIP Nasal Spray research compound from PH Bio Labs, with independent HPLC testing and a published COA. For laboratory research use only.",
+        "price": 9900
+      },
+      "sha256": "8b059b6319d50a31fd0f"
+    },
+    {
+      "id": "wolverine-blend-bpc-157-tb-500-10-10mg",
+      "path": "/buy/wolverine-blend-bpc-157-tb-500-10-10mg/",
+      "name": "Wolverine (BPC-157/ TB-500) – 10/10mg",
+      "sourceId": "1168",
+      "sourceImage": "https://phbiolabs.com/wp-content/uploads/2026/08/Wolverine-BPC-157_-TB-500-Vial-2-Template.png",
+      "description": "Wolverine Blend (BPC-157 / TB-500) is a research peptide blend combining two synthetic peptides studied in molecular biology and cellular signaling research. BPC-157 and TB-500 are investigated separately and together to better understand peptide interactions, cellular pathways, and biological mechanisms in controlled laboratory environments.",
+      "price": 9900,
+      "variants": [],
+      "certificates": [
+        "https://phbiolabs.com/wp-content/uploads/2026/08/COA5675-6-24-26.pdf"
+      ],
+      "overview": "Wolverine (BPC-157 / TB-500) is a research peptide combination consisting of BPC-157 and TB-500, Scientists are exploring the molecular characteristics of BPC-157 and TB-500 individually and in combination to study peptide activity in controlled research environments. Finally, each batch of Wolverine (BPC-157 / TB-500) undergoes rigorous laboratory testing to ensure purity, quality, and consistency. Researchers rely on this product for controlled experiments and reproducible results, and it is strictly intended for research purposes only.",
+      "previous": {
+        "name": "Wolverine (BPC-157/ TB-500) – 10/10mg",
+        "image": "https://phbiolabs.com/wp-content/uploads/2026/08/Wolverine-BPC-157_-TB-500-Vial-2-Template-600x800.png",
+        "description": "Wolverine blend 10/10mg BPC-157 and TB-500 research blend from PH Bio Labs, with HPLC testing and a COA. For laboratory research use only.",
+        "price": 9900
+      },
+      "sha256": "60c8a7c01039076151f9"
+    }
+  ],
+  "errors": [],
+  "assetErrors": []
+}

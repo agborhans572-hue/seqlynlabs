@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-06T14:17:52.058Z",
+  "origin": "https://phbiolabsshop.agborhans572.chatgpt.site",
+  "products": 81,
+  "variants": 66,
+  "mismatches": [],
+  "store": {
+    "shipping": 0,
+    "freeShipping": 15000,
+    "taxBasisPoints": 0,
+    "mode": "test",
+    "country": "US",
+    "currency": "USD"
+  }
+}
