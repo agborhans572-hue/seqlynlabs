@@ -6,13 +6,13 @@ This storefront runs independently of WooCommerce. The home and information page
 
 Run `node scripts/preview-shop.mjs` and open http://localhost:4173. Run `node --test tests/*.test.mjs` (or `npm.cmd test` on PowerShell) for integration checks. Run `node scripts/build-shop.mjs` to regenerate the storefront pages, browser assets and Worker output. Use Node.js 24 and install dependencies with `npm ci`.
 
-The ignored local SQLite database is `.sites-runtime/preview.sqlite`. The existing Sites deployment uses D1. The prepared Vercel target uses hosted Turso/libSQL. Migrations are appended in `drizzle/`; never edit an applied migration. `db/schema.ts` documents the declarative schema.
+The ignored local SQLite database is `.sites-runtime/preview.sqlite`. The existing Sites deployment uses D1. Production Vercel uses Supabase PostgreSQL; Turso/libSQL remains an alternative. D1/Turso migrations are appended in `drizzle/`; the Supabase schema is in `supabase/migrations/`. Never edit an applied migration. `db/schema.ts` documents the declarative schema.
 
 ## Vercel deployment
 
-The connected Supabase deployment is documented in [Supabase setup](docs/supabase-connection.md). It supports PostgreSQL with a private commerce schema and Supabase-managed Google authentication; owner access stays disabled until an administrator email is configured.
+The storefront is live at [www.seqlynlabs.com](https://www.seqlynlabs.com), connected to Supabase through the official Vercel integration. The database and guest test checkout passed [hosted verification](reports/deployment/hosted-smoke.json). [Supabase setup](docs/supabase-connection.md) documents the private commerce schema and prepared Google authentication. Google sign-in and owner access remain disabled pending the owner's account, OAuth client, and administrator email.
 
-See [the Vercel setup and remaining launch checklist](docs/vercel-deployment.md). `npm run build:vercel` prepares CDN assets and a Node.js function; `npm run verify:vercel` checks the actual bundle. Google sign-in replaces hosting-specific authentication in the Vercel target. Database and OAuth credentials must be supplied before hosted accounts, administration, and carts can work. `npm run preview:vercel` serves the prepared storefront at http://localhost:4175 with separate local data. Checkout remains in test mode.
+See [the Vercel setup and remaining launch checklist](docs/vercel-deployment.md). `npm run build:vercel` prepares CDN assets and a Node.js function; `npm run verify:vercel` checks the actual bundle. Google sign-in replaces hosting-specific authentication in the Vercel target. Production database credentials are already synced; OAuth setup is still needed for accounts and administration. `npm run preview:vercel` serves the prepared storefront at http://localhost:4175 with separate local data. Checkout remains in test mode.
 
 ## Shopping and customer features
 
@@ -21,7 +21,7 @@ See [the Vercel setup and remaining launch checklist](docs/vercel-deployment.md)
 - Persistent carts, editable quantities, removals, discount codes, shipping/tax breakdowns and item count.
 - Researcher popup with both confirmations required; checkout also requires fresh confirmations. These are self-attestations, not independently verified credentials.
 - Guest and signed-in test checkout, idempotent order creation, stored receipts, private guest tracking links, print receipts, pending-order cancellation and reordering.
-- Sign in with ChatGPT through Sites dispatch. Signed-in customers have scoped order history, a saved shipping address and a persistent wishlist.
+- Google sign-in through Supabase on Vercel (pending provider setup); the legacy Sites target uses ChatGPT dispatch. Signed-in customers have scoped order history, a saved shipping address and a persistent wishlist.
 - Contact, newsletter-interest, wholesale and white-label request collection for administrator review.
 
 ## Administration
