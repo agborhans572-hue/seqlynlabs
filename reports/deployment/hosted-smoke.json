@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-18T01:52:33.633Z",
+  "origin": "https://www.seqlynlabs.com",
+  "health": {
+    "ok": true,
+    "mode": "test",
+    "database": "ready",
+    "authentication": "unconfigured"
+  },
+  "checks": [
+    "HTTPS health and test-only database",
+    "81 products, all IDs, prices and variant prices",
+    "anonymous and forged identities denied; Google remains disabled",
+    "guest verification and durable cart",
+    "test checkout, authoritative total and idempotent retry",
+    "private receipt and empty cart after checkout",
+    "test order cancelled without payment or shipment",
+    "Vercel production alias database",
+    "108 product/variant image references available"
+  ],
+  "testOrder": {
+    "id": "706acd6d-656c-401b-a2b4-73dbd8c2eee6",
+    "status": "test",
+    "fulfillment": "cancelled",
+    "email": "deployment-smoke@example.test"
+  },
+  "googleSignIn": "not configured",
+  "administrator": "unassigned"
+}

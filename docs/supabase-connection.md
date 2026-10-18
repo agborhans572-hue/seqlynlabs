@@ -47,6 +47,8 @@ The app uses PKCE, HttpOnly Secure cookies, server-verified `getUser()` identity
 
 ## Deploy and verify
 
+Production was verified on October 18, 2026: `/health` returned 200 with `database: ready`; all 81 products and their variant IDs/prices matched the source catalog; all 108 product/variant image references were available. Guest verification, persistent cart, test checkout, idempotent retry, private receipt access, and cancellation passed over HTTPS. The synthetic test order was cancelled. Anonymous/forged administrator access was denied. Both public origins reached the database. See [hosted smoke report](../reports/deployment/hosted-smoke.json). The automated suite passed all 45 tests and the Vercel bundle check passed for 112 pages and unchanged certificate copies.
+
 Run `npm test`, `npm run build:vercel`, and `npm run verify:vercel`; push to `main` or redeploy the latest commit after changing Vercel variables. Visit `/health`: database must be `ready`; authentication remains `unconfigured` while the Google flag is false. Verify the catalog, guest verification/cart, and a disposable test order over HTTPS. After Google setup, verify sign-in/callback/sign-out, customer isolation, and owner-only administration. No payment is collected in this mode.
 
 References: [Supabase serverless connections](https://supabase.com/docs/guides/database/connecting-to-postgres/serverless-drivers), [server-side auth](https://supabase.com/docs/guides/auth/server-side/creating-a-client), [Google provider](https://supabase.com/docs/guides/auth/social-login/auth-google), [Row Level Security](https://supabase.com/docs/guides/database/postgres/row-level-security).

@@ -1,6 +1,6 @@
 # Deploy Seqlyn Labs to Vercel
 
-For the selected Supabase project and existing production domain, follow [Supabase connection](supabase-connection.md). The Turso/Auth.js instructions below remain an alternative deployment option.
+The storefront is deployed at `https://www.seqlynlabs.com` with the existing Supabase project connected through the official integration. The private schema and production database connection are configured; Google sign-in and the administrator account await owner setup. See [Supabase connection](supabase-connection.md) and [hosted verification](../reports/deployment/hosted-smoke.json). The Turso/Auth.js instructions below remain an alternative deployment option.
 
 The app now builds a Vercel deployment with CDN-served pages/assets and one Node.js 24 function for commerce, Google sign-in, health checks, administrator access, and custom product metadata. The existing Cloudflare/Sites build remains available. The Vercel target uses Turso/libSQL with the existing SQL schema and atomic checkout transactions.
 
@@ -66,11 +66,11 @@ After uploading, verify `/health` returns 200 with `database: ready`, sign in wi
 
 ## Remaining launch work
 
-- **Test deployment prerequisites:** Vercel project/account, Turso database/token, migration execution, Google OAuth client/callback URLs, administrator email, and hosted smoke tests. These credentials are not currently configured in the workspace.
+- **Account setup:** finish the intended Google account and Web OAuth client, enable the Google provider in Supabase, then set `SUPABASE_GOOGLE_ENABLED=true` and the confirmed `SHOP_ADMIN_EMAIL` in Vercel Production. Redeploy and verify real sign-in, customer isolation, owner-only administration, and sign-out. Supabase URL settings, the private schema, and the production database connection are already configured. Secrets remain in the service dashboards.
 - **Content/visual review:** approve the About-page fallback image and review inherited marketing claims against actual operations. The Vercel build repairs broken mirror references; six Google Fonts stylesheet URLs remain external dependencies. No map-based address verification is implemented.
 - **Live commerce:** choose a payment provider approved for this catalog; implement signed webhooks and server-authoritative payment status, inventory reservation/deduction, real shipping and tax rules, and operational refunds/fulfillment. Checkout intentionally remains test-only.
 - **Communications and content:** configure transactional email/contact notifications and newsletter delivery; review policy text, legal/business details, product claims, and exact certificate availability. Submissions currently appear only in administration. Original certificates remain untouched.
-- **Operations:** select a suitable Vercel plan and deployment/upload method, choose the public hostname, configure DNS if using a custom domain, decide public/private deployment access, set backup/restore and monitoring practices, and verify the database/function region and service capacity. The old private Sites audience does not automatically transfer to Vercel; a public deployment exposes the storefront, while customer/admin data remains protected by server authorization. Preserve deployment protection for a private preview if desired.
+- **Operations:** confirm a suitable Vercel plan for launch, set backup/restore and monitoring practices, and review database/function regions and service capacity. Git deployment and the existing public hostname are working. Customer/admin data remains protected by server authorization; production database credentials are not shared with preview branches.
 - **Performance:** the deploy bundle retains original image quality and is about 222 MiB of static files. Lossless/approved responsive image optimization is an optional further improvement for page speed and bandwidth.
 
 References: [Vercel Build Output API](https://vercel.com/docs/build-output-api), [Vercel upload limits](https://vercel.com/docs/limits), [Vercel Node.js versions](https://vercel.com/docs/functions/runtimes/node-js/node-js-versions), [Turso JavaScript transactions](https://docs.turso.tech/sdk/ts/reference), [Auth.js Google setup](https://authjs.dev/reference/core/providers/google).
