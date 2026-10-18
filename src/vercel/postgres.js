@@ -1,4 +1,5 @@
 import postgres from 'postgres';
+import {databaseTls} from './database-tls.js';
 
 const tables=new Set(['product_settings','carts','orders','submissions','request_limits','customer_profiles','wishlist','coupons','store_settings','order_events','custom_products','schema_migrations']);
 
@@ -53,7 +54,7 @@ export function supabaseDatabase(env) {
   if(!['postgres:','postgresql:'].includes(url.protocol)||!url.hostname||!url.password)throw Error('A complete PostgreSQL connection string is required');
   if(url.searchParams.get('sslmode')==='disable')throw Error('Database TLS must stay enabled');
   if(cached?.connection!==connection) {
-    const client=postgres(connection,{prepare:false,max:2,idle_timeout:20,connect_timeout:10,ssl:'verify-full',
+    const client=postgres(connection,{prepare:false,max:2,max_pipeline:1,idle_timeout:20,connect_timeout:10,ssl:databaseTls(url.hostname),
       types:{bigint:{to:20,from:[20],serialize:value=>String(value),parse:value=>{const n=Number(value);if(!Number.isSafeInteger(n))throw Error('Database integer exceeds safe range');return n;}}}});
     cached={connection,db:postgresAdapter(client)};
   }

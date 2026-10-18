@@ -15,19 +15,21 @@ The existing Supabase project is `Seqlyn labs` (`uiixqemqtalhyabemsrm`). The exi
 | `SUPABASE_GOOGLE_ENABLED` | `false` until Google is configured and verified; then `true` |
 | `SHOP_ADMIN_EMAIL` | Omit until the owner provides the email of the intended Google account |
 
-The official Supabase/Vercel integration can populate `POSTGRES_URL`, `SUPABASE_URL`, and `SUPABASE_PUBLISHABLE_KEY`. Connect the existing project rather than creating a second database. Limit project access to `seqlynlabs`. Do not connect the unrelated `supabase-purple-anchor` storage resource.
+The official Supabase/Vercel integration is installed and connects this existing Supabase project to `seqlynlabs` only. Its database credentials are synced to Vercel **Production**, with no production credentials shared with preview branches. Do not connect the unrelated `supabase-purple-anchor` storage resource.
 
 For a manual connection, use **Connect → Direct → Transaction pooler** in Supabase. Copy the pooler URI on port 6543, replace `[YOUR-PASSWORD]` with the existing database password, and save it as a server secret in Vercel. Do not paste passwords into chat or commit them. TLS verification stays enabled and prepared statements are disabled for transaction pooling. Limit production database credentials to Production; do not share the production database with arbitrary preview branches.
 
+The server and migration runner trust the public Supabase Root 2021 CA bundled in `src/vercel/database-tls.js`, alongside Node's system roots, for Supabase database hosts. Certificate and hostname verification remain enabled. The root was downloaded from this project's Database Settings; it expires April 26, 2031. Update it from the official dashboard when Supabase rotates its root. Queries are limited to one in flight per connection for shared-pooler compatibility.
+
 ## Database schema
 
-Apply `supabase/migrations/202610180001_seqlyn_shop.sql` through Supabase's SQL Editor, or run `npm run db:migrate:supabase` with credentials in the ignored `.env.local`. This creates 12 tables in the private `seqlyn` schema, with Row Level Security enabled and browser roles denied table access. Orders, guest tokens, carts, customer addresses and internal notes remain server-only. No public SQL-execution RPC is installed.
+Migration `supabase/migrations/202610180001_seqlyn_shop.sql` has been applied through Supabase's SQL Editor. All 12 tables in the private `seqlyn` schema were verified with Row Level Security enabled and browser roles denied table access. For a new environment, apply the migration through SQL Editor or run `npm run db:migrate:supabase` with credentials in the ignored `.env.local`. Orders, guest tokens, carts, customer addresses and internal notes remain server-only. No public SQL-execution RPC is installed.
 
 The migration can be repeated without deleting data. It is separate from the existing D1/Turso migrations and does not copy old preview data automatically. The PostgreSQL adapter preserves bound parameters, existing IDs and API response shapes, and uses serializable transactions with bounded retries for checkout races. New PostgreSQL-specific tests exercise checkout, coupons, private receipts, admin authorization, transaction rollback, and schema permissions using a real embedded PostgreSQL engine.
 
 ## Google authentication
 
-Set Supabase **Authentication → URL Configuration** to:
+Supabase **Authentication → URL Configuration** has been saved as:
 
 - Site URL: `https://www.seqlynlabs.com`
 - Redirect URL: `https://www.seqlynlabs.com/api/auth/callback/supabase`
