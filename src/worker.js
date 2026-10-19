@@ -1,6 +1,7 @@
 import catalog from './catalog.js';
 import {brand,presentProduct} from './brand.js';
-import {emailConfigured,validEmail,orderEmail,contactEmail,newsletterSignup,newsletterAction,queueCampaign,flushEmails} from './email.js';
+import {emailConfigured,validEmail,orderEmail,orderAdminEmail,contactEmail,newsletterSignup,newsletterAction,queueCampaign,flushEmails} from './email.js';
+import {paymentSettings,validatePaymentSettings,paymentMode,orderPayment} from './payments.js';
 const json = (data, status = 200, headers = {}) => Response.json(data, {status, headers: {'Cache-Control':'no-store', 'X-Content-Type-Options':'nosniff', ...headers}});
 const fail = (message, status = 400) => {throw Object.assign(new Error(message), {status});};
 const hash = async s => [...new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)))].map(x => x.toString(16).padStart(2,'0')).join('');
@@ -59,11 +60,31 @@ async function orderAccess(req,db,id,url) {
   if(!row || !(user(req).id && row.customer_id===user(req).id) && await hash(url.searchParams.get('token')||'')!==row.token_hash)fail('Order not found',404);
   return row;
 }
-const orderData = row => ({id:row.id,status:row.status,fulfillment:row.fulfillment,carrier:row.carrier,tracking:row.tracking,email:row.email,shippingAddress:JSON.parse(row.shipping),items:JSON.parse(row.items).map(presentProduct),subtotal:row.subtotal||JSON.parse(row.items).reduce((n,i)=>n+i.price*i.quantity,0),discount:row.discount,shipping:row.shipping_total,tax:row.tax,coupon:row.coupon,total:row.total,createdAt:row.created_at,mode:'test'});
+const orderData = row => ({id:row.id,status:row.status,fulfillment:row.fulfillment,carrier:row.carrier,tracking:row.tracking,email:row.email,shippingAddress:JSON.parse(row.shipping),items:JSON.parse(row.items).map(presentProduct),subtotal:row.subtotal||JSON.parse(row.items).reduce((n,i)=>n+i.price*i.quantity,0),discount:row.discount,shipping:row.shipping_total,tax:row.tax,coupon:row.coupon,total:row.total,createdAt:row.created_at,mode:row.status==='test'?'test':'manual'});
+const receiptData=async(db,row)=>({...orderData(row),payment:await orderPayment(db,row)});
+const restoreStock=(db,row,marker)=>JSON.parse(row.items).filter(i=>i.stock!==null&&i.stock!==undefined).map(i=>db.prepare('UPDATE product_settings SET stock=stock+? WHERE id=? AND stock IS NOT NULL AND EXISTS(SELECT 1 FROM order_events WHERE id=?)').bind(i.quantity,i.id,marker));
 const event = (db,id,actor,action,data) => db.prepare('INSERT INTO order_events(id,order_id,actor,action,data) VALUES (?,?,?,?,?)').bind(crypto.randomUUID(),id,actor,action,JSON.stringify(data));
 async function administration(req,env,url) {
   if(!admin(req,env))fail('Administrator sign-in required',403);
   const db=env.DB,route=url.pathname;
+  if(route==='/api/admin/payments' && req.method==='GET')return json(await paymentSettings(db));
+  if(route==='/api/admin/payments' && req.method==='POST'){
+    let config;try{config=validatePaymentSettings(await body(req));}catch(e){fail(e.message);}
+    if(config.enabled&&!emailConfigured(env))fail('Configure order email delivery before enabling checkout',409);
+    await db.prepare("INSERT INTO store_settings(id,data) VALUES ('payments',?) ON CONFLICT(id) DO UPDATE SET data=excluded.data").bind(JSON.stringify(config)).run();return json({saved:true});
+  }
+  if(route==='/api/admin/orders/payment' && req.method==='POST'){
+    const b=await body(req);if(typeof b.reference!=='string'||!b.reference.trim()||b.reference.length>500)fail('Add a payment transaction reference');
+    const row=await db.prepare('SELECT * FROM orders WHERE id=?').bind(b.id).first();
+    if(!row||row.status!=='awaiting_payment'||row.fulfillment==='cancelled')fail('Only an unpaid active order can be marked paid',409);
+    const marker=crypto.randomUUID();
+    await db.batch([
+      db.prepare("INSERT INTO order_events(id,order_id,actor,action,data) SELECT ?,id,?,'payment-confirmed',? FROM orders WHERE id=? AND status='awaiting_payment' AND fulfillment!='cancelled'").bind(marker,user(req).id,JSON.stringify({reference:b.reference.trim()}),row.id),
+      db.prepare("UPDATE orders SET status='paid' WHERE id=? AND EXISTS(SELECT 1 FROM order_events WHERE id=?)").bind(row.id,marker)
+    ]);
+    if(!await db.prepare('SELECT id FROM order_events WHERE id=?').bind(marker).first())fail('The order changed. Refresh and try again.',409);
+    return json({saved:true,status:'paid'});
+  }
   if(route==='/api/admin/email' && req.method==='GET')return json({configured:emailConfigured(env),newsletterReady:emailConfigured(env)&&Boolean(env.NEWSLETTER_POSTAL_ADDRESS),
     counts:(await db.prepare('SELECT status,COUNT(*) count FROM email_outbox GROUP BY status').all()).results,
     messages:(await db.prepare('SELECT id,kind,recipient,status,attempts,provider_id,error,created_at FROM email_outbox ORDER BY created_at DESC,id DESC LIMIT 100').all()).results,
@@ -75,24 +96,27 @@ async function administration(req,env,url) {
   }
   if(route==='/api/admin/overview' && req.method==='GET'){
     const stats=await db.prepare("SELECT COUNT(*) orders, COALESCE(SUM(CASE WHEN fulfillment != 'cancelled' THEN total ELSE 0 END),0) value, SUM(CASE WHEN fulfillment='pending' THEN 1 ELSE 0 END) pending FROM orders").first();
-    const ps=await products(db);return json({...stats,products:ps.filter(p=>!p.parentId).length,lowStock:ps.filter(p=>!p.variable && p.active && p.stock!==null && p.stock!==undefined && p.stock<=5).length,requests:(await db.prepare('SELECT COUNT(*) n FROM submissions').first()).n,mode:'test'});
+    const ps=await products(db);return json({...stats,products:ps.filter(p=>!p.parentId).length,lowStock:ps.filter(p=>!p.variable && p.active && p.stock!==null && p.stock!==undefined && p.stock<=5).length,requests:(await db.prepare('SELECT COUNT(*) n FROM submissions').first()).n,mode:paymentMode(env,await paymentSettings(db)),paidValue:(await db.prepare("SELECT COALESCE(SUM(total),0) value FROM orders WHERE status='paid' AND fulfillment!='cancelled'").first()).value});
   }
   if(route==='/api/admin/orders' && req.method==='GET'){
     const offset=Math.max(0,parseInt(url.searchParams.get('offset'))||0),state=url.searchParams.get('state')||'',q=(url.searchParams.get('q')||'').slice(0,200);
     const orders=(await db.prepare("SELECT * FROM orders WHERE (?='' OR fulfillment=?) AND (?='' OR email LIKE ? OR id LIKE ?) ORDER BY created_at DESC,id DESC LIMIT 51 OFFSET ?").bind(state,state,q,'%'+q+'%','%'+q+'%',offset).all()).results;
-    return json({orders:orders.slice(0,50),next:orders.length>50?offset+50:null});
+    return json({orders:await Promise.all(orders.slice(0,50).map(async row=>({...row,payment:await orderPayment(db,row)}))),next:orders.length>50?offset+50:null});
   }
   if(route==='/api/admin/orders' && req.method==='POST'){
     const b=await body(req),row=await db.prepare('SELECT * FROM orders WHERE id=?').bind(b.id).first();if(!row)fail('Order not found',404);
-    if(row.status!=='test')fail('Live order updates require the payment and fulfillment integration',409);
+    if(!['test','awaiting_payment','paid'].includes(row.status))fail('Order cannot be updated',409);
+    if(row.status==='awaiting_payment'&&!['pending','cancelled'].includes(b.fulfillment))fail('Confirm payment before processing or shipping this order',409);
+    if(row.status==='paid'&&b.fulfillment==='cancelled')fail('Paid orders need a refund review before cancellation. Record the refund with the payment provider first.',409);
     const next={pending:['processing','cancelled'],processing:['shipped','cancelled'],shipped:['delivered'],delivered:[],cancelled:[]};
     if(typeof b.fulfillment!=='string' || b.fulfillment!==row.fulfillment && !next[row.fulfillment]?.includes(b.fulfillment))fail('This order status change is not allowed',409);
     if(['carrier','tracking','notes'].some(k=>typeof b[k]!=='string'||b[k].length>(k==='notes'?2000:200)))fail('Invalid order details');
-    if(b.fulfillment==='shipped' && (!b.carrier.trim()||!b.tracking.trim()))fail('Add a carrier and tracking reference for the test shipment');
+    if(b.fulfillment==='shipped' && (!b.carrier.trim()||!b.tracking.trim()))fail('Add a carrier and tracking reference');
     const marker=crypto.randomUUID();
     await db.batch([
-      db.prepare('INSERT INTO order_events(id,order_id,actor,action,data) SELECT ?,id,?,?,? FROM orders WHERE id=? AND fulfillment=?').bind(marker,user(req).id,'admin-update',JSON.stringify({...b,previous:row.fulfillment}),row.id,row.fulfillment),
-      db.prepare('UPDATE orders SET fulfillment=?,carrier=?,tracking=?,notes=? WHERE id=? AND EXISTS(SELECT 1 FROM order_events WHERE id=?)').bind(b.fulfillment,b.carrier.trim(),b.tracking.trim(),b.notes.trim(),row.id,marker)
+      db.prepare('INSERT INTO order_events(id,order_id,actor,action,data) SELECT ?,id,?,?,? FROM orders WHERE id=? AND fulfillment=? AND status=?').bind(marker,user(req).id,'admin-update',JSON.stringify({...b,previous:row.fulfillment}),row.id,row.fulfillment,row.status),
+      db.prepare('UPDATE orders SET fulfillment=?,carrier=?,tracking=?,notes=? WHERE id=? AND EXISTS(SELECT 1 FROM order_events WHERE id=?)').bind(b.fulfillment,b.carrier.trim(),b.tracking.trim(),b.notes.trim(),row.id,marker),
+      ...(row.status==='awaiting_payment'&&b.fulfillment==='cancelled'&&row.fulfillment!=='cancelled'?restoreStock(db,row,marker):[])
     ]);
     if(!await db.prepare('SELECT id FROM order_events WHERE id=?').bind(marker).first())fail('The order changed. Refresh and try again.',409);
     return json({saved:true});
@@ -155,9 +179,11 @@ async function api(req,env) {
   if(route.startsWith('/api/admin/'))return administration(req,env,url);
   if(route==='/api/products' && req.method==='GET'){
     const ps=await products(db),q=(url.searchParams.get('q')||'').toLowerCase(),cat=url.searchParams.get('category');
-    return json({products:ps.filter(p=>!p.parentId&&p.active&&(!q||p.name.toLowerCase().includes(q))&&(!cat||p.categories.includes(cat))),mode:'test'});
+    return json({products:ps.filter(p=>!p.parentId&&p.active&&(!q||p.name.toLowerCase().includes(q))&&(!cat||p.categories.includes(cat))),mode:paymentMode(env,await paymentSettings(db))});
   }
-  if(route==='/api/store' && req.method==='GET')return json({...(await settings(db)),mode:env.COMMERCE_MODE==='test'?'test':'disabled',country:'US',currency:'USD'});
+  if(route==='/api/store' && req.method==='GET'){
+    const config=await paymentSettings(db);return json({...(await settings(db)),mode:paymentMode(env,config),paymentMethods:config.methods.filter(m=>m.enabled).map(m=>({id:m.id,label:m.label})),country:'US',currency:'USD'});
+  }
   if(route==='/api/account' && req.method==='GET'){
     const u=user(req);if(!u.id)return json({signedIn:false});
     const orders=(await db.prepare('SELECT id,total,status,fulfillment,created_at FROM orders WHERE customer_id=? ORDER BY created_at DESC LIMIT 100').bind(u.id).all()).results;
@@ -184,12 +210,13 @@ async function api(req,env) {
   }
   if(route.startsWith('/api/orders/')){
     const parts=route.split('/'),row=await orderAccess(req,db,parts[3],url);
-    if(req.method==='GET' && parts.length===4)return json(orderData(row));
+    if(req.method==='GET' && parts.length===4)return json(await receiptData(db,row));
     if(req.method==='POST' && parts[4]==='cancel'){
-      if(row.status!=='test'||row.fulfillment!=='pending')fail('Only pending test orders can be cancelled here',409);
+      if(!['test','awaiting_payment'].includes(row.status)||row.fulfillment!=='pending')fail('Only unpaid pending orders can be cancelled here',409);
       const marker=crypto.randomUUID();await db.batch([
-        db.prepare("INSERT INTO order_events(id,order_id,actor,action,data) SELECT ?,id,?,'customer-cancel','{}' FROM orders WHERE id=? AND fulfillment='pending'").bind(marker,user(req).id||'guest',row.id),
-        db.prepare("UPDATE orders SET fulfillment='cancelled' WHERE id=? AND EXISTS(SELECT 1 FROM order_events WHERE id=?)").bind(row.id,marker)
+        db.prepare("INSERT INTO order_events(id,order_id,actor,action,data) SELECT ?,id,?,'customer-cancel','{}' FROM orders WHERE id=? AND fulfillment='pending' AND status=?").bind(marker,user(req).id||'guest',row.id,row.status),
+        db.prepare("UPDATE orders SET fulfillment='cancelled' WHERE id=? AND EXISTS(SELECT 1 FROM order_events WHERE id=?)").bind(row.id,marker),
+        ...(row.status==='awaiting_payment'?restoreStock(db,row,marker):[])
       ]);if(!await db.prepare('SELECT id FROM order_events WHERE id=?').bind(marker).first())fail('The order changed. Refresh and try again.',409);return json({cancelled:true});
     }
     if(req.method==='POST' && parts[4]==='reorder'){
@@ -205,7 +232,7 @@ async function api(req,env) {
   if(route==='/api/cart' && req.method==='GET'){
     // Keep removed/unpublished items visible so the customer can remove them.
     const items=s.items.map(i=>{const p=ps.find(p=>p.id===i.id);return {id:i.id,name:p?.name||'Unavailable product',path:p?.path||'/shop-all-peptides/',image:p?.image||'',price:p?.price||0,quantity:i.quantity,stock:p?.stock??null,unavailable:!p?.active};});
-    return json({items,appliedCoupon:s.coupon,...await quote(db,items,s.coupon,false,url.searchParams.get('state')||'')},200,s.headers);
+    return json({items,appliedCoupon:s.coupon,...await quote(db,items,s.coupon,false,url.searchParams.get('state')||''),mode:paymentMode(env,await paymentSettings(db))},200,s.headers);
   }
   if(req.method!=='POST')fail('Method not allowed',405);
   const b=await body(req);
@@ -222,33 +249,47 @@ async function api(req,env) {
     }
     await db.prepare('UPDATE carts SET items=?,coupon=?,updated_at=CURRENT_TIMESTAMP WHERE id=?').bind(JSON.stringify(items),code,s.id).run();
     const rows=items.filter(i=>ps.find(p=>p.id===i.id)?.active).map(i=>{const p=ps.find(p=>p.id===i.id);return {...i,price:p.price};});
-    return json({saved:true,items:rows,...await quote(db,rows,code)},200,s.headers);
+    return json({saved:true,items:rows,...await quote(db,rows,code),mode:paymentMode(env,await paymentSettings(db))},200,s.headers);
   }
-  if(env.COMMERCE_MODE!=='test')fail('Live payments have not been configured',503);
+  const payments=await paymentSettings(db),mode=paymentMode(env,payments);
+  if(mode==='disabled')fail('Checkout is not available yet',503);
   if(cookie(req,'shop_verified')!=='1'||b.age!==true||b.researcher!==true)fail('Researcher verification is required',403);
   if(!validEmail(b.email)||!shippingValid(b.shipping))fail('Complete a valid U.S. shipping address');
   if(!/^[a-f0-9-]{36}$/.test(b.key||''))fail('Invalid checkout identifier');
   const existing=await db.prepare('SELECT * FROM orders WHERE cart_id=? AND idempotency_key=?').bind(s.id,b.key).first();
-  if(existing)return json({...orderData(existing),token:await tokenFor(s.id,existing.id),repeated:true},200,s.headers);
+  if(existing)return json({...await receiptData(db,existing),token:await tokenFor(s.id,existing.id),repeated:true},200,s.headers);
+  let payment=null;
+  if(mode==='manual'){
+    if(!emailConfigured(env))fail('Payment instruction emails are unavailable. Please contact the store.',503);
+    const method=payments.methods.find(m=>m.enabled&&m.id===b.paymentMethod);
+    if(!method)fail('Choose an available payment method');
+    if(!b.shipping.state)fail('Select your delivery state');
+    payment={id:method.id,label:method.label,instructions:method.instructions};
+  }
   const items=expanded(s.items,ps);if(!items.length)fail('Your cart is empty');if(items.some(i=>i.variable||i.stock!==null&&i.quantity>i.stock))fail('Some items are unavailable',409);
   const totals=await quote(db,items,s.coupon,true,b.shipping.state||''),id=crypto.randomUUID(),token=await tokenFor(s.id,id);
-  const emailStatement=emailConfigured(env)?orderEmail(db,env,{id,email:b.email.trim(),items:JSON.stringify(items),subtotal:totals.subtotal,discount:totals.discount,shipping_total:totals.shipping,tax:totals.tax,total:totals.total},token):null;
-  const insert=db.prepare(`INSERT INTO orders(id,cart_id,idempotency_key,customer_id,email,shipping,items,total,token_hash,subtotal,discount,shipping_total,tax,coupon)
-    SELECT ?,?,?,?,?,?,?,?,?,?,?,?,?,? WHERE (?='' OR EXISTS(SELECT 1 FROM coupons WHERE code=? AND active=1 AND (max_uses=0 OR uses<max_uses) AND (expires='' OR expires>?))) AND EXISTS(SELECT 1 FROM carts WHERE id=? AND items=? AND coupon=?)`).bind(id,s.id,b.key,user(req).id,b.email.trim(),JSON.stringify(cleanShipping(b.shipping)),JSON.stringify(items),totals.total,await hash(token),totals.subtotal,totals.discount,totals.shipping,totals.tax,totals.coupon,totals.coupon,totals.coupon,new Date().toISOString(),s.id,JSON.stringify(s.items),s.coupon);
+  const status=mode==='manual'?'awaiting_payment':'test';
+  const emailRow={id,status,payment,email:b.email.trim(),shipping:JSON.stringify(cleanShipping(b.shipping)),items:JSON.stringify(items),subtotal:totals.subtotal,discount:totals.discount,shipping_total:totals.shipping,tax:totals.tax,total:totals.total};
+  const emailStatement=emailConfigured(env)?orderEmail(db,env,emailRow,token):null;
+  const stockGuard=mode==='manual'?items.map(()=>" AND NOT EXISTS(SELECT 1 FROM product_settings WHERE id=? AND (active=0 OR (stock IS NOT NULL AND stock<?)))").join(''):'';
+  const insert=db.prepare(`INSERT INTO orders(id,cart_id,idempotency_key,customer_id,email,shipping,items,total,token_hash,subtotal,discount,shipping_total,tax,coupon,status)
+    SELECT ?,?,?,?,?,?,?,?,?,?,?,?,?,?,? WHERE (?='' OR EXISTS(SELECT 1 FROM coupons WHERE code=? AND active=1 AND (max_uses=0 OR uses<max_uses) AND (expires='' OR expires>?))) AND EXISTS(SELECT 1 FROM carts WHERE id=? AND items=? AND coupon=?)`+stockGuard).bind(id,s.id,b.key,user(req).id,b.email.trim(),emailRow.shipping,emailRow.items,totals.total,await hash(token),totals.subtotal,totals.discount,totals.shipping,totals.tax,totals.coupon,status,totals.coupon,totals.coupon,new Date().toISOString(),s.id,JSON.stringify(s.items),s.coupon,...(mode==='manual'?items.flatMap(i=>[i.id,i.quantity]):[]));
   try {
     await db.batch([
       insert,
+      ...(mode==='manual'?items.filter(i=>i.stock!==null).map(i=>db.prepare('UPDATE product_settings SET stock=stock-? WHERE id=? AND stock IS NOT NULL AND EXISTS(SELECT 1 FROM orders WHERE id=?)').bind(i.quantity,i.id,id)):[]),
       db.prepare('UPDATE coupons SET uses=uses+1 WHERE code=? AND EXISTS(SELECT 1 FROM orders WHERE id=?)').bind(totals.coupon,id),
       db.prepare("UPDATE carts SET items='[]',coupon='',updated_at=CURRENT_TIMESTAMP WHERE id=? AND EXISTS(SELECT 1 FROM orders WHERE id=?)").bind(s.id,id),
-      db.prepare("INSERT INTO order_events(id,order_id,actor,action,data) SELECT ?,id,?,'created',? FROM orders WHERE id=?").bind(crypto.randomUUID(),user(req).id||'guest',JSON.stringify({mode:'test'}),id),
-      ...(emailStatement?[emailStatement]:[])
+      db.prepare("INSERT INTO order_events(id,order_id,actor,action,data) SELECT ?,id,?,'created',? FROM orders WHERE id=?").bind(crypto.randomUUID(),user(req).id||'guest',JSON.stringify({mode,payment}),id),
+      ...(emailStatement?[emailStatement,...(mode==='manual'?[orderAdminEmail(db,env,emailRow)]:[])]:[])
     ]);
   } catch(error){
-    const duplicate=await db.prepare('SELECT * FROM orders WHERE cart_id=? AND idempotency_key=?').bind(s.id,b.key).first();if(duplicate)return json({...orderData(duplicate),token:await tokenFor(s.id,duplicate.id),repeated:true},200,s.headers);throw error;
+    const duplicate=await db.prepare('SELECT * FROM orders WHERE cart_id=? AND idempotency_key=?').bind(s.id,b.key).first();if(duplicate)return json({...await receiptData(db,duplicate),token:await tokenFor(s.id,duplicate.id),repeated:true},200,s.headers);throw error;
   }
   if(!await db.prepare('SELECT id FROM orders WHERE id=?').bind(id).first())fail('Your cart or discount changed during checkout. Refresh your cart and try again.',409);
-  await flushEmails(env);
-  return json({id,token,status:'test',fulfillment:'pending',...totals,message:'Test order saved. No payment was collected and no shipment will be made.'},201,s.headers);
+  await flushEmails(env,{ids:['order:'+id,'order-admin:'+id]});
+  const delivery=emailStatement?await db.prepare('SELECT status FROM email_outbox WHERE id=?').bind('order:'+id).first():null;
+  return json({id,token,...totals,status,mode,payment,fulfillment:'pending',emailStatus:delivery?.status||'unconfigured',message:mode==='manual'?'Order submitted. Our team will review it and email your payment details.':'Test order saved. No payment was collected and no shipment will be made.'},201,s.headers);
 }
 export default {async fetch(req,env){try{
   const url=new URL(req.url);

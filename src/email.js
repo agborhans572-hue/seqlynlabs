@@ -14,11 +14,19 @@ export function queueEmail(db,id,kind,recipient,payload,condition='',args=[]){
 export function orderEmail(db,env,row,token){
  const items=JSON.parse(row.items).map(presentProduct);
  const receipt=new URL('/order-tracking/',env.PUBLIC_SITE_URL);receipt.searchParams.set('id',row.id);receipt.searchParams.set('token',token);
- const text=[brand.name+' — TEST order confirmation','Order '+row.id,'This is a test order. No payment was collected and no shipment is scheduled.','',
+ const live=row.status==='awaiting_payment';
+ const text=[brand.name+(live?' — Order received':' — TEST order confirmation'),'Order '+row.id,live?'Your order has been submitted and is awaiting review and payment. No payment has been collected.':'This is a test order. No payment was collected and no shipment is scheduled.','',
   ...items.map(i=>i.name+' × '+i.quantity+' — '+money(i.price*i.quantity)),'',
   'Subtotal: '+money(row.subtotal),'Discount: '+money(row.discount),'Shipping: '+money(row.shipping_total),'Tax: '+money(row.tax),'Total: '+money(row.total),'',
+  ...(live?['Selected payment method: '+row.payment.label,'Our team will review your order and email your '+row.payment.label+' payment details from '+env.SHOP_ADMIN_EMAIL+'. Wait for those details before paying.','Your order will be processed after payment is confirmed.','','Delivery details:',...Object.values(JSON.parse(row.shipping)),'']:[]),
   'Your private receipt: '+receipt.href,'Keep this link private. It provides access to your receipt.','Questions? Reply to this email.'].join('\n');
- return queueEmail(db,'order:'+row.id,'order',row.email,{subject:'TEST order confirmation — '+row.id.slice(0,8).toUpperCase(),text},'EXISTS(SELECT 1 FROM orders WHERE id=?)',[row.id]);
+ return queueEmail(db,'order:'+row.id,'order',row.email,{subject:(live?'Order received — ':'TEST order confirmation — ')+row.id.slice(0,8).toUpperCase(),text},'EXISTS(SELECT 1 FROM orders WHERE id=?)',[row.id]);
+}
+export function orderAdminEmail(db,env,row){
+ const text=['New order awaiting review and payment','Order '+row.id,'Customer: '+row.email,'Payment method: '+row.payment.label,'',
+  ...JSON.parse(row.items).map(i=>i.name+' × '+i.quantity+' — '+money(i.price*i.quantity)),'','Total: '+money(row.total),'','Delivery:',...Object.values(JSON.parse(row.shipping)),'',
+  'Review the order, then reply to this email to send the customer payment details for '+row.payment.label+'. No payment has been collected.','Manage orders: '+new URL('/admin/',env.PUBLIC_SITE_URL).href].join('\n');
+ return queueEmail(db,'order-admin:'+row.id,'order-admin',env.SHOP_ADMIN_EMAIL,{subject:'New order — '+row.id.slice(0,8).toUpperCase()+' — '+row.payment.label,reply_to:row.email,text},'EXISTS(SELECT 1 FROM orders WHERE id=?)',[row.id]);
 }
 export function contactEmail(db,env,id,kind,email,message){
  return queueEmail(db,'submission:'+id,'contact',env.SHOP_ADMIN_EMAIL,{subject:brand.name+' — new '+kind+' request',reply_to:email,
@@ -66,10 +74,11 @@ export async function queueCampaign(db,env,b){
  try{await db.batch(statements);}catch(error){const retry=await db.prepare('SELECT recipients FROM newsletter_campaigns WHERE id=?').bind(b.id).first();if(retry)return {queued:retry.recipients,repeated:true};throw error;}
  return {queued:recipients.length};
 }
-export async function dispatchEmails(env,{limit=3,budgetMs=12000,fetcher=env.EMAIL_FETCH||fetch,now=Date.now,pause=ms=>new Promise(r=>setTimeout(r,ms))}={}){
+export async function dispatchEmails(env,{limit=3,budgetMs=12000,ids=null,fetcher=env.EMAIL_FETCH||fetch,now=Date.now,pause=ms=>new Promise(r=>setTimeout(r,ms))}={}){
  if(!emailConfigured(env))return {configured:false,accepted:0};
  const db=env.DB,start=now();let accepted=0,processed=0;
- const rows=(await db.prepare("SELECT * FROM email_outbox WHERE (status='queued' AND next_attempt<=?) OR (status='sending' AND lease_until<?) ORDER BY CASE WHEN kind='newsletter' THEN 1 ELSE 0 END,created_at,id LIMIT ?").bind(start,start,limit).all()).results;
+ const only=ids?.length?' AND id IN ('+ids.map(()=>'?').join(',')+')':'';
+ const rows=(await db.prepare("SELECT * FROM email_outbox WHERE ((status='queued' AND next_attempt<=?) OR (status='sending' AND lease_until<?))"+only+" ORDER BY CASE WHEN kind='newsletter' THEN 1 ELSE 0 END,created_at,id LIMIT ?").bind(start,start,...(ids||[]),limit).all()).results;
  for(const row of rows){
   if(now()-start>budgetMs-5500)break;
   const lease=crypto.randomUUID();

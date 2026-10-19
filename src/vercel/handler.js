@@ -4,6 +4,7 @@ import worker from '../worker.js';
 import {deploymentDatabase} from './database.js';
 import {authentication,authenticatedUser,authConfigured} from './auth.js';
 import {createSupabaseAuth} from './supabase-auth.js';
+import {paymentSettings,paymentMode} from '../payments.js';
 
 function safeReturn(value,origin) {
   try { const url=new URL(value||'/my-account/',origin);if(url.origin===origin)return url.href; } catch {}
@@ -39,7 +40,8 @@ export async function handleRequest(req,env=process.env,dependencies={}) {
     if(url.pathname==='/health') {
       let database=false;
       try { database=Boolean(db && await db.prepare('SELECT (SELECT COUNT(*) FROM custom_products) products, (SELECT COUNT(*) FROM order_events) events, (SELECT COUNT(*) FROM store_settings) settings').first()); } catch {}
-      response=Response.json({ok:database,mode:env.COMMERCE_MODE||'disabled',database:database?'ready':'unavailable',authentication:authConfigured(env)?'configured':'unconfigured'},{status:database?200:503});
+      const mode=database?paymentMode(env,await paymentSettings(db)):'disabled';
+      response=Response.json({ok:database,mode,database:database?'ready':'unavailable',authentication:authConfigured(env)?'configured':'unconfigured'},{status:database?200:503});
     } else {
       const ASSETS=dependencies.ASSETS||{async fetch(request) {
         const pathname=new URL(request.url).pathname;

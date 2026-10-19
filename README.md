@@ -1,4 +1,4 @@
-﻿# Seqlyn Labs Shop — independent ecommerce test app
+﻿# Seqlyn Labs Shop — independent ecommerce app
 
 This storefront runs independently of WooCommerce. The home and information pages preserve the PH Bio Labs snapshot from October 6, 2026. All 81 product pages were refreshed from their original pages on October 17, 2026, preserving each product's own layout, image, short description, full Overview, options and linked certificates. Purchasing uses the app's own catalog, cart, customer records and order backend.
 
@@ -12,7 +12,7 @@ The ignored local SQLite database is `.sites-runtime/preview.sqlite`. The existi
 
 The storefront is live at [www.seqlynlabs.com](https://www.seqlynlabs.com), connected to Supabase through the official Vercel integration. The database and guest test checkout passed [hosted verification](reports/deployment/hosted-smoke.json). [Supabase setup](docs/supabase-connection.md) documents the private commerce schema and enabled Google authentication. Google sign-in was enabled and redeployed on October 19, 2026. The configured administrator is `info@seqlynlabs.com`, but Google could not find a Google account for that address; owner sign-in and admin-session verification await account registration or an owner-approved alternate Google email.
 
-See [the Vercel setup and remaining launch checklist](docs/vercel-deployment.md). `npm run build:vercel` prepares CDN assets and a Node.js function; `npm run verify:vercel` checks the actual bundle. Google sign-in replaces hosting-specific authentication in the Vercel target. Production database credentials and OAuth are configured; the owner's Google account is the remaining administration dependency. `npm run preview:vercel` serves the prepared storefront at http://localhost:4175 with separate local data. Checkout remains in test mode.
+See [the Vercel setup and remaining launch checklist](docs/vercel-deployment.md). `npm run build:vercel` prepares CDN assets and a Node.js function; `npm run verify:vercel` checks the actual bundle. Google sign-in replaces hosting-specific authentication in the Vercel target. Production database credentials and OAuth are configured; the owner's Google account is the remaining administration dependency. `npm run preview:vercel` serves the prepared storefront at http://localhost:4175 with separate local data. Manual ordering accepts payment preferences and sends customer/admin notifications; payment details are supplied manually after review. See [manual payment operations](docs/manual-payments.md).
 
 ## Shopping and customer features
 
@@ -20,13 +20,13 @@ See [the Vercel setup and remaining launch checklist](docs/vercel-deployment.md)
 - Product pages, selectable sizes, related products, inventory validation and server-calculated pricing.
 - Persistent carts, editable quantities, removals, discount codes, shipping/tax breakdowns and item count.
 - Researcher popup with both confirmations required; checkout also requires fresh confirmations. These are self-attestations, not independently verified credentials.
-- Guest and signed-in test checkout, idempotent order creation, stored receipts, private guest tracking links, print receipts, pending-order cancellation and reordering.
+- Guest and signed-in order submission with Crypto, Apple Pay and PayPal preferences, idempotent order creation, stored receipts, private guest tracking links, print receipts, pending-order cancellation and reordering.
 - Google sign-in through Supabase on Vercel; the legacy Sites target uses ChatGPT dispatch. Signed-in customers have scoped order history, a saved shipping address and a persistent wishlist.
 - Contact, newsletter-interest, wholesale and white-label request collection for administrator review.
 
 ## Administration
 
-The owner account configured in `SHOP_ADMIN_EMAIL` has server-enforced access at `/admin/`. The dashboard includes order statistics, order search and pagination, test fulfillment transitions, carrier/tracking references, internal notes and an audit history. Customer receipts never expose internal notes or audit records.
+The owner account configured in `SHOP_ADMIN_EMAIL` has server-enforced access at `/admin/`. The dashboard includes order statistics, order search and pagination, manual payment confirmation with a transaction reference, fulfillment transitions, carrier/tracking references, internal notes and an audit history. Customer receipts never expose internal notes or audit records.
 
 Administrators can edit prices, stock and availability for all imported products and variants, and create/edit additional fixed-price products with HTTPS image URLs. New products have `/product/?id=...` detail pages with matching metadata. Products are unpublished rather than deleted, preserving historical receipts.
 
@@ -36,11 +36,11 @@ Test shipping supports a flat fee and optional free-shipping minimum. Test tax u
 
 ## Current operating mode and launch dependencies
 
-`COMMERCE_MODE=test`: no money is collected, no shipment is scheduled and inventory is not deducted. Every order and receipt is marked as a test. Setting a different mode fails checkout closed because a live payment provider has not been selected. No browser redirect can mark an order as paid.
+The private `store_settings` payment configuration enables reviewed orders awaiting manual payment. Customers select a method, receive an immediate confirmation and wait for the owner to email payment details. Known stock is reserved. Only an administrator recording a confirmed transaction can mark the order paid and enable fulfillment. No browser redirect or payment-method selection marks an order paid. `COMMERCE_MODE=test` remains the fallback when manual ordering is disabled; historical test orders remain labeled as tests.
 
-Live selling still needs an approved payment provider and verified webhook integration, real stock, actual shipping/tax rules and confirmed business policies. Transactional email is configured; newsletter campaigns await the business mailing address and the owner must complete Google account registration/admin sign-in. The existing Sites target uses ChatGPT sign-in and its existing audience; Vercel uses Google and separate access settings. Rebranded product images are local. `mirror-report.json` records missing legacy assets; the Vercel audit identifies remaining inherited resource defects. The storefront is not a replacement for final launch configuration.
+Automatic payment capture and webhook verification are not configured. The owner supplies payment details, checks transactions and manages fulfillment manually. Real stock, shipping/tax settings and business policies remain merchant responsibilities. Transactional email is configured; newsletter campaigns await the business mailing address and the owner must complete Google account registration/admin sign-in. The existing Sites target uses ChatGPT sign-in and its existing audience; Vercel uses Google and separate access settings. Rebranded product images are local. `mirror-report.json` records missing legacy assets; the Vercel audit identifies remaining inherited resource defects. The storefront is not a replacement for final launch configuration.
 
-Order confirmations and contact/wholesale/white-label notifications use Resend with a private durable email queue. Newsletter signups require email confirmation; owner-composed campaigns include unsubscribe controls and require the business mailing address before sending is enabled. Administration's Email tab shows queue status and provider acceptance. See [email configuration and operating limits](docs/email-delivery.md). Fulfillment changes simulate the workflow only.
+Customer confirmations, owner order notifications and contact/wholesale/white-label notifications use Resend with a private durable email queue. Newsletter signups require email confirmation; owner-composed campaigns include unsubscribe controls and require the business mailing address before sending is enabled. Administration's Email tab shows queue status and provider acceptance. See [email configuration and operating limits](docs/email-delivery.md).
 
 ## Local UI fixtures
 

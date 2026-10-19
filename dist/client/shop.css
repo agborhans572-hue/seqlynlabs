@@ -7,3 +7,4 @@ body[data-shop]{margin:0;background:#fff;color:var(--shop-ink);font:16px/1.6 sys
 
 body[data-shop],.shop-page button,.shop-page .button{font-family:Poppins,system-ui,sans-serif}.shop-logo img{display:block;width:180px;height:90px;object-fit:contain}.shop-logo span{text-align:center}
 .coa-certificate-sizes{display:flex;flex-wrap:wrap;gap:6px 12px;margin:8px 2px 0;font:12px/1.5 Poppins,sans-serif}.coa-certificate-sizes a{color:#6b7075;text-decoration:underline;text-underline-offset:3px}
+:root .shop-page label input[type=radio]{display:inline-block;width:20px;height:20px;margin:0;flex-shrink:0;accent-color:var(--shop-pink)}
