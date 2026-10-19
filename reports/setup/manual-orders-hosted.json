@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-19T10:48:01.960Z",
+  "origin": "https://www.seqlynlabs.com",
+  "recipient": "info@seqlynlabs.com",
+  "orderId": "dac3d382-e977-4ee1-b3e0-26d375672f72",
+  "status": "awaiting_payment",
+  "paymentMethod": "paypal",
+  "emailStatus": "accepted",
+  "cancelled": true,
+  "noPaymentCollected": true,
+  "methods": [
+    {
+      "id": "crypto",
+      "label": "Crypto"
+    },
+    {
+      "id": "apple_pay",
+      "label": "Apple Pay"
+    },
+    {
+      "id": "paypal",
+      "label": "PayPal"
+    }
+  ],
+  "checks": [
+    {
+      "path": "/health",
+      "status": 200
+    },
+    {
+      "path": "/api/store",
+      "status": 200
+    },
+    {
+      "path": "/api/verification",
+      "status": 200
+    },
+    {
+      "path": "/api/products",
+      "status": 200
+    },
+    {
+      "path": "/api/cart",
+      "status": 200
+    },
+    {
+      "path": "/api/checkout",
+      "status": 201
+    },
+    {
+      "path": "/api/checkout",
+      "status": 200
+    },
+    {
+      "path": "/api/orders/dac3d382-e977-4ee1-b3e0-26d375672f72",
+      "status": 200
+    },
+    {
+      "path": "/api/cart",
+      "status": 200
+    },
+    {
+      "path": "/api/orders/dac3d382-e977-4ee1-b3e0-26d375672f72/cancel",
+      "status": 200
+    }
+  ],
+  "delivery": "Provider acceptance is not proof of inbox delivery; verify customer and admin messages in Resend."
+}

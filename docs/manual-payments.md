@@ -13,3 +13,9 @@ After checking the transaction directly in the wallet or payment provider, the a
 Apple Pay is a requested payment preference, not an integrated wallet payment button. The owner must supply a payment-provider link supporting Apple Pay when replying. PayPal and crypto details are likewise supplied manually; no payment credentials or destination addresses are invented or embedded in the site.
 
 The admin Google identity must match `SHOP_ADMIN_EMAIL`. The previously noted Google-account registration/sign-in for the Zoho mailbox remains the owner's sign-in prerequisite. Order notifications and manual replies through Zoho do not require admin sign-in.
+
+## Production verification, 19 October 2026
+
+Commit `c848ef6` was deployed, then the three preferences were enabled through the Supabase production SQL editor. `/health` and `/api/store` report `manual`. All 58 tests pass, including SQLite and PostgreSQL manual-order tests; Vercel packaging checks cover 112 pages with no unexpected missing resources. The standalone Worker also imports successfully.
+
+The owner-only [hosted check](../reports/setup/manual-orders-hosted.json) submitted a PayPal-preference order, verified the persisted private receipt and cleared cart, retried without creating a duplicate and cancelled the setup order. No payment was collected. The customer confirmation was accepted by Resend. A browser URL-confidence safeguard stopped further UI automation, so final provider delivery status and a rendered checkout screenshot were not verified in this run. Email acceptance is not proof of inbox delivery. Backend tests verify both customer and owner messages and their Reply-To behavior.
