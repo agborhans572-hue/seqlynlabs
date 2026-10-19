@@ -1,0 +1,22 @@
+{
+  "verifiedDate": "2026-10-19",
+  "property": "sc-domain:seqlynlabs.com",
+  "account": "agborhans572@gmail.com",
+  "ownership": "verified",
+  "verificationMethod": "DNS TXT at domain root via Vercel",
+  "sitemap": "https://www.seqlynlabs.com/sitemap.xml",
+  "sitemapStatus": "Success",
+  "discoveredPages": 99,
+  "lastRead": "2026-10-19",
+  "homepage": "https://www.seqlynlabs.com/",
+  "initialHomepageIndexStatus": "URL is unknown to Google",
+  "homepageIndexingRequest": "Indexing requested; added to priority crawl queue",
+  "actualIndexingConfirmed": false,
+  "robots": "https://www.seqlynlabs.com/robots.txt",
+  "testsPassed": 54,
+  "proof": [
+    "search-console-ownership-verified.jpg",
+    "search-console-sitemap-submitted.jpg",
+    "search-console-indexing-requested.jpg"
+  ]
+}

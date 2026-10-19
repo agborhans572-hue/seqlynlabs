@@ -6,6 +6,6 @@ The Vercel build generates `/sitemap.xml` from public HTML pages and `/robots.tx
 
 Verified live on 2026-10-19: sitemap and robots return HTTP 200; sitemap is XML; public product pages have no noindex header; cart receives the noindex header. All 54 tests pass.
 
-Google Search Console Domain property: `seqlynlabs.com`, prepared under `agborhans572@gmail.com`. Verification is pending action-time confirmation. The Google verification TXT record is filled in the Vercel DNS form but has not been saved. Sitemap submission and homepage indexing request are pending verification. No claim of Google indexing has been made.
+Google Search Console Domain property: `seqlynlabs.com`, verified under `agborhans572@gmail.com` on 2026-10-19 after user confirmation. The root Google verification TXT record is saved in Vercel DNS and visible through public DNS. Keep this record to preserve verification. Existing Zoho and Resend DNS records were preserved.
 
-After verification, submit `https://www.seqlynlabs.com/sitemap.xml` in Sitemaps and inspect/request indexing for `https://www.seqlynlabs.com/`. Submission does not guarantee indexing; Google controls crawl and indexing timing.
+Google accepted `https://www.seqlynlabs.com/sitemap.xml`: **Success**, 99 discovered pages, last read 19 October 2026. The homepage inspection initially reported that the URL was unknown to Google. Google's live URL check completed and Search Console confirmed **Indexing requested** for `https://www.seqlynlabs.com/`. The URL was added to Google's priority crawl queue. Submission does not guarantee indexing; Google controls crawl and indexing timing.
