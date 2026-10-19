@@ -106,7 +106,6 @@ async function start(){
  else {
   if(document.body.dataset.cloneProduct)await clonedProductPage();
   $$('.phbio-aab').forEach(x=>x.classList.add('is-ready'));
-  const notice=document.createElement('aside');notice.className='shop-notice';notice.innerHTML='<span>Test store</span><a href="/shop-all-peptides/">Shop</a><a href="/cart/">Cart <span data-cart-count>0</span></a><a href="/my-account/">Account</a>';document.body.append(notice);
   $$('[class*=shopping-cart],[class*=cart-toggle]').forEach(el=>el.addEventListener('click',e=>{e.preventDefault();e.stopImmediatePropagation();location.href='/cart/';},true));
   $$('.phbio-catalog').forEach(root=>{const rows=$$('.phbio-card',root),filters=$('.phbio-filters',root),sentinel=$('.phbio-sentinel',root);let selected=rows,shown=20;function render(){rows.forEach(c=>{const visible=selected.includes(c)&&selected.indexOf(c)<shown;c.classList.toggle('phbio-deferred',!visible);c.classList.toggle('phbio-revealed',visible);});sentinel?.classList.toggle('hidden',shown>=selected.length);}filters?.addEventListener('click',e=>{const b=e.target.closest('.phbio-pill');if(!b)return;e.stopImmediatePropagation();$$('.phbio-pill',filters).forEach(x=>x.classList.toggle('active',x===b));selected=b.dataset.cat==='all'?rows:rows.filter(c=>$$('[data-cat]',c).some(t=>t.dataset.cat===b.dataset.cat));shown=20;render();},true);if(sentinel)new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){shown+=20;render();}},{rootMargin:'400px'}).observe(sentinel);render();});
  }
