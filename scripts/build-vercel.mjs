@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {build} from 'esbuild';
 import {repairLegacy} from './vercel-legacy.mjs';
+import {searchFiles} from './search-indexing.mjs';
 
 const root=path.resolve('dist/client'),output=path.resolve('.vercel/output');
 // Never remove the tracked storefront snapshots that the existing build needs.
@@ -55,6 +56,14 @@ for(const file of sourceFiles) {
   bytes+=(await fs.stat(target)).size;count++;
 }
 for(const name of ['product','admin'])await fs.copyFile(path.join(staticRoot,name,'index.html'),path.join(functionRoot,'templates',name+'.html'));
+let sitemapUrls=0;
+if(origin) {
+  const search=searchFiles(origin,sourceFiles.map(file=>path.relative(root,file).split(path.sep).join('/')));
+  for(const [name,content] of [['sitemap.xml',search.sitemap],['robots.txt',search.robots]]) {
+    await fs.writeFile(path.join(staticRoot,name),content);count++;bytes+=Buffer.byteLength(content);
+  }
+  sitemapUrls=search.urls.length;
+}
 await fs.copyFile('src/vercel/legacy-forms.js',path.join(staticRoot,'deployment-forms.js'));
 count++;bytes+=(await fs.stat(path.join(staticRoot,'deployment-forms.js'))).size;
 await build({entryPoints:['src/vercel/handler.js'],outfile:path.join(functionRoot,'index.mjs'),bundle:true,platform:'node',target:'node24',format:'esm',minify:true,
@@ -62,6 +71,7 @@ await build({entryPoints:['src/vercel/handler.js'],outfile:path.join(functionRoo
 await fs.writeFile(path.join(functionRoot,'.vc-config.json'),JSON.stringify({runtime:'nodejs24.x',handler:'index.mjs',launcherType:'Nodejs',maxDuration:60},null,2));
 const config={version:3,routes:[
   {src:'^/(.*)$',headers:{'X-Content-Type-Options':'nosniff','Referrer-Policy':'same-origin','X-Frame-Options':'SAMEORIGIN','Content-Security-Policy':"connect-src 'self'; object-src 'none'; base-uri 'self'"},continue:true},
+  {src:'^/(?:admin|cart|checkout|my-account|order-tracking|wishlist|product)(?:/index\\.html)?/?$|^/.*/feed(?:/index\\.html)?/?$',headers:{'X-Robots-Tag':'noindex, follow'},continue:true},
   {src:'^/(?:api(?:/.*)?|health|auth/(?:signin|signout)/?|sign(?:in|out)-with-chatgpt|admin(?:/index\\.html)?/?|product(?:/index\\.html)?/?)$',dest:'/shop'},
   {handle:'filesystem'},
   {src:'^/$',dest:'/index.html'},
@@ -70,7 +80,7 @@ const config={version:3,routes:[
   {src:'^/(.*)$',dest:'/$1/index.html'}
 ]};
 await fs.writeFile(path.join(output,'config.json'),JSON.stringify(config,null,2));
-const summary={files:count,staticBytes:bytes,omittedUnusedImages:omitted,functionBytes:(await fs.stat(path.join(functionRoot,'index.mjs'))).size,origin:origin||null};
+const summary={files:count,staticBytes:bytes,omittedUnusedImages:omitted,functionBytes:(await fs.stat(path.join(functionRoot,'index.mjs'))).size,origin:origin||null,sitemapUrls};
 await fs.mkdir('reports/deployment',{recursive:true});
 await fs.writeFile('reports/deployment/build.json',JSON.stringify(summary,null,2));
 await fs.writeFile('reports/deployment/legacy-repairs.json',JSON.stringify(repairs,null,2));
