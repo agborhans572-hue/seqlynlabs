@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-19T09:17:41.071Z",
+  "origin": "https://www.seqlynlabs.com",
+  "recipient": "info@seqlynlabs.com",
+  "testOrderId": "66ebf2d6-da9f-493a-a8bc-4732a2fcb30c",
+  "testOrderCancelled": true,
+  "checkoutRetryReturnedSameOrder": true,
+  "checks": [
+    {
+      "path": "/health",
+      "status": 200
+    },
+    {
+      "path": "/api/verification",
+      "status": 200
+    },
+    {
+      "path": "/api/products",
+      "status": 200
+    },
+    {
+      "path": "/api/cart",
+      "status": 200
+    },
+    {
+      "path": "/api/checkout",
+      "status": 201
+    },
+    {
+      "path": "/api/checkout",
+      "status": 200
+    },
+    {
+      "path": "/api/orders/66ebf2d6-da9f-493a-a8bc-4732a2fcb30c",
+      "status": 200
+    },
+    {
+      "path": "/api/orders/66ebf2d6-da9f-493a-a8bc-4732a2fcb30c/cancel",
+      "status": 200
+    },
+    {
+      "path": "/api/submissions",
+      "status": 201
+    },
+    {
+      "path": "/api/submissions",
+      "status": 201
+    }
+  ],
+  "newsletter": "Confirmation requested only; no subscription or campaign was activated by this script.",
+  "delivery": "All three messages were shown as delivered in the authenticated Resend dashboard. The private outbox contained exactly three accepted rows, each with one attempt.",
+  "deployment": "G1KAF7RUbMjTSg6jMWy9k4aEQfW3",
+  "commit": "6204a92",
+  "automatedTests": {
+    "passed": 53,
+    "failed": 0
+  },
+  "bundleVerification": {
+    "pages": 112,
+    "unexpectedMissingAssets": 0,
+    "certificateCopiesUnchanged": true,
+    "standaloneWorkerImport": "passed"
+  },
+  "resendDomain": "seqlynlabs.com",
+  "resendDomainStatus": "verified",
+  "providerDeliveryChecks": [
+    {
+      "kind": "order",
+      "providerId": "01a15373-b345-7857-a488-4226c5044b63",
+      "status": "delivered"
+    },
+    {
+      "kind": "contact",
+      "providerId": "01a15373-c4fc-7960-a4e5-1a6f57d67f90",
+      "status": "delivered"
+    },
+    {
+      "kind": "newsletter-confirm",
+      "providerId": "01a15373-cdbe-7723-a3ad-070e54a4c760",
+      "status": "delivered"
+    }
+  ],
+  "newsletterCampaigns": "Implemented and tested locally; production sending remains disabled pending the actual physical business mailing address.",
+  "zohoMxPreserved": [
+    "mx.zoho.com",
+    "mx2.zoho.com",
+    "mx3.zoho.com"
+  ],
+  "retryJob": {
+    "schedule": "0 7 * * *",
+    "timezone": "UTC",
+    "enabled": true,
+    "authenticatedManualRunStatus": 200,
+    "anonymousStatus": 404,
+    "hobbySchedulingWindow": "one hour"
+  },
+  "anonymousAdminEmailStatus": 403
+}
