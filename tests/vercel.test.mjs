@@ -22,7 +22,7 @@ async function harness(t) {
 
 test('libSQL migrations repeat safely and checkout batches roll back on failure',async t=>{
   const h=await harness(t);await migrate(h.client);
-  assert.equal((await h.DB.prepare('SELECT COUNT(*) n FROM _seqlyn_migrations').first()).n,4);
+  assert.equal((await h.DB.prepare('SELECT COUNT(*) n FROM _seqlyn_migrations').first()).n,5);
   await assert.rejects(h.DB.batch([
     h.DB.prepare('INSERT INTO carts(id) VALUES (?)').bind('rollback'),
     h.DB.prepare('INSERT INTO missing_table(id) VALUES (?)').bind('failure')

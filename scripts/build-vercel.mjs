@@ -59,7 +59,7 @@ await fs.copyFile('src/vercel/legacy-forms.js',path.join(staticRoot,'deployment-
 count++;bytes+=(await fs.stat(path.join(staticRoot,'deployment-forms.js'))).size;
 await build({entryPoints:['src/vercel/handler.js'],outfile:path.join(functionRoot,'index.mjs'),bundle:true,platform:'node',target:'node24',format:'esm',minify:true,
   banner:{js:"import {createRequire} from 'node:module'; const require=createRequire(import.meta.url);"}});
-await fs.writeFile(path.join(functionRoot,'.vc-config.json'),JSON.stringify({runtime:'nodejs24.x',handler:'index.mjs',launcherType:'Nodejs',maxDuration:30},null,2));
+await fs.writeFile(path.join(functionRoot,'.vc-config.json'),JSON.stringify({runtime:'nodejs24.x',handler:'index.mjs',launcherType:'Nodejs',maxDuration:60},null,2));
 const config={version:3,routes:[
   {src:'^/(.*)$',headers:{'X-Content-Type-Options':'nosniff','Referrer-Policy':'same-origin','X-Frame-Options':'SAMEORIGIN','Content-Security-Policy':"connect-src 'self'; object-src 'none'; base-uri 'self'"},continue:true},
   {src:'^/(?:api(?:/.*)?|health|auth/(?:signin|signout)/?|sign(?:in|out)-with-chatgpt|admin(?:/index\\.html)?/?|product(?:/index\\.html)?/?)$',dest:'/shop'},

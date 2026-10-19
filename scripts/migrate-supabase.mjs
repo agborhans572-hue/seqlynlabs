@@ -7,6 +7,6 @@ const url=new URL(connection);
 if(!['postgres:','postgresql:'].includes(url.protocol)||!url.password||url.searchParams.get('sslmode')==='disable')throw Error('A PostgreSQL connection with TLS and a password is required');
 const sql=postgres(connection,{prepare:false,max:1,max_pipeline:1,ssl:databaseTls(url.hostname),connect_timeout:10});
 try {
-  await sql.unsafe(await fs.readFile('supabase/migrations/202610180001_seqlyn_shop.sql','utf8'));
+  for(const name of (await fs.readdir('supabase/migrations')).filter(name=>name.endsWith('.sql')).sort())await sql.unsafe(await fs.readFile('supabase/migrations/'+name,'utf8'));
   console.log('Supabase commerce schema is ready.');
 } catch(error) {console.error('Supabase migration failed:',error.code||error.name);process.exitCode=1;} finally {await sql.end();}

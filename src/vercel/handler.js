@@ -48,7 +48,8 @@ export async function handleRequest(req,env=process.env,dependencies={}) {
         const html=await fs.readFile(new URL('./templates/'+(pathname==='/product/'?'product':'admin')+'.html',import.meta.url));
         return new Response(html,{headers:{'Content-Type':'text/html; charset=utf-8'}});
       }};
-      response=await worker.fetch(new Request(req,{headers}),{DB:db,ASSETS,COMMERCE_MODE:env.COMMERCE_MODE,SHOP_ADMIN_EMAIL:env.SHOP_ADMIN_EMAIL,AUTH_SIGNIN_PATH:'/auth/signin'});
+      response=await worker.fetch(new Request(req,{headers}),{DB:db,ASSETS,COMMERCE_MODE:env.COMMERCE_MODE,SHOP_ADMIN_EMAIL:env.SHOP_ADMIN_EMAIL,AUTH_SIGNIN_PATH:'/auth/signin',
+        PUBLIC_SITE_URL:env.PUBLIC_SITE_URL,RESEND_API_KEY:env.RESEND_API_KEY,EMAIL_FROM:env.EMAIL_FROM,EMAIL_REPLY_TO:env.EMAIL_REPLY_TO,CRON_SECRET:env.CRON_SECRET,NEWSLETTER_POSTAL_ADDRESS:env.NEWSLETTER_POSTAL_ADDRESS});
     }
   }
   if(supabase)response=supabase.finish(response);

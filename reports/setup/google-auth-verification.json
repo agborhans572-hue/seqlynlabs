@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-19",
+  "timezone": "Africa/Nairobi",
+  "googleProject": "river-cocoa-512108-k7",
+  "googleAppName": "Seqlyn Labs",
+  "googleClientName": "Seqlyn Labs Production",
+  "googlePublishingStatus": "In production",
+  "supabaseGoogleProvider": "ENABLED",
+  "nonceChecksSkipped": false,
+  "allowUsersWithoutEmail": false,
+  "adminEmail": "info@seqlynlabs.com",
+  "vercelDeployment": "6RmJzV64T7vrisPwVHxjxMYDBdoY",
+  "vercelDeploymentStatus": "Ready",
+  "productionOrigin": "https://www.seqlynlabs.com",
+  "checks": [
+    {"path": "/health", "status": 200, "database": "ready", "authentication": "configured", "mode": "test"},
+    {"path": "/api/account", "status": 200, "signedIn": false},
+    {"path": "/api/admin/overview", "status": 403},
+    {"path": "/auth/signin?return_to=%2Fadmin%2F", "result": "Google account chooser with expected Supabase project and Seqlyn policy links"}
+  ],
+  "ownerAccountLookup": "Google returned Couldn't find this account for info@seqlynlabs.com",
+  "remaining": ["Owner registers intended email as a Google account or specifies an existing Google account email", "Complete owner sign-in and verify callback, administration, customer isolation and sign-out"],
+  "emailDelivery": "Deferred at owner request pending a separate Resend account"
+}

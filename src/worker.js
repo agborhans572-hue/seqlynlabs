@@ -1,5 +1,6 @@
 import catalog from './catalog.js';
 import {brand,presentProduct} from './brand.js';
+import {emailConfigured,validEmail,orderEmail,contactEmail,newsletterSignup,newsletterAction,queueCampaign,flushEmails} from './email.js';
 const json = (data, status = 200, headers = {}) => Response.json(data, {status, headers: {'Cache-Control':'no-store', 'X-Content-Type-Options':'nosniff', ...headers}});
 const fail = (message, status = 400) => {throw Object.assign(new Error(message), {status});};
 const hash = async s => [...new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)))].map(x => x.toString(16).padStart(2,'0')).join('');
@@ -63,6 +64,15 @@ const event = (db,id,actor,action,data) => db.prepare('INSERT INTO order_events(
 async function administration(req,env,url) {
   if(!admin(req,env))fail('Administrator sign-in required',403);
   const db=env.DB,route=url.pathname;
+  if(route==='/api/admin/email' && req.method==='GET')return json({configured:emailConfigured(env),newsletterReady:emailConfigured(env)&&Boolean(env.NEWSLETTER_POSTAL_ADDRESS),
+    counts:(await db.prepare('SELECT status,COUNT(*) count FROM email_outbox GROUP BY status').all()).results,
+    messages:(await db.prepare('SELECT id,kind,recipient,status,attempts,provider_id,error,created_at FROM email_outbox ORDER BY created_at DESC,id DESC LIMIT 100').all()).results,
+    subscribers:(await db.prepare('SELECT status,COUNT(*) count FROM newsletter_subscribers GROUP BY status').all()).results,
+    campaigns:(await db.prepare('SELECT id,subject,recipients,created_at FROM newsletter_campaigns ORDER BY created_at DESC LIMIT 20').all()).results});
+  if(route==='/api/admin/email/dispatch' && req.method==='POST')return json(await flushEmails(env,{limit:30,budgetMs:40000}));
+  if(route==='/api/admin/newsletters' && req.method==='POST'){
+    const result=await queueCampaign(db,env,await body(req));return json({...result,delivery:await flushEmails(env,{limit:10,budgetMs:20000})},201);
+  }
   if(route==='/api/admin/overview' && req.method==='GET'){
     const stats=await db.prepare("SELECT COUNT(*) orders, COALESCE(SUM(CASE WHEN fulfillment != 'cancelled' THEN total ELSE 0 END),0) value, SUM(CASE WHEN fulfillment='pending' THEN 1 ELSE 0 END) pending FROM orders").first();
     const ps=await products(db);return json({...stats,products:ps.filter(p=>!p.parentId).length,lowStock:ps.filter(p=>!p.variable && p.active && p.stock!==null && p.stock!==undefined && p.stock<=5).length,requests:(await db.prepare('SELECT COUNT(*) n FROM submissions').first()).n,mode:'test'});
@@ -121,6 +131,15 @@ async function administration(req,env,url) {
 }
 async function api(req,env) {
   const url=new URL(req.url),route=url.pathname,db=env.DB;
+  if(route==='/api/email/dispatch'){
+    if(req.method!=='GET'||!env.CRON_SECRET||req.headers.get('authorization')!=='Bearer '+env.CRON_SECRET)fail('Not found',404);
+    if(!db)fail('Store database is unavailable',503);
+    return json(await flushEmails(env,{limit:60,budgetMs:45000}));
+  }
+  if(['/api/newsletter/confirm','/api/newsletter/unsubscribe'].includes(route)){
+    if(!db)fail('Store database is unavailable',503);
+    return newsletterAction(req,db);
+  }
   if(req.method!=='GET' && req.headers.get('origin')!==url.origin)fail('Request origin rejected',403);
   if(route==='/api/verification' && req.method==='POST'){
     const b=await body(req);if(b.age!==true||b.researcher!==true)fail('Both confirmations are required');
@@ -155,9 +174,13 @@ async function api(req,env) {
     return json({ids:(await db.prepare('SELECT product_id FROM wishlist WHERE customer_id=?').bind(u.id).all()).results.map(r=>r.product_id)});
   }
   if(route==='/api/submissions' && req.method==='POST'){
-    const b=await body(req);if(!['contact','newsletter','wholesale','white-label'].includes(b.kind)||typeof b.email!=='string'||!/^\S+@\S+\.\S+$/.test(b.email)||b.email.length>254||typeof b.message!=='string'||b.message.length>5000)fail('Enter a valid email and message');
-    await db.prepare('INSERT INTO submissions(id,kind,data) VALUES (?,?,?)').bind(crypto.randomUUID(),b.kind,JSON.stringify({email:b.email,message:b.message})).run();
-    return json({saved:true,message:b.kind==='newsletter'?'Your interest has been recorded. Newsletter delivery is not enabled yet.':'Your request has been recorded for the store administrator.'},201);
+    const b=await body(req);if(!['contact','newsletter','wholesale','white-label'].includes(b.kind)||!validEmail(b.email)||typeof b.message!=='string'||b.message.length>5000)fail('Enter a valid email and message');
+    const id=crypto.randomUUID(),email=b.email.trim().toLowerCase(),statements=[db.prepare('INSERT INTO submissions(id,kind,data) VALUES (?,?,?)').bind(id,b.kind,JSON.stringify({email,message:b.message}))];
+    if(emailConfigured(env)&&b.kind!=='newsletter')statements.push(contactEmail(db,env,id,b.kind,email,b.message));
+    await db.batch(statements);
+    if(emailConfigured(env)&&b.kind==='newsletter')await newsletterSignup(db,env,email);
+    await flushEmails(env);
+    return json({saved:true,message:b.kind==='newsletter'?(emailConfigured(env)?'If confirmation is needed, we will email you a link. Check your inbox and confirm to subscribe.':'Your newsletter interest has been recorded; email delivery is not configured yet.'):'Your request has been saved and queued for the store administrator.'},201);
   }
   if(route.startsWith('/api/orders/')){
     const parts=route.split('/'),row=await orderAccess(req,db,parts[3],url);
@@ -203,12 +226,13 @@ async function api(req,env) {
   }
   if(env.COMMERCE_MODE!=='test')fail('Live payments have not been configured',503);
   if(cookie(req,'shop_verified')!=='1'||b.age!==true||b.researcher!==true)fail('Researcher verification is required',403);
-  if(typeof b.email!=='string'||!/^\S+@\S+\.\S+$/.test(b.email)||b.email.length>254||!shippingValid(b.shipping))fail('Complete a valid U.S. shipping address');
+  if(!validEmail(b.email)||!shippingValid(b.shipping))fail('Complete a valid U.S. shipping address');
   if(!/^[a-f0-9-]{36}$/.test(b.key||''))fail('Invalid checkout identifier');
   const existing=await db.prepare('SELECT * FROM orders WHERE cart_id=? AND idempotency_key=?').bind(s.id,b.key).first();
   if(existing)return json({...orderData(existing),token:await tokenFor(s.id,existing.id),repeated:true},200,s.headers);
   const items=expanded(s.items,ps);if(!items.length)fail('Your cart is empty');if(items.some(i=>i.variable||i.stock!==null&&i.quantity>i.stock))fail('Some items are unavailable',409);
   const totals=await quote(db,items,s.coupon,true,b.shipping.state||''),id=crypto.randomUUID(),token=await tokenFor(s.id,id);
+  const emailStatement=emailConfigured(env)?orderEmail(db,env,{id,email:b.email.trim(),items:JSON.stringify(items),subtotal:totals.subtotal,discount:totals.discount,shipping_total:totals.shipping,tax:totals.tax,total:totals.total},token):null;
   const insert=db.prepare(`INSERT INTO orders(id,cart_id,idempotency_key,customer_id,email,shipping,items,total,token_hash,subtotal,discount,shipping_total,tax,coupon)
     SELECT ?,?,?,?,?,?,?,?,?,?,?,?,?,? WHERE (?='' OR EXISTS(SELECT 1 FROM coupons WHERE code=? AND active=1 AND (max_uses=0 OR uses<max_uses) AND (expires='' OR expires>?))) AND EXISTS(SELECT 1 FROM carts WHERE id=? AND items=? AND coupon=?)`).bind(id,s.id,b.key,user(req).id,b.email.trim(),JSON.stringify(cleanShipping(b.shipping)),JSON.stringify(items),totals.total,await hash(token),totals.subtotal,totals.discount,totals.shipping,totals.tax,totals.coupon,totals.coupon,totals.coupon,new Date().toISOString(),s.id,JSON.stringify(s.items),s.coupon);
   try {
@@ -216,12 +240,14 @@ async function api(req,env) {
       insert,
       db.prepare('UPDATE coupons SET uses=uses+1 WHERE code=? AND EXISTS(SELECT 1 FROM orders WHERE id=?)').bind(totals.coupon,id),
       db.prepare("UPDATE carts SET items='[]',coupon='',updated_at=CURRENT_TIMESTAMP WHERE id=? AND EXISTS(SELECT 1 FROM orders WHERE id=?)").bind(s.id,id),
-      db.prepare("INSERT INTO order_events(id,order_id,actor,action,data) SELECT ?,id,?,'created',? FROM orders WHERE id=?").bind(crypto.randomUUID(),user(req).id||'guest',JSON.stringify({mode:'test'}),id)
+      db.prepare("INSERT INTO order_events(id,order_id,actor,action,data) SELECT ?,id,?,'created',? FROM orders WHERE id=?").bind(crypto.randomUUID(),user(req).id||'guest',JSON.stringify({mode:'test'}),id),
+      ...(emailStatement?[emailStatement]:[])
     ]);
   } catch(error){
     const duplicate=await db.prepare('SELECT * FROM orders WHERE cart_id=? AND idempotency_key=?').bind(s.id,b.key).first();if(duplicate)return json({...orderData(duplicate),token:await tokenFor(s.id,duplicate.id),repeated:true},200,s.headers);throw error;
   }
   if(!await db.prepare('SELECT id FROM orders WHERE id=?').bind(id).first())fail('Your cart or discount changed during checkout. Refresh your cart and try again.',409);
+  await flushEmails(env);
   return json({id,token,status:'test',fulfillment:'pending',...totals,message:'Test order saved. No payment was collected and no shipment will be made.'},201,s.headers);
 }
 export default {async fetch(req,env){try{

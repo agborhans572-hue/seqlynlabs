@@ -9,6 +9,8 @@ let worker=await fs.readFile('src/worker.js','utf8');const catalog=await fs.read
 const brandModule=(await fs.readFile('src/brand.js','utf8')).replace(/^import[^\n]+\n/,'').replace(/\bexport /g,'');
 const assetManifest=JSON.parse(await fs.readFile('src/brand-assets.json','utf8'));
 worker=worker.replace("import {brand,presentProduct} from './brand.js';",()=>"const assetManifest="+JSON.stringify(assetManifest)+";\n"+brandModule);
+const emailModule=(await fs.readFile('src/email.js','utf8')).replace(/^import[^\n]+\n/,'').replace(/\bexport /g,'');
+worker=worker.replace(/^import \{[^\n]+\} from '\.\/email\.js';/m,()=>emailModule);
 await fs.writeFile('dist/server/index.js',worker);
 await fs.mkdir('dist/.openai',{recursive:true});await fs.copyFile('.openai/hosting.json','dist/.openai/hosting.json');
 await fs.cp('drizzle','dist/.openai/drizzle',{recursive:true});

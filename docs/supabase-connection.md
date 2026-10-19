@@ -12,8 +12,8 @@ The existing Supabase project is `Seqlyn labs` (`uiixqemqtalhyabemsrm`). The exi
 | `SUPABASE_URL` | `https://uiixqemqtalhyabemsrm.supabase.co` |
 | `SUPABASE_PUBLISHABLE_KEY` | Publishable key from this project's Connect panel |
 | `SUPABASE_DB_URL` or `POSTGRES_URL` | Existing project's transaction pooler connection URI, including the database password |
-| `SUPABASE_GOOGLE_ENABLED` | `false` until Google is configured and verified; then `true` |
-| `SHOP_ADMIN_EMAIL` | Omit until the owner provides the email of the intended Google account |
+| `SUPABASE_GOOGLE_ENABLED` | `true` in Production as of October 19, 2026 |
+| `SHOP_ADMIN_EMAIL` | `info@seqlynlabs.com`, saved in Production and redeployed October 19 |
 
 The official Supabase/Vercel integration is installed and connects this existing Supabase project to `seqlynlabs` only. Its database credentials are synced to Vercel **Production**, with no production credentials shared with preview branches. Do not connect the unrelated `supabase-purple-anchor` storage resource.
 
@@ -37,11 +37,17 @@ Supabase **Authentication → URL Configuration** has been saved as:
 
 Use exact callback URLs rather than broad wildcard permissions. Register `http://localhost:4175/api/auth/callback/supabase` only if local OAuth testing is needed.
 
-The owner account is still being set up. Keep `SUPABASE_GOOGLE_ENABLED=false` and administrator access unassigned until it is ready. In Google Cloud, create/configure the Web OAuth client for Seqlyn Labs and register the Supabase callback:
+The owner confirmed `info@seqlynlabs.com` as the intended administrator and approved Google's policy acceptance, credential creation, Supabase connection and administrator activation on October 19. The separate Google Cloud project **Seqlyn Labs** (`river-cocoa-512108-k7`) now has an external, **In production** Google Auth Platform configuration. The app name is Seqlyn Labs, developer contact is `info@seqlynlabs.com`, and the homepage, privacy-policy and terms links point to the Seqlyn website. Google's support-email picker currently only offers the signed-in project owner's `agborhans572@gmail.com`; changing that to the business mailbox requires an eligible Google account/group. The existing Eppix OAuth client in My First Project was not changed.
+
+The **Seqlyn Labs Production** Web OAuth client was created and installed in Supabase. Its JavaScript origin is `https://www.seqlynlabs.com` and its exact registered Supabase callback is:
 
 `https://uiixqemqtalhyabemsrm.supabase.co/auth/v1/callback`
 
-Then enter the Google client ID and secret in Supabase **Authentication → Sign In / Providers → Google**. Leave nonce checks enabled. Google consent-screen/publishing setup and any test-user allowlist must cover the intended users. The Google client secret belongs in Supabase; the Supabase mode does not require `AUTH_GOOGLE_SECRET` or `AUTH_SECRET` in Vercel.
+Supabase **Authentication → Sign In / Providers → Google** is enabled with the new client ID and secret. Nonce checks remain enabled and users must have an email. The Google client secret is stored in Supabase; it was not committed or placed in Vercel. Supabase mode does not require `AUTH_GOOGLE_SECRET` or `AUTH_SECRET` in Vercel. The dashboard also currently lists inherited Vercel preview redirect patterns in addition to the two exact production callbacks above; these were not modified during this setup.
+
+Vercel Production has `SHOP_ADMIN_EMAIL=info@seqlynlabs.com` and `SUPABASE_GOOGLE_ENABLED=true`. Deployment [`6RmJzV64T7vrisPwVHxjxMYDBdoY`](https://vercel.com/software333/seqlynlabs/6RmJzV64T7vrisPwVHxjxMYDBdoY) reached Ready and was assigned to the public domain. Hosted checks returned `/health` 200 with `database: ready` and `authentication: configured`, anonymous `/api/account` returned `signedIn: false`, and anonymous `/api/admin/overview` returned 403. Opening `/auth/signin?return_to=%2Fadmin%2F` reached Google's account chooser with the expected Supabase project and Seqlyn policy links. The owner must still complete Google sign-in with `info@seqlynlabs.com` to verify the actual callback, admin session, and sign-out; only another Google account was already signed in to the browser.
+
+Entering `info@seqlynlabs.com` in Google's sign-in form returned **Couldn't find this account**. This mailbox must first be registered as a Google account, or the owner must specify a different existing Google account email for administration. No Google user account was created and no other email was granted store administrator access.
 
 The app uses PKCE, HttpOnly Secure cookies, server-verified `getUser()` identity, confirmed email, and Google-backed identity. Each request gets its own auth client, and refreshed cookies are forwarded only with that visitor's response. Sign-out requires same-origin POST plus CSRF confirmation. Existing Auth.js mode remains available for the earlier deployment option.
 

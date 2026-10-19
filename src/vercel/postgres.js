@@ -1,7 +1,7 @@
 import postgres from 'postgres';
 import {databaseTls} from './database-tls.js';
 
-const tables=new Set(['product_settings','carts','orders','submissions','request_limits','customer_profiles','wishlist','coupons','store_settings','order_events','custom_products','schema_migrations']);
+const tables=new Set(['product_settings','carts','orders','submissions','request_limits','customer_profiles','wishlist','coupons','store_settings','order_events','custom_products','schema_migrations','email_outbox','newsletter_subscribers','newsletter_campaigns']);
 
 // Translate only the small SQL dialect used by the shared commerce Worker.
 // Values remain bound parameters, and table names are pinned to a private schema.

@@ -10,9 +10,9 @@ The ignored local SQLite database is `.sites-runtime/preview.sqlite`. The existi
 
 ## Vercel deployment
 
-The storefront is live at [www.seqlynlabs.com](https://www.seqlynlabs.com), connected to Supabase through the official Vercel integration. The database and guest test checkout passed [hosted verification](reports/deployment/hosted-smoke.json). [Supabase setup](docs/supabase-connection.md) documents the private commerce schema and prepared Google authentication. Google sign-in and owner access remain disabled pending the owner's account, OAuth client, and administrator email.
+The storefront is live at [www.seqlynlabs.com](https://www.seqlynlabs.com), connected to Supabase through the official Vercel integration. The database and guest test checkout passed [hosted verification](reports/deployment/hosted-smoke.json). [Supabase setup](docs/supabase-connection.md) documents the private commerce schema and enabled Google authentication. Google sign-in was enabled and redeployed on October 19, 2026. The configured administrator is `info@seqlynlabs.com`, but Google could not find a Google account for that address; owner sign-in and admin-session verification await account registration or an owner-approved alternate Google email.
 
-See [the Vercel setup and remaining launch checklist](docs/vercel-deployment.md). `npm run build:vercel` prepares CDN assets and a Node.js function; `npm run verify:vercel` checks the actual bundle. Google sign-in replaces hosting-specific authentication in the Vercel target. Production database credentials are already synced; OAuth setup is still needed for accounts and administration. `npm run preview:vercel` serves the prepared storefront at http://localhost:4175 with separate local data. Checkout remains in test mode.
+See [the Vercel setup and remaining launch checklist](docs/vercel-deployment.md). `npm run build:vercel` prepares CDN assets and a Node.js function; `npm run verify:vercel` checks the actual bundle. Google sign-in replaces hosting-specific authentication in the Vercel target. Production database credentials and OAuth are configured; the owner's Google account is the remaining administration dependency. `npm run preview:vercel` serves the prepared storefront at http://localhost:4175 with separate local data. Checkout remains in test mode.
 
 ## Shopping and customer features
 
@@ -21,7 +21,7 @@ See [the Vercel setup and remaining launch checklist](docs/vercel-deployment.md)
 - Persistent carts, editable quantities, removals, discount codes, shipping/tax breakdowns and item count.
 - Researcher popup with both confirmations required; checkout also requires fresh confirmations. These are self-attestations, not independently verified credentials.
 - Guest and signed-in test checkout, idempotent order creation, stored receipts, private guest tracking links, print receipts, pending-order cancellation and reordering.
-- Google sign-in through Supabase on Vercel (pending provider setup); the legacy Sites target uses ChatGPT dispatch. Signed-in customers have scoped order history, a saved shipping address and a persistent wishlist.
+- Google sign-in through Supabase on Vercel; the legacy Sites target uses ChatGPT dispatch. Signed-in customers have scoped order history, a saved shipping address and a persistent wishlist.
 - Contact, newsletter-interest, wholesale and white-label request collection for administrator review.
 
 ## Administration
@@ -38,9 +38,9 @@ Test shipping supports a flat fee and optional free-shipping minimum. Test tax u
 
 `COMMERCE_MODE=test`: no money is collected, no shipment is scheduled and inventory is not deducted. Every order and receipt is marked as a test. Setting a different mode fails checkout closed because a live payment provider has not been selected. No browser redirect can mark an order as paid.
 
-Live selling still needs an approved payment provider and verified webhook integration, real stock, actual shipping/tax rules, email delivery, confirmed business policies and public access configuration. The existing Sites target uses ChatGPT sign-in and its existing audience; Vercel uses the new Google adapter and separate access settings. Rebranded product images are local. `mirror-report.json` records missing legacy assets; the Vercel audit identifies remaining inherited resource defects. The storefront is not a replacement for final launch configuration.
+Live selling still needs an approved payment provider and verified webhook integration, real stock, actual shipping/tax rules and confirmed business policies. Transactional email is configured; newsletter campaigns await the business mailing address and the owner must complete Google account registration/admin sign-in. The existing Sites target uses ChatGPT sign-in and its existing audience; Vercel uses Google and separate access settings. Rebranded product images are local. `mirror-report.json` records missing legacy assets; the Vercel audit identifies remaining inherited resource defects. The storefront is not a replacement for final launch configuration.
 
-Newsletter interest and other requests are saved in the dashboard; they do not send emails or create subscriptions on an external service. Fulfillment changes simulate the workflow only.
+Order confirmations and contact/wholesale/white-label notifications use Resend with a private durable email queue. Newsletter signups require email confirmation; owner-composed campaigns include unsubscribe controls and require the business mailing address before sending is enabled. Administration's Email tab shows queue status and provider acceptance. See [email configuration and operating limits](docs/email-delivery.md). Fulfillment changes simulate the workflow only.
 
 ## Local UI fixtures
 
