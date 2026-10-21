@@ -5161,28 +5161,28 @@ body .phbio-vp-old *, .phbio-vp-old .woocommerce-Price-amount {
 
 	
 <!-- SEARCH OVERLAY -->
-<div id="Seqlyn Labs-search-overlay">
+<div id="Seqlyn-Labs-search-overlay">
 
-  <div class="Seqlyn Labs-search-box">
+  <div class="Seqlyn-Labs-search-box">
 
-    <div class="Seqlyn Labs-search-top">
-      <input type="text" id="Seqlyn Labs-search-input" placeholder="Search products..." autocomplete="off">
-      <span id="Seqlyn Labs-search-clear">×</span>
-      <span id="Seqlyn Labs-search-close">✕</span>
+    <div class="Seqlyn-Labs-search-top">
+      <input type="text" id="Seqlyn-Labs-search-input" placeholder="Search products..." autocomplete="off">
+      <span id="Seqlyn-Labs-search-clear">×</span>
+      <span id="Seqlyn-Labs-search-close">✕</span>
     </div>
 
-    <div id="Seqlyn Labs-search-results">
+    <div id="Seqlyn-Labs-search-results">
 
-      <div class="Seqlyn Labs-search-columns">
+      <div class="Seqlyn-Labs-search-columns">
 
-        <div class="Seqlyn Labs-search-suggestions">
+        <div class="Seqlyn-Labs-search-suggestions">
           <h4>SUGGESTIONS</h4>
-          <ul id="Seqlyn Labs-suggestion-list"></ul>
+          <ul id="Seqlyn-Labs-suggestion-list"></ul>
         </div>
 
-        <div class="Seqlyn Labs-search-products">
+        <div class="Seqlyn-Labs-search-products">
           <h4>PRODUCTS</h4>
-          <div id="Seqlyn Labs-product-results"></div>
+          <div id="Seqlyn-Labs-product-results"></div>
         </div>
 
       </div>
@@ -5197,7 +5197,7 @@ body .phbio-vp-old *, .phbio-vp-old .woocommerce-Price-amount {
 /* ===============================
  Seqlyn Labs SEARCH OVERLAY — BRAND STYLES
  =============================== */
-#Seqlyn Labs-search-overlay{
+#Seqlyn-Labs-search-overlay{
   --phbl-copper:#B87333;
   --phbl-copper-light:#D08A4B;
   --phbl-deep-copper:#8F5A27;
@@ -5207,12 +5207,12 @@ body .phbio-vp-old *, .phbio-vp-old .woocommerce-Price-amount {
   --phbl-teal:#3D7C7A;
 }
 
-#Seqlyn Labs-search-overlay,
-#Seqlyn Labs-search-overlay * {
+#Seqlyn-Labs-search-overlay,
+#Seqlyn-Labs-search-overlay * {
   font-family: inherit;
 }
 
-#Seqlyn Labs-search-overlay {
+#Seqlyn-Labs-search-overlay {
   position: fixed;
   inset: 0;
   background: rgba(20,22,24,.92);
@@ -5222,12 +5222,12 @@ body .phbio-vp-old *, .phbio-vp-old .woocommerce-Price-amount {
   justify-content: center;
 }
 
-#Seqlyn Labs-search-overlay.active {
+#Seqlyn-Labs-search-overlay.active {
   display: flex;
 }
 
 /* Box */
-.Seqlyn Labs-search-box {
+.Seqlyn-Labs-search-box {
   width: 90%;
   max-width: 900px;
   background: var(--phbl-charcoal);
@@ -5240,11 +5240,11 @@ body .phbio-vp-old *, .phbio-vp-old .woocommerce-Price-amount {
 }
 
 /* Input */
-.Seqlyn Labs-search-top {
+.Seqlyn-Labs-search-top {
   position: relative;
 }
 
-#Seqlyn Labs-search-input {
+#Seqlyn-Labs-search-input {
   width: 100%;
   padding: 16px 90px 16px 15px;
   font-size: 16px;
@@ -5255,14 +5255,14 @@ body .phbio-vp-old *, .phbio-vp-old .woocommerce-Price-amount {
   outline: none;
   transition: border-color .18s ease, box-shadow .18s ease;
 }
-#Seqlyn Labs-search-input::placeholder { color: rgba(244,244,242,.55); }
-#Seqlyn Labs-search-input:focus {
+#Seqlyn-Labs-search-input::placeholder { color: rgba(244,244,242,.55); }
+#Seqlyn-Labs-search-input:focus {
   border-color: var(--phbl-copper);
   box-shadow: 0 0 0 3px rgba(184,115,51,.22);
 }
 
-#Seqlyn Labs-search-clear,
-#Seqlyn Labs-search-close {
+#Seqlyn-Labs-search-clear,
+#Seqlyn-Labs-search-close {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -5270,13 +5270,13 @@ body .phbio-vp-old *, .phbio-vp-old .woocommerce-Price-amount {
   color: var(--phbl-offwhite);
   transition: color .15s ease;
 }
-#Seqlyn Labs-search-clear:hover,
-#Seqlyn Labs-search-close:hover { color: var(--phbl-copper-light); }
-#Seqlyn Labs-search-clear { right: 52px; font-size: 20px; }
-#Seqlyn Labs-search-close { right: 18px; font-size: 18px; }
+#Seqlyn-Labs-search-clear:hover,
+#Seqlyn-Labs-search-close:hover { color: var(--phbl-copper-light); }
+#Seqlyn-Labs-search-clear { right: 52px; font-size: 20px; }
+#Seqlyn-Labs-search-close { right: 18px; font-size: 18px; }
 
 /* Results Layout */
-.Seqlyn Labs-search-columns {
+.Seqlyn-Labs-search-columns {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 25px;
@@ -5285,7 +5285,7 @@ body .phbio-vp-old *, .phbio-vp-old .woocommerce-Price-amount {
 }
 
 /* Headings (brand copper accent, not grey) */
-.Seqlyn Labs-search-columns h4 {
+.Seqlyn-Labs-search-columns h4 {
   font-size: 12px;
   letter-spacing: 2px;
   margin-bottom: 10px;
@@ -5294,30 +5294,30 @@ body .phbio-vp-old *, .phbio-vp-old .woocommerce-Price-amount {
 }
 
 /* Suggestions (static — no redirect) */
-#Seqlyn Labs-suggestion-list { list-style: none; margin: 0; padding: 0; }
-#Seqlyn Labs-suggestion-list li {
+#Seqlyn-Labs-suggestion-list { list-style: none; margin: 0; padding: 0; }
+#Seqlyn-Labs-suggestion-list li {
   padding: 6px 0;
   color: var(--phbl-offwhite);
   border-bottom: 1px solid rgba(244,244,242,.12);
 }
 
 /* Products — show all matches, scroll when long */
-#Seqlyn Labs-product-results {
+#Seqlyn-Labs-product-results {
   max-height: 55vh;
   overflow-y: auto;
   padding-right: 6px;
   scrollbar-width: thin;
   scrollbar-color: var(--phbl-copper) transparent;
 }
-#Seqlyn Labs-product-results::-webkit-scrollbar { width: 8px; }
-#Seqlyn Labs-product-results::-webkit-scrollbar-track { background: transparent; }
-#Seqlyn Labs-product-results::-webkit-scrollbar-thumb {
+#Seqlyn-Labs-product-results::-webkit-scrollbar { width: 8px; }
+#Seqlyn-Labs-product-results::-webkit-scrollbar-track { background: transparent; }
+#Seqlyn-Labs-product-results::-webkit-scrollbar-thumb {
   background: var(--phbl-copper);
   border-radius: 8px;
 }
-#Seqlyn Labs-product-results::-webkit-scrollbar-thumb:hover { background: var(--phbl-copper-light); }
+#Seqlyn-Labs-product-results::-webkit-scrollbar-thumb:hover { background: var(--phbl-copper-light); }
 
-.Seqlyn Labs-product-item {
+.Seqlyn-Labs-product-item {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -5328,19 +5328,19 @@ body .phbio-vp-old *, .phbio-vp-old .woocommerce-Price-amount {
   border-radius: 6px;
   transition: background .15s ease, color .15s ease;
 }
-.Seqlyn Labs-product-item:hover {
+.Seqlyn-Labs-product-item:hover {
   background: rgba(184,115,51,.12);
   color: var(--phbl-copper-light);
 }
 
-.Seqlyn Labs-product-item img {
+.Seqlyn-Labs-product-item img {
   width: 50px;
   height: auto;
   border-radius: 4px;
 }
 
 /* States (white, not grey) */
-.Seqlyn Labs-search-status {
+.Seqlyn-Labs-search-status {
   padding: 8px 0;
   color: var(--phbl-offwhite);
   opacity: .9;
@@ -5348,14 +5348,14 @@ body .phbio-vp-old *, .phbio-vp-old .woocommerce-Price-amount {
 }
 
 /* Hide Elementor header while the overlay is open */
-body.Seqlyn Labs-search-active .elementor-location-header,
-body.Seqlyn Labs-search-active header {
+body.Seqlyn-Labs-search-active .elementor-location-header,
+body.Seqlyn-Labs-search-active header {
   visibility: hidden;
 }
 
 @media (max-width: 640px) {
-  .Seqlyn Labs-search-columns { grid-template-columns: 1fr; }
-  #Seqlyn Labs-product-results { max-height: 60vh; }
+  .Seqlyn-Labs-search-columns { grid-template-columns: 1fr; }
+  #Seqlyn-Labs-product-results { max-height: 60vh; }
 }
 </style>
 
