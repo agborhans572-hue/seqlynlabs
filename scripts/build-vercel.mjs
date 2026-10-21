@@ -24,7 +24,7 @@ if(process.env.PUBLIC_SITE_URL) {
   origin=url.origin;
 }
 const transform=(content,file)=>{
-  let text=repairLegacy(content,file,missing,repairs).replaceAll('Sign in with ChatGPT','Sign in with Google')
+  let text=repairLegacy(content,file,missing,repairs).replaceAll('/shop.js?v=4','/shop.js?v=5').replaceAll('Sign in with ChatGPT','Sign in with Google')
     .replaceAll('/signin-with-chatgpt','/auth/signin').replaceAll('/signout-with-chatgpt','/auth/signout');
   if(file.endsWith('.html') && origin) {
     const route='/'+file.replace(/index\.html$/,'');
