@@ -6,6 +6,15 @@ const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).
 const date=s=>new Date(s.includes('T')?s:s.replace(' ','T')+'Z').toLocaleString();
 async function api(url,data){const r=await fetch(url,{credentials:'same-origin',method:data?'POST':'GET',headers:data?{'Content-Type':'application/json'}:{},body:data?JSON.stringify(data):undefined,signal:AbortSignal.timeout((/^\/api\/admin\/(email|newsletters)/.test(url)||url==='/api/checkout')?60000:15000)});const result=await r.json();if(!r.ok)throw Error(result.error||'Please try again.');return result;}
 function toast(text){$('.shop-toast')?.remove();const el=document.createElement('div');el.className='shop-toast';el.setAttribute('role','status');el.textContent=text;document.body.append(el);setTimeout(()=>el.remove(),6000);}
+document.addEventListener('click',event=>{
+ const button=event.target.closest('button.phbio-view-coa');if(!button)return;
+ event.preventDefault();event.stopPropagation();
+ const readout=button.closest('.phbio-readout');let files=[];
+ try{files=JSON.parse(readout?.dataset.files||'[]');}catch{}
+ let filename='';try{filename=decodeURIComponent(new URL(files[0],location.href).pathname.split('/').pop()||'');}catch{}
+ if(!/^[\w.-]+\.pdf$/i.test(filename)){toast('This certificate link is unavailable.');return;}
+ const link=document.createElement('a');link.href='/certificates/'+encodeURIComponent(filename);link.target='_blank';link.rel='noopener';document.body.append(link);link.click();link.remove();
+});
 async function busy(button,fn){if(button.disabled)return;button.disabled=true;try{await fn();}catch(e){toast(e.name==='TimeoutError'?'The connection timed out. Please try again.':e.message);}finally{button.disabled=false;}}
 let catalog=[],account={signedIn:false},saved=new Set();
 const catalogReady=api('/api/products').then(r=>catalog=r.products);catalogReady.catch(()=>{});
