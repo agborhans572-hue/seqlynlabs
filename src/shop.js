@@ -7,6 +7,10 @@ const date=s=>new Date(s.includes('T')?s:s.replace(' ','T')+'Z').toLocaleString(
 async function api(url,data){const r=await fetch(url,{credentials:'same-origin',method:data?'POST':'GET',headers:data?{'Content-Type':'application/json'}:{},body:data?JSON.stringify(data):undefined,signal:AbortSignal.timeout((/^\/api\/admin\/(email|newsletters)/.test(url)||url==='/api/checkout')?60000:15000)});const result=await r.json();if(!r.ok)throw Error(result.error||'Please try again.');return result;}
 function toast(text){$('.shop-toast')?.remove();const el=document.createElement('div');el.className='shop-toast';el.setAttribute('role','status');el.textContent=text;document.body.append(el);setTimeout(()=>el.remove(),6000);}
 document.addEventListener('click',event=>{
+ const trigger=event.target.closest('.elementor-social-icon-search,a[aria-label="Search"]');if(!trigger)return;
+ event.preventDefault();event.stopImmediatePropagation();location.href='/shop-all-peptides/';
+},true);
+document.addEventListener('click',event=>{
  const button=event.target.closest('button.phbio-view-coa');if(!button)return;
  event.preventDefault();event.stopPropagation();
  const readout=button.closest('.phbio-readout');let files=[];
